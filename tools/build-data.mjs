@@ -19,7 +19,8 @@
 //   8. Builds rivers and lakes (data/hydro.json) and, for ancient coastlines,
 //      river extensions over the exposed sea floor (see tools/hydro.mjs).
 //   9. On "probability" maps (map 1) cuts out places where zones of different
-//      species or cultures overlap (see tools/overlaps.mjs).
+//      species or cultures overlap (see tools/overlaps.mjs), and trims source
+//      shapes to today's land (their coast is glacial; item 1-30).
 //
 // Run:   npm install        (once)
 //        npm run build-data
@@ -117,6 +118,17 @@ async function modernLand() {
   return flatLand(topojson.feature(t, t.objects.land));
 }
 
+// Today's land written once to a file, for mapshaper -clip (item 1-30)
+let modernLandPath = null;
+function modernLandFile(land) {
+  if (!modernLandPath) {
+    fs.mkdirSync(PATCHED_DIR, { recursive: true });
+    modernLandPath = path.join(PATCHED_DIR, '_modern_land.geojson');
+    fs.writeFileSync(modernLandPath, JSON.stringify(land));
+  }
+  return modernLandPath;
+}
+
 async function buildBorders(coasts, land, riversExt) {
   fs.rmSync(OUT_DIR, { recursive: true, force: true });
   fs.mkdirSync(OUT_DIR, { recursive: true });
@@ -167,6 +179,10 @@ async function buildBorders(coasts, land, riversExt) {
     const cmd = [
       `-i "${patchedPath}" name=borders`,
       `-filter-fields ${KEEP_FIELDS.join(',')}`,
+      // "Probability" maps (map 1) have today's coast: trim source shapes to today's land,
+      // otherwise their glacial-age coast sticks out into the sea (item 1-30). Done before
+      // simplifying, so that the detailed coast of today's land is simplified too
+      ...(!coasts[year] && probabilityYears.includes(year) ? [`-clip "${modernLandFile(land)}"`] : []),
       `-simplify ${SIMPLIFY} keep-shapes`,
       // Maps with an ancient coastline: trim source shapes to that coast, so that
       // bits of today's coast do not stick out into the ancient sea

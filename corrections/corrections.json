@@ -1632,14 +1632,14 @@
   },
   {
     "id": "m2g-backed-points",
-    "why": "Map 2, item 78 (b, c).",
+    "why": "Map 2, item 78 (b, c); item 114 (24.10, applied 26.10): one area (hull of two 35 km circles), name without brackets.",
     "years": [
       -10000
     ],
     "action": "add",
     "shape": "backed-points-south",
     "properties": {
-      "NAME": "Late Palaeolithic backed-point groups (Upper Swabia, Alpstein)",
+      "NAME": "Late Palaeolithic backed-point groups",
       "NOTE": "backed-points-south",
       "SOURCES": "https://federfresser.wordpress.com/wp-content/uploads/2009/09/weber-et-al-2011-younger-dryas-qi.pdf | https://www.researchgate.net/publication/284065777_Altwasser-Hohle_1_eine_spatpalaolithische_Jagdstation_auf_1410muM_im_sudostlichen_Alpstein_AI"
     }
@@ -3117,6 +3117,49 @@
     }
   },
   {
+    "id": "m2j-novopetrovka",
+    "why": "Map 2, item 117 and map 8000, item 3-123 (accepted 26.10): the ±1000-year fork passes on both maps.",
+    "years": [
+      -10000,
+      -8000
+    ],
+    "action": "add",
+    "shape": "novopetrovka",
+    "properties": {
+      "NAME": "Novopetrovka culture",
+      "NOTE": "novopetrovka",
+      "SOURCES": "https://archaeology.nsc.ru/en/publications/jr-aeae-en/20-48-4/annot-05/"
+    }
+  },
+  {
+    "id": "m2j-sumpanya",
+    "why": "Map 2, item 120 (accepted 26.10, variant a): 35 km circle with a note on the 1980s dates.",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "sumpanya",
+    "properties": {
+      "NAME": "Foragers of the Konda basin (Sumpanya)",
+      "NOTE": "sumpanya"
+    }
+  },
+  {
+    "id": "m2j-kitovyi",
+    "why": "Map 2, item 121 and map 8000, item 3-152 (the second 3-148; accepted 26.10): the ±1000-year fork passes on both maps.",
+    "years": [
+      -10000,
+      -8000
+    ],
+    "action": "add",
+    "shape": "kitovyi",
+    "properties": {
+      "NAME": "Incipient Neolithic of the Kurils (Kitovyi)",
+      "NOTE": "kurils",
+      "SOURCES": "https://archaeology.nsc.ru/en/publications/jr-aeae-en/22-50-2/annot-01/"
+    }
+  },
+  {
     "id": "m8-abriense",
     "why": "Map 8000, item 3-75 (a), variant (2) — with a note (queue-map8000.md; accepted 21.10, applied 22.10).",
     "years": [
@@ -3735,14 +3778,14 @@
   },
   {
     "id": "m8-epigravettian-south",
-    "why": "Map 8000, Europe, item 3-100 (accepted 23.10).",
+    "why": "Map 8000, Europe, item 3-100 (accepted 23.10); item 3-122 (24.10, applied 26.10): name without brackets.",
     "years": [
       -8000
     ],
     "action": "add",
     "shape": "m8-epigravettian-south",
     "properties": {
-      "NAME": "Epigravettian tradition — undifferentiated Mesolithic (central and southern Italy, Sicily)",
+      "NAME": "Epigravettian tradition — undifferentiated Mesolithic",
       "NOTE": "epigravettian-south-8000",
       "SOURCES": "https://en.wikipedia.org/wiki/Epigravettian | https://www.nature.com/articles/s41597-022-01118-7"
     }
@@ -4116,6 +4159,202 @@
       "SOURCES": "https://digitalcollections.anu.edu.au/bitstreams/b87cac31-3d9e-4685-aab1-03ffce19807f/download",
       "GROUP": "Sahul — New Guinea",
       "AREA": "Foragers of Buka (Kilu Cave)"
+    }
+  },
+  {
+    "id": "m8-yangelka",
+    "why": "Map 8000, item 3-109 (owner 26.10: shown with a note, no radiocarbon dates).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-yangelka",
+    "properties": {
+      "NAME": "Yangelka culture",
+      "NOTE": "yangelka",
+      "SOURCES": "https://ocb.uni-tuebingen.de/Record/KEI00054723"
+    }
+  },
+  {
+    "id": "m8-gromatukha",
+    "why": "Map 8000, Siberia, item 3-124 (accepted 26.10): same outline as on map 10 000.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "gromatukha",
+    "properties": {
+      "NAME": "Gromatukha culture",
+      "NOTE": "gromatukha-8000",
+      "SOURCES": "https://baikalproject.artsrn.ualberta.ca/wp-content/uploads/2021/03/Shoda-et-al_2020_QSR_Early-Pottery-Function-Amur-River.pdf | https://pure.nsu.ru/portal/en/publications/new-data-on-the-chronology-of-the-initial-neolithic-gromatukha-culture-western-amur-region(64294c09-2786-4773-b1f4-020a90f6178d).html"
+    }
+  },
+  {
+    "id": "m8-ustinovka",
+    "why": "Map 8000, Siberia, item 3-126 (accepted 26.10, variant a): same outline, with a note (no direct dates).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "ustinovka",
+    "properties": {
+      "NAME": "Ustinovka culture",
+      "NOTE": "ustinovka-8000",
+      "SOURCES": "https://ru.wikipedia.org/wiki/%D0%A3%D1%81%D1%82%D0%B8%D0%BD%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F_%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D1%83%D1%80%D0%B0 | https://www.cambridge.org/core/services/aop-cambridge-core/content/view/B8E3F89199A906FE2E0800BA643B2C9C/S0033822200018610a.pdf/14c-chronology-of-stone-age-cultures-in-the-russian-far-east.pdf"
+    }
+  },
+  {
+    "id": "m8-ust-karenga",
+    "why": "Map 8000, Siberia, item 3-128 (accepted 26.10): same outline as on map 10 000.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "ust-karenga",
+    "properties": {
+      "NAME": "Ust-Karenga culture",
+      "NOTE": "ust-karenga-8000",
+      "SOURCES": "https://www.arch.ox.ac.uk/node/884531 | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-sumnagin",
+    "why": "Map 8000, Siberia, item 3-130 (accepted 26.10): same outline; Khatystyr Cave in the note.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "sumnagin",
+    "properties": {
+      "NAME": "Sumnagin culture",
+      "NOTE": "sumnagin-8000",
+      "SOURCES": "https://www.cambridge.org/core/journals/antiquity/article/migrations-and-interactions-in-prehistoric-beringia-the-evolution-of-yakutian-lithic-technology/A3AB32E57F1B9513A21E639CFEBD9F9E | https://journals.dvfu.ru/gisdv/article/view/724"
+    }
+  },
+  {
+    "id": "m8-upper-kolyma",
+    "why": "Map 8000, Siberia, item 3-131 (accepted 26.10, variant a): a separate neutral zone.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-upper-kolyma",
+    "properties": {
+      "NAME": "Early Holocene foragers of the Upper Kolyma",
+      "NOTE": "upper-kolyma-8000",
+      "SOURCES": "https://journals.dvfu.ru/gisdv/article/view/724"
+    }
+  },
+  {
+    "id": "m8-duvanny-yar",
+    "why": "Map 8000, Siberia, item 3-132 (accepted 26.10, variant a): 35 km circle with a note.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-duvanny-yar",
+    "properties": {
+      "NAME": "Early Holocene people of the lower Kolyma (Duvanny Yar)",
+      "NOTE": "duvanny-yar-8000",
+      "SOURCES": "https://doi.org/10.1038/s41586-019-1279-z"
+    }
+  },
+  {
+    "id": "m8-shigir",
+    "why": "Map 8000, Siberia, item 3-134 (accepted 26.10): Shigir outline + Beregovaya 2 (Gorbunovo bog); new name and note.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-shigir",
+    "properties": {
+      "NAME": "Mesolithic of the Middle Urals (Shigir and Gorbunovo bogs)",
+      "NOTE": "shigir-8000",
+      "SOURCES": "https://www.cambridge.org/core/product/F3D2E5D73C3850C8E41225E739698432 | https://archaeology.org/news/2021/04/04/210405-shigir-idol-wood/"
+    }
+  },
+  {
+    "id": "m8-konda",
+    "why": "Map 8000, Siberia, item 3-135 (accepted 26.10, outline a): one area along the Konda, no note on the date.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-konda",
+    "properties": {
+      "NAME": "Early Mesolithic of the Konda basin",
+      "NOTE": "konda-8000",
+      "SOURCES": "https://bakhtiniada.ru/2309-4370/article/view/34549"
+    }
+  },
+  {
+    "id": "m8-yenisei",
+    "why": "Map 8000, Siberia, item 3-138 (accepted 26.10): two parts (Biryusa bay, Kokorevo).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-yenisei",
+    "properties": {
+      "NAME": "Mesolithic of the Middle Yenisei",
+      "NOTE": "yenisei-8000",
+      "SOURCES": "https://zaimka.ru/wp-content/uploads/2024/08/zaimka-ru_akimova-zaika-new-stone.pdf | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-upper-angara",
+    "why": "Map 8000, Siberia, item 3-140 (accepted 26.10, variant g): zone with a note (no direct dates at the map date).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-upper-angara",
+    "properties": {
+      "NAME": "Mesolithic of the Upper Angara (Verkholensk culture)",
+      "NOTE": "upper-angara-8000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-ust-kova",
+    "why": "Map 8000, Siberia, item 3-140 (accepted 26.10): 35 km circle around Ust-Kova.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-ust-kova",
+    "properties": {
+      "NAME": "Early Holocene site of the lower Angara (Ust-Kova)",
+      "NOTE": "ust-kova-8000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-altai",
+    "why": "Map 8000, Siberia, item 3-144 (accepted 26.10, variant a): zone with a note, two parts.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-altai",
+    "properties": {
+      "NAME": "Mesolithic of the Altai",
+      "NOTE": "altai-8000",
+      "SOURCES": "https://cyberleninka.ru/article/n/problemy-issledovaniya-mezolita-altaya | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-sakhalin",
+    "why": "Map 8000, Siberia, item 3-145 (accepted 26.10): 35 km circle, no note on the date.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-sakhalin",
+    "properties": {
+      "NAME": "Early Neolithic of Sakhalin (Puzi 2)",
+      "NOTE": "sakhalin-8000",
+      "SOURCES": "https://repository.arizona.edu/handle/10150/655086"
     }
   }
 ]

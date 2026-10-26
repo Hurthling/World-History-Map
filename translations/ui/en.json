@@ -53,5 +53,5 @@
   "legendProbability": "Coloured where the species' presence is more likely than 50 % (from finds; genetics as support). Uncoloured land: probability below 50 %. Borders are approximate.",
   "overlapSpecies": "Both species lived here",
   "overlapCultures": "both cultures occur here",
-  "reviewedPartExceptAsia": "Checked against dated finds: Africa, the Americas, Europe, Australia and Oceania. Asia: source data for now."
+  "reviewedPartExceptAsia": "Checked against dated finds: Africa, the Americas, Europe, Australia and Oceania, Siberia and the Russian Far East. Rest of Asia: source data for now."
 }

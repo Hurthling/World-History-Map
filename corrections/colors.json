@@ -1,5 +1,5 @@
 {
-  "_about": "Colours of culture zones set by hand (map 8000, items 3-70, 3-73, 3-84, 3-71; Europe of map 8000 — picked by a script 24.10; South America — picked by a script so that zones closer than ≈ 1500 km, and cultures replacing each other in one place, differ): key = GROUP of the zone, or its NAME if it has no GROUP; value = number of the colour in the common palette (src/styles.css, --polity-0 … --polity-17). One culture — one colour on every map. Zones not listed here get a colour by the hash of their name, like states. Checked by tools/check-colors.mjs at every build. See corrections/README.md.",
+  "_about": "Colours of culture zones set by hand (map 8000, items 3-70, 3-73, 3-84, 3-71; Europe of map 8000 — picked by a script 24.10; South America — picked by a script so that zones closer than ≈ 1500 km, and cultures replacing each other in one place, differ): key = GROUP of the zone, or its NAME if it has no GROUP; value = number of the colour in the common palette (src/styles.css, --polity-0 … --polity-17). Map 10 000, items 114–116 (applied 26.10): backed-point groups keep colour 1, Mezmaiskaya 11, Far East — Ust-Karenga 11, Ustinovka 17, Kamchatka 8, Sumnagin 15 and Jōmon 10 written explicitly. Siberia and the Russian Far East (map 8000) and new zones of map 10 000 (items 117, 120, 121) — picked by a script 26.10. One culture — one colour on every map. Zones not listed here get a colour by the hash of their name, like states. Checked by tools/check-colors.mjs at every build. See corrections/README.md.",
   "colors": {
     "Oakhurst-type foragers of southern Africa": 0,
     "Robberg / Oakhurst (southern African foragers)": 0,
@@ -72,13 +72,34 @@
     "Mesolithic of Andalusia (Nerja Cave)": 1,
     "Sauveterrian culture": 3,
     "Mesolithic of Corsica and Sardinia": 8,
-    "Epigravettian tradition — undifferentiated Mesolithic (central and southern Italy, Sicily)": 1,
+    "Epigravettian tradition — undifferentiated Mesolithic": 1,
     "Mesolithic of southern Greece (Franchthi Cave)": 17,
     "Mesolithic of Thessaly (Theopetra Cave)": 7,
     "Mesolithic of the eastern Adriatic and Epirus": 12,
     "Kukrek culture": 14,
     "Mountain Crimea Mesolithic (Shan-Koba and Murzak-Koba cultures)": 8,
     "Zimovniki culture": 1,
-    "Early Mesolithic of central France and Burgundy": 2
+    "Early Mesolithic of central France and Burgundy": 2,
+    "Late Palaeolithic backed-point groups": 1,
+    "Epipalaeolithic of the north-western Caucasus (Mezmaiskaya Cave)": 11,
+    "Trialetian culture": 6,
+    "Ust-Karenga culture": 11,
+    "Ustinovka culture": 17,
+    "Late Paleolithic hunters of Kamchatka": 8,
+    "Sumnagin culture": 15,
+    "Jōmon": 10,
+    "Yangelka culture": 14,
+    "Novopetrovka culture": 9,
+    "Early Holocene foragers of the Upper Kolyma": 4,
+    "Early Holocene people of the lower Kolyma (Duvanny Yar)": 9,
+    "Mesolithic of the Middle Urals (Shigir and Gorbunovo bogs)": 9,
+    "Early Mesolithic of the Konda basin": 16,
+    "Mesolithic of the Middle Yenisei": 1,
+    "Mesolithic of the Upper Angara (Verkholensk culture)": 3,
+    "Early Holocene site of the lower Angara (Ust-Kova)": 7,
+    "Mesolithic of the Altai": 11,
+    "Early Neolithic of Sakhalin (Puzi 2)": 2,
+    "Incipient Neolithic of the Kurils (Kitovyi)": 9,
+    "Foragers of the Konda basin (Sumpanya)": 3
   }
 }
