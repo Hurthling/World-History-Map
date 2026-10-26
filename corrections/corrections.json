@@ -1,0 +1,4121 @@
+[
+  {
+    "id": "m2c-remove-khoisan",
+    "why": "Map 2, item 34: 'Khoisan' is a modern collective name; replaced by Robberg/Oakhurst in South Africa and Lesotho, the rest is 'No data'.",
+    "years": [
+      -10000
+    ],
+    "action": "remove",
+    "where": {
+      "NAME": "Khoisan"
+    }
+  },
+  {
+    "id": "switzerland-name",
+    "why": "In the source data the real outline of Switzerland has no name, so it is not coloured or labelled.",
+    "years": [
+      1994,
+      2000,
+      2010
+    ],
+    "action": "set",
+    "where": {
+      "containsPoint": [
+        7.45,
+        46.95
+      ],
+      "NAME": ""
+    },
+    "set": {
+      "NAME": "Switzerland",
+      "SUBJECTO": "Switzerland",
+      "PARTOF": "Switzerland"
+    }
+  },
+  {
+    "id": "switzerland-sliver",
+    "why": "The record named 'Switzerland' in the source is a tiny triangle near Zermatt; removed so the name belongs to the real outline.",
+    "years": [
+      1994,
+      2000,
+      2010
+    ],
+    "action": "remove",
+    "where": {
+      "NAME": "Switzerland",
+      "maxAreaKm2": 100
+    }
+  },
+  {
+    "id": "taiwan-1994-rough-copy",
+    "why": "The 1994 source has two copies of Taiwan: a rough named one and a detailed unnamed one on top that hides it. Remove the rough copy...",
+    "years": [
+      1994
+    ],
+    "action": "remove",
+    "where": {
+      "NAME": "Taiwan"
+    }
+  },
+  {
+    "id": "taiwan-1994-name",
+    "why": "...and give the detailed outline its name.",
+    "years": [
+      1994
+    ],
+    "action": "set",
+    "where": {
+      "containsPoint": [
+        121,
+        23.7
+      ],
+      "NAME": ""
+    },
+    "set": {
+      "NAME": "Taiwan",
+      "SUBJECTO": "Taiwan",
+      "PARTOF": "Taiwan"
+    }
+  },
+  {
+    "id": "m2-remove-steppe",
+    "why": "Map 2, item 8 (decision a): generic ecological zones of the Near East are replaced by named cultures known from sites.",
+    "years": [
+      -10000
+    ],
+    "action": "remove",
+    "where": {
+      "NAME": "Steppe Mesolithic Hunter-Foragers"
+    }
+  },
+  {
+    "id": "m2-remove-highland",
+    "why": "Map 2, item 8 (decision a): generic ecological zones of the Near East are replaced by named cultures known from sites.",
+    "years": [
+      -10000
+    ],
+    "action": "remove",
+    "where": {
+      "NAME": "Highland Mesolithic Hunter-Foragers"
+    }
+  },
+  {
+    "id": "m2-remove-alluvial",
+    "why": "Map 2, item 8 (decision a): generic ecological zones of the Near East are replaced by named cultures known from sites.",
+    "years": [
+      -10000
+    ],
+    "action": "remove",
+    "where": {
+      "NAME": "Alluvial Lowland Mesolithic Hunter-Foragers"
+    }
+  },
+  {
+    "id": "m2-remove-coastal",
+    "why": "Map 2, item 8 (decision a): generic ecological zones of the Near East are replaced by named cultures known from sites.",
+    "years": [
+      -10000
+    ],
+    "action": "remove",
+    "where": {
+      "NAME": "Coastal and Woodland Mesolithic Hunter-Foragers"
+    }
+  },
+  {
+    "id": "m2-natufian-remove-source",
+    "why": "Map 2, item 6: the source zone 'Levantine Corridor (Neolithic Farmers)' is replaced by our Natufian zone (m2-natufian): the Natufians were settled foragers of wild cereals, not yet farmers (farming from c. 9500 BC).",
+    "years": [
+      -10000
+    ],
+    "action": "remove",
+    "where": {
+      "NAME": "Levantine Corridor (Neolithic Farmers)"
+    }
+  },
+  {
+    "id": "m2-upper-tigris-remove-farmers",
+    "why": "Map 2, item 7: no farmers in SE Anatolia at 10,000 BC; replaced by a zone around Körtik Tepe.",
+    "years": [
+      -10000
+    ],
+    "action": "remove",
+    "where": {
+      "NAME": "Neolithic Farmers"
+    }
+  },
+  {
+    "id": "m2-natufian",
+    "why": "Map 2, item 6: one outline = the Levant (outline of the source zone) + Late Natufian sites on the Middle Euphrates (Abu Hureyra, Mureybet). Earlier the Euphrates part was a separate piece.",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "natufian",
+    "properties": {
+      "NAME": "Natufian culture",
+      "NOTE": "natufian",
+      "SOURCES": "https://en.wikipedia.org/wiki/Natufian_culture | https://en.wikipedia.org/wiki/Tell_Abu_Hureyra"
+    }
+  },
+  {
+    "id": "m2-upper-tigris",
+    "why": "Map 2, item 7.",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "upper-tigris",
+    "properties": {
+      "NAME": "Upper Tigris sedentary foragers",
+      "NOTE": "upper-tigris",
+      "SOURCES": "https://en.wikipedia.org/wiki/K%C3%B6rtik_Tepe"
+    }
+  },
+  {
+    "id": "m2-zarzian",
+    "why": "Map 2, item 8.",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "zarzian",
+    "properties": {
+      "NAME": "Zarzian culture",
+      "NOTE": "zarzian",
+      "SOURCES": "https://en.wikipedia.org/wiki/Zarzian_culture"
+    }
+  },
+  {
+    "id": "m2-swiderian",
+    "why": "Map 2, item 2. Krasnoselye mentioned in the note (item 53).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "swiderian",
+    "properties": {
+      "NAME": "Swiderian culture",
+      "NOTE": "swiderian",
+      "SOURCES": "https://ru.wikipedia.org/wiki/%D0%A1%D0%B2%D0%B8%D0%B4%D0%B5%D1%80%D1%81%D0%BA%D0%B0%D1%8F_%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D1%83%D1%80%D0%B0 | https://old.archeo.ru/struktura-1/otdel-paleolita/pdf/LISITsYN2014_Tekhnokomplexy_rubezha_pleystotsena_i_golotsena_v_lesnoy_zone_Vostochnoy_Evropy.pdf | https://e-journals.ku.lt/journal/AB/article/772/file/pdf"
+    }
+  },
+  {
+    "id": "m2-ahrensburg",
+    "why": "Map 2, item 3 (with southern Doggerland after item 11). Extended into eastern and northern England (item 49). Extended to the central uplands and the Ardennes (item 78).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "ahrensburg",
+    "properties": {
+      "NAME": "Ahrensburg culture",
+      "NOTE": "ahrensburg",
+      "SOURCES": "https://en.wikipedia.org/wiki/Ahrensburg_culture | https://reading-clone.eprints-hosting.org/41609/1/MITHEN_et_al-2015-Journal_of_Quaternary_Science.pdf"
+    }
+  },
+  {
+    "id": "m2-azilian",
+    "why": "Map 2, item 4.",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "azilian",
+    "properties": {
+      "NAME": "Azilian culture",
+      "NOTE": "azilian",
+      "SOURCES": "https://en.wikipedia.org/wiki/Azilian"
+    }
+  },
+  {
+    "id": "m2-laborian",
+    "why": "Map 2, item 5: drawn only where dated sites are known.",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "laborian",
+    "properties": {
+      "NAME": "Laborian culture",
+      "NOTE": "laborian",
+      "SOURCES": "https://archeologie.culture.gouv.fr/villa/en/glossary/laborian | https://fr.wikipedia.org/wiki/Laborien"
+    }
+  },
+  {
+    "id": "m2-iberomaurusian",
+    "why": "Map 2, item 9.",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "iberomaurusian",
+    "properties": {
+      "NAME": "Iberomaurusian culture",
+      "NOTE": "iberomaurusian",
+      "SOURCES": "https://en.wikipedia.org/wiki/Iberomaurusian"
+    }
+  },
+  {
+    "id": "m2-haua-fteah",
+    "why": "Map 2, item 9: Haua Fteah, Libya.",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "haua-fteah",
+    "properties": {
+      "NAME": "Iberomaurusian culture",
+      "NOTE": "iberomaurusian",
+      "SOURCES": "https://en.wikipedia.org/wiki/Iberomaurusian | https://en.wikipedia.org/wiki/Haua_Fteah"
+    }
+  },
+  {
+    "id": "m2-agate-basin",
+    "why": "Map 2, items 16 and 47 (Hell Gap added to the note). Plano group of one colour — item 94 (20.10).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "agate-basin",
+    "properties": {
+      "NAME": "Plano tradition",
+      "NOTE": "agate-basin",
+      "SOURCES": "https://www.nps.gov/subjects/swscience/paleoindian.htm | https://www.academia.edu/8778898/RADIOCARBON_DATING_OF_TWENTY_SEVEN_PLAINS_COMPLEXES_AND_PHASES_with_Jeffrey_Eighmy_ | https://experts.arizona.edu/en/publications/the-evolution-of-paleoindian-geochronology-and-typology-on-the-gr/",
+      "GROUP": "Plano cultures",
+      "AREA": "Agate Basin complex"
+    }
+  },
+  {
+    "id": "m2-eburran",
+    "why": "Map 2, item 17 (owner's decision; exception to the strict date rule, noted in the card).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "eburran",
+    "properties": {
+      "NAME": "Eburran industry",
+      "NOTE": "eburran",
+      "SOURCES": "https://en.wikipedia.org/wiki/Eburran_industry"
+    }
+  },
+  {
+    "id": "m2-iron-gates",
+    "why": "Map 2, item 18.",
+    "years": [
+      -8000,
+      -10000
+    ],
+    "action": "add",
+    "shape": "iron-gates",
+    "properties": {
+      "NAME": "Iron Gates Mesolithic",
+      "NOTE": "iron-gates",
+      "SOURCES": "https://en.wikipedia.org/wiki/Iron_Gates_Mesolithic"
+    }
+  },
+  {
+    "id": "m2b-remove-okhotsk",
+    "why": "Map 2, item 19: disputed or anachronistic zone removed (owner's decision).",
+    "years": [
+      -10000
+    ],
+    "action": "remove",
+    "where": {
+      "NAME": "Okhotsk culture"
+    }
+  },
+  {
+    "id": "m2b-remove-austronesians",
+    "why": "Map 2, item 19: disputed or anachronistic zone removed (owner's decision).",
+    "years": [
+      -10000
+    ],
+    "action": "remove",
+    "where": {
+      "NAME": "Austronesians"
+    }
+  },
+  {
+    "id": "m2b-remove-hunters-gatherers",
+    "why": "Map 2, item 19: disputed or anachronistic zone removed (owner's decision).",
+    "years": [
+      -10000
+    ],
+    "action": "remove",
+    "where": {
+      "NAME": "Hunters-gatherers"
+    }
+  },
+  {
+    "id": "m2b-osipovka",
+    "why": "Map 2, item 21.",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "osipovka",
+    "properties": {
+      "NAME": "Osipovka culture",
+      "NOTE": "osipovka",
+      "SOURCES": "https://baikalproject.artsrn.ualberta.ca/wp-content/uploads/2021/03/Shoda-et-al_2020_QSR_Early-Pottery-Function-Amur-River.pdf"
+    }
+  },
+  {
+    "id": "m2b-gromatukha",
+    "why": "Map 2, item 21.",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "gromatukha",
+    "properties": {
+      "NAME": "Gromatukha culture",
+      "NOTE": "gromatukha",
+      "SOURCES": "https://baikalproject.artsrn.ualberta.ca/wp-content/uploads/2021/03/Shoda-et-al_2020_QSR_Early-Pottery-Function-Amur-River.pdf"
+    }
+  },
+  {
+    "id": "m2b-ustinovka",
+    "why": "Map 2, item 22 (with a note on weak dating).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "ustinovka",
+    "properties": {
+      "NAME": "Ustinovka culture",
+      "NOTE": "ustinovka",
+      "SOURCES": "https://ru.wikipedia.org/wiki/%D0%A3%D1%81%D1%82%D0%B8%D0%BD%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F_%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D1%83%D1%80%D0%B0 | https://www.cambridge.org/core/services/aop-cambridge-core/content/view/B8E3F89199A906FE2E0800BA643B2C9C/S0033822200018610a.pdf/14c-chronology-of-stone-age-cultures-in-the-russian-far-east.pdf"
+    }
+  },
+  {
+    "id": "m2b-sumnagin",
+    "why": "Map 2, item 23.",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "sumnagin",
+    "properties": {
+      "NAME": "Sumnagin culture",
+      "NOTE": "sumnagin",
+      "SOURCES": "https://www.cambridge.org/core/journals/antiquity/article/migrations-and-interactions-in-prehistoric-beringia-the-evolution-of-yakutian-lithic-technology/A3AB32E57F1B9513A21E639CFEBD9F9E"
+    }
+  },
+  {
+    "id": "m2b-ust-karenga",
+    "why": "Map 2, item 24 (with a note).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "ust-karenga",
+    "properties": {
+      "NAME": "Ust-Karenga culture",
+      "NOTE": "ust-karenga",
+      "SOURCES": "https://www.arch.ox.ac.uk/node/884531"
+    }
+  },
+  {
+    "id": "m2b-ushki",
+    "why": "Map 2, items 25 and 46 (Ushki + Anavgai 2; note removed by the ±1000-year rule, item 41).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "ushki",
+    "properties": {
+      "NAME": "Late Paleolithic hunters of Kamchatka",
+      "NOTE": "ushki",
+      "SOURCES": "https://liberalarts.tamu.edu/csfa/wp-content/uploads/sites/14/2023/02/Goebel-JAS2010-37-2640.pdf | https://www.old.archeo.ru/izdaniya-1/rossiiskii-arheologicheskii-ezhegodnik/vypuski-ezhegodnika/pdf/04RAE4Kuzmin_Dikova.pdf"
+    }
+  },
+  {
+    "id": "m2b-epigravettian",
+    "why": "Map 2, item 27.",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "epigravettian",
+    "properties": {
+      "NAME": "Final Epigravettian",
+      "NOTE": "epigravettian",
+      "SOURCES": "https://en.wikipedia.org/wiki/Epigravettian"
+    }
+  },
+  {
+    "id": "m2b-trialetian",
+    "why": "Map 2, item 28.",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "trialetian",
+    "properties": {
+      "NAME": "Trialetian culture",
+      "NOTE": "trialetian",
+      "SOURCES": "https://en.wikipedia.org/wiki/Trialetian"
+    }
+  },
+  {
+    "id": "m2b-anetovka",
+    "why": "Map 2, item 29 (with a note: no direct dates).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "anetovka",
+    "properties": {
+      "NAME": "Anetovka culture",
+      "NOTE": "anetovka",
+      "SOURCES": "https://ru.wikipedia.org/wiki/%D0%90%D0%BD%D0%B5%D1%82%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F_%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D1%83%D1%80%D0%B0"
+    }
+  },
+  {
+    "id": "m2b-nanzhuangtou",
+    "why": "Map 2, item 30.",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "nanzhuangtou",
+    "properties": {
+      "NAME": "Early pottery foragers of the North China Plain",
+      "NOTE": "nanzhuangtou",
+      "SOURCES": "https://en.wikipedia.org/wiki/Nanzhuangtou"
+    }
+  },
+  {
+    "id": "m2b-zengpiyan",
+    "why": "Map 2, item 30 (with a note: at the date limit).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "zengpiyan",
+    "properties": {
+      "NAME": "Cave foragers of Guangxi",
+      "NOTE": "zengpiyan",
+      "SOURCES": "https://en.wikipedia.org/wiki/Zengpiyan"
+    }
+  },
+  {
+    "id": "m2b-uninhabited-antarctica",
+    "why": "Map 2, item 26: land nobody had reached yet (own colour).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "uninhabited-antarctica",
+    "properties": {
+      "NAME": "Uninhabited — Antarctica",
+      "NOTE": "uninhabited-antarctica",
+      "SOURCES": "https://en.wikipedia.org/wiki/Antarctica",
+      "KIND": "uninhabited"
+    }
+  },
+  {
+    "id": "m2b-uninhabited-greenland",
+    "why": "Map 2, item 26: land nobody had reached yet (own colour). Also map 8000, item 3-57.",
+    "years": [
+      -10000,
+      -8000
+    ],
+    "action": "add",
+    "shape": "uninhabited-greenland",
+    "properties": {
+      "NAME": "Uninhabited — Greenland",
+      "NOTE": "uninhabited-greenland",
+      "SOURCES": "https://en.wikipedia.org/wiki/Saqqaq_culture",
+      "KIND": "uninhabited"
+    }
+  },
+  {
+    "id": "m2b-uninhabited-north-atlantic",
+    "why": "Map 2, item 26: land nobody had reached yet (own colour).",
+    "years": [
+      -8000,
+      -10000
+    ],
+    "action": "add",
+    "shape": "uninhabited-north-atlantic",
+    "properties": {
+      "NAME": "Uninhabited — North Atlantic islands",
+      "NOTE": "uninhabited-north-atlantic",
+      "SOURCES": "https://en.wikipedia.org/wiki/Settlement_of_Iceland | https://en.wikipedia.org/wiki/Faroe_Islands",
+      "KIND": "uninhabited"
+    }
+  },
+  {
+    "id": "m2b-uninhabited-caribbean",
+    "why": "Map 2, item 26: land nobody had reached yet (own colour). Also map 8000, item 3-57.",
+    "years": [
+      -10000,
+      -8000
+    ],
+    "action": "add",
+    "shape": "uninhabited-caribbean",
+    "properties": {
+      "NAME": "Uninhabited — Caribbean islands",
+      "NOTE": "uninhabited-caribbean",
+      "SOURCES": "https://en.wikipedia.org/wiki/Indigenous_peoples_of_the_Caribbean",
+      "KIND": "uninhabited"
+    }
+  },
+  {
+    "id": "m2b-uninhabited-remote-oceania",
+    "why": "Map 2, item 26: land nobody had reached yet (own colour). Map 8000, item 3-116: the same zone; outline extended (Lord Howe, Kermadec, Santa Cruz, Nauru, Gilbert and Line atolls, NW Hawaii, Auckland and Snares shelf; Coral Sea banks).",
+    "years": [
+      -10000,
+      -8000
+    ],
+    "action": "add",
+    "shape": "uninhabited-remote-oceania",
+    "properties": {
+      "NAME": "Uninhabited — Remote Oceania",
+      "NOTE": "uninhabited-remote-oceania",
+      "SOURCES": "https://en.wikipedia.org/wiki/Lapita_culture | https://en.wikipedia.org/wiki/Polynesian_navigation",
+      "KIND": "uninhabited"
+    }
+  },
+  {
+    "id": "m2b-uninhabited-atlantic-islands",
+    "why": "Map 2, item 26: land nobody had reached yet (own colour). Extended to the other empty Atlantic islands (item 77). Also map 8000, item 3-48.",
+    "years": [
+      -10000,
+      -8000
+    ],
+    "action": "add",
+    "shape": "uninhabited-atlantic-islands",
+    "properties": {
+      "NAME": "Uninhabited — Atlantic islands",
+      "NOTE": "uninhabited-atlantic-islands",
+      "SOURCES": "https://en.wikipedia.org/wiki/Guanches | https://en.wikipedia.org/wiki/Azores",
+      "KIND": "uninhabited"
+    }
+  },
+  {
+    "id": "m2b-uninhabited-indian-ocean",
+    "why": "Map 2, item 26: land nobody had reached yet (own colour). Extended by item 72: shoals above water at -60 m. Also map 8000, item 3-48.",
+    "years": [
+      -10000,
+      -8000
+    ],
+    "action": "add",
+    "shape": "uninhabited-indian-ocean",
+    "properties": {
+      "NAME": "Uninhabited — Indian Ocean islands",
+      "NOTE": "uninhabited-indian-ocean",
+      "SOURCES": "https://en.wikipedia.org/wiki/Mauritius | https://en.wikipedia.org/wiki/Seychelles",
+      "KIND": "uninhabited"
+    }
+  },
+  {
+    "id": "m2b-uninhabited-galapagos",
+    "why": "Map 2, item 26: land nobody had reached yet (own colour). Also map 8000, item 3-84.",
+    "years": [
+      -10000,
+      -8000
+    ],
+    "action": "add",
+    "shape": "uninhabited-galapagos",
+    "properties": {
+      "NAME": "Uninhabited — Galápagos",
+      "NOTE": "uninhabited-galapagos",
+      "SOURCES": "https://en.wikipedia.org/wiki/Gal%C3%A1pagos_Islands",
+      "KIND": "uninhabited"
+    }
+  },
+  {
+    "id": "m2b-uninhabited-mediterranean",
+    "why": "Map 2, item 26: Balearic Islands and Malta, settled only c. 2300 BC and c. 5900 BC.",
+    "years": [
+      -8000,
+      -10000
+    ],
+    "action": "add",
+    "shape": "uninhabited-mediterranean",
+    "properties": {
+      "NAME": "Uninhabited — Balearic Islands and Malta",
+      "NOTE": "uninhabited-mediterranean",
+      "SOURCES": "https://en.wikipedia.org/wiki/Prehistory_of_the_Balearic_Islands | https://en.wikipedia.org/wiki/Prehistory_of_Malta",
+      "KIND": "uninhabited"
+    }
+  },
+  {
+    "id": "m2c-uninhabited-eastern-sahara",
+    "why": "Map 2, item 39 (a).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "uninhabited-eastern-sahara",
+    "properties": {
+      "NAME": "Uninhabited — Eastern Sahara",
+      "NOTE": "uninhabited-eastern-sahara",
+      "SOURCES": "https://architexturez.net/node/241116",
+      "KIND": "uninhabited"
+    }
+  },
+  {
+    "id": "m2c-uninhabited-laurentide",
+    "why": "Map 2, item 43 (owner: land under ice sheets is uninhabited).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "uninhabited-laurentide",
+    "properties": {
+      "NAME": "Uninhabited — Laurentide ice sheet",
+      "NOTE": "uninhabited-ice",
+      "SOURCES": "https://en.wikipedia.org/wiki/Laurentide_ice_sheet",
+      "KIND": "uninhabited"
+    }
+  },
+  {
+    "id": "m2c-uninhabited-scandinavian-ice",
+    "why": "Map 2, item 44.",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "uninhabited-scandinavian-ice",
+    "properties": {
+      "NAME": "Uninhabited — Scandinavian ice sheet",
+      "NOTE": "uninhabited-ice",
+      "SOURCES": "https://en.wikipedia.org/wiki/Fennoscandian_ice_sheet",
+      "KIND": "uninhabited"
+    }
+  },
+  {
+    "id": "m2c-robberg-oakhurst",
+    "why": "Map 2, item 34.",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "robberg-oakhurst",
+    "properties": {
+      "NAME": "Robberg / Oakhurst (southern African foragers)",
+      "NOTE": "robberg-oakhurst",
+      "SOURCES": "https://scholarlypublications.universiteitleiden.nl/access/item%3A3562829/download | https://pmc.ncbi.nlm.nih.gov/articles/PMC11541196/"
+    }
+  },
+  {
+    "id": "m2c-hora",
+    "why": "Map 2, item 36 (b), with a note.",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "hora",
+    "properties": {
+      "NAME": "Hora foragers (northern Malawi)",
+      "NOTE": "hora",
+      "SOURCES": "https://www.frontiersin.org/journals/environmental-archaeology/articles/10.3389/fearc.2023.1250871/full | https://www.science.org/doi/10.1126/sciadv.adz9554"
+    }
+  },
+  {
+    "id": "m2c-kuumbi",
+    "why": "Map 2, item 37.",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "kuumbi",
+    "properties": {
+      "NAME": "Kuumbi Cave foragers (Zanzibar)",
+      "NOTE": "kuumbi",
+      "SOURCES": "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0149565 | https://en.wikipedia.org/wiki/Kuumbi_Cave"
+    }
+  },
+  {
+    "id": "m2c-iwo-eleru",
+    "why": "Map 2, item 40 (no note: ±1000-year rule, item 41).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "iwo-eleru",
+    "properties": {
+      "NAME": "Iwo Eleru foragers (Nigeria)",
+      "NOTE": "iwo-eleru",
+      "SOURCES": "https://eprints.whiterose.ac.uk/43376/1/WRRO_43376.pdf | https://en.wikipedia.org/wiki/Iho_Eleru"
+    }
+  },
+  {
+    "id": "m2c-bosumpra",
+    "why": "Map 2, item 40, with a note.",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "bosumpra",
+    "properties": {
+      "NAME": "Bosumpra Cave foragers (Ghana)",
+      "NOTE": "bosumpra",
+      "SOURCES": "https://en.wikipedia.org/wiki/Bosumpra_Cave | https://www.tandfonline.com/doi/abs/10.1080/0067270X.2017.1393925"
+    }
+  },
+  {
+    "id": "m2c-senegal-late-msa",
+    "why": "Map 2, item 40, with a note.",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "senegal-late-msa",
+    "properties": {
+      "NAME": "Late Middle Stone Age of Senegal",
+      "NOTE": "senegal-late-msa",
+      "SOURCES": "https://link.springer.com/10.1038/s41598-020-79418-4 | https://www.mpg.de/16237767/pr-scerry-joung-middle-stone-age-0111-wisy-9347732-x"
+    }
+  },
+  {
+    "id": "m2c-matupi",
+    "why": "Map 2, item 42 (b), with a note.",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "matupi",
+    "properties": {
+      "NAME": "Matupi Cave foragers (Ituri)",
+      "NOTE": "matupi",
+      "SOURCES": "https://en.wikipedia.org/wiki/Matupi_Cave | https://horizon.documentation.ird.fr/exl-doc/pleins_textes/2026-01/010096153.pdf"
+    }
+  },
+  {
+    "id": "m2c-mesa",
+    "why": "Map 2, item 43 (a).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "mesa",
+    "properties": {
+      "NAME": "Northern Paleoindians (Mesa complex)",
+      "NOTE": "mesa",
+      "SOURCES": "https://www.uaf.edu/geosciences/files/Mann-et-al-2001-Arctic-Paleoindians.pdf | https://liberalarts.tamu.edu/csfa/wp-content/uploads/sites/14/2022/05/Goebel-JAS-2013-B.pdf"
+    }
+  },
+  {
+    "id": "m2c-central-alaska",
+    "why": "Map 2, item 43 (b).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "central-alaska",
+    "properties": {
+      "NAME": "Central Alaskan foragers (Tanana and Nenana valleys)",
+      "NOTE": "central-alaska",
+      "SOURCES": "https://en.wikipedia.org/wiki/Broken_Mammoth | https://www.nps.gov/articles/aps-v12-i1-c5.htm"
+    }
+  },
+  {
+    "id": "m2c-haida-gwaii",
+    "why": "Map 2, item 43 (c).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "haida-gwaii",
+    "properties": {
+      "NAME": "Haida Gwaii hunters",
+      "NOTE": "haida-gwaii",
+      "SOURCES": "https://hakaimagazine.com/news/haida-gwaiis-caves-have-been-hiding-a-huge-secret/"
+    }
+  },
+  {
+    "id": "m2c-charlie-lake",
+    "why": "Map 2, item 43 (d).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "charlie-lake",
+    "properties": {
+      "NAME": "Charlie Lake Cave (Peace River)",
+      "NOTE": "charlie-lake",
+      "SOURCES": "https://en.wikipedia.org/wiki/Charlie_Lake_Cave | https://liberalarts.tamu.edu/csfa/wp-content/uploads/sites/14/2022/05/Goebel-JAS-2013-B.pdf"
+    }
+  },
+  {
+    "id": "m2c-great-lakes",
+    "why": "Map 2, items 43 (e) and 47 (e), with a note.",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "great-lakes",
+    "properties": {
+      "NAME": "Great Lakes Paleoindians (Crowfield, Holcombe)",
+      "NOTE": "great-lakes",
+      "SOURCES": "https://escholarship.mcgill.ca/downloads/05741s45w"
+    }
+  },
+  {
+    "id": "m2c-northeast",
+    "why": "Map 2, items 43 (f) and 47 (e); renamed by item 92 (20.10).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "northeast-paleoindian",
+    "properties": {
+      "NAME": "New England–Maritimes Paleoindians (middle phase)",
+      "NOTE": "northeast-paleoindian",
+      "SOURCES": "https://www.vtarchaeology.org/wp-content/uploads/v5_ch3_reduced.pdf | https://en.wikipedia.org/wiki/Debert_Palaeo-Indian_Site | https://nysm.nysed.gov/bibcite/reference/20477"
+    }
+  },
+  {
+    "id": "m2c-western-stemmed",
+    "why": "Map 2, item 47 (a).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "western-stemmed",
+    "properties": {
+      "NAME": "Western Stemmed Tradition",
+      "NOTE": "western-stemmed",
+      "SOURCES": "https://en.wikipedia.org/wiki/Western_Stemmed_Tradition"
+    }
+  },
+  {
+    "id": "m2c-channel-islands",
+    "why": "Map 2, item 47 (b).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "channel-islands",
+    "properties": {
+      "NAME": "Paleocoastal people (Santarosae)",
+      "NOTE": "channel-islands",
+      "SOURCES": "https://pure.psu.edu/en/publications/paleoindian-seafaring-maritime-technologies-and-coastal-foraging-/"
+    },
+    "clipToLand": false
+  },
+  {
+    "id": "m2c-dalton",
+    "why": "Map 2, item 47 (c).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "dalton",
+    "properties": {
+      "NAME": "Dalton complex",
+      "NOTE": "dalton",
+      "SOURCES": "https://arcoop.org/wp-content/uploads/2021/04/Thulman-2019-Age-of-Dalton-proof.pdf | https://en.wikipedia.org/wiki/Dust_Cave"
+    }
+  },
+  {
+    "id": "m2c-plainview",
+    "why": "Map 2, item 47 (d). Plano group of one colour — item 94 (20.10).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "plainview",
+    "properties": {
+      "NAME": "Plano tradition",
+      "NOTE": "plainview",
+      "SOURCES": "https://experts.arizona.edu/en/publications/the-evolution-of-paleoindian-geochronology-and-typology-on-the-gr/",
+      "GROUP": "Plano cultures",
+      "AREA": "Plainview complex"
+    }
+  },
+  {
+    "id": "m2d-cedros",
+    "why": "Map 2, item 57 (a).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "cedros",
+    "properties": {
+      "NAME": "Cedros Island shell-gatherers",
+      "NOTE": "cedros",
+      "SOURCES": "https://www.academia.edu/956173/"
+    }
+  },
+  {
+    "id": "m2d-yucatan",
+    "why": "Map 2, item 57 (b).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "yucatan-caves",
+    "properties": {
+      "NAME": "Yucatán cave people (Tulum)",
+      "NOTE": "yucatan-caves",
+      "SOURCES": "https://hoyonegro.ucsd.edu/about.php | https://en.wikipedia.org/wiki/Chan_Hol"
+    }
+  },
+  {
+    "id": "m2d-belize",
+    "why": "Map 2, item 57 (c).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "belize-rockshelters",
+    "properties": {
+      "NAME": "Rockshelter foragers of southern Belize",
+      "NOTE": "belize-rockshelters",
+      "SOURCES": "https://en.wikipedia.org/wiki/Preceramic_period_in_Belize"
+    }
+  },
+  {
+    "id": "m2d-panama",
+    "why": "Map 2, item 57 (d), with a note.",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "panama-paleoindian",
+    "properties": {
+      "NAME": "Paleoindians of central Panama",
+      "NOTE": "panama-paleoindian",
+      "SOURCES": "https://antharky.ucalgary.ca/caadb/sites/antharky.ucalgary.ca.caadb/files/Pearson___Cooke_2002.pdf"
+    }
+  },
+  {
+    "id": "m2d-fishtail",
+    "why": "Map 2, item 58 (a); note replaced by item 91 (20.10).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "fishtail",
+    "properties": {
+      "NAME": "Paleoindians of the Pampas and Patagonia (Fishtail points)",
+      "NOTE": "fishtail",
+      "SOURCES": "https://en.wikipedia.org/wiki/Fishtail_projectile_point | https://digitalcommons.usf.edu/kip_articles/4429"
+    }
+  },
+  {
+    "id": "m2d-paijan",
+    "why": "Map 2, item 58 (b).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "paijan",
+    "properties": {
+      "NAME": "Paiján culture",
+      "NOTE": "paijan",
+      "SOURCES": "https://en.wikipedia.org/wiki/Paij%C3%A1n_culture"
+    }
+  },
+  {
+    "id": "m2d-high-andes",
+    "why": "Map 2, item 58 (c).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "high-andes",
+    "properties": {
+      "NAME": "High Andean foragers (Cuncaicha, Pucuncho)",
+      "NOTE": "high-andes",
+      "SOURCES": "https://www.sci.news/archaeology/science-two-high-altitude-settlements-cuncaicha-pucunchoin-peru-02229.html"
+    }
+  },
+  {
+    "id": "m2d-atacama",
+    "why": "Map 2, item 58 (d). Group of two areas (item 103, 22.10).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "atacama",
+    "properties": {
+      "NAME": "Paleoindians of the Atacama",
+      "NOTE": "atacama",
+      "SOURCES": "https://pure.psu.edu/en/publications/landscape-evolution-and-the-environmental-context-of-human-occupa/",
+      "GROUP": "Paleoindians of the Atacama",
+      "AREA": "Quebrada Maní (Pampa del Tamarugal)"
+    }
+  },
+  {
+    "id": "m2d-lindosa",
+    "why": "Map 2, item 58 (e).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "lindosa",
+    "properties": {
+      "NAME": "Foragers of the Serranía de La Lindosa",
+      "NOTE": "lindosa",
+      "SOURCES": "https://lastjourney.exeter.ac.uk/wp-content/uploads/2024/02/The-peopling-of-Amazonia-Chrono-stratigraphic-evidence-from-Serrania-La-Lindosa-1.pdf"
+    }
+  },
+  {
+    "id": "m2d-pedra-pintada",
+    "why": "Map 2, item 58 (f).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "pedra-pintada",
+    "properties": {
+      "NAME": "Pedra Pintada cave people (lower Amazon)",
+      "NOTE": "pedra-pintada",
+      "SOURCES": "https://digitalcommons.usf.edu/kip_articles/3924"
+    }
+  },
+  {
+    "id": "m2d-central-brazil",
+    "why": "Map 2, item 58 (g).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "central-brazil",
+    "properties": {
+      "NAME": "Itaparica tradition and Lagoa Santa",
+      "NOTE": "central-brazil",
+      "SOURCES": "https://journals.ed.ac.uk/lithicstudies/article/download/1423/2117"
+    }
+  },
+  {
+    "id": "m2d-bogota",
+    "why": "Map 2, item 58 (h), with a note.",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "bogota",
+    "properties": {
+      "NAME": "Foragers of the Sabana de Bogotá (Abriense)",
+      "NOTE": "bogota",
+      "SOURCES": "https://www.chungara.cl/Vols/2015/47-1/02-F._Aceituno_47.pdf"
+    }
+  },
+  {
+    "id": "m2d-yenisei",
+    "why": "Map 2, item 59, with a note.",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "yenisei",
+    "properties": {
+      "NAME": "Final Palaeolithic of the Yenisei",
+      "NOTE": "yenisei",
+      "SOURCES": "https://journal.archaeology.nsc.ru/jour/article/download/1749/941 | https://journal.archaeology.nsc.ru/jour/article/download/1630/892"
+    }
+  },
+  {
+    "id": "m2d-shigir",
+    "why": "Map 2, item 61.",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "shigir",
+    "properties": {
+      "NAME": "Hunter-gatherers of the Middle Urals (Shigir Idol)",
+      "NOTE": "shigir",
+      "SOURCES": "https://archaeology.org/news/2021/04/04/210405-shigir-idol-wood/"
+    }
+  },
+  {
+    "id": "m2f-cyprus",
+    "why": "Map 2, item 73.",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "cyprus-epipalaeolithic",
+    "properties": {
+      "NAME": "Late Epipalaeolithic foragers of Cyprus (Akrotiri Aetokremnos)",
+      "NOTE": "cyprus-epipalaeolithic",
+      "SOURCES": "https://www.ancientportsantiques.com/wp-content/uploads/Documents/PLACES/Crete-Cyprus/Aetokremnos-Simmons2013.pdf | https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4540316/ | https://www.aegeussociety.org/en/news/roudias-site-in-the-troodos-mountains-aristotle-university-of-thessaloniki/"
+    }
+  },
+  {
+    "id": "m2e-remove-aboriginal-tribes",
+    "why": "Map 2, item 62: one zone over the whole continent without finds; 'tribes' is an anachronism. Replaced by zones at dated sites. Map 8000, item 3-113: removed there too.",
+    "years": [
+      -10000,
+      -8000
+    ],
+    "action": "remove",
+    "where": {
+      "NAME": "Aboriginal tribes"
+    }
+  },
+  {
+    "id": "m2e-remove-aboriginal-tasmanians",
+    "why": "Map 2, item 62: replaced by a zone at dated sites in north-central Tasmania. Map 8000, item 3-113: removed there too.",
+    "years": [
+      -10000,
+      -8000
+    ],
+    "action": "remove",
+    "where": {
+      "NAME": "Aboriginal Tasmanians"
+    }
+  },
+  {
+    "id": "m2e-murray-darling",
+    "why": "Map 2, item 62 (a).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "murray-darling",
+    "properties": {
+      "NAME": "Foragers of Australia",
+      "NOTE": "murray-darling",
+      "SOURCES": "https://researchonline.jcu.edu.au/28670/ | https://www.nature.com/articles/nature18299",
+      "GROUP": "Sahul — Australia",
+      "AREA": "Foragers of the Murray–Darling Basin"
+    }
+  },
+  {
+    "id": "m2e-se-queensland",
+    "why": "Map 2, item 62 (b).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "se-queensland",
+    "properties": {
+      "NAME": "Foragers of Australia",
+      "NOTE": "se-queensland",
+      "SOURCES": "https://researchonline.jcu.edu.au/28670/",
+      "GROUP": "Sahul — Australia",
+      "AREA": "Foragers of south-east Queensland"
+    }
+  },
+  {
+    "id": "m2e-einasleigh",
+    "why": "Map 2, item 62 (c).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "einasleigh",
+    "properties": {
+      "NAME": "Foragers of Australia",
+      "NOTE": "einasleigh",
+      "SOURCES": "https://researchonline.jcu.edu.au/28670/",
+      "GROUP": "Sahul — Australia",
+      "AREA": "Foragers of the Einasleigh Uplands and Gulf plains"
+    }
+  },
+  {
+    "id": "m2e-sw-australia",
+    "why": "Map 2, item 62 (d).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "sw-australia",
+    "properties": {
+      "NAME": "Foragers of Australia",
+      "NOTE": "sw-australia",
+      "SOURCES": "https://researchonline.jcu.edu.au/28670/",
+      "GROUP": "Sahul — Australia",
+      "AREA": "Foragers of south-west Australia"
+    }
+  },
+  {
+    "id": "m2e-arnhem",
+    "why": "Map 2, item 62 (e).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "arnhem-kakadu",
+    "properties": {
+      "NAME": "Foragers of Australia",
+      "NOTE": "arnhem-kakadu",
+      "SOURCES": "https://researchonline.jcu.edu.au/28670/",
+      "GROUP": "Sahul — Australia",
+      "AREA": "Foragers of Arnhem Land and Kakadu"
+    }
+  },
+  {
+    "id": "m2e-kimberley",
+    "why": "Map 2, item 62 (f).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "kimberley",
+    "properties": {
+      "NAME": "Foragers of Australia",
+      "NOTE": "kimberley",
+      "SOURCES": "https://researchonline.jcu.edu.au/28670/",
+      "GROUP": "Sahul — Australia",
+      "AREA": "Foragers of the Kimberley"
+    }
+  },
+  {
+    "id": "m2e-tasmania",
+    "why": "Map 2, item 62 (g).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "tasmania-north",
+    "properties": {
+      "NAME": "Foragers of Australia",
+      "NOTE": "tasmania-north",
+      "SOURCES": "https://austhrutime.com/parmerpar_meethaner_cave.htm | https://www.agriculture.gov.au/sites/default/files/documents/aboriginal-heritage-twwha.pdf",
+      "GROUP": "Sahul — Australia",
+      "AREA": "Foragers of northern and central Tasmania"
+    }
+  },
+  {
+    "id": "m2e-ng-highlands",
+    "why": "Map 2, item 62 (h).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "ng-highlands",
+    "properties": {
+      "NAME": "Foragers of New Guinea and nearby islands",
+      "NOTE": "ng-highlands",
+      "SOURCES": "https://www.australianarchaeologicalassociation.com.au/wp-content/uploads/2013/06/sutton_etal_2009.pdf",
+      "GROUP": "Sahul — New Guinea",
+      "AREA": "Foragers of the New Guinea Highlands"
+    }
+  },
+  {
+    "id": "m2e-central-ranges",
+    "why": "Map 2, item 62 (i), with a note.",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "central-ranges",
+    "properties": {
+      "NAME": "Foragers of Australia",
+      "NOTE": "central-ranges",
+      "SOURCES": "https://researchonline.jcu.edu.au/28670/",
+      "GROUP": "Sahul — Australia",
+      "AREA": "Foragers of the Central Australian Ranges"
+    }
+  },
+  {
+    "id": "m2e-pilbara",
+    "why": "Map 2, item 62 (j), with a note.",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "pilbara",
+    "properties": {
+      "NAME": "Foragers of Australia",
+      "NOTE": "pilbara",
+      "SOURCES": "https://researchonline.jcu.edu.au/28670/",
+      "GROUP": "Sahul — Australia",
+      "AREA": "Foragers of the Pilbara"
+    }
+  },
+  {
+    "id": "m2e-manus",
+    "why": "Map 2, item 63 (a).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "manus",
+    "properties": {
+      "NAME": "Foragers of New Guinea and nearby islands",
+      "NOTE": "manus",
+      "SOURCES": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8899615",
+      "GROUP": "Sahul — New Guinea",
+      "AREA": "Foragers of Manus"
+    }
+  },
+  {
+    "id": "m2e-new-ireland",
+    "why": "Map 2, item 63 (b).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "new-ireland",
+    "properties": {
+      "NAME": "Foragers of New Guinea and nearby islands",
+      "NOTE": "new-ireland",
+      "SOURCES": "https://pmc.ncbi.nlm.nih.gov/articles/PMC26825 | https://pmc.ncbi.nlm.nih.gov/articles/PMC8899615",
+      "GROUP": "Sahul — New Guinea",
+      "AREA": "Foragers of New Ireland"
+    }
+  },
+  {
+    "id": "m2e-laura",
+    "why": "Map 2, item 63 (e), with a note.",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "laura",
+    "properties": {
+      "NAME": "Foragers of Australia",
+      "NOTE": "laura",
+      "SOURCES": "https://austhrutime.com/sandy_creek_shelter.htm",
+      "GROUP": "Sahul — Australia",
+      "AREA": "Foragers of Laura (Cape York)"
+    }
+  },
+  {
+    "id": "m2e-remove-jomon-source",
+    "why": "Map 2, item 64: source zone covered only Kyushu, Shikoku and western Honshu; replaced by our zone over the whole joined landmass.",
+    "years": [
+      -10000
+    ],
+    "action": "remove",
+    "where": {
+      "NAME": "Jōmon"
+    }
+  },
+  {
+    "id": "m2e-jomon",
+    "why": "Map 2, item 64 (a).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "jomon",
+    "properties": {
+      "NAME": "Jōmon",
+      "NOTE": "jomon",
+      "SOURCES": "https://en.wikipedia.org/wiki/J%C5%8Dmon_pottery"
+    }
+  },
+  {
+    "id": "m2e-hokkaido",
+    "why": "Map 2, item 64 (b), with a note.",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "hokkaido",
+    "properties": {
+      "NAME": "Hunter-gatherers of Hokkaido",
+      "NOTE": "hokkaido",
+      "SOURCES": "https://www.mdpi.com/2571-550X/3/3/21 | https://archaeology.jp/sites/2006/taisho3.htm"
+    }
+  },
+  {
+    "id": "m2e-ryukyu",
+    "why": "Map 2, item 64 (c), with a note.",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "central-ryukyu",
+    "properties": {
+      "NAME": "Hunter-gatherers of the Central Ryukyus",
+      "NOTE": "central-ryukyu",
+      "SOURCES": "https://www.intechopen.com/chapters/89269",
+      "GROUP": "Central Ryukyus"
+    }
+  },
+  {
+    "id": "m2e-hoabinhian",
+    "why": "Map 2, item 65 (a-f).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "hoabinhian",
+    "properties": {
+      "NAME": "Hoabinhian",
+      "NOTE": "hoabinhian",
+      "SOURCES": "https://rasmishoocongdej.com/wp-content/uploads/2025/08/2021-Hoabinhianoxfordhb-chapter-6_2-finalproof.pdf | https://www.researchgate.net/publication/355165732_Re-evaluating_Pleistocene-Holocene_occupation_of_cave_sites_in_north-west_Thailand_new_radiocarbon_and_luminescence_dating"
+    }
+  },
+  {
+    "id": "m2e-niah",
+    "why": "Map 2, item 67 (a).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "niah",
+    "properties": {
+      "NAME": "Foragers of Niah (Borneo)",
+      "NOTE": "niah",
+      "SOURCES": "https://pages.upd.edu.ph/sites/default/files/pawlik/files/niah_ch05_late_pleistocene_foragers.pdf"
+    }
+  },
+  {
+    "id": "m2e-gunung-sewu",
+    "why": "Map 2, item 67 (b).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "gunung-sewu",
+    "properties": {
+      "NAME": "Foragers of Gunung Sewu (Java)",
+      "NOTE": "gunung-sewu",
+      "SOURCES": "https://pages.upd.edu.ph/sites/default/files/pawlik/files/pawlik_and_piper_2018_the_philippines_from_c_14000_to_4000_cal_bp_in_regional_context_caj.pdf"
+    }
+  },
+  {
+    "id": "m2e-laili",
+    "why": "Map 2, item 67 (c).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "laili",
+    "properties": {
+      "NAME": "Foragers of Laili (Timor)",
+      "NOTE": "laili",
+      "SOURCES": "https://nomadit.co.uk/conference/euraseaa15/p/3551"
+    },
+    "clipToLand": false
+  },
+  {
+    "id": "m2e-gebe",
+    "why": "Map 2, item 67 (d).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "gebe",
+    "properties": {
+      "NAME": "Foragers of Gebe (Moluccas)",
+      "NOTE": "gebe",
+      "SOURCES": "https://pages.upd.edu.ph/sites/default/files/pawlik/files/pawlik_and_piper_2018_the_philippines_from_c_14000_to_4000_cal_bp_in_regional_context_caj.pdf"
+    },
+    "clipToLand": false
+  },
+  {
+    "id": "m2e-aru",
+    "why": "Map 2, item 67 (e).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "aru",
+    "properties": {
+      "NAME": "Foragers of New Guinea and nearby islands",
+      "NOTE": "aru",
+      "SOURCES": "https://pages.upd.edu.ph/sites/default/files/pawlik/files/pawlik_and_piper_2018_the_philippines_from_c_14000_to_4000_cal_bp_in_regional_context_caj.pdf | https://oalib-perpustakaan.upi.edu/Record/doab_20_500_12854_116243/Description",
+      "GROUP": "Sahul — New Guinea",
+      "AREA": "Foragers of Aru"
+    }
+  },
+  {
+    "id": "m2e-palawan",
+    "why": "Map 2, item 67 (f), with a note.",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "palawan",
+    "properties": {
+      "NAME": "Foragers of Palawan",
+      "NOTE": "palawan",
+      "SOURCES": "https://pages.upd.edu.ph/sites/default/files/pawlik/files/pawlik_and_piper_2018_the_philippines_from_c_14000_to_4000_cal_bp_in_regional_context_caj.pdf"
+    }
+  },
+  {
+    "id": "m2e-mindoro",
+    "why": "Map 2, item 67 (g), with a note.",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "mindoro",
+    "properties": {
+      "NAME": "Foragers of Mindoro (Ilin Island)",
+      "NOTE": "mindoro",
+      "SOURCES": "https://pages.upd.edu.ph/sites/default/files/pawlik/files/pawlik_and_piper_2018_the_philippines_from_c_14000_to_4000_cal_bp_in_regional_context_caj.pdf"
+    }
+  },
+  {
+    "id": "m2e-kurnool",
+    "why": "Map 2, item 68 (a).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "kurnool",
+    "properties": {
+      "NAME": "Microlithic foragers of Kurnool (Jwalapuram)",
+      "NOTE": "kurnool",
+      "SOURCES": "https://www.researchgate.net/publication/47806842_The_oldest_and_longest_enduring_microlithic_sequence_in_India_35_000_years_of_modern_human_occupation_and_change_at_the_Jwalapuram_Locality_9_rockshelter"
+    }
+  },
+  {
+    "id": "m2e-balangoda",
+    "why": "Map 2, item 68 (b).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "balangoda",
+    "properties": {
+      "NAME": "Balangoda culture",
+      "NOTE": "balangoda",
+      "SOURCES": "https://frontiersin.org/articles/10.3389/feart.2023.1133281/full | https://storre.stir.ac.uk/bitstream/1893/28950/1/Specialized%20rainforest%20hunting%20by%20Homo%20sapiens%2045_000%20years%20ago.pdf"
+    }
+  },
+  {
+    "id": "m2e-sarai-nahar-rai",
+    "why": "Map 2, item 68 (c), with a note.",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "sarai-nahar-rai",
+    "properties": {
+      "NAME": "Mesolithic foragers of the Middle Ganga (Sarai Nahar Rai)",
+      "NOTE": "sarai-nahar-rai",
+      "SOURCES": "https://ebooks.inflibnet.ac.in/icp02/chapter/mesolithic-cultures-of-india/",
+      "GROUP": "Middle Ganga"
+    }
+  },
+  {
+    "id": "m2e-hotu",
+    "why": "Map 2, item 69 (a), with a note.",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "hotu-belt",
+    "properties": {
+      "NAME": "Caspian Mesolithic (Hotu and Belt caves)",
+      "NOTE": "hotu-belt",
+      "SOURCES": "https://en.wikipedia.org/wiki/Hotu_and_Kamarband_Caves | https://jarcs.ut.ac.ir/article_97141_en.html",
+      "GROUP": "South Caspian"
+    }
+  },
+  {
+    "id": "m2g-santa-maira",
+    "why": "Map 2, item 76 (a).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "santa-maira",
+    "properties": {
+      "NAME": "Microlaminar Epipalaeolithic (Santa Maira)",
+      "NOTE": "santa-maira",
+      "SOURCES": "https://www.researchgate.net/publication/229416422_Human_Responses_to_Younger_Dryas_in_the_Ebro_Valley_and_Mediterranean_Watershed_Eastern_Spain"
+    }
+  },
+  {
+    "id": "m2g-picareiro",
+    "why": "Map 2, item 76 (b).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "picareiro",
+    "properties": {
+      "NAME": "Late Magdalenian of Portuguese Estremadura (Lapa do Picareiro)",
+      "NOTE": "picareiro",
+      "SOURCES": "https://par.nsf.gov/servlets/purl/10230483"
+    }
+  },
+  {
+    "id": "m2g-backed-points",
+    "why": "Map 2, item 78 (b, c).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "backed-points-south",
+    "properties": {
+      "NAME": "Late Palaeolithic backed-point groups (Upper Swabia, Alpstein)",
+      "NOTE": "backed-points-south",
+      "SOURCES": "https://federfresser.wordpress.com/wp-content/uploads/2009/09/weber-et-al-2011-younger-dryas-qi.pdf | https://www.researchgate.net/publication/284065777_Altwasser-Hohle_1_eine_spatpalaolithische_Jagdstation_auf_1410muM_im_sudostlichen_Alpstein_AI"
+    }
+  },
+  {
+    "id": "m2g-franchthi",
+    "why": "Map 2, item 79 (a).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "franchthi",
+    "properties": {
+      "NAME": "Final Upper Palaeolithic (Franchthi Cave)",
+      "NOTE": "franchthi",
+      "SOURCES": "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0207805"
+    }
+  },
+  {
+    "id": "m2g-antalya",
+    "why": "Map 2, item 81 (a).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "antalya",
+    "properties": {
+      "NAME": "Epipalaeolithic foragers of Antalya (Öküzini, Karain)",
+      "NOTE": "antalya",
+      "SOURCES": "https://en.wikipedia.org/wiki/Okuzini_Cave | https://www.researchgate.net/publication/343387214_Between_Anatolia_and_the_Aegean_Epipalaeolithic_and_Mesolithic_Foragers_of_the_Karaburun_Peninsula"
+    }
+  },
+  {
+    "id": "m2g-crimea",
+    "why": "Map 2, item 83.",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "mountain-crimea",
+    "properties": {
+      "NAME": "Mountain Crimea Mesolithic (Shan-Koba culture)",
+      "NOTE": "mountain-crimea",
+      "SOURCES": "https://vitaantiqua.org.ua/wp-content/uploads/2020/09/VA-2019_Yanevich.pdf | https://www.researchgate.net/publication/389374861_PERVYE_RADIOUGLERODNYE_DATY_STOANKI_ZAMIL-KOBA_1_V_KRYMU_FIRST_RADIOCARBON_DATES_FROM_THE_ZAMIL-KOBA_1_SITE_IN_CRIMEA"
+    }
+  },
+  {
+    "id": "m2g-mezmaiskaya",
+    "why": "Map 2, item 84, with a note.",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "mezmaiskaya",
+    "properties": {
+      "NAME": "Epipalaeolithic of the north-western Caucasus (Mezmaiskaya Cave)",
+      "NOTE": "mezmaiskaya",
+      "SOURCES": "https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D0%B7%D0%BC%D0%B0%D0%B9%D1%81%D0%BA%D0%B0%D1%8F_%D0%BF%D0%B5%D1%89%D0%B5%D1%80%D0%B0"
+    }
+  },
+  {
+    "id": "m2g-pymva-shor",
+    "why": "Map 2, item 85 (a), with a note.",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "pymva-shor",
+    "properties": {
+      "NAME": "Reindeer hunters of the Bolshezemelskaya Tundra (Pymva-Shor)",
+      "NOTE": "pymva-shor",
+      "SOURCES": "https://openpolar.no/Record/crwiley:10.1111%2Fbor.12343"
+    }
+  },
+  {
+    "id": "m2g-dnieper-rapids",
+    "why": "Map 2, item 85 (b), with a note.",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "dnieper-rapids",
+    "properties": {
+      "NAME": "Epipalaeolithic cemeteries of the Dnieper Rapids (Vasilyevka, Voloshskoe)",
+      "NOTE": "dnieper-rapids",
+      "SOURCES": "https://www.cambridge.org/core/product/E11E8DCFB01ACF3394044B8FFB7D5FC2 | https://bibliotekar.ru/3-1-73-mezolit/67.htm"
+    }
+  },
+  {
+    "id": "m2g-qinghai",
+    "why": "Map 2, item 86, with a note.",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "qinghai-lake",
+    "properties": {
+      "NAME": "Microlithic foragers of Qinghai Lake",
+      "NOTE": "qinghai-lake",
+      "SOURCES": "https://ites.unistra.fr/websites/eost/ites/Pages_Perso/Jeromevdw/publications/Brantinghametal_Geoarcheology_2013.pdf"
+    }
+  },
+  {
+    "id": "m1-remove-heidelbergensis",
+    "why": "Map 1, item 1-5: by 125 ka Africa is long inhabited by Homo sapiens.",
+    "years": [
+      -123000
+    ],
+    "action": "remove",
+    "where": {
+      "NAME": "Homo heidelbergensis"
+    }
+  },
+  {
+    "id": "m1-remove-erectus",
+    "why": "Map 1, item 1-5: H. erectus of this time is known only on Java; China and Laos — Denisovans.",
+    "years": [
+      -123000
+    ],
+    "action": "remove",
+    "where": {
+      "NAME": "Homo erectus"
+    }
+  },
+  {
+    "id": "m1-remove-neanderthal",
+    "why": "Map 1, item 1-5: replaced by our Neanderthal zones (items 1-9 ... 1-11).",
+    "years": [
+      -123000
+    ],
+    "action": "remove",
+    "where": {
+      "NAME": "Neanderthal"
+    }
+  },
+  {
+    "id": "m1-uninhabited-americas",
+    "why": "Map 1, item 1-22: land nobody had reached yet (own colour). Simplified (item 1-25, 22.10).",
+    "years": [
+      -123000
+    ],
+    "action": "add",
+    "shape": "m1-uninhabited-americas",
+    "properties": {
+      "NAME": "Uninhabited — the Americas",
+      "NOTE": "m1-uninhabited-americas",
+      "SOURCES": "https://en.wikipedia.org/wiki/Settlement_of_the_Americas | https://experts.arizona.edu/en/publications/were-hominins-in-california-130000-years-ago/",
+      "KIND": "uninhabited"
+    },
+    "simplify": "15%"
+  },
+  {
+    "id": "m1-uninhabited-sahul",
+    "why": "Map 1, item 1-22: land nobody had reached yet (own colour). Simplified (item 1-25, 22.10).",
+    "years": [
+      -123000
+    ],
+    "action": "add",
+    "shape": "m1-uninhabited-sahul",
+    "properties": {
+      "NAME": "Uninhabited — Sahul",
+      "NOTE": "m1-uninhabited-sahul",
+      "SOURCES": "https://en.wikipedia.org/wiki/Prehistory_of_Australia | https://cosmosmagazine.com/history/archaeology/claim-that-australia-was-settled-60000-years-earlier-than-thought-disputed",
+      "KIND": "uninhabited"
+    },
+    "simplify": "15%"
+  },
+  {
+    "id": "m1-uninhabited-japan",
+    "why": "Map 1, item 1-22: land nobody had reached yet (own colour). Simplified (item 1-25, 22.10).",
+    "years": [
+      -123000
+    ],
+    "action": "add",
+    "shape": "m1-uninhabited-japan",
+    "properties": {
+      "NAME": "Uninhabited — Japan",
+      "NOTE": "m1-uninhabited-japan",
+      "SOURCES": "https://en.wikipedia.org/wiki/Japanese_Paleolithic",
+      "KIND": "uninhabited"
+    },
+    "simplify": "15%"
+  },
+  {
+    "id": "m1-uninhabited-madagascar",
+    "why": "Map 1, item 1-22: land nobody had reached yet (own colour). Simplified (item 1-25, 22.10).",
+    "years": [
+      -123000
+    ],
+    "action": "add",
+    "shape": "m1-uninhabited-madagascar",
+    "properties": {
+      "NAME": "Uninhabited — Madagascar",
+      "NOTE": "m1-uninhabited-madagascar",
+      "SOURCES": "https://en.wikipedia.org/wiki/History_of_Madagascar",
+      "KIND": "uninhabited"
+    },
+    "simplify": "15%"
+  },
+  {
+    "id": "m1-uninhabited-cyprus",
+    "why": "Map 1, item 1-22: land nobody had reached yet (own colour). Simplified (item 1-25, 22.10).",
+    "years": [
+      -123000
+    ],
+    "action": "add",
+    "shape": "m1-uninhabited-cyprus",
+    "properties": {
+      "NAME": "Uninhabited — Cyprus",
+      "NOTE": "m1-uninhabited-cyprus",
+      "SOURCES": "https://en.wikipedia.org/wiki/Aetokremnos",
+      "KIND": "uninhabited"
+    },
+    "simplify": "15%"
+  },
+  {
+    "id": "m1-uninhabited-greenland",
+    "why": "Map 1, item 1-22: same outline as on map 2. Simplified (item 1-25, 22.10).",
+    "years": [
+      -123000
+    ],
+    "action": "add",
+    "shape": "uninhabited-greenland",
+    "properties": {
+      "NAME": "Uninhabited — Greenland",
+      "NOTE": "uninhabited-greenland",
+      "SOURCES": "https://en.wikipedia.org/wiki/Saqqaq_culture",
+      "KIND": "uninhabited"
+    },
+    "simplify": "15%"
+  },
+  {
+    "id": "m1-uninhabited-north-atlantic",
+    "why": "Map 1, item 1-22: same outline as on map 2. Simplified (item 1-25, 22.10).",
+    "years": [
+      -123000
+    ],
+    "action": "add",
+    "shape": "uninhabited-north-atlantic",
+    "properties": {
+      "NAME": "Uninhabited — North Atlantic islands",
+      "NOTE": "uninhabited-north-atlantic",
+      "SOURCES": "https://en.wikipedia.org/wiki/Settlement_of_Iceland | https://en.wikipedia.org/wiki/Faroe_Islands",
+      "KIND": "uninhabited"
+    },
+    "simplify": "15%"
+  },
+  {
+    "id": "m1-uninhabited-remote-oceania",
+    "why": "Map 1, item 1-22: same outline as on map 2. Simplified (item 1-25, 22.10).",
+    "years": [
+      -123000
+    ],
+    "action": "add",
+    "shape": "uninhabited-remote-oceania",
+    "properties": {
+      "NAME": "Uninhabited — Remote Oceania",
+      "NOTE": "uninhabited-remote-oceania",
+      "SOURCES": "https://en.wikipedia.org/wiki/Lapita_culture | https://en.wikipedia.org/wiki/Polynesian_navigation",
+      "KIND": "uninhabited"
+    },
+    "simplify": "15%"
+  },
+  {
+    "id": "m1-uninhabited-atlantic-islands",
+    "why": "Map 1, item 1-22: same outline as on map 2. Simplified (item 1-25, 22.10).",
+    "years": [
+      -123000
+    ],
+    "action": "add",
+    "shape": "uninhabited-atlantic-islands",
+    "properties": {
+      "NAME": "Uninhabited — Atlantic islands",
+      "NOTE": "uninhabited-atlantic-islands",
+      "SOURCES": "https://en.wikipedia.org/wiki/Guanches | https://en.wikipedia.org/wiki/Azores",
+      "KIND": "uninhabited"
+    },
+    "simplify": "15%"
+  },
+  {
+    "id": "m1-uninhabited-indian-ocean",
+    "why": "Map 1, item 1-22: same outline as on map 2. Simplified (item 1-25, 22.10).",
+    "years": [
+      -123000
+    ],
+    "action": "add",
+    "shape": "uninhabited-indian-ocean",
+    "properties": {
+      "NAME": "Uninhabited — Indian Ocean islands",
+      "NOTE": "m1-uninhabited-indian-ocean",
+      "SOURCES": "https://en.wikipedia.org/wiki/Mauritius | https://en.wikipedia.org/wiki/Seychelles",
+      "KIND": "uninhabited"
+    },
+    "simplify": "15%"
+  },
+  {
+    "id": "m1-uninhabited-galapagos",
+    "why": "Map 1, item 1-22: same outline as on map 2. Simplified (item 1-25, 22.10).",
+    "years": [
+      -123000
+    ],
+    "action": "add",
+    "shape": "uninhabited-galapagos",
+    "properties": {
+      "NAME": "Uninhabited — Galápagos",
+      "NOTE": "uninhabited-galapagos",
+      "SOURCES": "https://en.wikipedia.org/wiki/Gal%C3%A1pagos_Islands",
+      "KIND": "uninhabited"
+    },
+    "simplify": "15%"
+  },
+  {
+    "id": "m1-uninhabited-mediterranean",
+    "why": "Map 1, item 1-22: same outline as on map 2. Simplified (item 1-25, 22.10).",
+    "years": [
+      -123000
+    ],
+    "action": "add",
+    "shape": "uninhabited-mediterranean",
+    "properties": {
+      "NAME": "Uninhabited — Balearic Islands and Malta",
+      "NOTE": "uninhabited-mediterranean",
+      "SOURCES": "https://en.wikipedia.org/wiki/Prehistory_of_the_Balearic_Islands | https://en.wikipedia.org/wiki/Prehistory_of_Malta",
+      "KIND": "uninhabited"
+    },
+    "simplify": "15%"
+  },
+  {
+    "id": "m1-uninhabited-antarctica",
+    "why": "Map 1, item 1-22: same outline as on map 2. Simplified (item 1-25, 22.10).",
+    "years": [
+      -123000
+    ],
+    "action": "add",
+    "shape": "uninhabited-antarctica",
+    "properties": {
+      "NAME": "Uninhabited — Antarctica",
+      "NOTE": "uninhabited-antarctica",
+      "SOURCES": "https://en.wikipedia.org/wiki/Antarctica",
+      "KIND": "uninhabited"
+    },
+    "simplify": "15%"
+  },
+  {
+    "id": "m1-msa",
+    "why": "Map 1, item 1-6, 1-18.",
+    "years": [
+      -123000
+    ],
+    "action": "add",
+    "shape": "m1-msa",
+    "properties": {
+      "NAME": "Homo sapiens",
+      "AREA": "Middle Stone Age of sub-Saharan Africa",
+      "SPECIES": "sapiens",
+      "NOTE": "m1-msa",
+      "SOURCES": "https://en.wikipedia.org/wiki/Klasies_River_Caves | https://en.wikipedia.org/wiki/Middle_Stone_Age | https://popular-archaeology.com/article/ghost-of-mysterious-hominin-found-in-west-african-genomes/",
+      "CULTURE": "msa"
+    }
+  },
+  {
+    "id": "m1-aterian",
+    "why": "Map 1, item 1-6, 1-18.",
+    "years": [
+      -123000
+    ],
+    "action": "add",
+    "shape": "m1-aterian",
+    "properties": {
+      "NAME": "Homo sapiens",
+      "AREA": "Aterian",
+      "SPECIES": "sapiens",
+      "NOTE": "m1-aterian",
+      "SOURCES": "https://en.wikipedia.org/wiki/Aterian | https://link.springer.com/chapter/10.1007/978-1-4615-2908-8_5",
+      "CULTURE": "aterian"
+    }
+  },
+  {
+    "id": "m1-nubian",
+    "why": "Map 1, item 1-6, 1-7, 1-18.",
+    "years": [
+      -123000
+    ],
+    "action": "add",
+    "shape": "m1-nubian",
+    "properties": {
+      "NAME": "Homo sapiens",
+      "AREA": "Nubian Complex",
+      "SPECIES": "sapiens",
+      "NOTE": "m1-nubian",
+      "SOURCES": "https://research.birmingham.ac.uk/en/publications/the-nubian-complex-of-dhofar-oman-an-african-middle-stone-age-ind | https://kups.ub.uni-koeln.de/38782",
+      "CULTURE": "nubian"
+    }
+  },
+  {
+    "id": "m1-levant-sapiens",
+    "why": "Map 1, item 1-7, 1-18.",
+    "years": [
+      -123000
+    ],
+    "action": "add",
+    "shape": "m1-levant-sapiens",
+    "properties": {
+      "NAME": "Homo sapiens",
+      "AREA": "Levantine Mousterian (Skhul, Qafzeh)",
+      "SPECIES": "sapiens",
+      "NOTE": "m1-levant-sapiens",
+      "SOURCES": "https://en.wikipedia.org/wiki/Skhul_and_Qafzeh_hominins",
+      "CULTURE": "levantine-mousterian"
+    }
+  },
+  {
+    "id": "m1-arabia",
+    "why": "Map 1, item 1-7.",
+    "years": [
+      -123000
+    ],
+    "action": "add",
+    "shape": "m1-arabia",
+    "properties": {
+      "NAME": "Homo sapiens",
+      "AREA": "Arabia",
+      "SPECIES": "sapiens",
+      "NOTE": "m1-arabia",
+      "SOURCES": "https://en.wikipedia.org/wiki/Jebel_Faya | https://www.sci.news/archaeology/alathar-footprints-08869.html | https://ideas.repec.org/a/nat/nature/v597y2021i7876d10.1038_s41586-021-03863-y.html"
+    }
+  },
+  {
+    "id": "m1-nesher-ramla",
+    "why": "Map 1, item 1-8.",
+    "years": [
+      -123000
+    ],
+    "action": "add",
+    "shape": "m1-nesher-ramla",
+    "properties": {
+      "NAME": "Species not identified",
+      "AREA": "Nesher Ramla people (Levantine Mousterian)",
+      "SPECIES": "unknown",
+      "NOTE": "m1-nesher-ramla",
+      "SOURCES": "https://integ04-cnspfv.archimed.fr/doc/OAI_1/oai-HAL-hal-03739315v1 | https://en.wikipedia.org/wiki/Nesher_Ramla_Homo",
+      "CULTURE": "levantine-mousterian"
+    }
+  },
+  {
+    "id": "m1-india",
+    "why": "Map 1, item 1-16.",
+    "years": [
+      -123000
+    ],
+    "action": "add",
+    "shape": "m1-india",
+    "properties": {
+      "NAME": "Species not identified",
+      "AREA": "India (Late Acheulean, Middle Palaeolithic)",
+      "SPECIES": "unknown",
+      "NOTE": "m1-india",
+      "SOURCES": "https://ro.uow.edu.au/scipapers/1069 | https://en.wikipedia.org/wiki/Attirampakkam"
+    }
+  },
+  {
+    "id": "m1-sulawesi",
+    "why": "Map 1, item 1-17.",
+    "years": [
+      -123000
+    ],
+    "action": "add",
+    "shape": "m1-sulawesi",
+    "properties": {
+      "NAME": "Species not identified",
+      "AREA": "Sulawesi (Talepu)",
+      "SPECIES": "unknown",
+      "NOTE": "m1-sulawesi",
+      "SOURCES": "https://www.sci.news/archaeology/118000-year-old-stone-tools-indonesian-island-sulawesi-03563.html | https://www.sci.news/archaeology/pleistocene-hominins-sulawesi-14121.html"
+    }
+  },
+  {
+    "id": "m1-mousterian-europe",
+    "why": "Map 1, item 1-9, 1-19. North edge: Baltic coast and Western Dvina instead of a straight line at 53.5° N (item 1-29 b, 22.10).",
+    "years": [
+      -123000
+    ],
+    "action": "add",
+    "shape": "m1-mousterian-europe",
+    "properties": {
+      "NAME": "Neanderthals",
+      "AREA": "Mousterian of Europe",
+      "SPECIES": "neanderthal",
+      "NOTE": "m1-mousterian-europe",
+      "SOURCES": "https://en.wikipedia.org/wiki/Krapina_Neanderthal_site | https://www.inrap.fr/en/neanderthal-man-discovered-eemien-fundamental-discovery-12256 | https://en.wikipedia.org/wiki/Altamura_Man | https://ahobproject.org/AHOBI/key_questions.html",
+      "CULTURE": "mousterian"
+    }
+  },
+  {
+    "id": "m1-taubachian",
+    "why": "Map 1, item 1-9, 1-19. North edge: Baltic coast and Western Dvina instead of a straight line at 53.5° N (item 1-29 b, 22.10).",
+    "years": [
+      -123000
+    ],
+    "action": "add",
+    "shape": "m1-taubachian",
+    "properties": {
+      "NAME": "Neanderthals",
+      "AREA": "Taubachian",
+      "SPECIES": "neanderthal",
+      "NOTE": "m1-taubachian",
+      "SOURCES": "https://press.uni-mainz.de/neanderthals-hunted-elephants-earliest-evidence-found-of-humans-killing-elephants-for-food | https://communities.springernature.com/amp/posts/the-perforation-of-a-120-000-year-old-bone-tells-us-about-how-neandertals-made-a-kill | https://scholarlypublications.universiteitleiden.nl/access/item%3A2933335/view",
+      "CULTURE": "taubachian"
+    }
+  },
+  {
+    "id": "m1-mousterian-east",
+    "why": "Map 1, item 1-10, 1-19. Anatolia added (item 1-24, 22.10).",
+    "years": [
+      -123000
+    ],
+    "action": "add",
+    "shape": "m1-mousterian-east",
+    "properties": {
+      "NAME": "Neanderthals",
+      "AREA": "Mousterian of the Caucasus, Zagros and Central Asia",
+      "SPECIES": "neanderthal",
+      "NOTE": "m1-mousterian-east",
+      "SOURCES": "https://en.wikipedia.org/wiki/Neanderthals_in_Southwest_Asia | https://en.wikipedia.org/wiki/Shanidar_Cave | https://avesis.ankara.edu.tr/yayin/d1a83ffb-5f7e-409e-80da-172db04ae29a/esr-dating-of-the-last-interglacial-mousterian-at-karain-cave-southern-turkey",
+      "CULTURE": "mousterian"
+    }
+  },
+  {
+    "id": "m1-altai-neanderthals",
+    "why": "Map 1, item 1-11, 1-19.",
+    "years": [
+      -123000
+    ],
+    "action": "add",
+    "shape": "m1-altai",
+    "properties": {
+      "NAME": "Neanderthals",
+      "AREA": "Middle Palaeolithic of the Altai (Neanderthals)",
+      "SPECIES": "neanderthal",
+      "NOTE": "m1-altai-neanderthals",
+      "SOURCES": "https://www.sci.news/archaeology/denisovans-neanderthals-denisova-cave-06864.html | https://livescience.com/archaeology/neanderthals/2-neanderthals-present-at-same-siberian-cave-10-000-years-apart-were-distant-relatives-110-000-year-old-bone-reveals",
+      "CULTURE": "altai-mp"
+    }
+  },
+  {
+    "id": "m1-altai-denisovans",
+    "why": "Map 1, item 1-11.",
+    "years": [
+      -123000
+    ],
+    "action": "add",
+    "shape": "m1-altai",
+    "properties": {
+      "NAME": "Denisovans",
+      "AREA": "Middle Palaeolithic of the Altai (Denisovans)",
+      "SPECIES": "denisovan",
+      "NOTE": "m1-altai-denisovans",
+      "SOURCES": "https://www.sci.news/archaeology/denisovans-neanderthals-denisova-cave-06864.html | https://en.wikipedia.org/wiki/Denisova_Cave",
+      "CULTURE": "altai-mp"
+    }
+  },
+  {
+    "id": "m1-denisovans-east",
+    "why": "Map 1, item 1-12.",
+    "years": [
+      -123000
+    ],
+    "action": "add",
+    "shape": "m1-denisovans-east",
+    "properties": {
+      "NAME": "Denisovans",
+      "AREA": "Denisovans of East Asia",
+      "SPECIES": "denisovan",
+      "NOTE": "m1-denisovans-east",
+      "SOURCES": "https://www.sci.news/othersciences/anthropology/denisovan-harbin-cranium-14003.html | https://www.johnhawks.net/p/julurens-a-new-cousin-for-denisovans | https://www.uow.edu.au/media/2020/study-confirms-denisovan-presence-on-the-roof-of-the-world.php | https://www.sci.news/archaeology/laos-denisovan-10814.html | https://en.wikipedia.org/wiki/Zhiren_Cave | https://www.sci.news/archaeology/denisovan-fossil-taiwan-13819.html"
+    }
+  },
+  {
+    "id": "m1-java",
+    "why": "Map 1, item 1-13.",
+    "years": [
+      -123000
+    ],
+    "action": "add",
+    "shape": "m1-java",
+    "properties": {
+      "NAME": "Homo erectus",
+      "AREA": "Java (Ngandong)",
+      "SPECIES": "erectus",
+      "NOTE": "m1-java",
+      "SOURCES": "https://rune.une.edu.au/web/handle/1959.11/29191 | https://en.wikipedia.org/wiki/Solo_Man"
+    }
+  },
+  {
+    "id": "m1-flores",
+    "why": "Map 1, item 1-14.",
+    "years": [
+      -123000
+    ],
+    "action": "add",
+    "shape": "m1-flores",
+    "properties": {
+      "NAME": "Homo floresiensis",
+      "AREA": "Flores (Liang Bua)",
+      "SPECIES": "floresiensis",
+      "NOTE": "m1-flores",
+      "SOURCES": "https://www.ucl.ac.uk/human-evolution/news/2016/mar/homo-floresiensis-became-extinct-50000-years-ago | https://en.wikipedia.org/wiki/Homo_floresiensis"
+    }
+  },
+  {
+    "id": "m1-luzon",
+    "why": "Map 1, item 1-15.",
+    "years": [
+      -123000
+    ],
+    "action": "add",
+    "shape": "m1-luzon",
+    "properties": {
+      "NAME": "Homo luzonensis",
+      "AREA": "Luzon (Callao Cave)",
+      "SPECIES": "luzonensis",
+      "NOTE": "m1-luzon",
+      "SOURCES": "https://www.aip.org/inside-science/researchers-find-a-new-ancient-human-species-in-the-philippines | https://en.wikipedia.org/wiki/Homo_luzonensis"
+    }
+  },
+  {
+    "id": "m2h-panga-ya-saidi",
+    "why": "Map 10 000, item 89 (and map 8000, item 3-34): zone with a note.",
+    "years": [
+      -10000,
+      -8000
+    ],
+    "action": "add",
+    "shape": "panga-ya-saidi",
+    "properties": {
+      "NAME": "Panga ya Saidi cave foragers (Kenya coast)",
+      "NOTE": "panga-ya-saidi",
+      "SOURCES": "https://www.nature.com/articles/s41467-018-04057-3"
+    }
+  },
+  {
+    "id": "m2h-los-tapiales",
+    "why": "Map 10 000, item 93.",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "los-tapiales",
+    "properties": {
+      "NAME": "Los Tapiales (Guatemalan highlands)",
+      "NOTE": "los-tapiales",
+      "SOURCES": "https://mci.si.edu/node/1251442 | https://escholarship.org/content/qt6635k82x/qt6635k82x.pdf"
+    }
+  },
+  {
+    "id": "m8-remove-bantu",
+    "why": "Map 8000, item 3-7: anachronism (Bantu languages c. 5,000–4,000 years ago).",
+    "years": [
+      -8000
+    ],
+    "action": "remove",
+    "where": {
+      "NAME": "Bantu"
+    }
+  },
+  {
+    "id": "m8-remove-khoisan",
+    "why": "Map 8000, item 3-29: modern collective name, zone not drawn from finds.",
+    "years": [
+      -8000
+    ],
+    "action": "remove",
+    "where": {
+      "NAME": "Khoisan"
+    }
+  },
+  {
+    "id": "m8-remove-hunters-gatherers",
+    "why": "Map 8000, item 3-47: Madagascar — early traces disputed.",
+    "years": [
+      -8000
+    ],
+    "action": "remove",
+    "where": {
+      "NAME": "Hunters-gatherers"
+    }
+  },
+  {
+    "id": "m8-capsian",
+    "why": "Map 8000, item 3-1.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-capsian",
+    "properties": {
+      "NAME": "Capsian culture",
+      "NOTE": "capsian-8000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Capsian_culture | https://link.springer.com/journal/10437"
+    }
+  },
+  {
+    "id": "m8-west-maghreb",
+    "why": "Map 8000, item 3-28.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-west-maghreb",
+    "properties": {
+      "NAME": "Epipalaeolithic foragers of the western Maghreb",
+      "NOTE": "west-maghreb",
+      "SOURCES": "https://www.sfb806.uni-koeln.de | https://www.prehistoire.org"
+    }
+  },
+  {
+    "id": "m8-haua-fteah",
+    "why": "Map 8000, item 3-49.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "haua-fteah",
+    "properties": {
+      "NAME": "Libyco-Capsian (Haua Fteah)",
+      "NOTE": "haua-fteah-8000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Haua_Fteah"
+    }
+  },
+  {
+    "id": "m8-acacus",
+    "why": "Map 8000, items 3-12, 3-50; Acacus and Tassili merged into one outline (item 3-73 a, 22.10).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-acacus-tassili",
+    "properties": {
+      "NAME": "Central Saharan foragers",
+      "NOTE": "acacus-tassili-8000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Takarkori_rock_shelter | https://en.wikipedia.org/wiki/Tassili_n%27Ajjer",
+      "GROUP": "Central Saharan foragers",
+      "AREA": "Tadrart Acacus and Tassili n'Ajjer (Takarkori, Ti-n Hanakaten)"
+    }
+  },
+  {
+    "id": "m8-amekni",
+    "why": "Map 8000, item 3-51.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-amekni",
+    "properties": {
+      "NAME": "Central Saharan foragers",
+      "NOTE": "amekni",
+      "SOURCES": "https://journals.uair.arizona.edu/index.php/radiocarbon",
+      "GROUP": "Central Saharan foragers",
+      "AREA": "Hoggar (Amekni)"
+    }
+  },
+  {
+    "id": "m8-eastern-sahara",
+    "why": "Map 8000, item 3-74 (accepted 23.10, variant a): one zone Nabta – Kiseiba – Gilf Kebir – Dakhla – Regenfeld instead of two El Adam areas (item 3-13).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-eastern-sahara",
+    "properties": {
+      "NAME": "Early Holocene foragers of the Eastern Sahara",
+      "NOTE": "eastern-sahara-8000",
+      "SOURCES": "https://doi.org/10.1126/science.1130989 | https://en.wikipedia.org/wiki/Nabta_Playa"
+    }
+  },
+  {
+    "id": "m8-air",
+    "why": "Map 8000, item 3-14, variant (b). Fourth area of the group 'Central Saharan foragers' (item 3-73 a, 22.10).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-air",
+    "properties": {
+      "NAME": "Central Saharan foragers",
+      "NOTE": "air-8000",
+      "SOURCES": "https://horizon.documentation.ird.fr | https://www.nature.com/ncomms/",
+      "GROUP": "Central Saharan foragers",
+      "AREA": "Aïr (Tagalagal, Adrar Bous 10)"
+    }
+  },
+  {
+    "id": "m8-ounjougou",
+    "why": "Map 8000, item 3-11.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-ounjougou",
+    "properties": {
+      "NAME": "Early pottery foragers of Ounjougou (Mali)",
+      "NOTE": "ounjougou",
+      "SOURCES": "https://en.wikipedia.org/wiki/Ounjougou"
+    }
+  },
+  {
+    "id": "m8-early-khartoum",
+    "why": "Map 8000, item 3-41.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-early-khartoum",
+    "properties": {
+      "NAME": "Early Khartoum tradition",
+      "NOTE": "early-khartoum",
+      "SOURCES": "https://link.springer.com/journal/10437",
+      "GROUP": "Nile Early Khartoum",
+      "AREA": "Early Khartoum (central Sudan)"
+    }
+  },
+  {
+    "id": "m8-khartoum-variant",
+    "why": "Map 8000, item 3-41.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-khartoum-variant",
+    "properties": {
+      "NAME": "Early Khartoum tradition",
+      "NOTE": "khartoum-variant",
+      "SOURCES": "https://link.springer.com/journal/10437",
+      "GROUP": "Nile Early Khartoum",
+      "AREA": "Khartoum Variant (Nubia)"
+    }
+  },
+  {
+    "id": "m8-turkana",
+    "why": "Map 8000, item 3-9.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-turkana",
+    "properties": {
+      "NAME": "Fisher-hunter-gatherers of Lake Turkana",
+      "NOTE": "turkana",
+      "SOURCES": "https://en.wikipedia.org/wiki/Nataruk"
+    }
+  },
+  {
+    "id": "m8-buur-heybe",
+    "why": "Map 8000, item 3-10.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-buur-heybe",
+    "properties": {
+      "NAME": "Bardaale foragers (Buur Heybe)",
+      "NOTE": "buur-heybe",
+      "SOURCES": "https://en.wikipedia.org/wiki/Buur_Heybe"
+    }
+  },
+  {
+    "id": "m8-eburran",
+    "why": "Map 8000, item 3-5.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "eburran",
+    "properties": {
+      "NAME": "Eburran industry",
+      "NOTE": "eburran-8000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Eburran_industry"
+    }
+  },
+  {
+    "id": "m8-shum-laka",
+    "why": "Map 8000, item 3-15.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-shum-laka",
+    "properties": {
+      "NAME": "Shum Laka foragers (Grassfields)",
+      "NOTE": "shum-laka",
+      "SOURCES": "https://en.wikipedia.org/wiki/Shum_Laka"
+    }
+  },
+  {
+    "id": "m8-iwo-eleru",
+    "why": "Map 8000, item 3-36.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "iwo-eleru",
+    "properties": {
+      "NAME": "Iwo Eleru foragers (Nigeria)",
+      "NOTE": "iwo-eleru-8000",
+      "SOURCES": "https://www.cell.com/iscience/home | https://en.wikipedia.org/wiki/Iwo_Eleru"
+    }
+  },
+  {
+    "id": "m8-bosumpra",
+    "why": "Map 8000, item 3-37.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "bosumpra",
+    "properties": {
+      "NAME": "Bosumpra Cave foragers (Ghana)",
+      "NOTE": "bosumpra-8000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Bosumpra_Cave"
+    }
+  },
+  {
+    "id": "m8-matupi",
+    "why": "Map 8000, item 3-38.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "matupi",
+    "properties": {
+      "NAME": "Matupi Cave foragers (Ituri)",
+      "NOTE": "matupi-8000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Matupi_Cave"
+    }
+  },
+  {
+    "id": "m8-hora",
+    "why": "Map 8000, item 3-8, with a note.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "hora",
+    "properties": {
+      "NAME": "Hora foragers (northern Malawi)",
+      "NOTE": "hora-8000",
+      "SOURCES": "https://www.science.org/journal/sciadv | https://www.nature.com/articles/s41586-022-04430-9"
+    }
+  },
+  {
+    "id": "m8-oakhurst",
+    "why": "Map 8000, item 3-29.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "robberg-oakhurst",
+    "properties": {
+      "NAME": "Oakhurst-type foragers of southern Africa",
+      "NOTE": "oakhurst-8000",
+      "SOURCES": "https://scholarlypublications.universiteitleiden.nl | https://www.nature.com/natecolevol/",
+      "GROUP": "Oakhurst-type foragers of southern Africa",
+      "AREA": "Oakhurst industry (South Africa, Lesotho)"
+    }
+  },
+  {
+    "id": "m8-pomongwan",
+    "why": "Map 8000, item 3-29.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-pomongwan",
+    "properties": {
+      "NAME": "Oakhurst-type foragers of southern Africa",
+      "NOTE": "pomongwan",
+      "SOURCES": "https://www.eva.mpg.de",
+      "GROUP": "Oakhurst-type foragers of southern Africa",
+      "AREA": "Pomongwan (Matobo, Zimbabwe)"
+    }
+  },
+  {
+    "id": "m8-uninhabited-arctic-archipelago",
+    "why": "Map 8000, item 3-57.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-arctic-archipelago",
+    "properties": {
+      "NAME": "Uninhabited — Canadian Arctic Archipelago",
+      "NOTE": "uninhabited-arctic-archipelago",
+      "SOURCES": "https://en.wikipedia.org/wiki/Arctic_small_tool_tradition",
+      "KIND": "uninhabited"
+    }
+  },
+  {
+    "id": "m8-uninhabited-laurentide",
+    "why": "Map 8000, item 3-57: land under the ice sheet.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-laurentide",
+    "properties": {
+      "NAME": "Uninhabited — Laurentide ice sheet",
+      "NOTE": "uninhabited-ice-8000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Laurentide_ice_sheet | https://doi.org/10.1016/j.quascirev.2020.106223",
+      "KIND": "uninhabited"
+    }
+  },
+  {
+    "id": "m8-paleo-arctic",
+    "why": "Map 8000, item 3-58.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-paleo-arctic",
+    "properties": {
+      "NAME": "American Paleo-Arctic tradition",
+      "NOTE": "paleo-arctic",
+      "SOURCES": "https://en.wikipedia.org/wiki/Paleo-Arctic_tradition | https://dnr.alaska.gov/parks/oha/projects/brokenmammoth.htm"
+    }
+  },
+  {
+    "id": "m8-nw-coast-early",
+    "why": "Map 8000, item 3-59.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-nw-coast-early",
+    "properties": {
+      "NAME": "Early Northwest Coast foragers (Haida Gwaii, Southeast Alaska)",
+      "NOTE": "nw-coast-early",
+      "SOURCES": "https://qmackie.com/tag/annotation/ | https://en.wikipedia.org/wiki/On_Your_Knees_Cave"
+    }
+  },
+  {
+    "id": "m8-old-cordilleran",
+    "why": "Map 8000, item 3-60.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-old-cordilleran",
+    "properties": {
+      "NAME": "Old Cordilleran tradition (Cascade phase)",
+      "NOTE": "old-cordilleran",
+      "SOURCES": "https://en.wikipedia.org/wiki/Old_Cordilleran_culture | https://core.tdar.org/document/473063/cascadia-cave-the-excavations",
+      "GROUP": "Old Cordilleran (Cascade)"
+    }
+  },
+  {
+    "id": "m8-western-stemmed",
+    "why": "Map 8000, item 3-61.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "western-stemmed",
+    "properties": {
+      "NAME": "Western Stemmed Tradition",
+      "NOTE": "western-stemmed-8000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Western_Stemmed_Tradition | https://oregonencyclopedia.org/articles/fort_rock_sandals"
+    }
+  },
+  {
+    "id": "m8-channel-islands",
+    "why": "Map 8000, item 3-62.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "channel-islands",
+    "properties": {
+      "NAME": "Paleocoastal people",
+      "NOTE": "channel-islands-8000",
+      "SOURCES": "https://pure.psu.edu/en/publications/paleoindian-seafaring-maritime-technologies-and-coastal-foraging-",
+      "GROUP": "Paleocoastal people",
+      "AREA": "Northern Channel Islands (Santarosae)"
+    }
+  },
+  {
+    "id": "m8-cedros",
+    "why": "Map 8000, item 3-62.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "cedros",
+    "properties": {
+      "NAME": "Paleocoastal people",
+      "NOTE": "cedros-8000",
+      "SOURCES": "https://www.academia.edu/956173/",
+      "GROUP": "Paleocoastal people",
+      "AREA": "Cedros Island"
+    }
+  },
+  {
+    "id": "m8-san-dieguito",
+    "why": "Map 8000, item 3-62.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-san-dieguito",
+    "properties": {
+      "NAME": "San Dieguito / early La Jolla complex",
+      "NOTE": "san-dieguito",
+      "SOURCES": "https://sandiegoarchaeology.org/baja-and-california/la-jolla-phases/ | https://www.sandiegoarchaeology.org/Laylander/Issues/chron.sandieguito.htm"
+    }
+  },
+  {
+    "id": "m8-plano-cody",
+    "why": "Map 8000, item 3-64.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-plano-cody",
+    "properties": {
+      "NAME": "Plano tradition",
+      "NOTE": "plano-cody",
+      "SOURCES": "https://www.nps.gov/subjects/swscience/paleoindian.htm",
+      "GROUP": "Plano cultures",
+      "AREA": "Cody complex (Scottsbluff, Eden)"
+    }
+  },
+  {
+    "id": "m8-plano-frederick",
+    "why": "Map 8000, item 3-64.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-plano-frederick",
+    "properties": {
+      "NAME": "Plano tradition",
+      "NOTE": "plano-frederick",
+      "SOURCES": "https://www.nps.gov/subjects/swscience/paleoindian.htm",
+      "GROUP": "Plano cultures",
+      "AREA": "Frederick–Allen complex"
+    }
+  },
+  {
+    "id": "m8-plano-firstview",
+    "why": "Map 8000, item 3-64.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-plano-firstview",
+    "properties": {
+      "NAME": "Plano tradition",
+      "NOTE": "plano-firstview",
+      "SOURCES": "https://www.nps.gov/subjects/swscience/paleoindian.htm",
+      "GROUP": "Plano cultures",
+      "AREA": "Firstview complex"
+    }
+  },
+  {
+    "id": "m8-plano-lakehead",
+    "why": "Map 8000, item 3-64.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-plano-lakehead",
+    "properties": {
+      "NAME": "Plano tradition",
+      "NOTE": "plano-lakehead",
+      "SOURCES": "https://www.canada.ca/en/parks-canada/news/2016/02/cummins-pre-contact-site-thunder-bay-ontario.html | https://www.lakeheadu.ca/programs/departments/geology/about/msc-theses/summaries/node/16533",
+      "GROUP": "Plano cultures",
+      "AREA": "Lakehead complex"
+    }
+  },
+  {
+    "id": "m8-golondrina",
+    "why": "Map 8000, item 3-65.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-golondrina",
+    "properties": {
+      "NAME": "Golondrina complex",
+      "NOTE": "golondrina",
+      "SOURCES": "https://www.texasbeyondhistory.net/st-plains/prehistory/images/golondrina.html | https://scholarworks.sfasu.edu/ita/vol1983/iss1/28",
+      "GROUP": "Golondrina"
+    }
+  },
+  {
+    "id": "m8-early-archaic-east",
+    "why": "Map 8000, item 3-66.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-early-archaic-east",
+    "properties": {
+      "NAME": "Early Archaic of the East (Palmer, Kirk)",
+      "NOTE": "early-archaic-east",
+      "SOURCES": "https://archaeology.sites.unc.edu/wp-content/uploads/sites/187/2020/09/Chapman-1975-PhD-RLA.pdf"
+    }
+  },
+  {
+    "id": "m8-ne-late-paleo",
+    "why": "Map 8000, item 3-67, with a note.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-ne-late-paleo",
+    "properties": {
+      "NAME": "New England–Maritimes Paleoindians (late phase)",
+      "NOTE": "ne-late-paleo",
+      "SOURCES": "https://nysm.nysed.gov/bibcite/reference/20477 | https://digitalcommons.library.umaine.edu/etd/658"
+    }
+  },
+  {
+    "id": "m8-el-riego",
+    "why": "Map 8000, item 3-68 (closes 3-21).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-el-riego",
+    "properties": {
+      "NAME": "El Riego phase (Tehuacán Valley)",
+      "NOTE": "el-riego",
+      "SOURCES": "https://en.wikipedia.org/wiki/El_Riego_phase | https://www.cambridge.org/core/product/F4C32FB10E73D660CB7D9B44E2C29A72"
+    }
+  },
+  {
+    "id": "m8-guila-naquitz",
+    "why": "Map 8000, item 3-68 (closes 3-21).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-guila-naquitz",
+    "properties": {
+      "NAME": "Naquitz phase foragers (Valley of Oaxaca)",
+      "NOTE": "guila-naquitz",
+      "SOURCES": "https://ehrafarchaeology.yale.edu/traditions/ny30/documents/027 | https://en.wikipedia.org/wiki/Guil%C3%A1_Naquitz_Cave"
+    }
+  },
+  {
+    "id": "m8-yucatan",
+    "why": "Map 8000, item 3-68.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "yucatan-caves",
+    "properties": {
+      "NAME": "Yucatán cave people (Tulum)",
+      "NOTE": "yucatan-caves-8000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Chan_Hol | https://digitalcommons.usf.edu/kip_articles/3594"
+    }
+  },
+  {
+    "id": "m8-belize",
+    "why": "Map 8000, item 3-68.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "belize-rockshelters",
+    "properties": {
+      "NAME": "Rockshelter foragers of southern Belize",
+      "NOTE": "belize-rockshelters-8000",
+      "SOURCES": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8940966/"
+    }
+  },
+  {
+    "id": "m8-el-gigante",
+    "why": "Map 8000, item 3-68.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-el-gigante",
+    "properties": {
+      "NAME": "El Gigante rockshelter (Esperanza phase)",
+      "NOTE": "el-gigante",
+      "SOURCES": "https://digitalcommons.usf.edu/kip_articles/6214 | https://doaj.org/article/ef23893fd9544c6487a6fb68c57a328d"
+    }
+  },
+  {
+    "id": "m8-panama",
+    "why": "Map 8000, item 3-68 (renamed).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "panama-paleoindian",
+    "properties": {
+      "NAME": "Early preceramic of central Panama",
+      "NOTE": "panama-preceramic-8000",
+      "SOURCES": "https://profiles.si.edu/display/sro_114860"
+    }
+  },
+  {
+    "id": "m2i-el-inga",
+    "why": "Map 10 000, item 95 (queue-map2.md; accepted 21.10, applied 22.10).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "el-inga",
+    "properties": {
+      "NAME": "Fishtail point makers of the Ecuadorian highlands (El Inga)",
+      "NOTE": "el-inga",
+      "SOURCES": "https://en.wikipedia.org/wiki/Fishtail_projectile_point | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m2i-cubilan",
+    "why": "Map 10 000, item 96 (queue-map2.md; accepted 21.10, applied 22.10).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "cubilan",
+    "properties": {
+      "NAME": "Preceramic foragers of the southern Ecuadorian highlands",
+      "NOTE": "cubilan",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m2i-montequinto",
+    "why": "Map 10 000, item 97 (queue-map2.md; accepted 21.10, applied 22.10).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "montequinto",
+    "properties": {
+      "NAME": "Early foragers of the upper Esmeraldas (Montequinto)",
+      "NOTE": "montequinto",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m2i-las-vegas",
+    "why": "Map 10 000, item 98 (queue-map2.md; accepted 21.10, applied 22.10).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "las-vegas",
+    "properties": {
+      "NAME": "Las Vegas culture",
+      "NOTE": "las-vegas-early",
+      "SOURCES": "https://en.wikipedia.org/wiki/Las_Vegas_culture"
+    }
+  },
+  {
+    "id": "m2i-san-isidro",
+    "why": "Map 10 000, item 99 (queue-map2.md; accepted 21.10, applied 22.10).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "san-isidro",
+    "properties": {
+      "NAME": "Early foragers of the Popayán plateau (San Isidro)",
+      "NOTE": "san-isidro",
+      "SOURCES": "https://www.chungara.cl/Vols/2015/47-1/02-F._Aceituno_47.pdf"
+    }
+  },
+  {
+    "id": "m8-middle-cauca",
+    "why": "Map 8000, item 3-86, and map 10 000, item 100 (accepted 21.10, applied 22.10).",
+    "years": [
+      -10000,
+      -8000
+    ],
+    "action": "add",
+    "shape": "middle-cauca",
+    "properties": {
+      "NAME": "Early foragers of the Middle Cauca Valley",
+      "NOTE": "middle-cauca",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m2i-guitarrero",
+    "why": "Map 10 000, item 101 (queue-map2.md; accepted 21.10, applied 22.10).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "guitarrero",
+    "properties": {
+      "NAME": "Guitarrero Cave foragers",
+      "NOTE": "guitarrero",
+      "SOURCES": "https://en.wikipedia.org/wiki/Guitarrero_Cave"
+    }
+  },
+  {
+    "id": "m2i-atacama-salar",
+    "why": "Map 10 000, item 103 (a) (queue-map2.md; accepted 21.10, applied 22.10).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "atacama-salar",
+    "properties": {
+      "NAME": "Paleoindians of the Atacama",
+      "NOTE": "atacama-salar",
+      "SOURCES": "https://pure.psu.edu/en/publications/landscape-evolution-and-the-environmental-context-of-human-occupa/ | https://www.nature.com/articles/s41597-022-01118-7",
+      "GROUP": "Paleoindians of the Atacama",
+      "AREA": "Salar de Atacama — Salar Punta Negra"
+    }
+  },
+  {
+    "id": "m2i-piuquenes",
+    "why": "Map 10 000, item 104 (a) (queue-map2.md; accepted 21.10, applied 22.10).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "piuquenes",
+    "properties": {
+      "NAME": "Early Archaic of the central Chilean Andes (Los Piuquenes)",
+      "NOTE": "piuquenes-10000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m2i-puna-jujuy",
+    "why": "Map 10 000, item 105 (queue-map2.md; accepted 21.10, applied 22.10).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "puna-jujuy",
+    "properties": {
+      "NAME": "Early Archaic hunters of the Puna of Jujuy (Inca Cueva, Huachichocana, Pintoscayoc)",
+      "NOTE": "puna-jujuy-10000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m2i-huentelauquen",
+    "why": "Map 10 000, item 106 (queue-map2.md; accepted 21.10, applied 22.10).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "huentelauquen",
+    "properties": {
+      "NAME": "Huentelauquén cultural complex",
+      "NOTE": "huentelauquen-10000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m2i-umbu-uruguay",
+    "why": "Map 10 000, item 107 (1); cut out of the fishtail zone (queue-map2.md; accepted 21.10, applied 22.10).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "umbu-uruguay",
+    "properties": {
+      "NAME": "Umbu tradition",
+      "NOTE": "umbu-uruguay",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-abriense",
+    "why": "Map 8000, item 3-75 (a), variant (2) — with a note (queue-map8000.md; accepted 21.10, applied 22.10).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "bogota",
+    "properties": {
+      "NAME": "Abriense lithic tradition (Sabana de Bogotá)",
+      "NOTE": "abriense-8000",
+      "SOURCES": "https://www.chungara.cl/Vols/2015/47-1/02-F._Aceituno_47.pdf"
+    }
+  },
+  {
+    "id": "m8-lindosa",
+    "why": "Map 8000, item 3-75 (b), variant (1) (queue-map8000.md; accepted 21.10, applied 22.10).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "lindosa",
+    "properties": {
+      "NAME": "Foragers of the Serranía de La Lindosa",
+      "NOTE": "lindosa-8000",
+      "SOURCES": "https://lastjourney.exeter.ac.uk/wp-content/uploads/2024/02/The-peopling-of-Amazonia-Chrono-stratigraphic-evidence-from-Serrania-La-Lindosa-1.pdf"
+    }
+  },
+  {
+    "id": "m8-pena-roja",
+    "why": "Map 8000, item 3-75 (g) (queue-map8000.md; accepted 21.10, applied 22.10).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "pena-roja",
+    "properties": {
+      "NAME": "Early Holocene foragers of the middle Caquetá (Peña Roja)",
+      "NOTE": "pena-roja",
+      "SOURCES": "https://www.chungara.cl/Vols/2015/47-1/02-F._Aceituno_47.pdf | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-atures",
+    "why": "Map 8000, item 3-75 (d) (queue-map8000.md; accepted 21.10, applied 22.10).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "atures",
+    "properties": {
+      "NAME": "Early Holocene foragers of the Atures rapids (Middle Orinoco)",
+      "NOTE": "atures",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-las-vegas",
+    "why": "Map 8000, item 3-77 (a) (queue-map8000.md; accepted 21.10, applied 22.10).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "las-vegas",
+    "properties": {
+      "NAME": "Las Vegas culture",
+      "NOTE": "las-vegas",
+      "SOURCES": "https://en.wikipedia.org/wiki/Las_Vegas_culture"
+    }
+  },
+  {
+    "id": "m8-cubilan-chobshi",
+    "why": "Map 8000, item 3-77 (c) (queue-map8000.md; accepted 21.10, applied 22.10).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "cubilan-chobshi",
+    "properties": {
+      "NAME": "Preceramic foragers of the southern Ecuadorian highlands",
+      "NOTE": "cubilan-chobshi",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-guaguacanoayacu",
+    "why": "Map 8000, item 3-77 (e) (queue-map8000.md; accepted 21.10, applied 22.10).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "guaguacanoayacu",
+    "properties": {
+      "NAME": "Early Holocene foragers of the eastern Andean slopes (Guaguacanoayacu)",
+      "NOTE": "guaguacanoayacu",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-paijan",
+    "why": "Map 8000, item 3-78 (a, b) (queue-map8000.md; accepted 21.10, applied 22.10).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "paijan",
+    "properties": {
+      "NAME": "Paiján culture",
+      "NOTE": "paijan-8000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Paij%C3%A1n_culture | https://en.wikipedia.org/wiki/Chivateros"
+    }
+  },
+  {
+    "id": "m8-puna-junin",
+    "why": "Map 8000, item 3-79 (a) (queue-map8000.md; accepted 21.10, applied 22.10).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "puna-junin",
+    "properties": {
+      "NAME": "Puna hunters of the central Peruvian Andes (Lauricocha, Junín)",
+      "NOTE": "puna-junin",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-south-central-andes",
+    "why": "Map 8000, item 3-80 (queue-map8000.md; accepted 21.10, applied 22.10).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "south-central-andes",
+    "properties": {
+      "NAME": "Early Archaic foragers of the south-central Andes",
+      "NOTE": "south-central-andes",
+      "SOURCES": "https://en.wikipedia.org/wiki/Wilamaya_Patjxa | https://en.wikipedia.org/wiki/Toquepala_Caves | https://www.science.org/doi/10.1126/sciadv.abd0310 | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-acha",
+    "why": "Map 8000, item 3-80, candidate Acha-2 (queue-map8000.md; accepted 21.10, applied 22.10).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "acha",
+    "properties": {
+      "NAME": "Early Archaic fishers of the Arica coast (Acha)",
+      "NOTE": "acha",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-tambillo",
+    "why": "Map 8000, item 3-81 (a); dates of Tambillo checked 22.10 (p3k14c: Núñez et al. 2002) (queue-map8000.md; accepted 21.10, applied 22.10).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "tambillo",
+    "properties": {
+      "NAME": "Early Archaic of the Salar de Atacama (Tuina, Tambillo)",
+      "NOTE": "tambillo",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-puna-jujuy",
+    "why": "Map 8000, item 3-81 (b) (queue-map8000.md; accepted 21.10, applied 22.10).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "puna-jujuy",
+    "properties": {
+      "NAME": "Early Archaic hunters of the Puna of Jujuy (Inca Cueva, Huachichocana, Pintoscayoc)",
+      "NOTE": "puna-jujuy",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-huentelauquen",
+    "why": "Map 8000, item 3-81 (c) (queue-map8000.md; accepted 21.10, applied 22.10).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "huentelauquen",
+    "properties": {
+      "NAME": "Huentelauquén cultural complex",
+      "NOTE": "huentelauquen",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-piuquenes",
+    "why": "Map 8000, item 3-82 (a) (queue-map8000.md; accepted 21.10, applied 22.10).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "piuquenes",
+    "properties": {
+      "NAME": "Early Archaic of the central Chilean Andes (Los Piuquenes)",
+      "NOTE": "piuquenes",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-patagonia",
+    "why": "Map 8000, item 3-82 (c, d) (queue-map8000.md; accepted 21.10, applied 22.10).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "patagonia-early-holocene",
+    "properties": {
+      "NAME": "Early Holocene hunters of Patagonia (Toldense)",
+      "NOTE": "patagonia-early-holocene",
+      "SOURCES": "https://en.wikipedia.org/wiki/Cueva_de_las_Manos | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-pay-paso",
+    "why": "Map 8000, item 3-82 (f) (queue-map8000.md; accepted 21.10, applied 22.10).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "pay-paso",
+    "properties": {
+      "NAME": "Early Holocene foragers of northern Uruguay (Pay Paso)",
+      "NOTE": "pay-paso",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-serra-talhada",
+    "why": "Map 8000, item 3-83 (a) (queue-map8000.md; accepted 21.10, applied 22.10).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "serra-talhada",
+    "properties": {
+      "NAME": "Serra Talhada phase (Serra da Capivara)",
+      "NOTE": "serra-talhada",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-central-brazil",
+    "why": "Map 8000, item 3-83 (b) (queue-map8000.md; accepted 21.10, applied 22.10).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "central-brazil",
+    "properties": {
+      "NAME": "Itaparica tradition and Lagoa Santa",
+      "NOTE": "central-brazil-8000",
+      "SOURCES": "https://journals.ed.ac.uk/lithicstudies/article/download/1423/2117"
+    }
+  },
+  {
+    "id": "m8-santa-elina",
+    "why": "Map 8000, item 3-83 (c) (queue-map8000.md; accepted 21.10, applied 22.10).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "santa-elina",
+    "properties": {
+      "NAME": "Foragers of Santa Elina rockshelter",
+      "NOTE": "santa-elina",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-umbu",
+    "why": "Map 8000, item 3-83 (d) (queue-map8000.md; accepted 21.10, applied 22.10).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "umbu",
+    "properties": {
+      "NAME": "Umbu tradition",
+      "NOTE": "umbu",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-moxos",
+    "why": "Map 8000, item 3-83 (h) (queue-map8000.md; accepted 21.10, applied 22.10).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "moxos",
+    "properties": {
+      "NAME": "Forest-island foragers of the Llanos de Moxos",
+      "NOTE": "moxos",
+      "SOURCES": "https://www.nature.com/articles/s41586-020-2162-7"
+    }
+  },
+  {
+    "id": "m8-uninhabited-scandinavian-ice",
+    "why": "Map 8000, Europe, item 3-110 (accepted 23.10).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-scandinavian-ice",
+    "properties": {
+      "NAME": "Uninhabited — Scandinavian ice sheet",
+      "NOTE": "uninhabited-ice-scand-8000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Fennoscandian_ice_sheet | https://doi.org/10.1111/bor.12142",
+      "KIND": "uninhabited"
+    }
+  },
+  {
+    "id": "m8-komsa",
+    "why": "Map 8000, Europe, item 3-91 (accepted 23.10).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-komsa",
+    "properties": {
+      "NAME": "Komsa culture",
+      "NOTE": "komsa",
+      "SOURCES": "https://en.wikipedia.org/wiki/Komsa_culture | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-west-scandinavia",
+    "why": "Map 8000, Europe, item 3-92 (b) (accepted 23.10).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-west-scandinavia",
+    "properties": {
+      "NAME": "Mesolithic of the Scandinavian west coast",
+      "NOTE": "west-scandinavia-8000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Fosna%E2%80%93Hensbacka_culture | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-finland",
+    "why": "Map 8000, Europe, item 3-93 (accepted 23.10).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-finland",
+    "properties": {
+      "NAME": "Early Mesolithic of Finland and Karelia",
+      "NOTE": "finland-8000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Antrea_Net | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-kunda",
+    "why": "Map 8000, Europe, item 3-94 (accepted 23.10).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-kunda",
+    "properties": {
+      "NAME": "Kunda culture",
+      "NOTE": "kunda",
+      "SOURCES": "https://en.wikipedia.org/wiki/Kunda_culture | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-butovo",
+    "why": "Map 8000, Europe, item 3-90 (a) (accepted 23.10).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-butovo",
+    "properties": {
+      "NAME": "Butovo culture",
+      "NOTE": "butovo",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-ienevo",
+    "why": "Map 8000, Europe, item 3-90 (a): drawn over Butovo, outline cut to the Butovo zone (accepted 23.10).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-ienevo",
+    "properties": {
+      "NAME": "Ienevo culture",
+      "NOTE": "ienevo",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-maglemose",
+    "why": "Map 8000, Europe, item 3-95 (accepted 23.10). Item 3-118 (24.10): one culture with two areas — this one and Britain.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-maglemose",
+    "properties": {
+      "NAME": "Maglemosian culture",
+      "NOTE": "maglemose",
+      "SOURCES": "https://en.wikipedia.org/wiki/Maglemosian_culture | https://www.nature.com/articles/s41597-022-01118-7",
+      "GROUP": "North Sea plain Early Mesolithic",
+      "AREA": "Denmark, Scania, northern Germany and Doggerland"
+    }
+  },
+  {
+    "id": "m8-britain",
+    "why": "Map 8000, Europe, item 3-96 (b) (accepted 23.10). Item 3-118 (24.10): Britain is the second area of the Maglemosian culture (same name and colour group, own card).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-britain",
+    "properties": {
+      "NAME": "Maglemosian culture",
+      "NOTE": "britain-8000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Star_Carr | https://www.nature.com/articles/s41597-022-01118-7",
+      "GROUP": "North Sea plain Early Mesolithic",
+      "AREA": "Britain (Star Carr type)"
+    }
+  },
+  {
+    "id": "m8-komornica",
+    "why": "Map 8000, Europe, item 3-97 (accepted 23.10).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-komornica",
+    "properties": {
+      "NAME": "Komornica culture",
+      "NOTE": "komornica",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-central-france",
+    "why": "Map 8000, item 3-119 (24.10): Early Mesolithic sites of the Loire valley, Burgundy and the Jura on the date of the map that the sources assign neither to the Beuronian nor to the Sauveterrian — a neutral zone between them.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-central-france",
+    "properties": {
+      "NAME": "Early Mesolithic of central France and Burgundy",
+      "NOTE": "central-france-8000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7 | https://hls-dhs-dss.ch/fr/articles/008011/2019-10-29/"
+    }
+  },
+  {
+    "id": "m8-beuron-north",
+    "why": "Map 8000, Europe, item 3-98 (a), 3-111 (b) (accepted 23.10). Item 3-119 (24.10): extended south to Ovno, Pincevent and Noyen.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-beuron-north",
+    "properties": {
+      "NAME": "Beuronian (Early Mesolithic)",
+      "NOTE": "beuron-north",
+      "SOURCES": "https://en.wikipedia.org/wiki/Tardenoisian | https://www.nature.com/articles/s41597-022-01118-7",
+      "GROUP": "Beuronian (Early Mesolithic)",
+      "AREA": "Northern France and Belgium"
+    }
+  },
+  {
+    "id": "m8-beuron-south",
+    "why": "Map 8000, Europe, item 3-111 (b) (accepted 23.10).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-beuron-south",
+    "properties": {
+      "NAME": "Beuronian (Early Mesolithic)",
+      "NOTE": "beuron-south",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7",
+      "GROUP": "Beuronian (Early Mesolithic)",
+      "AREA": "Southern Germany, Alsace and northern Switzerland"
+    }
+  },
+  {
+    "id": "m8-beuron-bohemia",
+    "why": "Map 8000, Europe, item 3-111 (b) (accepted 23.10).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-beuron-bohemia",
+    "properties": {
+      "NAME": "Beuronian (Early Mesolithic)",
+      "NOTE": "beuron-bohemia",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7",
+      "GROUP": "Beuronian (Early Mesolithic)",
+      "AREA": "Northern Bohemia"
+    }
+  },
+  {
+    "id": "m8-ndm",
+    "why": "Map 8000, Europe, item 3-101 (a) (accepted 23.10).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-ndm",
+    "properties": {
+      "NAME": "Notched and Denticulated Mesolithic",
+      "NOTE": "ndm",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7",
+      "GROUP": "Notched and Denticulated Mesolithic",
+      "AREA": "Pyrenees, Catalonia and the Ebro valley"
+    }
+  },
+  {
+    "id": "m8-ndm-valencia",
+    "why": "Map 8000, Europe, item 3-102 (accepted 23.10).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-ndm-valencia",
+    "properties": {
+      "NAME": "Notched and Denticulated Mesolithic",
+      "NOTE": "ndm-valencia",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7",
+      "GROUP": "Notched and Denticulated Mesolithic",
+      "AREA": "Valencia"
+    }
+  },
+  {
+    "id": "m8-cantabria",
+    "why": "Map 8000, Europe, item 3-101 (a) (accepted 23.10).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-cantabria",
+    "properties": {
+      "NAME": "Early Mesolithic of Cantabria",
+      "NOTE": "cantabria-8000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-estremadura",
+    "why": "Map 8000, Europe, item 3-103 (accepted 23.10).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-estremadura",
+    "properties": {
+      "NAME": "Early Mesolithic of Portuguese Estremadura",
+      "NOTE": "estremadura-8000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-nerja",
+    "why": "Map 8000, Europe, item 3-111 (g) (accepted 23.10).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-nerja",
+    "properties": {
+      "NAME": "Mesolithic of Andalusia (Nerja Cave)",
+      "NOTE": "nerja-8000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Caves_of_Nerja | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-sauveterrian",
+    "why": "Map 8000, Europe, item 3-99 (accepted 23.10). Item 3-119 (24.10): northern edge drawn by its own northern finds (Campagnole-de-Neige, Roc-aux-Pêcheurs, Culoz) + 30 km instead of a straight line La Rochelle — Geneva.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-sauveterrian",
+    "properties": {
+      "NAME": "Sauveterrian culture",
+      "NOTE": "sauveterrian",
+      "SOURCES": "https://en.wikipedia.org/wiki/Sauveterrian | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-corsica-sardinia",
+    "why": "Map 8000, Europe, item 3-100 (a) (accepted 23.10).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-corsica-sardinia",
+    "properties": {
+      "NAME": "Mesolithic of Corsica and Sardinia",
+      "NOTE": "corsica-sardinia",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-epigravettian-south",
+    "why": "Map 8000, Europe, item 3-100 (accepted 23.10).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-epigravettian-south",
+    "properties": {
+      "NAME": "Epigravettian tradition — undifferentiated Mesolithic (central and southern Italy, Sicily)",
+      "NOTE": "epigravettian-south-8000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Epigravettian | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-franchthi",
+    "why": "Map 8000, Europe, item 3-104 (accepted 23.10).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "franchthi",
+    "properties": {
+      "NAME": "Mesolithic of southern Greece (Franchthi Cave)",
+      "NOTE": "franchthi-8000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Franchthi_Cave | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-theopetra",
+    "why": "Map 8000, Europe, item 3-104 (accepted 23.10).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-theopetra",
+    "properties": {
+      "NAME": "Mesolithic of Thessaly (Theopetra Cave)",
+      "NOTE": "theopetra-8000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Theopetra_Cave | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-adriatic-pupicina",
+    "why": "Map 8000, Europe, item 3-104 (a) (accepted 23.10).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-adriatic-pupicina",
+    "properties": {
+      "NAME": "Mesolithic of the eastern Adriatic and Epirus",
+      "NOTE": "adriatic-pupicina",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7",
+      "GROUP": "Mesolithic of the eastern Adriatic and Epirus",
+      "AREA": "Pupićina Cave (Istria)"
+    }
+  },
+  {
+    "id": "m8-adriatic-montenegro",
+    "why": "Map 8000, items 3-104, 3-111 a, 3-121 (24.10): Crvena Stijena and Seocka pećina — one area (hull of two 35 km circles) instead of two.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-adriatic-montenegro",
+    "properties": {
+      "NAME": "Mesolithic of the eastern Adriatic and Epirus",
+      "NOTE": "adriatic-montenegro",
+      "SOURCES": "https://en.wikipedia.org/wiki/Crvena_Stijena | https://www.nature.com/articles/s41597-022-01118-7",
+      "GROUP": "Mesolithic of the eastern Adriatic and Epirus",
+      "AREA": "Crvena Stijena and Seocka pećina (Montenegro)"
+    }
+  },
+  {
+    "id": "m8-adriatic-konispol",
+    "why": "Map 8000, Europe, item 3-104 (a) (accepted 23.10).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-adriatic-konispol",
+    "properties": {
+      "NAME": "Mesolithic of the eastern Adriatic and Epirus",
+      "NOTE": "adriatic-konispol",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7",
+      "GROUP": "Mesolithic of the eastern Adriatic and Epirus",
+      "AREA": "Konispol Cave and Sidari (Albania, Corfu)"
+    }
+  },
+  {
+    "id": "m8-kukrek",
+    "why": "Map 8000, Europe, item 3-105 (accepted 23.10).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-kukrek",
+    "properties": {
+      "NAME": "Kukrek culture",
+      "NOTE": "kukrek",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-crimea",
+    "why": "Map 8000, Europe, item 3-105: drawn over Kukrek (accepted 23.10).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "mountain-crimea",
+    "properties": {
+      "NAME": "Mountain Crimea Mesolithic (Shan-Koba and Murzak-Koba cultures)",
+      "NOTE": "mountain-crimea-8000",
+      "SOURCES": "https://vitaantiqua.org.ua/wp-content/uploads/2020/09/VA-2019_Yanevich.pdf"
+    }
+  },
+  {
+    "id": "m8-zimovniki",
+    "why": "Map 8000, Europe, item 3-106 (a) (accepted 23.10).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-zimovniki",
+    "properties": {
+      "NAME": "Zimovniki culture",
+      "NOTE": "zimovniki"
+    }
+  },
+  {
+    "id": "m8-trialetian",
+    "why": "Map 8000, Europe, item 3-108 (accepted 23.10).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "trialetian",
+    "properties": {
+      "NAME": "Trialetian culture",
+      "NOTE": "trialetian-8000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Trialetian | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-se-australia",
+    "why": "Map 8000, item 3-113: the Murray–Darling area of map 10 000 merged with Victoria, south-eastern South Australia and the Sydney Basin (sites on the date of the map without gaps).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-se-australia",
+    "properties": {
+      "NAME": "Foragers of Australia",
+      "NOTE": "se-australia-8000",
+      "SOURCES": "https://researchonline.jcu.edu.au/28670/ | https://www.nature.com/articles/nature18299 | https://www.nature.com/articles/s41597-022-01118-7",
+      "GROUP": "Sahul — Australia",
+      "AREA": "Foragers of south-eastern Australia"
+    }
+  },
+  {
+    "id": "m8-se-queensland",
+    "why": "Map 8000, item 3-113: outline of map 10 000.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "se-queensland",
+    "properties": {
+      "NAME": "Foragers of Australia",
+      "NOTE": "se-queensland-8000",
+      "SOURCES": "https://researchonline.jcu.edu.au/28670/ | https://www.nature.com/articles/s41597-022-01118-7",
+      "GROUP": "Sahul — Australia",
+      "AREA": "Foragers of south-east Queensland"
+    }
+  },
+  {
+    "id": "m8-einasleigh",
+    "why": "Map 8000, item 3-113: outline of map 10 000 extended north-east to Nonda Rock and Chillagoe.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-einasleigh",
+    "properties": {
+      "NAME": "Foragers of Australia",
+      "NOTE": "einasleigh-8000",
+      "SOURCES": "https://researchonline.jcu.edu.au/28670/ | https://www.nature.com/articles/s41597-022-01118-7",
+      "GROUP": "Sahul — Australia",
+      "AREA": "Foragers of the Einasleigh Uplands and Gulf plains"
+    }
+  },
+  {
+    "id": "m8-laura",
+    "why": "Map 8000, item 3-113: outline of map 10 000; dates on both sides of the map date (the \"fork\" rule), so no date note.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "laura",
+    "properties": {
+      "NAME": "Foragers of Australia",
+      "NOTE": "laura-8000",
+      "SOURCES": "https://austhrutime.com/sandy_creek_shelter.htm | https://www.nature.com/articles/s41597-022-01118-7",
+      "GROUP": "Sahul — Australia",
+      "AREA": "Foragers of Laura (Cape York)"
+    }
+  },
+  {
+    "id": "m8-arnhem",
+    "why": "Map 8000, item 3-113: outline of map 10 000 extended south-west to the Victoria River (Garnawala 2, Nimji).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-arnhem-victoria",
+    "properties": {
+      "NAME": "Foragers of Australia",
+      "NOTE": "arnhem-8000",
+      "SOURCES": "https://researchonline.jcu.edu.au/28670/ | https://www.nature.com/articles/s41597-022-01118-7",
+      "GROUP": "Sahul — Australia",
+      "AREA": "Foragers of Arnhem Land, Kakadu and the Victoria River"
+    }
+  },
+  {
+    "id": "m8-kimberley",
+    "why": "Map 8000, item 3-113: outline of map 10 000, with a date note (the \"fork\" rule does not hold).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "kimberley",
+    "properties": {
+      "NAME": "Foragers of Australia",
+      "NOTE": "kimberley-8000",
+      "SOURCES": "https://researchonline.jcu.edu.au/28670/ | https://www.nature.com/articles/s41597-022-01118-7",
+      "GROUP": "Sahul — Australia",
+      "AREA": "Foragers of the Kimberley"
+    }
+  },
+  {
+    "id": "m8-sw-australia",
+    "why": "Map 8000, item 3-113: outline of map 10 000.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "sw-australia",
+    "properties": {
+      "NAME": "Foragers of Australia",
+      "NOTE": "sw-australia-8000",
+      "SOURCES": "https://researchonline.jcu.edu.au/28670/ | https://www.nature.com/articles/s41597-022-01118-7",
+      "GROUP": "Sahul — Australia",
+      "AREA": "Foragers of south-west Australia"
+    }
+  },
+  {
+    "id": "m8-pilbara",
+    "why": "Map 8000, item 3-113: outline of map 10 000; the note about uncertain Pleistocene data is dropped (dates are on the map date).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "pilbara",
+    "properties": {
+      "NAME": "Foragers of Australia",
+      "NOTE": "pilbara-8000",
+      "SOURCES": "https://researchonline.jcu.edu.au/28670/ | https://www.nature.com/articles/s41597-022-01118-7",
+      "GROUP": "Sahul — Australia",
+      "AREA": "Foragers of the Pilbara"
+    }
+  },
+  {
+    "id": "m8-central-ranges",
+    "why": "Map 8000, item 3-113: outline of map 10 000 extended west to Puritjarra.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-central-ranges",
+    "properties": {
+      "NAME": "Foragers of Australia",
+      "NOTE": "central-ranges-8000",
+      "SOURCES": "https://researchonline.jcu.edu.au/28670/ | https://www.nature.com/articles/s41597-022-01118-7",
+      "GROUP": "Sahul — Australia",
+      "AREA": "Foragers of the Central Australian Ranges"
+    }
+  },
+  {
+    "id": "m8-nullarbor",
+    "why": "Map 8000, item 3-113: new small area (35 km circle, item 3-88).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-nullarbor",
+    "properties": {
+      "NAME": "Foragers of Australia",
+      "NOTE": "nullarbor-8000",
+      "SOURCES": "https://researchonline.jcu.edu.au/28670/ | https://www.nature.com/articles/s41597-022-01118-7",
+      "GROUP": "Sahul — Australia",
+      "AREA": "Foragers of the Nullarbor Plain"
+    }
+  },
+  {
+    "id": "m8-tasmania",
+    "why": "Map 8000, item 3-114: Tasmania is an area of the Australian group on this map (same colour); on map 6000* — its own group and colour. Outline: north and centre (map 10 000) + north-east, Furneaux Islands and the east coast to Hobart.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-tasmania",
+    "properties": {
+      "NAME": "Foragers of Australia",
+      "NOTE": "tasmania-8000",
+      "SOURCES": "https://austhrutime.com/parmerpar_meethaner_cave.htm | https://www.agriculture.gov.au/sites/default/files/documents/aboriginal-heritage-twwha.pdf | https://www.nature.com/articles/nature18299",
+      "GROUP": "Sahul — Australia",
+      "AREA": "Foragers of Tasmania"
+    }
+  },
+  {
+    "id": "m8-ng-highlands",
+    "why": "Map 8000, item 3-115: outline of map 10 000.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "ng-highlands",
+    "properties": {
+      "NAME": "Foragers of New Guinea and nearby islands",
+      "NOTE": "ng-highlands-8000",
+      "SOURCES": "https://www.australianarchaeologicalassociation.com.au/wp-content/uploads/2013/06/sutton_etal_2009.pdf | https://en.wikipedia.org/wiki/Kuk_Swamp",
+      "GROUP": "Sahul — New Guinea",
+      "AREA": "Foragers of the New Guinea Highlands"
+    }
+  },
+  {
+    "id": "m8-manus",
+    "why": "Map 8000, item 3-115: outline of map 10 000.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "manus",
+    "properties": {
+      "NAME": "Foragers of New Guinea and nearby islands",
+      "NOTE": "manus-8000",
+      "SOURCES": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8899615",
+      "GROUP": "Sahul — New Guinea",
+      "AREA": "Foragers of Manus"
+    }
+  },
+  {
+    "id": "m8-new-ireland",
+    "why": "Map 8000, item 3-115: outline of map 10 000.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "new-ireland",
+    "properties": {
+      "NAME": "Foragers of New Guinea and nearby islands",
+      "NOTE": "new-ireland-8000",
+      "SOURCES": "https://pmc.ncbi.nlm.nih.gov/articles/PMC26825 | https://pmc.ncbi.nlm.nih.gov/articles/PMC8899615",
+      "GROUP": "Sahul — New Guinea",
+      "AREA": "Foragers of New Ireland"
+    }
+  },
+  {
+    "id": "m8-buka",
+    "why": "Map 8000, item 3-115 (owner 24.10): new area — Kilu Cave (35 km circle); people returned c. 10,400–10,000 cal BP (Wickler 2001, Terra Australis 16).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-buka",
+    "properties": {
+      "NAME": "Foragers of New Guinea and nearby islands",
+      "NOTE": "buka-8000",
+      "SOURCES": "https://digitalcollections.anu.edu.au/bitstreams/b87cac31-3d9e-4685-aab1-03ffce19807f/download",
+      "GROUP": "Sahul — New Guinea",
+      "AREA": "Foragers of Buka (Kilu Cave)"
+    }
+  }
+]

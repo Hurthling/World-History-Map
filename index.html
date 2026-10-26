@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Историческая карта мира</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<!--
+  index.html — page layout only. No logic here.
+  Logic: src/main.js (start reading there). Styling: src/styles.css.
+  Texts are filled in from translations/ui/<lang>.json via data-i18n="key".
+-->
+<!-- Fonts: local copies (src/fonts/), so the page does not depend on Google Fonts -->
+<link rel="stylesheet" href="src/fonts/fonts.css">
+<link rel="stylesheet" href="src/styles.css">
+<!-- Libraries (local copies, so the map also works offline) -->
+<script src="src/vendor/d3.min.js"></script>
+<script src="src/vendor/topojson-client.min.js"></script>
+<script type="module" src="src/main.js"></script>
+</head>
+<body>
+<div class="app">
+
+  <header class="topbar">
+    <div class="brand">
+      <h1 data-i18n="appTitle">World History Map</h1>
+      <p data-i18n="appSubtitle"></p>
+    </div>
+    <div id="lang-switch" class="lang-switch" role="group" data-i18n-label="language"></div>
+  </header>
+
+  <main class="stage">
+    <svg id="map" role="img" data-i18n-label="appTitle"></svg>
+    <div id="tooltip" hidden></div>
+
+    <div class="zoom-controls">
+      <button type="button" id="btn-zoom-in" data-i18n-label="zoomIn">
+        <svg class="i" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg>
+      </button>
+      <button type="button" id="btn-zoom-out" data-i18n-label="zoomOut">
+        <svg class="i" viewBox="0 0 24 24"><path d="M5 12h14"/></svg>
+      </button>
+      <button type="button" id="btn-zoom-reset" data-i18n-label="zoomReset">
+        <svg class="i" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><path d="M4 12h16M12 4c2.5 2.5 2.5 13.5 0 16M12 4c-2.5 2.5-2.5 13.5 0 16"/></svg>
+      </button>
+    </div>
+
+    <aside id="info" class="info" hidden aria-live="polite">
+      <div class="info-head">
+        <h2 id="info-name"></h2>
+        <button type="button" id="info-close" class="icon-btn" data-i18n-label="close">
+          <svg class="i" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg>
+        </button>
+      </div>
+      <div id="info-body"></div>
+      <a id="info-wiki" href="#" target="_blank" rel="noopener" data-i18n="readMore">Read on Wikipedia</a>
+    </aside>
+
+    <div id="error" role="alert" hidden></div>
+    <p class="hint" data-i18n="hint"></p>
+
+    <!-- Legend of maps drawn from dated finds (map 2) -->
+    <div id="legend" class="legend" hidden>
+      <span class="legend-item"><span class="swatch swatch-zone"></span><span data-i18n="legendCulture"></span></span>
+      <span class="legend-item"><span class="swatch swatch-nodata"></span><span data-i18n="noData"></span></span>
+      <span class="legend-item"><span class="swatch swatch-uninhabited"></span><span data-i18n="uninhabited"></span></span>
+      <span id="legend-part" class="legend-part" hidden></span>
+    </div>
+
+    <!-- Legend of map 1 (species and cultures): collapsible, starts collapsed (item 1-27) -->
+    <details id="legend-prob" class="legend legend-prob" hidden>
+      <summary data-i18n="legendTitle"></summary>
+      <div class="legend-body">
+        <span class="legend-item"><span class="swatch sw-sapiens"></span><span data-i18n="spSapiens"></span></span>
+        <span class="legend-item"><span class="swatch sw-neanderthal"></span><span data-i18n="spNeanderthal"></span></span>
+        <span class="legend-item"><span class="swatch sw-denisovan"></span><span data-i18n="spDenisovan"></span></span>
+        <span class="legend-item"><span class="swatch sw-erectus"></span><span data-i18n="spErectus"></span></span>
+        <span class="legend-item"><span class="swatch sw-floresiensis"></span><span data-i18n="spFloresiensis"></span></span>
+        <span class="legend-item"><span class="swatch sw-luzonensis"></span><span data-i18n="spLuzonensis"></span></span>
+        <span class="legend-item"><span class="swatch sw-unknown"></span><span data-i18n="spUnknown"></span></span>
+        <span class="legend-item"><span class="swatch swatch-shades"></span><span data-i18n="legendShade"></span></span>
+        <span class="legend-item"><span class="swatch swatch-stripes"></span><span data-i18n="legendStripes"></span></span>
+        <span class="legend-item"><span class="swatch swatch-uninhabited"></span><span data-i18n="uninhabited"></span></span>
+        <span class="legend-item"><span class="swatch swatch-land"></span><span data-i18n="lowProb"></span></span>
+        <p class="legend-note" data-i18n="legendProbability"></p>
+      </div>
+    </details>
+  </main>
+
+  <section id="timeline" class="timeline">
+    <div class="readout">
+      <div class="year">
+        <span id="year-readout" aria-live="polite">&nbsp;</span>
+        <span id="year-step">&nbsp;</span>
+        <span id="sea-level" hidden></span>
+        <span id="rivers-note" hidden></span>
+      </div>
+      <div class="controls">
+        <button type="button" id="btn-prev" class="icon-btn" data-i18n-label="previous">
+          <svg class="i" viewBox="0 0 24 24"><path d="M15 6l-6 6 6 6"/></svg>
+        </button>
+        <button type="button" id="btn-play" class="icon-btn play-btn" data-i18n-label="play">
+          <svg class="i i-play" viewBox="0 0 24 24"><path d="M8 5.5v13l10.5-6.5z"/></svg>
+          <svg class="i i-pause" viewBox="0 0 24 24"><path d="M7 5h3.5v14H7zM13.5 5H17v14h-3.5z"/></svg>
+        </button>
+        <button type="button" id="btn-next" class="icon-btn" data-i18n-label="next">
+          <svg class="i" viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></svg>
+        </button>
+      </div>
+    </div>
+    <div class="ruler">
+      <input type="range" id="year-slider" data-i18n-label="timeline">
+      <div id="timeline-ticks" class="ticks"></div>
+    </div>
+    <p class="credit">
+      <span data-i18n="approxNote"></span>
+      <span data-i18n="dataCredit"></span>
+    </p>
+  </section>
+
+</div>
+</body>
+</html>

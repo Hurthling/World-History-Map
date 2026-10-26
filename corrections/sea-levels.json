@@ -1,0 +1,100 @@
+{
+  "_about": "Sea level (metres relative to today) used to draw the coastline of ancient maps. Only years listed here get an ancient coastline; all other maps use the modern coastline. Values are rounded global (eustatic) estimates; local uplift/subsidence of land under former ice sheets is ignored. See corrections/README.md. 'lakes': vanished lakes of that year (outlines in corrections/lakes/), cut out of the land like the sea. 'local': areas (lon/lat polygon) where the 10' grid is too shallow — inside them a cell is water if it is deeper than the local level (items 3-112, 113 of map 10 000).",
+  "levels": {
+    "-10000": -60,
+    "-8000": -40
+  },
+  "lakes": {
+    "-8000": [
+      "agassiz-8000"
+    ]
+  },
+  "local": {
+    "-10000": [
+      {
+        "name": "Lake Carpentaria (item 113 of map 10 000)",
+        "level": -25,
+        "area": [
+          [
+            135.5,
+            -18.0
+          ],
+          [
+            142.0,
+            -18.0
+          ],
+          [
+            142.0,
+            -10.75
+          ],
+          [
+            136.6,
+            -11.25
+          ],
+          [
+            135.5,
+            -11.25
+          ],
+          [
+            135.5,
+            -18.0
+          ]
+        ]
+      }
+    ],
+    "-8000": [
+      {
+        "name": "Bass Strait (item 3-112)",
+        "level": -25,
+        "area": [
+          [
+            143.0,
+            -41.2
+          ],
+          [
+            149.0,
+            -41.2
+          ],
+          [
+            149.0,
+            -38.4
+          ],
+          [
+            143.0,
+            -38.4
+          ],
+          [
+            143.0,
+            -41.2
+          ]
+        ]
+      },
+      {
+        "name": "Gulf of Carpentaria (item 3-112)",
+        "level": -15,
+        "area": [
+          [
+            135.5,
+            -18.0
+          ],
+          [
+            142.0,
+            -18.0
+          ],
+          [
+            142.0,
+            -10.5
+          ],
+          [
+            135.5,
+            -10.5
+          ],
+          [
+            135.5,
+            -18.0
+          ]
+        ]
+      }
+    ]
+  }
+}

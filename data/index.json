@@ -1,0 +1,289 @@
+{
+  "generated": "2026-10-24",
+  "source": "historical-basemaps by A. Ourednik (GPL-3.0)",
+  "simplify": "8%",
+  "years": [
+    {
+      "year": -123000,
+      "file": "borders/world_-123000.json",
+      "count": 22,
+      "mode": "probability",
+      "coastNote": "coastModernHigher"
+    },
+    {
+      "year": -10000,
+      "file": "borders/world_-10000.json",
+      "count": 104,
+      "land": "coast/land_-10000.json",
+      "seaLevel": -60,
+      "riversExt": "coast/rivers_ext_-10000.json",
+      "reviewed": true
+    },
+    {
+      "year": -8000,
+      "file": "borders/world_-8000.json",
+      "count": 103,
+      "land": "coast/land_-8000.json",
+      "seaLevel": -40,
+      "riversExt": "coast/rivers_ext_-8000.json",
+      "reviewed": true,
+      "reviewedArea": "coast/reviewed_-8000.json",
+      "reviewedNote": "reviewedPartExceptAsia"
+    },
+    {
+      "year": -5000,
+      "file": "borders/world_-5000.json",
+      "count": 29
+    },
+    {
+      "year": -4000,
+      "file": "borders/world_-4000.json",
+      "count": 23
+    },
+    {
+      "year": -3000,
+      "file": "borders/world_-3000.json",
+      "count": 25
+    },
+    {
+      "year": -2000,
+      "file": "borders/world_-2000.json",
+      "count": 45
+    },
+    {
+      "year": -1500,
+      "file": "borders/world_-1500.json",
+      "count": 68
+    },
+    {
+      "year": -1000,
+      "file": "borders/world_-1000.json",
+      "count": 69
+    },
+    {
+      "year": -700,
+      "file": "borders/world_-700.json",
+      "count": 73
+    },
+    {
+      "year": -500,
+      "file": "borders/world_-500.json",
+      "count": 74
+    },
+    {
+      "year": -400,
+      "file": "borders/world_-400.json",
+      "count": 76
+    },
+    {
+      "year": -323,
+      "file": "borders/world_-323.json",
+      "count": 68
+    },
+    {
+      "year": -300,
+      "file": "borders/world_-300.json",
+      "count": 73
+    },
+    {
+      "year": -200,
+      "file": "borders/world_-200.json",
+      "count": 86
+    },
+    {
+      "year": -100,
+      "file": "borders/world_-100.json",
+      "count": 84
+    },
+    {
+      "year": -1,
+      "file": "borders/world_-1.json",
+      "count": 79
+    },
+    {
+      "year": 100,
+      "file": "borders/world_100.json",
+      "count": 83
+    },
+    {
+      "year": 200,
+      "file": "borders/world_200.json",
+      "count": 69
+    },
+    {
+      "year": 300,
+      "file": "borders/world_300.json",
+      "count": 71
+    },
+    {
+      "year": 400,
+      "file": "borders/world_400.json",
+      "count": 79
+    },
+    {
+      "year": 500,
+      "file": "borders/world_500.json",
+      "count": 87
+    },
+    {
+      "year": 600,
+      "file": "borders/world_600.json",
+      "count": 83
+    },
+    {
+      "year": 700,
+      "file": "borders/world_700.json",
+      "count": 127
+    },
+    {
+      "year": 800,
+      "file": "borders/world_800.json",
+      "count": 117
+    },
+    {
+      "year": 900,
+      "file": "borders/world_900.json",
+      "count": 135
+    },
+    {
+      "year": 1000,
+      "file": "borders/world_1000.json",
+      "count": 129
+    },
+    {
+      "year": 1100,
+      "file": "borders/world_1100.json",
+      "count": 139
+    },
+    {
+      "year": 1200,
+      "file": "borders/world_1200.json",
+      "count": 129
+    },
+    {
+      "year": 1279,
+      "file": "borders/world_1279.json",
+      "count": 113
+    },
+    {
+      "year": 1300,
+      "file": "borders/world_1300.json",
+      "count": 113
+    },
+    {
+      "year": 1400,
+      "file": "borders/world_1400.json",
+      "count": 115
+    },
+    {
+      "year": 1492,
+      "file": "borders/world_1492.json",
+      "count": 1307
+    },
+    {
+      "year": 1500,
+      "file": "borders/world_1500.json",
+      "count": 139
+    },
+    {
+      "year": 1530,
+      "file": "borders/world_1530.json",
+      "count": 269
+    },
+    {
+      "year": 1600,
+      "file": "borders/world_1600.json",
+      "count": 638
+    },
+    {
+      "year": 1650,
+      "file": "borders/world_1650.json",
+      "count": 593
+    },
+    {
+      "year": 1700,
+      "file": "borders/world_1700.json",
+      "count": 584
+    },
+    {
+      "year": 1715,
+      "file": "borders/world_1715.json",
+      "count": 600
+    },
+    {
+      "year": 1783,
+      "file": "borders/world_1783.json",
+      "count": 549
+    },
+    {
+      "year": 1800,
+      "file": "borders/world_1800.json",
+      "count": 546
+    },
+    {
+      "year": 1815,
+      "file": "borders/world_1815.json",
+      "count": 313
+    },
+    {
+      "year": 1878,
+      "file": "borders/world_1878.json",
+      "count": 172
+    },
+    {
+      "year": 1880,
+      "file": "borders/world_1880.json",
+      "count": 169
+    },
+    {
+      "year": 1900,
+      "file": "borders/world_1900.json",
+      "count": 165
+    },
+    {
+      "year": 1914,
+      "file": "borders/world_1914.json",
+      "count": 142
+    },
+    {
+      "year": 1920,
+      "file": "borders/world_1920.json",
+      "count": 163
+    },
+    {
+      "year": 1930,
+      "file": "borders/world_1930.json",
+      "count": 163
+    },
+    {
+      "year": 1938,
+      "file": "borders/world_1938.json",
+      "count": 171
+    },
+    {
+      "year": 1945,
+      "file": "borders/world_1945.json",
+      "count": 183
+    },
+    {
+      "year": 1960,
+      "file": "borders/world_1960.json",
+      "count": 157
+    },
+    {
+      "year": 1994,
+      "file": "borders/world_1994.json",
+      "count": 193
+    },
+    {
+      "year": 2000,
+      "file": "borders/world_2000.json",
+      "count": 193
+    },
+    {
+      "year": 2010,
+      "file": "borders/world_2010.json",
+      "count": 193
+    }
+  ]
+}

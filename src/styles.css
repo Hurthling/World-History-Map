@@ -1,0 +1,487 @@
+/* =============================================================================
+   styles.css — all visual styling.
+
+   Layout concept: a full-bleed atlas sheet; the controls read like the
+   printed margins of an atlas page — a title block above, a year ruler below.
+
+   Colours are defined ONCE as tokens below (light theme), then redefined for
+   the dark theme. Change colours here, nowhere else.
+   ============================================================================= */
+
+:root {
+  /* Sea, land, ink */
+  --ocean: #cddde2;
+  --graticule: #b3c8cf;
+  --land-unclaimed: #e2e1d6;
+  --border-line: #ffffffcc;
+  --paper: #f5f7f6;
+  --ink: #1b2a31;
+  --ink-muted: #56686f;
+  --rule: #c3cfd2;
+  --accent: #2b55a8;          /* controls, current year */
+  --accent-ink: #ffffff;      /* text on accent */
+  --select: #14212a;          /* outline of the clicked country */
+  --halo: #f5f7f6;            /* glow behind map labels */
+  --hatch: #b9b6a6;           /* "No data" hatching lines */
+  --uninhabited: #f4f6f8;     /* land nobody had reached yet */
+  --river: #8fb2c2;           /* rivers and lake shores */
+
+  /* Common palette of states and culture zones (18 colours; map 8000, items 3-70 and 3-87).
+     Colour index: src/colors.js (hash of the name, or COLOR from corrections/colors.json). */
+  --polity-0: #efbcb8;  --polity-1: #c98471;  --polity-2: #e1a07f;  --polity-3: #f4d392;  --polity-4: #a99855;  --polity-5: #cfbe7a;
+  --polity-6: #b4e0a6;  --polity-7: #8ec08d;  --polity-8: #6fa87b;  --polity-9: #8debe7;  --polity-10: #6bc9cc;  --polity-11: #49a8b2;
+  --polity-12: #8dbbf0;  --polity-13: #b9d3f9;  --polity-14: #8296d0;  --polity-15: #f6c4f9;  --polity-16: #d9a3d3;  --polity-17: #bc83ae;
+
+  /* Map 1: human species (main colour) and cultures (shades 1–4; 0 = no named culture).
+     Light theme: shades get darker; dark theme: lighter. Which culture uses which
+     shade: src/colors.js (SHADES). */
+  --sp-sapiens-0: #f3d18d;  --sp-sapiens-1: #e8b369;  --sp-sapiens-2: #d89b5a;  --sp-sapiens-3: #b78e3c;  --sp-sapiens-4: #b4713a;
+  --sp-neanderthal-0: #b5e5b5;  --sp-neanderthal-1: #a1cc90;  --sp-neanderthal-2: #79bb8d;  --sp-neanderthal-3: #83a161;  --sp-neanderthal-4: #5e925f;
+  --sp-denisovan-0: #b6dafe;  --sp-denisovan-1: #8fc5ec;  --sp-denisovan-2: #89acdb;  --sp-denisovan-3: #629ebe;  --sp-denisovan-4: #5c87b0;
+  --sp-erectus-0: #e6867a;  --sp-erectus-1: #ffa194;  --sp-erectus-2: #ee897c;  --sp-erectus-3: #d87569;  --sp-erectus-4: #c36257;
+  --sp-floresiensis-0: #fec2dd;  --sp-floresiensis-1: #eda5c6;  --sp-floresiensis-2: #d791b2;  --sp-floresiensis-3: #c17d9d;  --sp-floresiensis-4: #ae6b8b;
+  --sp-luzonensis-0: #a1e4e4;  --sp-luzonensis-1: #7ececd;  --sp-luzonensis-2: #69b9b9;  --sp-luzonensis-3: #54a5a4;  --sp-luzonensis-4: #419292;
+  --sp-unknown-0: #d9d1eb;  --sp-unknown-1: #bdbad8;  --sp-unknown-2: #b1a2be;  --sp-unknown-3: #9990ac;  --sp-unknown-4: #877e99;
+
+  /* Typography */
+  --font-display: "Spectral", "Georgia", "Times New Roman", serif;
+  --font-ui: "Barlow Semi Condensed", "Arial Narrow", "Segoe UI", system-ui, sans-serif;
+
+  --shadow: 0 1px 2px #1b2a3114, 0 6px 20px #1b2a311f;
+  --radius: 6px;
+  --gutter-l: max(16px, env(safe-area-inset-left, 0px));
+  --gutter-r: max(16px, env(safe-area-inset-right, 0px));
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --ocean: #0e1b23;  --graticule: #1a2d38;  --land-unclaimed: #252f30;
+    --border-line: #0e1b23b3;  --paper: #13212a;  --ink: #e2e9eb;
+    --ink-muted: #93a4aa;  --rule: #2c3f49;  --accent: #86a8f2;
+    --accent-ink: #0e1b23;  --select: #f3f6f7;  --halo: #13212a;
+    --hatch: #3a4546;  --uninhabited: #56666d;  --river: #2f5466;
+    --polity-0: #886461;  --polity-1: #633326;  --polity-2: #794b33;  --polity-3: #8f7747;  --polity-4: #4e420b;  --polity-5: #706330;
+    --polity-6: #5f7f55;  --polity-7: #3e623e;  --polity-8: #234d2d;  --polity-9: #408886;  --polity-10: #1e6a6c;  --polity-11: #004c52;
+    --polity-12: #3e6085;  --polity-13: #637691;  --polity-14: #334068;  --polity-15: #906c92;  --polity-16: #754f71;  --polity-17: #5a3351;
+    --sp-sapiens-0: #5b4516;  --sp-sapiens-1: #74562c;  --sp-sapiens-2: #8c6843;  --sp-sapiens-3: #9a8153;  --sp-sapiens-4: #ba8e6d;
+    --sp-neanderthal-0: #345235;  --sp-neanderthal-1: #4c6443;  --sp-neanderthal-2: #557b60;  --sp-neanderthal-3: #798c66;  --sp-neanderthal-4: #82a382;
+    --sp-denisovan-0: #304c65;  --sp-denisovan-1: #3f6178;  --sp-denisovan-2: #5b7290;  --sp-denisovan-3: #648ba1;  --sp-denisovan-4: #7e9cb9;
+    --sp-erectus-0: #94554d;  --sp-erectus-1: #864841;  --sp-erectus-2: #9c5c54;  --sp-erectus-3: #b27168;  --sp-erectus-4: #c7847b;
+    --sp-floresiensis-0: #623b4e;  --sp-floresiensis-1: #764e61;  --sp-floresiensis-2: #8b6275;  --sp-floresiensis-3: #a1768a;  --sp-floresiensis-4: #b6899d;
+    --sp-luzonensis-0: #245251;  --sp-luzonensis-1: #386565;  --sp-luzonensis-2: #4c7a79;  --sp-luzonensis-3: #608e8e;  --sp-luzonensis-4: #74a2a2;
+    --sp-unknown-0: #4b4657;  --sp-unknown-1: #5c5a6c;  --sp-unknown-2: #756c7e;  --sp-unknown-3: #878194;  --sp-unknown-4: #9b94a9;
+    --shadow: 0 1px 2px #0006, 0 8px 24px #0008;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --ocean: #0e1b23;  --graticule: #1a2d38;  --land-unclaimed: #252f30;
+  --border-line: #0e1b23b3;  --paper: #13212a;  --ink: #e2e9eb;
+  --ink-muted: #93a4aa;  --rule: #2c3f49;  --accent: #86a8f2;
+  --accent-ink: #0e1b23;  --select: #f3f6f7;  --halo: #13212a;
+    --hatch: #3a4546;  --uninhabited: #56666d;  --river: #2f5466;
+  --polity-0: #886461;  --polity-1: #633326;  --polity-2: #794b33;  --polity-3: #8f7747;  --polity-4: #4e420b;  --polity-5: #706330;
+  --polity-6: #5f7f55;  --polity-7: #3e623e;  --polity-8: #234d2d;  --polity-9: #408886;  --polity-10: #1e6a6c;  --polity-11: #004c52;
+  --polity-12: #3e6085;  --polity-13: #637691;  --polity-14: #334068;  --polity-15: #906c92;  --polity-16: #754f71;  --polity-17: #5a3351;
+  --sp-sapiens-0: #5b4516;  --sp-sapiens-1: #74562c;  --sp-sapiens-2: #8c6843;  --sp-sapiens-3: #9a8153;  --sp-sapiens-4: #ba8e6d;
+  --sp-neanderthal-0: #345235;  --sp-neanderthal-1: #4c6443;  --sp-neanderthal-2: #557b60;  --sp-neanderthal-3: #798c66;  --sp-neanderthal-4: #82a382;
+  --sp-denisovan-0: #304c65;  --sp-denisovan-1: #3f6178;  --sp-denisovan-2: #5b7290;  --sp-denisovan-3: #648ba1;  --sp-denisovan-4: #7e9cb9;
+  --sp-erectus-0: #94554d;  --sp-erectus-1: #864841;  --sp-erectus-2: #9c5c54;  --sp-erectus-3: #b27168;  --sp-erectus-4: #c7847b;
+  --sp-floresiensis-0: #623b4e;  --sp-floresiensis-1: #764e61;  --sp-floresiensis-2: #8b6275;  --sp-floresiensis-3: #a1768a;  --sp-floresiensis-4: #b6899d;
+  --sp-luzonensis-0: #245251;  --sp-luzonensis-1: #386565;  --sp-luzonensis-2: #4c7a79;  --sp-luzonensis-3: #608e8e;  --sp-luzonensis-4: #74a2a2;
+  --sp-unknown-0: #4b4657;  --sp-unknown-1: #5c5a6c;  --sp-unknown-2: #756c7e;  --sp-unknown-3: #878194;  --sp-unknown-4: #9b94a9;
+  --shadow: 0 1px 2px #0006, 0 8px 24px #0008;
+  color-scheme: dark;
+}
+
+/* ---- Page frame ------------------------------------------------------------ */
+html, body { height: 100%; }
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-ui);
+  font-size: 15px;
+  line-height: 1.4;
+  overflow: hidden;
+}
+.app {
+  height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+button { font: inherit; color: inherit; }
+[hidden] { display: none !important; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+/* ---- Title block ------------------------------------------------------------ */
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding-block: 10px;
+  padding-left: var(--gutter-l);
+  padding-right: var(--gutter-r);
+  border-bottom: 1px solid var(--rule);
+  background: var(--paper);
+}
+.brand { min-width: 0; display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+.brand h1 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1.3rem;
+  letter-spacing: 0.01em;
+  text-wrap: balance;
+}
+.brand p {
+  margin: 0;
+  color: var(--ink-muted);
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.lang-switch { display: flex; border: 1px solid var(--rule); border-radius: var(--radius); overflow: hidden; flex: none; }
+.lang-switch button {
+  border: 0; background: transparent; padding: 4px 10px; cursor: pointer;
+  font-weight: 600; font-size: 0.8rem; letter-spacing: 0.08em; color: var(--ink-muted);
+}
+.lang-switch button + button { border-left: 1px solid var(--rule); }
+.lang-switch button[aria-pressed="true"] { background: var(--ink); color: var(--paper); }
+
+/* ---- Map ------------------------------------------------------------------------ */
+.stage { position: relative; min-height: 0; overflow: hidden; background: var(--ocean); }
+#map { display: block; width: 100%; height: 100%; cursor: grab; touch-action: none; user-select: none; }
+#map:active { cursor: grabbing; }
+.ocean { fill: var(--ocean); }
+.sphere { fill: var(--ocean); stroke: var(--graticule); stroke-width: 1; vector-effect: non-scaling-stroke; }
+.graticule { fill: none; stroke: var(--graticule); stroke-width: 0.6; vector-effect: non-scaling-stroke; }
+.land { fill: var(--land-unclaimed); stroke: none; }
+.country {
+  stroke: var(--border-line);
+  stroke-width: 0.7;
+  vector-effect: non-scaling-stroke;
+  stroke-linejoin: round;
+  cursor: pointer;
+  transition: fill 300ms ease;
+}
+.country.unnamed { cursor: inherit; stroke: none; }
+.country:not(.unnamed):hover { filter: brightness(0.94) saturate(1.15); }
+.country.prec-3 { stroke-width: 1; }
+/* "No data" (reviewed maps only): lines clipped to the empty land, under the zones
+   (src/map.js). Unnamed shapes of the source are see-through there, so the hatching
+   under them shows; they still catch clicks. */
+.hatch, .stripes { pointer-events: none; }
+.hatch-line { fill: none; stroke: var(--hatch); stroke-width: 1.2; vector-effect: non-scaling-stroke; }
+.is-reviewed .country.unnamed { fill: transparent !important; }
+.is-reviewed .country.unnamed, .is-reviewed .land { cursor: pointer; }
+.country.uninhabited { stroke: none; }
+/* Map 1: empty land can be clicked ("probability below 50 %"); overlaps of two
+   cultures of one species get an outline (their two shades are close) */
+.is-probability .country.unnamed, .is-probability .land { cursor: pointer; }
+.country.overlap-same { stroke: var(--ink); stroke-width: 1; }
+.country.uninhabited:hover { filter: none; }
+
+.selection-outline {
+  fill: none; stroke: var(--select); stroke-width: 2;
+  vector-effect: non-scaling-stroke; stroke-linejoin: round; pointer-events: none;
+}
+
+/* Map labels: big states in spaced capitals, small ones in italic serif,
+   as in printed atlases. A halo keeps them readable over any colour. */
+.labels text {
+  pointer-events: none;
+  text-anchor: middle;
+  dominant-baseline: central;
+  fill: var(--ink);
+  paint-order: stroke;
+  stroke: var(--halo);
+  stroke-width: 3px;
+  stroke-opacity: 0.75;
+  stroke-linejoin: round;
+  font-family: var(--font-display);
+  font-style: italic;
+}
+.labels text.is-major {
+  font-family: var(--font-ui);
+  font-style: normal;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+.labels text.is-selected { font-weight: 700; }
+
+#tooltip {
+  position: absolute;
+  pointer-events: none;
+  background: var(--ink);
+  color: var(--paper);
+  padding: 3px 8px;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  white-space: nowrap;
+  z-index: 5;
+}
+
+.zoom-controls {
+  position: absolute;
+  top: 12px;
+  right: var(--gutter-r);
+  display: flex;
+  flex-direction: column;
+  background: var(--paper);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+.zoom-controls button, .icon-btn {
+  width: 36px; height: 36px;
+  display: grid; place-items: center;
+  border: 0; background: transparent; cursor: pointer; color: var(--ink);
+}
+.zoom-controls button + button { border-top: 1px solid var(--rule); }
+.zoom-controls button:hover, .icon-btn:hover:not(:disabled) { background: color-mix(in srgb, var(--ink) 8%, transparent); }
+svg.i { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+
+.hint {
+  position: absolute;
+  left: var(--gutter-l);
+  bottom: 10px;
+  margin: 0;
+  padding: 3px 8px;
+  background: color-mix(in srgb, var(--paper) 80%, transparent);
+  border-radius: 4px;
+  font-size: 0.8rem;
+  color: var(--ink-muted);
+  pointer-events: none;
+}
+
+.legend {
+  position: absolute;
+  left: var(--gutter-l);
+  bottom: 40px;
+  display: flex; flex-wrap: wrap; gap: 6px 14px;
+  max-width: calc(100% - 32px);
+  padding: 6px 10px;
+  background: color-mix(in srgb, var(--paper) 88%, transparent);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  font-size: 0.8rem;
+}
+.legend-item { display: inline-flex; align-items: center; gap: 6px; }
+.swatch { width: 16px; height: 11px; border-radius: 2px; border: 1px solid var(--rule); display: inline-block; }
+.swatch-zone { background: var(--polity-2); }
+.swatch-uninhabited { background: var(--uninhabited); }
+.swatch-land { background: var(--land-unclaimed); }
+.swatch-shades { background: linear-gradient(90deg, var(--sp-sapiens-1) 0 25%, var(--sp-sapiens-2) 25% 50%, var(--sp-sapiens-3) 50% 75%, var(--sp-sapiens-4) 75%); }
+.swatch-stripes { background: repeating-linear-gradient(90deg, var(--sp-neanderthal-3) 0 3px, var(--sp-denisovan-1) 3px 6px); }
+.sw-sapiens { background: var(--sp-sapiens-1); }
+.sw-neanderthal { background: var(--sp-neanderthal-1); }
+.sw-denisovan { background: var(--sp-denisovan-0); }
+.sw-erectus { background: var(--sp-erectus-0); }
+.sw-floresiensis { background: var(--sp-floresiensis-0); }
+.sw-luzonensis { background: var(--sp-luzonensis-0); }
+.sw-unknown { background: var(--sp-unknown-0); }
+/* Map-1 legend: a collapsible box (<details>) */
+.legend-prob { display: block; max-width: min(560px, calc(100% - 32px)); }
+.legend-prob summary { cursor: pointer; font-weight: 600; letter-spacing: 0.04em; }
+.legend-prob[open] summary { margin-bottom: 4px; }
+.legend-body { display: flex; flex-wrap: wrap; gap: 4px 14px; }
+.legend-note { margin: 2px 0 0; flex-basis: 100%; color: var(--ink-muted); font-size: 0.75rem; line-height: 1.3; }
+.legend-part { flex-basis: 100%; color: var(--ink-muted); font-size: 0.75rem; line-height: 1.3; }
+.swatch-nodata {
+  background: repeating-linear-gradient(45deg, var(--land-unclaimed) 0 3px, var(--hatch) 3px 4.2px);
+}
+
+#error {
+  position: absolute;
+  top: 12px; left: 50%; transform: translateX(-50%);
+  max-width: calc(100% - 32px);
+  background: var(--ink); color: var(--paper);
+  padding: 8px 14px; border-radius: var(--radius); box-shadow: var(--shadow);
+  z-index: 10;
+}
+
+/* ---- Country card --------------------------------------------------------------- */
+.info {
+  position: absolute;
+  top: 12px;
+  right: calc(var(--gutter-r) + 48px);
+  width: min(300px, calc(100% - 96px));
+  background: var(--paper);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 14px 16px 12px;
+  z-index: 6;
+  /* long cards (e.g. two overlapping zones on map 1) scroll inside */
+  max-height: calc(100% - 24px);
+  overflow-y: auto;
+  box-sizing: border-box;
+}
+.info-head { display: flex; align-items: start; justify-content: space-between; gap: 8px; }
+.info h2 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 1.2;
+  text-wrap: balance;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.info .icon-btn { width: 28px; height: 28px; margin: -4px -6px 0 0; flex: none; border-radius: 4px; }
+.info dl { margin: 10px 0 0; display: grid; grid-template-columns: auto 1fr; gap: 4px 12px; }
+.info dt { color: var(--ink-muted); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.08em; padding-top: 2px; }
+.info dd { margin: 0; min-width: 0; overflow-wrap: anywhere; }
+.info-note { margin: 10px 0 0; color: var(--ink-muted); }
+.info-group { margin: 2px 0 0; color: var(--ink-muted); font-size: 0.9rem; }
+.info-part { margin: 14px 0 0; font-family: var(--font-display); font-weight: 600; font-size: 1.05rem; line-height: 1.2; }
+.chip {
+  display: inline-block; padding: 1px 8px; border-radius: 999px;
+  font-size: 0.8rem; border: 1px solid var(--rule);
+}
+.chip.prec-1 { border-style: dashed; }
+.chip.prec-3 { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+.info-text { margin: 10px 0 0; line-height: 1.45; }
+.info-sources { margin: 10px 0 0; padding: 0; list-style: none; font-size: 0.85rem; display: grid; gap: 2px; }
+.info-sources-title { margin: 12px 0 0; color: var(--ink-muted); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.08em; }
+.info .info-sources a { margin: 0; font-weight: 500; overflow-wrap: anywhere; }
+.info a {
+  display: inline-block; margin-top: 12px;
+  color: var(--accent); font-weight: 600; text-decoration: none;
+}
+.info a:hover { text-decoration: underline; }
+
+/* ---- Year ruler (timeline) --------------------------------------------------------- */
+.timeline {
+  position: relative;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 4px 20px;
+  padding-block: 10px 12px;
+  padding-left: var(--gutter-l);
+  padding-right: var(--gutter-r);
+  border-top: 1px solid var(--rule);
+  background: var(--paper);
+}
+.timeline::before {
+  /* thin loading bar */
+  content: "";
+  position: absolute; left: 0; top: -1px; height: 2px; width: 30%;
+  background: var(--accent);
+  opacity: 0;
+  pointer-events: none;
+}
+body.is-loading .timeline::before { opacity: 1; animation: loading 900ms ease-in-out infinite alternate; }
+@keyframes loading { from { left: 0; } to { left: 70%; } }
+
+.readout { display: flex; align-items: center; gap: 12px; }
+.controls { display: flex; align-items: center; gap: 2px; }
+.icon-btn { border-radius: var(--radius); }
+.icon-btn:disabled { opacity: 0.35; cursor: default; }
+.play-btn { background: var(--accent); color: var(--accent-ink); }
+.play-btn:hover { background: var(--accent) !important; filter: brightness(1.08); }
+.play-btn .i-pause, .play-btn.is-playing .i-play { display: none; }
+.play-btn.is-playing .i-pause { display: block; }
+.play-btn svg.i { fill: currentColor; stroke: none; }
+
+.year {
+  display: flex; flex-direction: column; min-width: 9.5ch;
+}
+#year-readout {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: 1.9rem;
+  line-height: 1;
+  font-variant-numeric: lining-nums tabular-nums;
+  white-space: nowrap;
+}
+#sea-level {
+  font-size: 0.72rem; color: var(--accent);
+  letter-spacing: 0.04em;
+}
+#rivers-note {
+  font-size: 0.68rem; color: var(--ink-muted);
+  letter-spacing: 0.02em;
+}
+#year-step {
+  font-size: 0.75rem; color: var(--ink-muted);
+  text-transform: uppercase; letter-spacing: 0.08em;
+}
+
+.ruler { position: relative; padding-bottom: 20px; min-width: 0; }
+#year-slider {
+  -webkit-appearance: none; appearance: none;
+  width: 100%; height: 28px; margin: 0; background: transparent; cursor: pointer;
+  position: relative; z-index: 2;
+}
+#year-slider::-webkit-slider-runnable-track { height: 2px; background: var(--ink); border-radius: 1px; }
+#year-slider::-moz-range-track { height: 2px; background: var(--ink); border-radius: 1px; }
+#year-slider::-webkit-slider-thumb {
+  -webkit-appearance: none; width: 18px; height: 18px; margin-top: -8px;
+  border-radius: 50%; background: var(--accent); border: 3px solid var(--paper);
+  box-shadow: 0 0 0 1px var(--accent);
+}
+#year-slider::-moz-range-thumb {
+  width: 12px; height: 12px; border-radius: 50%; background: var(--accent);
+  border: 3px solid var(--paper); box-shadow: 0 0 0 1px var(--accent);
+}
+
+/* Tick marks: one per available map, inset by the thumb radius so they line up */
+.ticks { position: absolute; left: 9px; right: 9px; top: 18px; height: 22px; pointer-events: none; }
+.tick { position: absolute; top: 0; width: 1px; height: 5px; background: var(--ink-muted); transform: translateX(-0.5px); }
+.tick.has-label { height: 8px; background: var(--ink); }
+.tick.is-current { background: var(--accent); width: 2px; height: 8px; }
+.tick-label {
+  position: absolute; top: 9px; left: 50%; transform: translateX(-50%);
+  font-size: 0.72rem; color: var(--ink-muted); white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+.credit {
+  grid-column: 1 / -1;
+  margin: 0;
+  font-size: 0.72rem;
+  color: var(--ink-muted);
+  display: flex; gap: 6px 16px; flex-wrap: wrap; justify-content: space-between;
+}
+
+/* ---- Phone width ------------------------------------------------------------------- */
+@media (max-width: 640px) {
+  .brand p, .hint { display: none; }
+  .legend { bottom: 10px; }
+  .brand h1 { font-size: 1.1rem; }
+  .timeline { grid-template-columns: 1fr; gap: 6px; }
+  .readout { justify-content: space-between; }
+  #year-readout { font-size: 1.6rem; }
+  .tick-label.optional { display: none; }
+  .info {
+    top: auto; bottom: 10px;
+    left: var(--gutter-l); right: var(--gutter-r);
+    width: auto;
+    max-height: 60%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .country { transition: none; }
+  body.is-loading .timeline::before { animation: none; left: 0; width: 100%; opacity: 0.5; }
+}
+
+/* Rivers and lakes (today's; see tools/hydro.mjs). They ignore the mouse. */
+.hydro, .lakes, .rivers, .ice-cover { pointer-events: none; }
+.ice-cover path { stroke: none; }
+.lake { fill: var(--ocean); stroke: var(--river); stroke-width: calc(0.5px * var(--rs, 1)); vector-effect: non-scaling-stroke; }
+.river {
+  fill: none; stroke: var(--river); stroke-linecap: round; stroke-linejoin: round;
+  vector-effect: non-scaling-stroke; stroke-width: calc(0.6px * var(--rs, 1));
+}
+.river.r-1 { stroke-width: calc(1.3px * var(--rs, 1)); }
+.river.r-2 { stroke-width: calc(1.1px * var(--rs, 1)); }
+.river.r-3 { stroke-width: calc(0.9px * var(--rs, 1)); }
+.river.r-4 { stroke-width: calc(0.75px * var(--rs, 1)); }
+.river.ext { stroke-dasharray: 3 2.5; }   /* drawn over the exposed sea floor: a guess */

@@ -1,0 +1,1 @@
+{"type": "FeatureCollection", "features": [{"type": "Feature", "properties": {"description": "Hokkaido (joined to Sakhalin and the mainland)"}, "geometry": {"type": "Polygon", "coordinates": [[[139.8, 41.4], [141.5, 41.4], [143.5, 41.8], [146, 43.2], [145.5, 44.5], [142, 45.6], [141.2, 45.3], [139.8, 42.5], [139.8, 41.4]]]}}]}

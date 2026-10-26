@@ -1,0 +1,1 @@
+{"type": "FeatureCollection", "features": [{"type": "Feature", "properties": {"description": "Carpenter's Gap"}, "geometry": {"type": "Polygon", "coordinates": [[[123.4, -16.4], [126.5, -15.3], [128.6, -16.4], [128.1, -18.6], [125, -19.1], [123.4, -17.8], [123.4, -16.4]]]}}]}
