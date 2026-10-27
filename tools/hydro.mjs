@@ -16,7 +16,8 @@
 //      we follow the elevation grid (ETOPO1, see coast.mjs) step by step to the
 //      lowest neighbouring cell, as water would flow; delta branches join the
 //      channel already drawn; the line is cut exactly at the drawn ancient coast.
-//      The line is a reasonable guess, not a known river bed.
+//      The line is a reasonable guess, not a known river bed. Closed seas with their
+//      own level (Caspian, Black Sea — "basins" in sea-levels.json) count as sea too.
 //      Result: data/coast/rivers_ext_<year>.json (TopoJSON, object "riversExt").
 //
 // Rivers and lakes are modern on all maps; the page says so under the year.
@@ -27,7 +28,7 @@ import path from 'node:path';
 import { execFileSync } from 'node:child_process';
 import mapshaper from 'mapshaper';
 import * as topojson from 'topojson-client';
-import { loadGrid, oceanMask, flatLand } from './coast.mjs';
+import { loadGrid, oceanMask, flatLand, basinCells } from './coast.mjs';
 
 const NE_BASE = 'https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/';
 const RIVERS = 'ne_50m_rivers_lake_centerlines';
@@ -53,7 +54,7 @@ function slim(fc) {
   };
 }
 
-export async function buildHydro({ root, levels, outDataDir, coastDir }) {
+export async function buildHydro({ root, levels, basins = {}, outDataDir, coastDir }) {
   const cacheDir = path.join(root, 'tools', '.cache', 'natural-earth');
   const rivers = slim(ensureFile(cacheDir, RIVERS));
   const lakes = slim(ensureFile(cacheDir, LAKES));
@@ -82,7 +83,16 @@ export async function buildHydro({ root, levels, outDataDir, coastDir }) {
     const level = levels[String(year)];
     const drawnTopo = JSON.parse(fs.readFileSync(path.join(coastDir, `land_${year}.json`), 'utf8'));
     const water = waterRouter(await flatLand(modernLand(root)), topojson.feature(drawnTopo, drawnTopo.objects.land));
-    const features = extendRivers(rivers, grid, ocean, level, atCoast, water);
+    // Closed seas with their own level (Caspian, Black Sea; see coast.mjs): their
+    // today's sea counts as sea, its floor shifted to compare with the global level
+    let g = grid, sea = ocean;
+    const bc = basinCells(grid, ocean, basins[String(year)], level);
+    if ((basins[String(year)] || []).length) {
+      const elev = Float32Array.from(grid.elev, (e, i) => (bc.isSea[i] ? e + bc.shift[i] : e));
+      g = { ...grid, elev };
+      sea = Uint8Array.from(ocean, (o, i) => o || bc.isSea[i]);
+    }
+    const features = extendRivers(rivers, g, sea, level, atCoast, water);
     const file = path.join(coastDir, `rivers_ext_${year}.json`);
     // Cut the lines exactly at the drawn ancient coast (land_<year>.json)
     const res = await mapshaper.applyCommands(

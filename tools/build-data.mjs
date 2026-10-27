@@ -267,9 +267,9 @@ const coastNotes = reviewed.coastNotes || {};
 const seaLevels = fs.existsSync(SEA_LEVELS) ? JSON.parse(fs.readFileSync(SEA_LEVELS, 'utf8')) : {};
 const levels = seaLevels.levels || {};
 fs.rmSync(COAST_DIR, { recursive: true, force: true });
-const coasts = await buildCoasts({ root: ROOT, levels, lakes: seaLevels.lakes, local: seaLevels.local, landGeoJson: land, outDir: COAST_DIR });
+const coasts = await buildCoasts({ root: ROOT, levels, lakes: seaLevels.lakes, local: seaLevels.local, basins: seaLevels.basins, landGeoJson: land, outDir: COAST_DIR });
 const reviewedAreas = await buildReviewedAreas(reviewed.regions || {}, coasts, land);
-const riversExt = await buildHydro({ root: ROOT, levels, outDataDir: path.join(ROOT, 'data'), coastDir: COAST_DIR });
+const riversExt = await buildHydro({ root: ROOT, levels, basins: seaLevels.basins, outDataDir: path.join(ROOT, 'data'), coastDir: COAST_DIR });
 const years = await buildBorders(coasts, land, riversExt);
 copyLand();
 const index = {

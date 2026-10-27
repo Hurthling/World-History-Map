@@ -1,6 +1,5 @@
 node_modules/
 tools/.cache/
-dist-artifact/
 # Not published (see corrections/queue-site.md, item С-1)
 Claude outputs/
 Источники/

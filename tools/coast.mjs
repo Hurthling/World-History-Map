@@ -23,6 +23,13 @@
 // inside a given area (lon/lat polygon) a cell is water if it is deeper than the local
 // level instead of the global one. Used to open Bass Strait and the Gulf on map 8000
 // and to draw Lake Carpentaria on map 10 000.
+// Closed seas with their own level ("basins" in the same file, items 3-186, 3-187 of
+// map 8000 and 126, 127 of map 10 000): the Caspian and the Black Sea are not part of
+// the world ocean on the grid, so the global sea level does not touch them. For each
+// such sea we take today's sea (cells connected to "seed" that are deeper than "today")
+// inside "area"; of it, cells deeper than the basin's "level" stay water and the rest
+// becomes land (e.g. the dry northern Caspian). Other low cells inside the area that
+// are not today's sea (Caspian lowland, Karagiye) are dry land as well.
 // =============================================================================
 
 import fs from 'node:fs';
@@ -148,7 +155,59 @@ export async function flatLand(landGeoJson) {
   return { type: 'FeatureCollection', features };
 }
 
-export async function buildCoasts({ root, levels, lakes = {}, local = {}, landGeoJson, outDir }) {
+// Closed seas with their own level (see the header). Returns, for one year:
+//   sea   — Int32Array of today's sea cells of all basins, with
+//   shift — Float32Array: add it to the elevation of such a cell to compare it with
+//           the global sea level (elev + shift < global level  <=>  elev < basin level)
+//   dry   — Uint8Array: other low cells inside the basin areas (dry land)
+export function basinCells(grid, ocean, basins, globalLevel) {
+  const { elev, nx, ny, step } = grid;
+  const shift = new Float32Array(elev.length);
+  const isSea = new Uint8Array(elev.length);
+  const dry = new Uint8Array(elev.length);
+  const report = [];
+  for (const b of basins || []) {
+    const ring = b.area;
+    const xs = ring.map(p => p[0]), ys = ring.map(p => p[1]);
+    const [x0, x1] = [Math.floor((Math.min(...xs) + 180) / step), Math.ceil((Math.max(...xs) + 180) / step)];
+    const [y0, y1] = [Math.floor((Math.min(...ys) + 90) / step), Math.ceil((Math.max(...ys) + 90) / step)];
+    const inside = (i) => {
+      const x = i % nx, y = (i - x) / nx;
+      return x >= x0 && x <= x1 && y >= y0 && y <= y1 && d3.polygonContains(ring, [-180 + x * step, -90 + y * step]);
+    };
+    // Today's sea: flood fill from the seed (4 neighbours) through cells deeper than "today"
+    const seed = Math.round((b.seed[1] + 90) / step) * nx + Math.round((b.seed[0] + 180) / step);
+    const queue = [seed];
+    const seen = new Uint8Array(elev.length);
+    seen[seed] = 1;
+    for (let h = 0; h < queue.length; h++) {
+      const i = queue[h];
+      const x = i % nx, y = (i - x) / nx;
+      const nbrs = [y * nx + ((x + 1) % nx), y * nx + ((x - 1 + nx) % nx)];
+      if (y > 0) nbrs.push(i - nx);
+      if (y < ny - 1) nbrs.push(i + nx);
+      for (const j of nbrs) {
+        if (seen[j] || ocean[j] || !(elev[j] < b.today) || !inside(j)) continue;
+        seen[j] = 1; queue.push(j);
+      }
+    }
+    let water = 0;
+    for (const i of queue) {
+      isSea[i] = 1;
+      shift[i] = globalLevel - b.level;
+      if (elev[i] < b.level) water++;
+    }
+    // Other low cells of the area (not ocean, not today's sea): dry land
+    for (let y = y0; y <= y1; y++) for (let x = x0; x <= x1; x++) {
+      const i = y * nx + x;
+      if (!ocean[i] && !isSea[i] && elev[i] < 0 && inside(i)) dry[i] = 1;
+    }
+    report.push(`${b.name}: level ${b.level} m — ${queue.length} cells of today's sea, ${water} stay water`);
+  }
+  return { isSea, shift, dry, report };
+}
+
+export async function buildCoasts({ root, levels, lakes = {}, local = {}, basins = {}, landGeoJson, outDir }) {
   const years = Object.keys(levels).map(Number);
   if (!years.length) return {};
   const grid = await loadGrid(path.join(root, 'tools', '.cache', 'etopo'));
@@ -179,6 +238,14 @@ export async function buildCoasts({ root, levels, lakes = {}, local = {}, landGe
       }
       console.log(`  coast ${year}: local sea level ${area.level} m — ${area.name} (${cells} cells)`);
     }
+    // Closed seas with their own level (Caspian, Black Sea): shifted like local levels;
+    // other low cells of their areas are dry land
+    const bc = basinCells(grid, ocean, basins[String(year)], level);
+    for (let i = 0; i < field.length; i++) {
+      if (bc.isSea[i]) field[i] = grid.elev[i] + bc.shift[i];
+      else if (bc.dry[i]) field[i] = 1;
+    }
+    for (const line of bc.report) console.log(`  coast ${year}: ${line}`);
     const [mp] = d3.contours().size([grid.nx, grid.ny]).thresholds([level])(field);
     // Grid pixel coordinates → longitude/latitude (pixel i is centred on node i)
     const toLonLat = ([x, y]) => [

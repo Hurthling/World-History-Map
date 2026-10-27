@@ -59,16 +59,19 @@
     <div id="error" role="alert" hidden></div>
     <p class="hint" data-i18n="hint"></p>
 
-    <!-- Legend of maps drawn from dated finds (map 2) -->
-    <div id="legend" class="legend" hidden>
-      <span class="legend-item"><span class="swatch swatch-zone"></span><span data-i18n="legendCulture"></span></span>
-      <span class="legend-item"><span class="swatch swatch-nodata"></span><span data-i18n="noData"></span></span>
-      <span class="legend-item"><span class="swatch swatch-uninhabited"></span><span data-i18n="uninhabited"></span></span>
-      <span id="legend-part" class="legend-part" hidden></span>
-    </div>
+    <!-- Legend of maps drawn from dated finds (map 2): collapsible, starts open (item С-3) -->
+    <details id="legend" class="legend legend-fold" open hidden>
+      <summary data-i18n="legendTitle"></summary>
+      <div class="legend-body">
+        <span class="legend-item"><span class="swatch swatch-zone"></span><span data-i18n="legendCulture"></span></span>
+        <span class="legend-item"><span class="swatch swatch-nodata"></span><span data-i18n="noData"></span></span>
+        <span class="legend-item"><span class="swatch swatch-uninhabited"></span><span data-i18n="uninhabited"></span></span>
+        <span id="legend-part" class="legend-part" hidden></span>
+      </div>
+    </details>
 
     <!-- Legend of map 1 (species and cultures): collapsible, starts collapsed (item 1-27) -->
-    <details id="legend-prob" class="legend legend-prob" hidden>
+    <details id="legend-prob" class="legend legend-fold" hidden>
       <summary data-i18n="legendTitle"></summary>
       <div class="legend-body">
         <span class="legend-item"><span class="swatch sw-sapiens"></span><span data-i18n="spSapiens"></span></span>
@@ -93,6 +96,7 @@
         <span id="year-readout" aria-live="polite">&nbsp;</span>
         <span id="year-step">&nbsp;</span>
         <span id="sea-level" hidden></span>
+        <span id="coast-note" hidden></span>
         <span id="rivers-note" hidden></span>
       </div>
       <div class="controls">

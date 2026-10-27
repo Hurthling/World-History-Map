@@ -503,9 +503,10 @@
   },
   {
     "id": "m2b-uninhabited-antarctica",
-    "why": "Map 2, item 26: land nobody had reached yet (own colour).",
+    "why": "Map 2, item 26: land nobody had reached yet (own colour). Map 8000: added 27.10 together with item 3-186 (the whole map is hatched as 'No data' now, Antarctica must not be).",
     "years": [
-      -10000
+      -10000,
+      -8000
     ],
     "action": "add",
     "shape": "uninhabited-antarctica",
@@ -1102,7 +1103,7 @@
   },
   {
     "id": "m2d-yenisei",
-    "why": "Map 2, item 59, with a note.",
+    "why": "Map 2, items 59 and 122 (accepted 26.10): one solid area over the two find spots (Maina, Maltat), with a note.",
     "years": [
       -10000
     ],
@@ -2619,6 +2620,22 @@
       "SOURCES": "https://www.eva.mpg.de",
       "GROUP": "Oakhurst-type foragers of southern Africa",
       "AREA": "Pomongwan (Matobo, Zimbabwe)"
+    }
+  },
+  {
+    "id": "m8-chessungalane",
+    "why": "Map 8000, item 3-30 (accepted 26.10, variant a): third area of the Oakhurst-type group, with a note.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-chessungalane",
+    "properties": {
+      "NAME": "Oakhurst-type foragers of southern Africa",
+      "NOTE": "chessungalane-8000",
+      "SOURCES": "https://doi.org/10.1007/s10437-026-09659-7",
+      "GROUP": "Oakhurst-type foragers of southern Africa",
+      "AREA": "Chessungalane (Save valley, Mozambique)"
     }
   },
   {
@@ -4289,7 +4306,7 @@
   },
   {
     "id": "m8-yenisei",
-    "why": "Map 8000, Siberia, item 3-138 (accepted 26.10): two parts (Biryusa bay, Kokorevo).",
+    "why": "Map 8000, Siberia, items 3-138 and 3-155 (accepted 26.10): one solid area over the two find spots (Biryusa bay, Kokorevo), with a note.",
     "years": [
       -8000
     ],
@@ -4331,7 +4348,7 @@
   },
   {
     "id": "m8-altai",
-    "why": "Map 8000, Siberia, item 3-144 (accepted 26.10, variant a): zone with a note, two parts.",
+    "why": "Map 8000, Siberia, items 3-144 and 3-156 (accepted 26.10, variant a): zone with a note, one solid area over the two find spots.",
     "years": [
       -8000
     ],
@@ -4356,5 +4373,549 @@
       "NOTE": "sakhalin-8000",
       "SOURCES": "https://repository.arizona.edu/handle/10150/655086"
     }
+  },
+  {
+    "id": "m8-remove-steppe",
+    "why": "Map 8000, item 3-185 (accepted 27.10): generic or anachronistic source zone of Asia, replaced by zones drawn from dated finds.",
+    "years": [
+      -8000
+    ],
+    "action": "remove",
+    "where": {
+      "NAME": "Steppe Mesolithic Hunter-Foragers"
+    }
+  },
+  {
+    "id": "m8-remove-highland",
+    "why": "Map 8000, item 3-185 (accepted 27.10): generic or anachronistic source zone of Asia, replaced by zones drawn from dated finds.",
+    "years": [
+      -8000
+    ],
+    "action": "remove",
+    "where": {
+      "NAME": "Highland Mesolithic Hunter-Foragers"
+    }
+  },
+  {
+    "id": "m8-remove-coastal",
+    "why": "Map 8000, item 3-185 (accepted 27.10): generic or anachronistic source zone of Asia, replaced by zones drawn from dated finds.",
+    "years": [
+      -8000
+    ],
+    "action": "remove",
+    "where": {
+      "NAME": "Coastal and Woodland Mesolithic Hunter-Foragers"
+    }
+  },
+  {
+    "id": "m8-remove-alluvial",
+    "why": "Map 8000, item 3-185 (accepted 27.10): generic or anachronistic source zone of Asia, replaced by zones drawn from dated finds.",
+    "years": [
+      -8000
+    ],
+    "action": "remove",
+    "where": {
+      "NAME": "Alluvial Lowland Mesolithic Hunter-Foragers"
+    }
+  },
+  {
+    "id": "m8-remove-levantine-corridor",
+    "why": "Map 8000, item 3-185 (accepted 27.10): generic or anachronistic source zone of Asia, replaced by zones drawn from dated finds.",
+    "years": [
+      -8000
+    ],
+    "action": "remove",
+    "where": {
+      "NAME": "Levantine Corridor (Neolithic Farmers)"
+    }
+  },
+  {
+    "id": "m8-remove-neolithic-farmers",
+    "why": "Map 8000, item 3-185 (accepted 27.10): generic or anachronistic source zone of Asia, replaced by zones drawn from dated finds.",
+    "years": [
+      -8000
+    ],
+    "action": "remove",
+    "where": {
+      "NAME": "Neolithic Farmers"
+    }
+  },
+  {
+    "id": "m8-remove-jomon-source",
+    "why": "Map 8000, item 3-185 (accepted 27.10): generic or anachronistic source zone of Asia, replaced by zones drawn from dated finds. Jōmon: replaced by our zone (3-177).",
+    "years": [
+      -8000
+    ],
+    "action": "remove",
+    "where": {
+      "NAME": "Jōmon"
+    }
+  },
+  {
+    "id": "m8-remove-okhotsk",
+    "why": "Map 8000, item 3-185 (accepted 27.10): generic or anachronistic source zone of Asia, replaced by zones drawn from dated finds. Okhotsk culture: 5th–13th c. AD.",
+    "years": [
+      -8000
+    ],
+    "action": "remove",
+    "where": {
+      "NAME": "Okhotsk culture"
+    }
+  },
+  {
+    "id": "m8-remove-austronesians",
+    "why": "Map 8000, item 3-185 (accepted 27.10): generic or anachronistic source zone of Asia, replaced by zones drawn from dated finds. Austronesians in Island Southeast Asia: from c. 4,000 years ago.",
+    "years": [
+      -8000
+    ],
+    "action": "remove",
+    "where": {
+      "NAME": "Austronesians"
+    }
+  },
+  {
+    "id": "m8-ppnb-levant",
+    "why": "Map 8000, item 3-157 (accepted 27.10): PPNB, area 1 — Levant, Middle Euphrates, Balikh, upper Tigris.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-ppnb-levant",
+    "properties": {
+      "NAME": "Pre-Pottery Neolithic B",
+      "AREA": "Levant and Upper Mesopotamia",
+      "GROUP": "Pre-Pottery Neolithic B",
+      "NOTE": "ppnb-8000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Pre-Pottery_Neolithic_B | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-ppnb-cyprus",
+    "why": "Map 8000, item 3-157 (accepted 27.10): PPNB, area 2 — the whole of Cyprus (outline shared with map 1).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m1-uninhabited-cyprus",
+    "properties": {
+      "NAME": "Pre-Pottery Neolithic B",
+      "AREA": "Cyprus (Cypro-PPNB)",
+      "GROUP": "Pre-Pottery Neolithic B",
+      "NOTE": "cypro-ppnb-8000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Shillourokambos | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-central-anatolia",
+    "why": "Map 8000, item 3-159 (accepted 27.10): zone; Lake Hotamış not drawn, mentioned in the card.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-central-anatolia",
+    "properties": {
+      "NAME": "Early Aceramic Neolithic of Central Anatolia",
+      "NOTE": "central-anatolia-8000",
+      "SOURCES": "https://en.wikipedia.org/wiki/A%C5%9F%C4%B1kl%C4%B1_H%C3%B6y%C3%BCk | https://en.wikipedia.org/wiki/Boncuklu_H%C3%B6y%C3%BCk | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-antalya",
+    "why": "Map 8000, item 3-160 (accepted 27.10): the Antalya zone of map 10 000 (same outline), Mesolithic name and note.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "antalya",
+    "properties": {
+      "NAME": "Mesolithic foragers of Antalya (Öküzini, Beldibi)",
+      "NOTE": "antalya-8000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Okuzini_Cave | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-hacilar",
+    "why": "Map 8000, item 3-160 (accepted 27.10, variant a; ±250 window): 35 km circle with a note.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-hacilar",
+    "properties": {
+      "NAME": "Aceramic Neolithic of Hacılar",
+      "NOTE": "hacilar-8000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Hac%C4%B1lar | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-zagros-ppn",
+    "why": "Map 8000, item 3-161 (accepted 27.10): instead of the Zarzian (ended earlier).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-zagros-ppn",
+    "properties": {
+      "NAME": "Pre-Pottery Neolithic of the Zagros and northern Iraq",
+      "NOTE": "zagros-ppn-8000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Ganj_Dareh | https://en.wikipedia.org/wiki/Chogha_Golan | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-bolaghi",
+    "why": "Map 8000, item 3-162 (accepted 27.10, variant a): 35 km circle, the ±1000-year fork passes.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-bolaghi",
+    "properties": {
+      "NAME": "Early Holocene foragers of the Bolaghi valley (Fars)",
+      "NOTE": "bolaghi-8000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-umm-jirsan",
+    "why": "Map 8000, item 3-163 (accepted 27.10): 35 km circle, no note on the date.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-umm-jirsan",
+    "properties": {
+      "NAME": "Early Holocene foragers of Harrat Khaybar (Umm Jirsan)",
+      "SOURCES": "https://doi.org/10.1371/journal.pone.0299292"
+    }
+  },
+  {
+    "id": "m2k-nejd-leptolithic",
+    "why": "Map 8000, item 3-163 and map 2, item 125 (accepted 27.10): zone with a note on both maps.",
+    "years": [
+      -10000,
+      -8000
+    ],
+    "action": "add",
+    "shape": "nejd-leptolithic",
+    "properties": {
+      "NAME": "Nejd Leptolithic (Dhofar)",
+      "NOTE": "nejd-leptolithic",
+      "SOURCES": "https://ro.uow.edu.au/smhpapers/3187 | https://antiquity.ac.uk/projgall/rose341"
+    }
+  },
+  {
+    "id": "m2k-al-rabyah",
+    "why": "Map 2, item 125 (accepted 27.10, variant a): 35 km circle with a note.",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "al-rabyah",
+    "properties": {
+      "NAME": "Epipalaeolithic foragers of Jubbah (Al-Rabyah)",
+      "NOTE": "al-rabyah",
+      "SOURCES": "https://doi.org/10.1371/journal.pone.0299292"
+    }
+  },
+  {
+    "id": "m8-hotu",
+    "why": "Map 8000, item 3-164 (accepted 27.10): the Hotu and Belt zone of map 10 000 (same outline), with a note.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "hotu-belt",
+    "properties": {
+      "NAME": "Caspian Mesolithic (Hotu and Belt caves)",
+      "NOTE": "hotu-belt-8000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Hotu_and_Kamarband_Caves | https://www.nature.com/articles/s41597-022-01118-7",
+      "GROUP": "South Caspian"
+    }
+  },
+  {
+    "id": "m8-sang-e-chakhmaq",
+    "why": "Map 8000, item 3-164 (accepted 27.10; ±250 window): 35 km circle with a note.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-sang-e-chakhmaq",
+    "properties": {
+      "NAME": "Aceramic Neolithic of Sang-e Chakhmaq",
+      "NOTE": "sang-e-chakhmaq-8000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Sang-e_Chakhmaq | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-obishir",
+    "why": "Map 8000, items 3-165, 3-166 (accepted 27.10): Obishir culture, area 1 — 35 km circle around Obishir V (coordinates from PMC12775865).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-obishir",
+    "properties": {
+      "NAME": "Obishir culture",
+      "AREA": "Fergana foothills (Obishir V)",
+      "GROUP": "Obishir culture",
+      "NOTE": "obishir-8000",
+      "SOURCES": "https://archaeology.nsc.ru/en/publications/jr-aeae-en/18-46-1/annot-01/ | https://pmc.ncbi.nlm.nih.gov/articles/PMC12775865/"
+    }
+  },
+  {
+    "id": "m8-kurteke",
+    "why": "Map 8000, item 3-166 (accepted 27.10): Obishir culture, area 2 — 35 km circle around Kurteke rockshelter.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-kurteke",
+    "properties": {
+      "NAME": "Obishir culture",
+      "AREA": "Eastern Pamir (Kurteke)",
+      "GROUP": "Obishir culture",
+      "NOTE": "kurteke-8000",
+      "SOURCES": "https://doi.org/10.1016/j.ara.2023.100443 | https://pmc.ncbi.nlm.nih.gov/articles/PMC12775865/"
+    }
+  },
+  {
+    "id": "m8-middle-ganga",
+    "why": "Map 8000, item 3-168 (accepted 27.10): the zone continues, wider (Sarai Nahar Rai, Mahadaha, Damdama).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-middle-ganga",
+    "properties": {
+      "NAME": "Mesolithic foragers of the Middle Ganga",
+      "NOTE": "middle-ganga-8000",
+      "SOURCES": "https://ebooks.inflibnet.ac.in/icp02/chapter/mesolithic-cultures-of-india/",
+      "GROUP": "Middle Ganga"
+    }
+  },
+  {
+    "id": "m8-balangoda",
+    "why": "Map 8000, item 3-170 (accepted 27.10, variant a): same outline as map 10 000, with a note.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "balangoda",
+    "properties": {
+      "NAME": "Balangoda culture",
+      "NOTE": "balangoda-8000",
+      "SOURCES": "https://doi.org/10.1371/journal.pone.0222606"
+    }
+  },
+  {
+    "id": "m8-shangshan",
+    "why": "Map 8000, item 3-171 (accepted 27.10).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-shangshan",
+    "properties": {
+      "NAME": "Shangshan culture",
+      "NOTE": "shangshan-8000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Shangshan_culture | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-lijiagou",
+    "why": "Map 8000, item 3-172 (accepted 27.10, variant a): 35 km circle, dates checked against the owner's article.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-lijiagou",
+    "properties": {
+      "NAME": "Lijiagou (early pottery foragers of Henan)",
+      "NOTE": "lijiagou-8000",
+      "SOURCES": "https://www.cambridge.org/core/journals/antiquity/article/lijiagou-and-the-earliest-pottery-in-henan-province-china/DEB39062CB84B123C53A712866305801"
+    }
+  },
+  {
+    "id": "m8-north-china-plain",
+    "why": "Map 8000, item 3-173 (accepted 27.10): the zone continues and widens to Beijing (Donghulin, Zhuannian); Cishan in the card.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-north-china-plain",
+    "properties": {
+      "NAME": "Early pottery foragers of the North China Plain",
+      "NOTE": "nanzhuangtou-8000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Nanzhuangtou | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-zengpiyan",
+    "why": "Map 8000, item 3-174 (accepted 27.10): same outline as map 10 000.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "zengpiyan",
+    "properties": {
+      "NAME": "Cave foragers of Guangxi",
+      "NOTE": "zengpiyan-8000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Zengpiyan | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m2k-xianrendong",
+    "why": "Map 2, item 123 (accepted 27.10, variant a): 35 km circle.",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "xianrendong",
+    "properties": {
+      "NAME": "Cave foragers of Jiangxi (Xianrendong)",
+      "NOTE": "xianrendong",
+      "SOURCES": "https://en.wikipedia.org/wiki/Xianrendong_Cave | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-chikhen-agui",
+    "why": "Map 8000, item 3-175 (accepted 27.10): 35 km circle, coordinates from the owner.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-chikhen-agui",
+    "properties": {
+      "NAME": "Early Holocene foragers of the Gobi Altai (Chikhen Agui)",
+      "SOURCES": "https://jmraae.arizona.edu/fieldreport_2000.html"
+    }
+  },
+  {
+    "id": "m8-jomon",
+    "why": "Map 8000, item 3-177 (accepted 27.10): our Jōmon zone, same outline as map 10 000.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "jomon",
+    "properties": {
+      "NAME": "Jōmon",
+      "NOTE": "jomon-8000",
+      "SOURCES": "https://en.wikipedia.org/wiki/J%C5%8Dmon_pottery"
+    }
+  },
+  {
+    "id": "m8-hokkaido",
+    "why": "Map 8000, item 3-177 (accepted 27.10): same outline as map 10 000.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "hokkaido",
+    "properties": {
+      "NAME": "Hunter-gatherers of Hokkaido",
+      "NOTE": "hokkaido-8000",
+      "SOURCES": "https://www.mdpi.com/2571-550X/3/3/21 | https://archaeology.jp/sites/2006/taisho3.htm"
+    }
+  },
+  {
+    "id": "m8-hoabinhian",
+    "why": "Map 8000, item 3-178 (accepted 27.10): same outline as map 10 000; Bac Son in the card.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "hoabinhian",
+    "properties": {
+      "NAME": "Hoabinhian",
+      "NOTE": "hoabinhian-8000",
+      "SOURCES": "https://rasmishoocongdej.com/wp-content/uploads/2025/08/2021-Hoabinhianoxfordhb-chapter-6_2-finalproof.pdf | https://www.researchgate.net/publication/355165732_Re-evaluating_Pleistocene-Holocene_occupation_of_cave_sites_in_north-west_Thailand_new_radiocarbon_and_luminescence_dating"
+    }
+  },
+  {
+    "id": "m8-niah",
+    "why": "Map 8000, item 3-179 (accepted 27.10): same outline as map 10 000.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "niah",
+    "properties": {
+      "NAME": "Foragers of Niah (Borneo)",
+      "NOTE": "niah-8000",
+      "SOURCES": "https://pages.upd.edu.ph/sites/default/files/pawlik/files/niah_ch05_late_pleistocene_foragers.pdf"
+    }
+  },
+  {
+    "id": "m8-gunung-sewu",
+    "why": "Map 8000, item 3-180 (accepted 27.10): same outline as map 10 000; Gua Mandung and Seropan in the card.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "gunung-sewu",
+    "properties": {
+      "NAME": "Foragers of Gunung Sewu (Java)",
+      "NOTE": "gunung-sewu-8000",
+      "SOURCES": "https://pages.upd.edu.ph/sites/default/files/pawlik/files/pawlik_and_piper_2018_the_philippines_from_c_14000_to_4000_cal_bp_in_regional_context_caj.pdf"
+    }
+  },
+  {
+    "id": "m8-palawan",
+    "why": "Map 8000, item 3-182 (accepted 27.10): same outline as map 10 000, no note on the date (fork at Ille).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "palawan",
+    "properties": {
+      "NAME": "Foragers of Palawan",
+      "NOTE": "palawan-8000",
+      "SOURCES": "https://pages.upd.edu.ph/sites/default/files/pawlik/files/pawlik_and_piper_2018_the_philippines_from_c_14000_to_4000_cal_bp_in_regional_context_caj.pdf"
+    }
+  },
+  {
+    "id": "m8-mindoro",
+    "why": "Map 8000, item 3-182 (accepted 27.10, variant a): same outline as map 10 000, with a note.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "mindoro",
+    "properties": {
+      "NAME": "Foragers of Mindoro (Ilin Island)",
+      "NOTE": "mindoro-8000",
+      "SOURCES": "https://pages.upd.edu.ph/sites/default/files/pawlik/files/pawlik_and_piper_2018_the_philippines_from_c_14000_to_4000_cal_bp_in_regional_context_caj.pdf"
+    }
+  },
+  {
+    "id": "m8-gebe",
+    "why": "Map 8000, item 3-183 (accepted 27.10): same outline as map 10 000, with a note.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "gebe",
+    "properties": {
+      "NAME": "Foragers of Gebe (Moluccas)",
+      "NOTE": "gebe-8000",
+      "SOURCES": "https://pages.upd.edu.ph/sites/default/files/pawlik/files/pawlik_and_piper_2018_the_philippines_from_c_14000_to_4000_cal_bp_in_regional_context_caj.pdf"
+    },
+    "clipToLand": false
+  },
+  {
+    "id": "m8-laili",
+    "why": "Map 8000, item 3-184 (accepted 27.10): same outline as map 10 000, new name (Hatu Saur), no note on the date.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "laili",
+    "properties": {
+      "NAME": "Foragers of Laleia (Timor): Laili, Hatu Saur",
+      "NOTE": "laili-8000",
+      "SOURCES": "https://researchonline.jcu.edu.au/80667/ | https://nomadit.co.uk/conference/euraseaa15/p/3551"
+    },
+    "clipToLand": false
   }
 ]

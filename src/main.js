@@ -182,15 +182,35 @@ function showSeaLevel(year) {
   const el = $('#sea-level');
   const level = data.seaLevelFor(year);
   const note = data.coastNoteFor(year);
-  if (level == null && !note) { el.hidden = true; return; }
+  if (level == null && !note) { el.hidden = true; $('#coast-note').hidden = true; return; }
   el.textContent = level != null ? i18n.t('seaLevel', { m: Math.abs(level) }) : i18n.t(note);
   el.hidden = false;
+  // Both (maps 10 000 and 8000): the note goes on its own line under the sea level
+  // ("levels of the Caspian, Black Sea and Baltic are approximate")
+  const extra = $('#coast-note');
+  extra.hidden = !(level != null && note);
+  extra.textContent = extra.hidden ? '' : i18n.t(note);
 }
 
 // Legend: one for maps drawn from finds (map 2), another for map 1 (species).
-// The map-1 legend is collapsible and starts collapsed everywhere (map 1, item 1-27);
-// it opens with its "Legend" button.
+// Both are collapsible with their "Legend" button: the map-1 legend starts collapsed
+// (item 1-27), the other one open (item С-3). The reader's choice is remembered in the
+// browser and kept when the year changes.
+const LEGENDS = { '#legend': 'legendFindsOpen', '#legend-prob': 'legendProbOpen' };
+let legendsReady = false;
+function initLegends() {
+  for (const [sel, key] of Object.entries(LEGENDS)) {
+    const el = $(sel);
+    const saved = storage.get(key);
+    if (saved === '1') el.open = true;
+    else if (saved === '0') el.open = false;
+    el.addEventListener('toggle', () => storage.set(key, el.open ? '1' : '0'));
+  }
+  legendsReady = true;
+}
+
 function showLegend(mode, year) {
+  if (!legendsReady) initLegends();
   $('#legend').hidden = mode !== 'finds';
   // A map reviewed only in part: say which parts
   const part = $('#legend-part');
