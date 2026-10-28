@@ -215,7 +215,7 @@
   },
   {
     "id": "m2-azilian",
-    "why": "Map 2, item 4.",
+    "why": "Map 2, item 4. Item 129 (28.10): AREA added — the culture now has a second area (Rhône valley and the Northern Alps).",
     "years": [
       -10000
     ],
@@ -224,7 +224,8 @@
     "properties": {
       "NAME": "Azilian culture",
       "NOTE": "azilian",
-      "SOURCES": "https://en.wikipedia.org/wiki/Azilian"
+      "SOURCES": "https://en.wikipedia.org/wiki/Azilian",
+      "AREA": "Cantabria, the Pyrenees and Aquitaine"
     }
   },
   {
@@ -433,7 +434,7 @@
   },
   {
     "id": "m2b-epigravettian",
-    "why": "Map 2, item 27.",
+    "why": "Map 2, item 27. Item 136 (28.10): extended west along the Ligurian coast to the Maritime Alps (Arene Candide, Grimaldi, Abri Martin).",
     "years": [
       -10000
     ],
@@ -442,7 +443,7 @@
     "properties": {
       "NAME": "Final Epigravettian",
       "NOTE": "epigravettian",
-      "SOURCES": "https://en.wikipedia.org/wiki/Epigravettian"
+      "SOURCES": "https://en.wikipedia.org/wiki/Epigravettian | https://books.openedition.org/apdca/598"
     }
   },
   {
@@ -989,7 +990,7 @@
   },
   {
     "id": "m2d-fishtail",
-    "why": "Map 2, item 58 (a); note replaced by item 91 (20.10).",
+    "why": "Map 2, item 58 (a); note replaced by item 91 (20.10). Item 137 (28.10): the east edge reaches the coast of Buenos Aires province (Tandilia and Interserrana were outside by mistake).",
     "years": [
       -10000
     ],
@@ -2330,7 +2331,7 @@
   },
   {
     "id": "m8-capsian",
-    "why": "Map 8000, item 3-1.",
+    "why": "Map 8000, item 3-1. Item 3-199 (28.10): extended west over the High Plains of Constantine to Sétif (Medjez II, Koudiat Kifene Lahda; Perrault 2025).",
     "years": [
       -8000
     ],
@@ -2339,12 +2340,12 @@
     "properties": {
       "NAME": "Capsian culture",
       "NOTE": "capsian-8000",
-      "SOURCES": "https://en.wikipedia.org/wiki/Capsian_culture | https://link.springer.com/journal/10437"
+      "SOURCES": "https://en.wikipedia.org/wiki/Capsian_culture | https://link.springer.com/article/10.1007/s10437-024-09599-0"
     }
   },
   {
     "id": "m8-west-maghreb",
-    "why": "Map 8000, item 3-28.",
+    "why": "Map 8000, item 3-28. Item 3-198 (28.10): the Eastern Rif area extended to the lower Moulouya (Mtlili 1, Ifri el Baroud).",
     "years": [
       -8000
     ],
@@ -2353,7 +2354,7 @@
     "properties": {
       "NAME": "Epipalaeolithic foragers of the western Maghreb",
       "NOTE": "west-maghreb",
-      "SOURCES": "https://www.sfb806.uni-koeln.de | https://www.prehistoire.org"
+      "SOURCES": "https://www.sfb806.uni-koeln.de | https://www.prehistoire.org | https://www.nature.com/articles/s41597-022-01118-7"
     }
   },
   {
@@ -3585,7 +3586,7 @@
   },
   {
     "id": "m8-maglemose",
-    "why": "Map 8000, Europe, item 3-95 (accepted 23.10). Item 3-118 (24.10): one culture with two areas — this one and Britain.",
+    "why": "Map 8000, Europe, item 3-95 (accepted 23.10). Item 3-118 (24.10): one culture with two areas — this one and Britain. Item 3-194 (28.10): south edge down to the Rhine–Meuse and Westmünsterland (the gap was a construction error).",
     "years": [
       -8000
     ],
@@ -3617,7 +3618,7 @@
   },
   {
     "id": "m8-komornica",
-    "why": "Map 8000, Europe, item 3-97 (accepted 23.10).",
+    "why": "Map 8000, Europe, item 3-97 (accepted 23.10). Item 3-196 (28.10): west edge to the Oder (Kalisz Pomorski 3, Pławienko 31).",
     "years": [
       -8000
     ],
@@ -3626,7 +3627,7 @@
     "properties": {
       "NAME": "Komornica culture",
       "NOTE": "komornica",
-      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7 | https://radonb.ufg.uni-kiel.de/samples/33432"
     }
   },
   {
@@ -4605,16 +4606,16 @@
   },
   {
     "id": "m2k-al-rabyah",
-    "why": "Map 2, item 125 (accepted 27.10, variant a): 35 km circle with a note.",
+    "why": "Map 10 000, item 125 (27.10) put Al-Rabyah on map 10 000 by mistake: c. 12.2 ka is the end of the lake under the site, the tool layer is OSL c. 10.1 ka (Hilbert et al. 2014). Item 134 / 3-190 (accepted 27.10, applied 28.10): moved to map 8000, new note.",
     "years": [
-      -10000
+      -8000
     ],
     "action": "add",
     "shape": "al-rabyah",
     "properties": {
       "NAME": "Epipalaeolithic foragers of Jubbah (Al-Rabyah)",
       "NOTE": "al-rabyah",
-      "SOURCES": "https://doi.org/10.1371/journal.pone.0299292"
+      "SOURCES": "https://doi.org/10.1371/journal.pone.0299292 | https://www.um.edu.mt/library/oar/handle/123456789/97116"
     }
   },
   {
@@ -4917,5 +4918,178 @@
       "SOURCES": "https://researchonline.jcu.edu.au/80667/ | https://nomadit.co.uk/conference/euraseaa15/p/3551"
     },
     "clipToLand": false
+  },
+  {
+    "id": "m2l-azilian-rhone",
+    "why": "Map 10 000, items 129 and 136 (accepted 27.10): second area of the Azilian — Bugey, Savoy, Vercors, the middle Rhône to the Ardèche and Gard, and western Provence (Cornille, Luberon).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "azilian-rhone",
+    "properties": {
+      "NAME": "Azilian culture",
+      "AREA": "Rhône valley, the Northern Alps and Provence",
+      "NOTE": "azilian-rhone",
+      "SOURCES": "https://en.wikipedia.org/wiki/Azilian | https://archive.bu.univ-nantes.fr | https://amtdb.org | https://www.histoireduluberon.fr | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m2l-direkli",
+    "why": "Map 10 000, item 132 (accepted 27.10, variant a): Direkli Cave — 35 km circle with a note (dates by the authors' summaries).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "direkli",
+    "properties": {
+      "NAME": "Late Epipalaeolithic hunters of the Central Taurus (Direkli Cave)",
+      "NOTE": "direkli",
+      "SOURCES": "https://eprints.whiterose.ac.uk/133179/ | https://www.hoyuk.gov.tr"
+    }
+  },
+  {
+    "id": "m2l-sahout",
+    "why": "Map 10 000, item 134 (1a) (accepted 27.10): rock-art sites of the Sahout region south of the Nefud (Guagnin et al. 2025).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "sahout",
+    "properties": {
+      "NAME": "Rock-art hunters of the Sahout region (Jebel Arnaan, Jebel Misma)",
+      "NOTE": "sahout",
+      "SOURCES": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12485027/"
+    }
+  },
+  {
+    "id": "m2l-gruta-del-indio",
+    "why": "Map 10 000, item 138 (accepted 28.10): Gruta del Indio — 35 km circle drawn over the Fishtail zone (not cut; owner's rule 28.10). Same population as the Atuel valley zone of map 8000 (3-203) — one colour (GROUP).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "gruta-del-indio",
+    "properties": {
+      "NAME": "Hunter-gatherers of the Atuel valley (Gruta del Indio)",
+      "GROUP": "Hunter-gatherers of the Atuel valley",
+      "NOTE": "gruta-del-indio",
+      "SOURCES": "https://www.cambridge.org/core/journals/radiocarbon/article/ground-sloth-extinction-and-human-occupation-at-gruta-del-indio-argentina/B7FBFF0E342296D94837021CC383250D | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-sahout",
+    "why": "Map 8000, item 3-189 (accepted 27.10): the Sahout region in the PPNB phase (Sahout phase 2, 10.3–8.7 ka; Shipton, Guagnin et al. 2026). Same outline as map 10 000.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "sahout",
+    "properties": {
+      "NAME": "Rock-art hunters of the Sahout region (Jebel Arnaan, Jebel Misma)",
+      "NOTE": "sahout-8000",
+      "SOURCES": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13226711/ | https://pmc.ncbi.nlm.nih.gov/articles/PMC12485027/"
+    }
+  },
+  {
+    "id": "m8-pampas",
+    "why": "Map 8000, item 3-191 (accepted 28.10): Early Holocene hunter-gatherers of the Pampas — the north-western dune fields, Tandilia and Interserrana.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "pampas-early-holocene",
+    "properties": {
+      "NAME": "Early Holocene hunter-gatherers of the Pampas",
+      "NOTE": "pampas-early-holocene",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-southern-new-england",
+    "why": "Map 8000, item 3-195 (accepted 28.10): a zone of its own — quartz industries without Palmer and Kirk points (Sandy Hill).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-southern-new-england",
+    "properties": {
+      "NAME": "Early Archaic of southern New England (Sandy Hill)",
+      "NOTE": "southern-new-england",
+      "SOURCES": "https://core.tdar.org/document/404177/sandy-hill-a-preliminary-reanalysis | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-kudlaevka",
+    "why": "Map 8000, item 3-197 (accepted 28.10, variant a2): Kudlaevka culture — Lithuania, Belarus and Ukrainian Polesie with Little Polesie at Brody.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-kudlaevka",
+    "properties": {
+      "NAME": "Kudlaevka culture",
+      "NOTE": "kudlaevka",
+      "SOURCES": "https://www.lituanistika.lt/content/15377 | https://e-journals.ku.lt/journal/AB/article/811/file/pdf | https://vestihum.belnauka.by/jour/article/download/1070/922 | https://journals.bsu.by/index.php/history/article/view/6379 | https://adiu.com.ua/index.php/journal/article/download/747/727/1362"
+    }
+  },
+  {
+    "id": "m8-foothill-wyoming",
+    "why": "Map 8000, item 3-200 (accepted 28.10): Foothill–Mountain Paleoindians, Wyoming Basin.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-foothill-wyoming",
+    "properties": {
+      "NAME": "Foothill–Mountain Paleoindians (Alder, Lovell)",
+      "AREA": "Wyoming Basin",
+      "NOTE": "foothill-mountain",
+      "SOURCES": "https://www.projectilepoints.net/Points/Pryor.html | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-foothill-montana",
+    "why": "Map 8000, item 3-200 (accepted 28.10): Foothill–Mountain Paleoindians, south-western Montana.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-foothill-montana",
+    "properties": {
+      "NAME": "Foothill–Mountain Paleoindians (Alder, Lovell)",
+      "AREA": "Mountain valleys of south-western Montana",
+      "NOTE": "foothill-mountain",
+      "SOURCES": "https://en.wikipedia.org/wiki/Barton_Gulch | https://www.projectilepoints.net/Points/Pryor.html | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-claussen",
+    "why": "Map 8000, item 3-201 (accepted 28.10): Claussen — a 35 km circle of its own (culture not determined).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-claussen",
+    "properties": {
+      "NAME": "Paleoarchaic site of the Flint Hills (Claussen)",
+      "NOTE": "claussen",
+      "SOURCES": "https://www.kgs.ku.edu/Publications/Bulletins/TS21/field_trip4.html | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-atuel",
+    "why": "Map 8000, item 3-203 (accepted 28.10): Early Holocene hunter-gatherers of the Atuel valley (Gruta del Indio, Arroyo Malo 3, El Mallín).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-atuel",
+    "properties": {
+      "NAME": "Early Holocene hunter-gatherers of the Atuel valley (Gruta del Indio, Arroyo Malo 3)",
+      "GROUP": "Hunter-gatherers of the Atuel valley",
+      "NOTE": "atuel-early-holocene",
+      "SOURCES": "https://www.cambridge.org/core/journals/radiocarbon/article/ground-sloth-extinction-and-human-occupation-at-gruta-del-indio-argentina/B7FBFF0E342296D94837021CC383250D | https://www.redalyc.org/pdf/506/50623277012.pdf | https://www.nature.com/articles/s41597-022-01118-7"
+    }
   }
 ]

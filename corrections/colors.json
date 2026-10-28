@@ -1,5 +1,5 @@
 {
-  "_about": "Colours of culture zones set by hand (map 8000, items 3-70, 3-73, 3-84, 3-71; Europe of map 8000 — picked by a script 24.10; South America — picked by a script so that zones closer than ≈ 1500 km, and cultures replacing each other in one place, differ): key = GROUP of the zone, or its NAME if it has no GROUP; value = number of the colour in the common palette (src/styles.css, --polity-0 … --polity-17). Map 10 000, items 114–116 (applied 26.10): backed-point groups keep colour 1, Mezmaiskaya 11, Far East — Ust-Karenga 11, Ustinovka 17, Kamchatka 8, Sumnagin 15 and Jōmon 10 written explicitly. Siberia and the Russian Far East (map 8000) and new zones of map 10 000 (items 117, 120, 121) — picked by a script 26.10. One culture — one colour on every map. Zones not listed here get a colour by the hash of their name, like states. Checked by tools/check-colors.mjs at every build. See corrections/README.md. Asia of map 8000 and the new zones of map 10 000 (items 3-157 … 3-184, 123, 125; applied 27.10): picked by the same script; zones carried over from map 10 000 keep their colour where possible (Guangxi caves, Hokkaido, Gunung Sewu, Gebe changed to avoid neighbours of the same colour).",
+  "_about": "Colours of culture zones set by hand (map 8000, items 3-70, 3-73, 3-84, 3-71; Europe of map 8000 — picked by a script 24.10; South America — picked by a script so that zones closer than ≈ 1500 km, and cultures replacing each other in one place, differ): key = GROUP of the zone, or its NAME if it has no GROUP; value = number of the colour in the common palette (src/styles.css, --polity-0 … --polity-17). Map 10 000, items 114–116 (applied 26.10): backed-point groups keep colour 1, Mezmaiskaya 11, Far East — Ust-Karenga 11, Ustinovka 17, Kamchatka 8, Sumnagin 15 and Jōmon 10 written explicitly. Siberia and the Russian Far East (map 8000) and new zones of map 10 000 (items 117, 120, 121) — picked by a script 26.10. One culture — one colour on every map. Zones not listed here get a colour by the hash of their name, like states. Checked by tools/check-colors.mjs at every build. See corrections/README.md. Asia of map 8000 and the new zones of map 10 000 (items 3-157 … 3-184, 123, 125; applied 27.10): picked by the same script; zones carried over from map 10 000 keep their colour where possible (Guangxi caves, Hokkaido, Gunung Sewu, Gebe changed to avoid neighbours of the same colour). Items 128 / 3-188 (applied 28.10): Nejd Leptolithic 4 → 2, Gunung Sewu 9 → 12, Laleia 9 → 3; the \"same colour\" distance is 2000 km since then (tools/check-colors.mjs, SAME_KM; \"similar\" stays 1500 km). New zones of the 28.10 package (items 129–138 of map 10 000, 3-189 … 3-203 of map 8000) — picked by a script: no same colour closer than 2000 km on either map, the fewest similar neighbours closer than 1500 km; Al-Rabyah (moved to map 8000) re-picked 11 → 12.",
   "colors": {
     "Oakhurst-type foragers of southern Africa": 0,
     "Robberg / Oakhurst (southern African foragers)": 0,
@@ -110,8 +110,8 @@
     "Aceramic Neolithic of Sang-e Chakhmaq": 1,
     "Early Holocene foragers of the Bolaghi valley (Fars)": 14,
     "Early Holocene foragers of Harrat Khaybar (Umm Jirsan)": 3,
-    "Nejd Leptolithic (Dhofar)": 4,
-    "Epipalaeolithic foragers of Jubbah (Al-Rabyah)": 11,
+    "Nejd Leptolithic (Dhofar)": 2,
+    "Epipalaeolithic foragers of Jubbah (Al-Rabyah)": 12,
     "Obishir culture": 11,
     "Middle Ganga": 0,
     "Balangoda culture": 4,
@@ -126,8 +126,16 @@
     "Foragers of Niah (Borneo)": 1,
     "Foragers of Palawan": 15,
     "Foragers of Mindoro (Ilin Island)": 7,
-    "Foragers of Gunung Sewu (Java)": 9,
+    "Foragers of Gunung Sewu (Java)": 12,
     "Foragers of Gebe (Moluccas)": 14,
-    "Foragers of Laleia (Timor): Laili, Hatu Saur": 9
+    "Foragers of Laleia (Timor): Laili, Hatu Saur": 3,
+    "Late Epipalaeolithic hunters of the Central Taurus (Direkli Cave)": 16,
+    "Rock-art hunters of the Sahout region (Jebel Arnaan, Jebel Misma)": 5,
+    "Hunter-gatherers of the Atuel valley": 16,
+    "Early Holocene hunter-gatherers of the Pampas": 14,
+    "Early Archaic of southern New England (Sandy Hill)": 5,
+    "Kudlaevka culture": 5,
+    "Foothill–Mountain Paleoindians (Alder, Lovell)": 6,
+    "Paleoarchaic site of the Flint Hills (Claussen)": 1
   }
 }

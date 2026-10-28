@@ -4,7 +4,7 @@
 // Called by build-data.mjs for maps reviewed against dated finds
 // (corrections/reviewed.json → "years"). For every pair of named zones
 // (one entry per colour key: GROUP, else SUBJECTO, else NAME) it reports:
-//   - "same"    — the same palette colour closer than SAME_KM;
+//   - "same"    — the same palette colour closer than SAME_KM (2000 km);
 //   - "similar" — different colours that look alike (OKLab difference < MIN_DIFF,
 //                 light theme) closer than NEAR_KM.
 // If the map is reviewed only in part, only zones inside the reviewed part count.
@@ -20,7 +20,7 @@ import { paletteIndex } from '../src/colors.js';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const NEAR_KM = 1500;
-const SAME_KM = 1500;
+const SAME_KM = 2000; // owner 27.10, item 3-188: same colour within 1500–2000 km is still easy to link by eye
 const MIN_DIFF = 10;
 
 // Light-theme palette, read from styles.css (the first definition of each --polity-N)
