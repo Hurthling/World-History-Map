@@ -507,7 +507,8 @@
     "why": "Map 2, item 26: land nobody had reached yet (own colour). Map 8000: added 27.10 together with item 3-186 (the whole map is hatched as 'No data' now, Antarctica must not be).",
     "years": [
       -10000,
-      -8000
+      -8000,
+      -6000
     ],
     "action": "add",
     "shape": "uninhabited-antarctica",
@@ -523,7 +524,8 @@
     "why": "Map 2, item 26: land nobody had reached yet (own colour). Also map 8000, item 3-57.",
     "years": [
       -10000,
-      -8000
+      -8000,
+      -6000
     ],
     "action": "add",
     "shape": "uninhabited-greenland",
@@ -539,7 +541,8 @@
     "why": "Map 2, item 26: land nobody had reached yet (own colour).",
     "years": [
       -8000,
-      -10000
+      -10000,
+      -6000
     ],
     "action": "add",
     "shape": "uninhabited-north-atlantic",
@@ -555,7 +558,8 @@
     "why": "Map 2, item 26: land nobody had reached yet (own colour). Also map 8000, item 3-57.",
     "years": [
       -10000,
-      -8000
+      -8000,
+      -6000
     ],
     "action": "add",
     "shape": "uninhabited-caribbean",
@@ -571,7 +575,8 @@
     "why": "Map 2, item 26: land nobody had reached yet (own colour). Map 8000, item 3-116: the same zone; outline extended (Lord Howe, Kermadec, Santa Cruz, Nauru, Gilbert and Line atolls, NW Hawaii, Auckland and Snares shelf; Coral Sea banks).",
     "years": [
       -10000,
-      -8000
+      -8000,
+      -6000
     ],
     "action": "add",
     "shape": "uninhabited-remote-oceania",
@@ -587,7 +592,8 @@
     "why": "Map 2, item 26: land nobody had reached yet (own colour). Extended to the other empty Atlantic islands (item 77). Also map 8000, item 3-48.",
     "years": [
       -10000,
-      -8000
+      -8000,
+      -6000
     ],
     "action": "add",
     "shape": "uninhabited-atlantic-islands",
@@ -603,7 +609,8 @@
     "why": "Map 2, item 26: land nobody had reached yet (own colour). Extended by item 72: shoals above water at -60 m. Also map 8000, item 3-48.",
     "years": [
       -10000,
-      -8000
+      -8000,
+      -6000
     ],
     "action": "add",
     "shape": "uninhabited-indian-ocean",
@@ -619,7 +626,8 @@
     "why": "Map 2, item 26: land nobody had reached yet (own colour). Also map 8000, item 3-84.",
     "years": [
       -10000,
-      -8000
+      -8000,
+      -6000
     ],
     "action": "add",
     "shape": "uninhabited-galapagos",
@@ -635,7 +643,8 @@
     "why": "Map 2, item 26: Balearic Islands and Malta, settled only c. 2300 BC and c. 5900 BC.",
     "years": [
       -8000,
-      -10000
+      -10000,
+      -6000
     ],
     "action": "add",
     "shape": "uninhabited-mediterranean",
@@ -2272,7 +2281,8 @@
     "why": "Map 10 000, item 89 (and map 8000, item 3-34): zone with a note.",
     "years": [
       -10000,
-      -8000
+      -8000,
+      -6000
     ],
     "action": "add",
     "shape": "panga-ya-saidi",
@@ -2361,7 +2371,8 @@
     "id": "m8-haua-fteah",
     "why": "Map 8000, item 3-49.",
     "years": [
-      -8000
+      -8000,
+      -6000
     ],
     "action": "add",
     "shape": "haua-fteah",
@@ -2375,7 +2386,8 @@
     "id": "m8-acacus",
     "why": "Map 8000, items 3-12, 3-50; Acacus and Tassili merged into one outline (item 3-73 a, 22.10).",
     "years": [
-      -8000
+      -8000,
+      -6000
     ],
     "action": "add",
     "shape": "m8-acacus-tassili",
@@ -2391,7 +2403,8 @@
     "id": "m8-amekni",
     "why": "Map 8000, item 3-51.",
     "years": [
-      -8000
+      -8000,
+      -6000
     ],
     "action": "add",
     "shape": "m8-amekni",
@@ -2451,7 +2464,8 @@
     "id": "m8-early-khartoum",
     "why": "Map 8000, item 3-41.",
     "years": [
-      -8000
+      -8000,
+      -6000
     ],
     "action": "add",
     "shape": "m8-early-khartoum",
@@ -2467,7 +2481,8 @@
     "id": "m8-khartoum-variant",
     "why": "Map 8000, item 3-41.",
     "years": [
-      -8000
+      -8000,
+      -6000
     ],
     "action": "add",
     "shape": "m8-khartoum-variant",
@@ -2497,7 +2512,8 @@
     "id": "m8-buur-heybe",
     "why": "Map 8000, item 3-10.",
     "years": [
-      -8000
+      -8000,
+      -6000
     ],
     "action": "add",
     "shape": "m8-buur-heybe",
@@ -2525,7 +2541,8 @@
     "id": "m8-shum-laka",
     "why": "Map 8000, item 3-15.",
     "years": [
-      -8000
+      -8000,
+      -6000
     ],
     "action": "add",
     "shape": "m8-shum-laka",
@@ -2539,7 +2556,8 @@
     "id": "m8-iwo-eleru",
     "why": "Map 8000, item 3-36.",
     "years": [
-      -8000
+      -8000,
+      -6000
     ],
     "action": "add",
     "shape": "iwo-eleru",
@@ -2553,7 +2571,8 @@
     "id": "m8-bosumpra",
     "why": "Map 8000, item 3-37.",
     "years": [
-      -8000
+      -8000,
+      -6000
     ],
     "action": "add",
     "shape": "bosumpra",
@@ -2643,7 +2662,8 @@
     "id": "m8-uninhabited-arctic-archipelago",
     "why": "Map 8000, item 3-57.",
     "years": [
-      -8000
+      -8000,
+      -6000
     ],
     "action": "add",
     "shape": "m8-arctic-archipelago",
@@ -2687,7 +2707,8 @@
     "id": "m8-nw-coast-early",
     "why": "Map 8000, item 3-59.",
     "years": [
-      -8000
+      -8000,
+      -6000
     ],
     "action": "add",
     "shape": "m8-nw-coast-early",
@@ -2701,7 +2722,8 @@
     "id": "m8-old-cordilleran",
     "why": "Map 8000, item 3-60.",
     "years": [
-      -8000
+      -8000,
+      -6000
     ],
     "action": "add",
     "shape": "m8-old-cordilleran",
@@ -2730,7 +2752,8 @@
     "id": "m8-channel-islands",
     "why": "Map 8000, item 3-62.",
     "years": [
-      -8000
+      -8000,
+      -6000
     ],
     "action": "add",
     "shape": "channel-islands",
@@ -2883,7 +2906,8 @@
     "id": "m8-el-riego",
     "why": "Map 8000, item 3-68 (closes 3-21).",
     "years": [
-      -8000
+      -8000,
+      -6000
     ],
     "action": "add",
     "shape": "m8-el-riego",
@@ -2953,7 +2977,8 @@
     "id": "m8-panama",
     "why": "Map 8000, item 3-68 (renamed).",
     "years": [
-      -8000
+      -8000,
+      -6000
     ],
     "action": "add",
     "shape": "panama-paleoindian",
@@ -3038,7 +3063,8 @@
     "why": "Map 8000, item 3-86, and map 10 000, item 100 (accepted 21.10, applied 22.10).",
     "years": [
       -10000,
-      -8000
+      -8000,
+      -6000
     ],
     "action": "add",
     "shape": "middle-cauca",
@@ -3181,7 +3207,8 @@
     "id": "m8-abriense",
     "why": "Map 8000, item 3-75 (a), variant (2) — with a note (queue-map8000.md; accepted 21.10, applied 22.10).",
     "years": [
-      -8000
+      -8000,
+      -6000
     ],
     "action": "add",
     "shape": "bogota",
@@ -3237,7 +3264,8 @@
     "id": "m8-las-vegas",
     "why": "Map 8000, item 3-77 (a) (queue-map8000.md; accepted 21.10, applied 22.10).",
     "years": [
-      -8000
+      -8000,
+      -6000
     ],
     "action": "add",
     "shape": "las-vegas",
@@ -3251,7 +3279,8 @@
     "id": "m8-cubilan-chobshi",
     "why": "Map 8000, item 3-77 (c) (queue-map8000.md; accepted 21.10, applied 22.10).",
     "years": [
-      -8000
+      -8000,
+      -6000
     ],
     "action": "add",
     "shape": "cubilan-chobshi",
@@ -3307,7 +3336,8 @@
     "id": "m8-south-central-andes",
     "why": "Map 8000, item 3-80 (queue-map8000.md; accepted 21.10, applied 22.10).",
     "years": [
-      -8000
+      -8000,
+      -6000
     ],
     "action": "add",
     "shape": "south-central-andes",
@@ -3349,7 +3379,8 @@
     "id": "m8-puna-jujuy",
     "why": "Map 8000, item 3-81 (b) (queue-map8000.md; accepted 21.10, applied 22.10).",
     "years": [
-      -8000
+      -8000,
+      -6000
     ],
     "action": "add",
     "shape": "puna-jujuy",
@@ -3419,7 +3450,8 @@
     "id": "m8-serra-talhada",
     "why": "Map 8000, item 3-83 (a) (queue-map8000.md; accepted 21.10, applied 22.10).",
     "years": [
-      -8000
+      -8000,
+      -6000
     ],
     "action": "add",
     "shape": "serra-talhada",
@@ -3447,7 +3479,8 @@
     "id": "m8-santa-elina",
     "why": "Map 8000, item 3-83 (c) (queue-map8000.md; accepted 21.10, applied 22.10).",
     "years": [
-      -8000
+      -8000,
+      -6000
     ],
     "action": "add",
     "shape": "santa-elina",
@@ -3475,7 +3508,8 @@
     "id": "m8-moxos",
     "why": "Map 8000, item 3-83 (h) (queue-map8000.md; accepted 21.10, applied 22.10).",
     "years": [
-      -8000
+      -8000,
+      -6000
     ],
     "action": "add",
     "shape": "moxos",
@@ -3546,7 +3580,8 @@
     "id": "m8-kunda",
     "why": "Map 8000, Europe, item 3-94 (accepted 23.10).",
     "years": [
-      -8000
+      -8000,
+      -6000
     ],
     "action": "add",
     "shape": "m8-kunda",
@@ -3560,7 +3595,8 @@
     "id": "m8-butovo",
     "why": "Map 8000, Europe, item 3-90 (a) (accepted 23.10).",
     "years": [
-      -8000
+      -8000,
+      -6000
     ],
     "action": "add",
     "shape": "m8-butovo",
@@ -3784,7 +3820,8 @@
     "id": "m8-corsica-sardinia",
     "why": "Map 8000, Europe, item 3-100 (a) (accepted 23.10).",
     "years": [
-      -8000
+      -8000,
+      -6000
     ],
     "action": "add",
     "shape": "m8-corsica-sardinia",
@@ -4119,7 +4156,8 @@
     "id": "m8-ng-highlands",
     "why": "Map 8000, item 3-115: outline of map 10 000.",
     "years": [
-      -8000
+      -8000,
+      -6000
     ],
     "action": "add",
     "shape": "ng-highlands",
@@ -4135,7 +4173,8 @@
     "id": "m8-manus",
     "why": "Map 8000, item 3-115: outline of map 10 000.",
     "years": [
-      -8000
+      -8000,
+      -6000
     ],
     "action": "add",
     "shape": "manus",
@@ -4151,7 +4190,8 @@
     "id": "m8-new-ireland",
     "why": "Map 8000, item 3-115: outline of map 10 000.",
     "years": [
-      -8000
+      -8000,
+      -6000
     ],
     "action": "add",
     "shape": "new-ireland",
@@ -4225,7 +4265,8 @@
     "id": "m8-ust-karenga",
     "why": "Map 8000, Siberia, item 3-128 (accepted 26.10): same outline as on map 10 000.",
     "years": [
-      -8000
+      -8000,
+      -6000
     ],
     "action": "add",
     "shape": "ust-karenga",
@@ -4239,7 +4280,8 @@
     "id": "m8-sumnagin",
     "why": "Map 8000, Siberia, item 3-130 (accepted 26.10): same outline; Khatystyr Cave in the note.",
     "years": [
-      -8000
+      -8000,
+      -6000
     ],
     "action": "add",
     "shape": "sumnagin",
@@ -4594,7 +4636,8 @@
     "why": "Map 8000, item 3-163 and map 2, item 125 (accepted 27.10): zone with a note on both maps.",
     "years": [
       -10000,
-      -8000
+      -8000,
+      -6000
     ],
     "action": "add",
     "shape": "nejd-leptolithic",
@@ -4651,7 +4694,8 @@
     "id": "m8-obishir",
     "why": "Map 8000, items 3-165, 3-166 (accepted 27.10): Obishir culture, area 1 — 35 km circle around Obishir V (coordinates from PMC12775865).",
     "years": [
-      -8000
+      -8000,
+      -6000
     ],
     "action": "add",
     "shape": "m8-obishir",
@@ -4683,7 +4727,8 @@
     "id": "m8-middle-ganga",
     "why": "Map 8000, item 3-168 (accepted 27.10): the zone continues, wider (Sarai Nahar Rai, Mahadaha, Damdama).",
     "years": [
-      -8000
+      -8000,
+      -6000
     ],
     "action": "add",
     "shape": "m8-middle-ganga",
@@ -4754,7 +4799,8 @@
     "id": "m8-zengpiyan",
     "why": "Map 8000, item 3-174 (accepted 27.10): same outline as map 10 000.",
     "years": [
-      -8000
+      -8000,
+      -6000
     ],
     "action": "add",
     "shape": "zengpiyan",
@@ -4823,7 +4869,8 @@
     "id": "m8-hoabinhian",
     "why": "Map 8000, item 3-178 (accepted 27.10): same outline as map 10 000; Bac Son in the card.",
     "years": [
-      -8000
+      -8000,
+      -6000
     ],
     "action": "add",
     "shape": "hoabinhian",
@@ -4837,7 +4884,8 @@
     "id": "m8-niah",
     "why": "Map 8000, item 3-179 (accepted 27.10): same outline as map 10 000.",
     "years": [
-      -8000
+      -8000,
+      -6000
     ],
     "action": "add",
     "shape": "niah",
@@ -4851,7 +4899,8 @@
     "id": "m8-gunung-sewu",
     "why": "Map 8000, item 3-180 (accepted 27.10): same outline as map 10 000; Gua Mandung and Seropan in the card.",
     "years": [
-      -8000
+      -8000,
+      -6000
     ],
     "action": "add",
     "shape": "gunung-sewu",
@@ -5090,6 +5139,1025 @@
       "GROUP": "Hunter-gatherers of the Atuel valley",
       "NOTE": "atuel-early-holocene",
       "SOURCES": "https://www.cambridge.org/core/journals/radiocarbon/article/ground-sloth-extinction-and-human-occupation-at-gruta-del-indio-argentina/B7FBFF0E342296D94837021CC383250D | https://www.redalyc.org/pdf/506/50623277012.pdf | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-iron-gates",
+    "why": "Map 6000* (28.10): carried from map 8000 (m2-iron-gates) with a new name or note.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "iron-gates",
+    "properties": {
+      "NAME": "Iron Gates Mesolithic",
+      "NOTE": "iron-gates-6000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Iron_Gates_Mesolithic"
+    }
+  },
+  {
+    "id": "m6-capsian",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-capsian) with a new name or note.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m8-capsian",
+    "properties": {
+      "NAME": "Upper Capsian",
+      "NOTE": "capsian-6000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Capsian_culture | https://link.springer.com/article/10.1007/s10437-024-09599-0"
+    }
+  },
+  {
+    "id": "m6-west-maghreb",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-west-maghreb) with a new name or note.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m8-west-maghreb",
+    "properties": {
+      "NAME": "Epipalaeolithic foragers of the western Maghreb",
+      "NOTE": "west-maghreb-6000",
+      "SOURCES": "https://www.sfb806.uni-koeln.de | https://www.prehistoire.org | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-eastern-sahara",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-eastern-sahara) with a new name or note.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m8-eastern-sahara",
+    "properties": {
+      "NAME": "Foragers and early herders of the Eastern Sahara",
+      "NOTE": "eastern-sahara-6000",
+      "SOURCES": "https://doi.org/10.1126/science.1130989 | https://en.wikipedia.org/wiki/Nabta_Playa"
+    }
+  },
+  {
+    "id": "m6-ounjougou",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-ounjougou) with a new name or note.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m8-ounjougou",
+    "properties": {
+      "NAME": "Early pottery foragers of Ounjougou (Mali)",
+      "NOTE": "ounjougou-6000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Ounjougou"
+    }
+  },
+  {
+    "id": "m6-eburran",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-eburran) with a new name or note.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "eburran",
+    "properties": {
+      "NAME": "Eburran industry",
+      "NOTE": "eburran-6000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Eburran_industry"
+    }
+  },
+  {
+    "id": "m6-matupi",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-matupi) with a new name or note.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "matupi",
+    "properties": {
+      "NAME": "Matupi Cave foragers (Ituri)",
+      "NOTE": "matupi-6000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Matupi_Cave"
+    }
+  },
+  {
+    "id": "m6-hora",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-hora) with a new name or note.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "hora",
+    "properties": {
+      "NAME": "Hora foragers (northern Malawi)",
+      "NOTE": "hora-6000",
+      "SOURCES": "https://www.science.org/journal/sciadv | https://www.nature.com/articles/s41586-022-04430-9"
+    }
+  },
+  {
+    "id": "m6-oakhurst",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-oakhurst) with a new name or note.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "robberg-oakhurst",
+    "properties": {
+      "NAME": "Wilton-type foragers of southern Africa",
+      "NOTE": "wilton-6000",
+      "SOURCES": "https://scholarlypublications.universiteitleiden.nl | https://www.nature.com/natecolevol/",
+      "GROUP": "Wilton-type foragers of southern Africa",
+      "AREA": "Wilton industry (South Africa, Lesotho)"
+    }
+  },
+  {
+    "id": "m6-pomongwan",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-pomongwan) with a new name or note.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m8-pomongwan",
+    "properties": {
+      "NAME": "Wilton-type foragers of southern Africa",
+      "NOTE": "matobo-6000",
+      "SOURCES": "https://www.eva.mpg.de",
+      "GROUP": "Wilton-type foragers of southern Africa",
+      "AREA": "Matobo Hills (Zimbabwe)"
+    }
+  },
+  {
+    "id": "m6-chessungalane",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-chessungalane) with a new name or note.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m8-chessungalane",
+    "properties": {
+      "NAME": "Wilton-type foragers of southern Africa",
+      "NOTE": "chessungalane-6000",
+      "SOURCES": "https://doi.org/10.1007/s10437-026-09659-7",
+      "GROUP": "Wilton-type foragers of southern Africa",
+      "AREA": "Chessungalane (Save valley, Mozambique)"
+    }
+  },
+  {
+    "id": "m6-paleo-arctic",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-paleo-arctic) with a new name or note.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m8-paleo-arctic",
+    "properties": {
+      "NAME": "Late Paleo-Arctic foragers of interior Alaska",
+      "NOTE": "paleo-arctic-6000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Paleo-Arctic_tradition | https://dnr.alaska.gov/parks/oha/projects/brokenmammoth.htm"
+    }
+  },
+  {
+    "id": "m6-western-stemmed",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-western-stemmed) with a new name or note.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "western-stemmed",
+    "properties": {
+      "NAME": "Early Archaic of the Great Basin and Columbia Plateau",
+      "NOTE": "great-basin-archaic-6000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Western_Stemmed_Tradition | https://oregonencyclopedia.org/articles/fort_rock_sandals"
+    }
+  },
+  {
+    "id": "m6-san-dieguito",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-san-dieguito) with a new name or note.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m8-san-dieguito",
+    "properties": {
+      "NAME": "La Jolla complex",
+      "NOTE": "la-jolla-6000",
+      "SOURCES": "https://sandiegoarchaeology.org/baja-and-california/la-jolla-phases/ | https://www.sandiegoarchaeology.org/Laylander/Issues/chron.sandieguito.htm"
+    }
+  },
+  {
+    "id": "m6-early-archaic-east",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-early-archaic-east) with a new name or note.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m8-early-archaic-east",
+    "properties": {
+      "NAME": "Early to Middle Archaic of the East (Kirk Stemmed, Stanly)",
+      "NOTE": "archaic-east-6000",
+      "SOURCES": "https://archaeology.sites.unc.edu/wp-content/uploads/sites/187/2020/09/Chapman-1975-PhD-RLA.pdf"
+    }
+  },
+  {
+    "id": "m6-el-gigante",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-el-gigante) with a new name or note.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m8-el-gigante",
+    "properties": {
+      "NAME": "El Gigante rockshelter (Honduras)",
+      "NOTE": "el-gigante",
+      "SOURCES": "https://digitalcommons.usf.edu/kip_articles/6214 | https://doaj.org/article/ef23893fd9544c6487a6fb68c57a328d"
+    }
+  },
+  {
+    "id": "m6-kitovyi",
+    "why": "Map 6000* (28.10): carried from map 8000 (m2j-kitovyi) with a new name or note.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "kitovyi",
+    "properties": {
+      "NAME": "Incipient Neolithic of the Kurils (Kitovyi)",
+      "NOTE": "kurils-6000",
+      "SOURCES": "https://archaeology.nsc.ru/en/publications/jr-aeae-en/22-50-2/annot-01/"
+    }
+  },
+  {
+    "id": "m6-lindosa",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-lindosa) with a new name or note.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "lindosa",
+    "properties": {
+      "NAME": "Foragers of the Serranía de La Lindosa",
+      "NOTE": "lindosa-6000",
+      "SOURCES": "https://lastjourney.exeter.ac.uk/wp-content/uploads/2024/02/The-peopling-of-Amazonia-Chrono-stratigraphic-evidence-from-Serrania-La-Lindosa-1.pdf"
+    }
+  },
+  {
+    "id": "m6-atures",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-atures) with a new name or note.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "atures",
+    "properties": {
+      "NAME": "Foragers of the Atures rapids (Middle Orinoco)",
+      "NOTE": "atures",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-puna-junin",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-puna-junin) with a new name or note.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "puna-junin",
+    "properties": {
+      "NAME": "Puna hunters of the central Peruvian Andes (Lauricocha, Junín)",
+      "NOTE": "puna-junin-6000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-acha",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-acha) with a new name or note.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "acha",
+    "properties": {
+      "NAME": "Early Archaic fishers of the Arica coast",
+      "NOTE": "acha-6000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-piuquenes",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-piuquenes) with a new name or note.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "piuquenes",
+    "properties": {
+      "NAME": "Early Archaic of the central Chilean Andes (Los Piuquenes)",
+      "NOTE": "piuquenes-6000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-patagonia",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-patagonia) with a new name or note.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "patagonia-early-holocene",
+    "properties": {
+      "NAME": "Hunters of Patagonia (Santa Cruz and Aysén)",
+      "NOTE": "patagonia-6000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Cueva_de_las_Manos | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-umbu",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-umbu) with a new name or note.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "umbu",
+    "properties": {
+      "NAME": "Umbu tradition",
+      "NOTE": "umbu-6000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-komsa",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-komsa) with a new name or note.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m8-komsa",
+    "properties": {
+      "NAME": "Late Mesolithic of Finnmark",
+      "NOTE": "finnmark-6000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Komsa_culture | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-west-scandinavia",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-west-scandinavia) with a new name or note.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m8-west-scandinavia",
+    "properties": {
+      "NAME": "Late Mesolithic of Norway and western Sweden (Nøstvet, Lihult)",
+      "NOTE": "west-scandinavia-6000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Fosna%E2%80%93Hensbacka_culture | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-finland",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-finland) with a new name or note.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m8-finland",
+    "properties": {
+      "NAME": "Suomusjärvi culture",
+      "NOTE": "suomusjarvi-6000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Antrea_Net | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-maglemose",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-maglemose) with a new name or note.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-kongemose",
+    "properties": {
+      "NAME": "Kongemose culture",
+      "NOTE": "kongemose-6000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Maglemosian_culture | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-britain",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-britain) with a new name or note.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m8-britain",
+    "properties": {
+      "NAME": "Late Mesolithic of Britain",
+      "NOTE": "britain-6000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Star_Carr | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-komornica",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-komornica) with a new name or note.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m8-komornica",
+    "properties": {
+      "NAME": "Komornica culture",
+      "NOTE": "komornica-6000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7 | https://radonb.ufg.uni-kiel.de/samples/33432"
+    }
+  },
+  {
+    "id": "m6-central-france",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-central-france) with a new name or note.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m8-central-france",
+    "properties": {
+      "NAME": "Mesolithic of central France and Burgundy",
+      "NOTE": "central-france-6000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7 | https://hls-dhs-dss.ch/fr/articles/008011/2019-10-29/"
+    }
+  },
+  {
+    "id": "m6-beuron-north",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-beuron-north) with a new name or note.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m8-beuron-north",
+    "properties": {
+      "NAME": "Tardenoisian culture",
+      "NOTE": "tardenoisian-6000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Tardenoisian | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-beuron-south",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-beuron-south) with a new name or note.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m8-beuron-south",
+    "properties": {
+      "NAME": "Late Mesolithic of central Europe",
+      "NOTE": "late-meso-s-germany-6000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7",
+      "GROUP": "Late Mesolithic of central Europe",
+      "AREA": "Southern Germany, Alsace and northern Switzerland"
+    }
+  },
+  {
+    "id": "m6-beuron-bohemia",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-beuron-bohemia) with a new name or note.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m8-beuron-bohemia",
+    "properties": {
+      "NAME": "Late Mesolithic of central Europe",
+      "NOTE": "late-meso-bohemia-6000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7",
+      "GROUP": "Late Mesolithic of central Europe",
+      "AREA": "Northern Bohemia"
+    }
+  },
+  {
+    "id": "m6-cantabria",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-cantabria) with a new name or note.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m8-cantabria",
+    "properties": {
+      "NAME": "Late Mesolithic of Cantabria (Asturian)",
+      "NOTE": "asturian-6000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-estremadura",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-estremadura) with a new name or note.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m8-estremadura",
+    "properties": {
+      "NAME": "Late Mesolithic of Estremadura and the Tagus (Muge)",
+      "NOTE": "muge-6000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-nerja",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-nerja) with a new name or note.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m8-nerja",
+    "properties": {
+      "NAME": "Mesolithic of Andalusia (Nerja Cave)",
+      "NOTE": "nerja-6000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Caves_of_Nerja | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-kukrek",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-kukrek) with a new name or note.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m8-kukrek",
+    "properties": {
+      "NAME": "Kukrek culture",
+      "NOTE": "kukrek-6000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-se-australia",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-se-australia) with a new name or note.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m8-se-australia",
+    "properties": {
+      "NAME": "Foragers of Australia",
+      "NOTE": "australia-6000",
+      "SOURCES": "https://researchonline.jcu.edu.au/28670/ | https://www.nature.com/articles/nature18299 | https://www.nature.com/articles/s41597-022-01118-7",
+      "GROUP": "Sahul — Australia",
+      "AREA": "Foragers of south-eastern Australia"
+    }
+  },
+  {
+    "id": "m6-se-queensland",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-se-queensland) with a new name or note.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "se-queensland",
+    "properties": {
+      "NAME": "Foragers of Australia",
+      "NOTE": "australia-6000",
+      "SOURCES": "https://researchonline.jcu.edu.au/28670/ | https://www.nature.com/articles/s41597-022-01118-7",
+      "GROUP": "Sahul — Australia",
+      "AREA": "Foragers of south-east Queensland"
+    }
+  },
+  {
+    "id": "m6-einasleigh",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-einasleigh) with a new name or note.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m8-einasleigh",
+    "properties": {
+      "NAME": "Foragers of Australia",
+      "NOTE": "australia-6000",
+      "SOURCES": "https://researchonline.jcu.edu.au/28670/ | https://www.nature.com/articles/s41597-022-01118-7",
+      "GROUP": "Sahul — Australia",
+      "AREA": "Foragers of the Einasleigh Uplands and Gulf plains"
+    }
+  },
+  {
+    "id": "m6-laura",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-laura) with a new name or note.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "laura",
+    "properties": {
+      "NAME": "Foragers of Australia",
+      "NOTE": "australia-6000",
+      "SOURCES": "https://austhrutime.com/sandy_creek_shelter.htm | https://www.nature.com/articles/s41597-022-01118-7",
+      "GROUP": "Sahul — Australia",
+      "AREA": "Foragers of Laura (Cape York)"
+    }
+  },
+  {
+    "id": "m6-arnhem",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-arnhem) with a new name or note.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m8-arnhem-victoria",
+    "properties": {
+      "NAME": "Foragers of Australia",
+      "NOTE": "australia-6000",
+      "SOURCES": "https://researchonline.jcu.edu.au/28670/ | https://www.nature.com/articles/s41597-022-01118-7",
+      "GROUP": "Sahul — Australia",
+      "AREA": "Foragers of Arnhem Land, Kakadu and the Victoria River"
+    }
+  },
+  {
+    "id": "m6-kimberley",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-kimberley) with a new name or note.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "kimberley",
+    "properties": {
+      "NAME": "Foragers of Australia",
+      "NOTE": "australia-6000",
+      "SOURCES": "https://researchonline.jcu.edu.au/28670/ | https://www.nature.com/articles/s41597-022-01118-7",
+      "GROUP": "Sahul — Australia",
+      "AREA": "Foragers of the Kimberley"
+    }
+  },
+  {
+    "id": "m6-sw-australia",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-sw-australia) with a new name or note.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "sw-australia",
+    "properties": {
+      "NAME": "Foragers of Australia",
+      "NOTE": "australia-6000",
+      "SOURCES": "https://researchonline.jcu.edu.au/28670/ | https://www.nature.com/articles/s41597-022-01118-7",
+      "GROUP": "Sahul — Australia",
+      "AREA": "Foragers of south-west Australia"
+    }
+  },
+  {
+    "id": "m6-pilbara",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-pilbara) with a new name or note.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "pilbara",
+    "properties": {
+      "NAME": "Foragers of Australia",
+      "NOTE": "australia-6000",
+      "SOURCES": "https://researchonline.jcu.edu.au/28670/ | https://www.nature.com/articles/s41597-022-01118-7",
+      "GROUP": "Sahul — Australia",
+      "AREA": "Foragers of the Pilbara"
+    }
+  },
+  {
+    "id": "m6-central-ranges",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-central-ranges) with a new name or note.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m8-central-ranges",
+    "properties": {
+      "NAME": "Foragers of Australia",
+      "NOTE": "australia-6000",
+      "SOURCES": "https://researchonline.jcu.edu.au/28670/ | https://www.nature.com/articles/s41597-022-01118-7",
+      "GROUP": "Sahul — Australia",
+      "AREA": "Foragers of the Central Australian Ranges"
+    }
+  },
+  {
+    "id": "m6-nullarbor",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-nullarbor) with a new name or note.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m8-nullarbor",
+    "properties": {
+      "NAME": "Foragers of Australia",
+      "NOTE": "australia-6000",
+      "SOURCES": "https://researchonline.jcu.edu.au/28670/ | https://www.nature.com/articles/s41597-022-01118-7",
+      "GROUP": "Sahul — Australia",
+      "AREA": "Foragers of the Nullarbor Plain"
+    }
+  },
+  {
+    "id": "m6-tasmania",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-tasmania) with a new name or note.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m8-tasmania",
+    "properties": {
+      "NAME": "Foragers of Tasmania",
+      "NOTE": "tasmania-6000",
+      "SOURCES": "https://austhrutime.com/parmerpar_meethaner_cave.htm | https://www.agriculture.gov.au/sites/default/files/documents/aboriginal-heritage-twwha.pdf | https://www.nature.com/articles/nature18299",
+      "GROUP": "Sahul — Tasmania"
+    }
+  },
+  {
+    "id": "m6-buka",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-buka) with a new name or note.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m8-buka",
+    "properties": {
+      "NAME": "Foragers of New Guinea and nearby islands",
+      "NOTE": "buka-6000",
+      "SOURCES": "https://digitalcollections.anu.edu.au/bitstreams/b87cac31-3d9e-4685-aab1-03ffce19807f/download",
+      "GROUP": "Sahul — New Guinea",
+      "AREA": "Foragers of Buka (Kilu Cave)"
+    }
+  },
+  {
+    "id": "m6-upper-kolyma",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-upper-kolyma) with a new name or note.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m8-upper-kolyma",
+    "properties": {
+      "NAME": "Early Holocene foragers of the Upper Kolyma",
+      "NOTE": "upper-kolyma-6000",
+      "SOURCES": "https://journals.dvfu.ru/gisdv/article/view/724"
+    }
+  },
+  {
+    "id": "m6-shigir",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-shigir) with a new name or note.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m8-shigir",
+    "properties": {
+      "NAME": "Hunter-fishers of the Middle Urals (Gorbunovo bog)",
+      "NOTE": "shigir-6000",
+      "SOURCES": "https://www.cambridge.org/core/product/F3D2E5D73C3850C8E41225E739698432 | https://archaeology.org/news/2021/04/04/210405-shigir-idol-wood/"
+    }
+  },
+  {
+    "id": "m6-konda",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-konda) with a new name or note.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m8-konda",
+    "properties": {
+      "NAME": "Late Mesolithic of the Konda basin",
+      "NOTE": "konda-6000",
+      "SOURCES": "https://bakhtiniada.ru/2309-4370/article/view/34549"
+    }
+  },
+  {
+    "id": "m6-upper-angara",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-upper-angara) with a new name or note.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m8-upper-angara",
+    "properties": {
+      "NAME": "Early Neolithic of Cis-Baikal (Ust-Khaita)",
+      "NOTE": "cis-baikal-6000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-sakhalin",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-sakhalin) with a new name or note.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m8-sakhalin",
+    "properties": {
+      "NAME": "Early Neolithic of Sakhalin",
+      "NOTE": "sakhalin-6000",
+      "SOURCES": "https://repository.arizona.edu/handle/10150/655086"
+    }
+  },
+  {
+    "id": "m6-ppnb-cyprus",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-ppnb-cyprus) with a new name or note.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m1-uninhabited-cyprus",
+    "properties": {
+      "NAME": "Khirokitia culture",
+      "NOTE": "khirokitia-6000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Shillourokambos | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-hacilar",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-hacilar) with a new name or note.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m8-hacilar",
+    "properties": {
+      "NAME": "Late Neolithic of Hacılar",
+      "NOTE": "hacilar-6000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Hac%C4%B1lar | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-hotu",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-hotu) with a new name or note.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "hotu-belt",
+    "properties": {
+      "NAME": "Caspian Neolithic (Hotu and Belt caves)",
+      "NOTE": "hotu-belt-6000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Hotu_and_Kamarband_Caves | https://www.nature.com/articles/s41597-022-01118-7",
+      "GROUP": "South Caspian"
+    }
+  },
+  {
+    "id": "m6-sang-e-chakhmaq",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-sang-e-chakhmaq) with a new name or note.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m8-sang-e-chakhmaq",
+    "properties": {
+      "NAME": "Neolithic of Sang-e Chakhmaq",
+      "NOTE": "sang-e-chakhmaq-6000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Sang-e_Chakhmaq | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-balangoda",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-balangoda) with a new name or note.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "balangoda",
+    "properties": {
+      "NAME": "Balangoda culture",
+      "NOTE": "balangoda-6000",
+      "SOURCES": "https://doi.org/10.1371/journal.pone.0222606"
+    }
+  },
+  {
+    "id": "m6-lijiagou",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-lijiagou) with a new name or note.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m8-lijiagou",
+    "properties": {
+      "NAME": "Peiligang culture",
+      "NOTE": "peiligang-6000",
+      "SOURCES": "https://www.cambridge.org/core/journals/antiquity/article/lijiagou-and-the-earliest-pottery-in-henan-province-china/DEB39062CB84B123C53A712866305801"
+    }
+  },
+  {
+    "id": "m6-jomon",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-jomon) with a new name or note.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "jomon",
+    "properties": {
+      "NAME": "Jōmon",
+      "NOTE": "jomon-6000",
+      "SOURCES": "https://en.wikipedia.org/wiki/J%C5%8Dmon_pottery"
+    }
+  },
+  {
+    "id": "m6-hokkaido",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-hokkaido) with a new name or note.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "hokkaido",
+    "properties": {
+      "NAME": "Hunter-gatherers of Hokkaido",
+      "NOTE": "hokkaido-6000",
+      "SOURCES": "https://www.mdpi.com/2571-550X/3/3/21 | https://archaeology.jp/sites/2006/taisho3.htm"
+    }
+  },
+  {
+    "id": "m6-gebe",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-gebe) with a new name or note.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "gebe",
+    "properties": {
+      "NAME": "Foragers of Gebe (Moluccas)",
+      "NOTE": "gebe-6000",
+      "SOURCES": "https://pages.upd.edu.ph/sites/default/files/pawlik/files/pawlik_and_piper_2018_the_philippines_from_c_14000_to_4000_cal_bp_in_regional_context_caj.pdf"
+    }
+  },
+  {
+    "id": "m6-laili",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-laili) with a new name or note.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "laili",
+    "properties": {
+      "NAME": "Foragers of Laleia (Timor): Laili, Hatu Saur",
+      "NOTE": "laili-6000",
+      "SOURCES": "https://researchonline.jcu.edu.au/80667/ | https://nomadit.co.uk/conference/euraseaa15/p/3551"
+    }
+  },
+  {
+    "id": "m6-pampas",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-pampas) with a new name or note.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "pampas-early-holocene",
+    "properties": {
+      "NAME": "Hunter-gatherers of the Pampas",
+      "NOTE": "pampas-6000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-southern-new-england",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-southern-new-england) with a new name or note.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m8-southern-new-england",
+    "properties": {
+      "NAME": "Middle Archaic of southern New England (Neville, Stark)",
+      "NOTE": "southern-new-england-6000",
+      "SOURCES": "https://core.tdar.org/document/404177/sandy-hill-a-preliminary-reanalysis | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-foothill-wyoming",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-foothill-wyoming) with a new name or note.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m8-foothill-wyoming",
+    "properties": {
+      "NAME": "Early Plains Archaic",
+      "AREA": "Wyoming Basin",
+      "NOTE": "early-plains-archaic-6000",
+      "SOURCES": "https://www.projectilepoints.net/Points/Pryor.html | https://www.nature.com/articles/s41597-022-01118-7",
+      "GROUP": "Early Plains Archaic"
+    }
+  },
+  {
+    "id": "m6-foothill-montana",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-foothill-montana) with a new name or note.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m8-foothill-montana",
+    "properties": {
+      "NAME": "Early Plains Archaic",
+      "AREA": "Mountain valleys of south-western Montana",
+      "NOTE": "early-plains-archaic-6000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Barton_Gulch | https://www.projectilepoints.net/Points/Pryor.html | https://www.nature.com/articles/s41597-022-01118-7",
+      "GROUP": "Early Plains Archaic"
+    }
+  },
+  {
+    "id": "m6-uninhabited-laurentide",
+    "why": "Map 6000* (28.10): remnants of the Laurentide ice sheet c. 8 ka (approximate, after Dalton et al. 2020).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-laurentide",
+    "properties": {
+      "NAME": "Uninhabited — Laurentide ice sheet",
+      "NOTE": "uninhabited-ice-6000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Laurentide_ice_sheet | https://doi.org/10.1016/j.quascirev.2020.106223",
+      "KIND": "uninhabited"
     }
   }
 ]

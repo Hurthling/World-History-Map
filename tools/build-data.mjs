@@ -135,8 +135,13 @@ async function buildBorders(coasts, land, riversExt) {
 
   const files = fs.readdirSync(SOURCE_DIR)
     .map(f => ({ file: f, year: yearFromFilename(f) }))
-    .filter(x => x.year !== null)
-    .sort((a, b) => a.year - b.year);
+    .filter(x => x.year !== null);
+  // Years without a source map (reviewed.json → "noSource", e.g. map 6000*):
+  // built from our zones only, starting from empty land
+  for (const year of reviewed.noSource || []) {
+    if (!files.some(x => x.year === year)) files.push({ file: null, year });
+  }
+  files.sort((a, b) => a.year - b.year);
 
   const rules = loadCorrections(CORRECTIONS);
   const colors = fs.existsSync(COLORS) ? JSON.parse(fs.readFileSync(COLORS, 'utf8')).colors || {} : {};
@@ -149,7 +154,9 @@ async function buildBorders(coasts, land, riversExt) {
     const outPath = path.join(OUT_DIR, outName);
 
     // Apply our corrections to the raw map, save a patched copy, build from it
-    const raw = JSON.parse(fs.readFileSync(path.join(SOURCE_DIR, file), 'utf8'));
+    const raw = file
+      ? JSON.parse(fs.readFileSync(path.join(SOURCE_DIR, file), 'utf8'))
+      : { type: 'FeatureCollection', features: [] };
     const report = applyEdits(raw, year, rules);
     const zones = await buildZones(year, rules, { shapesDir: SHAPES_DIR, land: coasts[year]?.geojson || land });
     report.push(...zones.report);
@@ -171,12 +178,17 @@ async function buildBorders(coasts, land, riversExt) {
       f.properties = f.properties || {};
       for (const k of KEEP_FIELDS) if (!(k in f.properties)) f.properties[k] = null;
     }
-    const patchedPath = path.join(PATCHED_DIR, file);
+    const patchedPath = path.join(PATCHED_DIR, file || `world_${year}_empty.geojson`);
     fs.writeFileSync(patchedPath, JSON.stringify(raw));
 
     // Source map is simplified; our zones are added afterwards unchanged
     // (drawn on top, in the order of corrections.json)
-    const cmd = [
+    // A year without a source map (map 6000*): our zones are the whole map
+    const cmd = !raw.features.length ? [
+      `-i "${zonesPath}" name=borders`,
+      `-filter-fields ${KEEP_FIELDS.join(',')}`,
+      `-o "${outPath}" format=topojson quantization=100000`,
+    ].join(' ') : [
       `-i "${patchedPath}" name=borders`,
       `-filter-fields ${KEEP_FIELDS.join(',')}`,
       // "Probability" maps (map 1) have today's coast: trim source shapes to today's land,

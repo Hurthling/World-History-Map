@@ -31,6 +31,16 @@
       "coastNote": "seaLevelsApprox"
     },
     {
+      "year": -6000,
+      "file": "borders/world_-6000.json",
+      "count": 101,
+      "land": "coast/land_-6000.json",
+      "seaLevel": -20,
+      "riversExt": "coast/rivers_ext_-6000.json",
+      "reviewed": true,
+      "coastNote": "seaLevelsApprox"
+    },
+    {
       "year": -5000,
       "file": "borders/world_-5000.json",
       "count": 29

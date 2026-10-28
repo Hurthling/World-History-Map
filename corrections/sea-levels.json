@@ -2,7 +2,8 @@
   "_about": "Sea level (metres relative to today) used to draw the coastline of ancient maps. Only years listed here get an ancient coastline; all other maps use the modern coastline. Values are rounded global (eustatic) estimates; local uplift/subsidence of land under former ice sheets is ignored. See corrections/README.md. 'lakes': vanished lakes of that year (outlines in corrections/lakes/), cut out of the land like the sea. 'local': areas (lon/lat polygon) where the 10' grid is too shallow — inside them a cell is water if it is deeper than the local level (items 3-112, 113 of map 10 000). 'basins': closed seas cut off from the ocean (the Caspian, the Black Sea with the Sea of Azov) with their own water level — the sea is the cells connected to 'seed' that are deeper than 'level'; the rest of the area becomes land (items 3-186, 3-187 of map 8000, items 126, 127 of map 10 000).",
   "levels": {
     "-10000": -60,
-    "-8000": -40
+    "-8000": -40,
+    "-6000": -20
   },
   "lakes": {
     "-8000": [
@@ -223,6 +224,124 @@
           ]
         ]
       }
+    ],
+    "-6000": [
+      {
+        "name": "Southern Baltic, early Littorina Sea (map 6000*)",
+        "level": -20,
+        "area": [
+          [
+            12.6,
+            53.5
+          ],
+          [
+            22.0,
+            53.5
+          ],
+          [
+            22.0,
+            56.6
+          ],
+          [
+            12.6,
+            56.6
+          ],
+          [
+            12.6,
+            53.5
+          ]
+        ]
+      },
+      {
+        "name": "Northern Baltic: today's coast (map 6000*)",
+        "level": 0,
+        "area": [
+          [
+            16.0,
+            56.6
+          ],
+          [
+            31.0,
+            56.6
+          ],
+          [
+            31.0,
+            66.0
+          ],
+          [
+            21.0,
+            66.0
+          ],
+          [
+            17.0,
+            63.0
+          ],
+          [
+            16.3,
+            60.0
+          ],
+          [
+            16.0,
+            58.7
+          ],
+          [
+            16.0,
+            56.6
+          ]
+        ]
+      },
+      {
+        "name": "Torres Strait: today's coast (map 6000*, item 3-112: flooded about 8 ka, the 10' grid keeps it land)",
+        "level": 0,
+        "area": [
+          [
+            141.0,
+            -11.0
+          ],
+          [
+            143.7,
+            -11.0
+          ],
+          [
+            143.7,
+            -9.25
+          ],
+          [
+            141.0,
+            -9.25
+          ],
+          [
+            141.0,
+            -11.0
+          ]
+        ]
+      },
+      {
+        "name": "Kangaroo Island straits: today's coast (map 6000*, item 3-112)",
+        "level": 0,
+        "area": [
+          [
+            136.3,
+            -36.2
+          ],
+          [
+            138.3,
+            -36.2
+          ],
+          [
+            138.3,
+            -35.3
+          ],
+          [
+            136.3,
+            -35.3
+          ],
+          [
+            136.3,
+            -36.2
+          ]
+        ]
+      }
     ]
   },
   "basins": {
@@ -333,6 +452,78 @@
       {
         "name": "Black Sea and Sea of Azov (item 3-187)",
         "level": -30,
+        "today": 0,
+        "seed": [
+          34.0,
+          43.0
+        ],
+        "area": [
+          [
+            27.0,
+            41.1
+          ],
+          [
+            30.2,
+            41.1
+          ],
+          [
+            30.2,
+            40.8
+          ],
+          [
+            42.0,
+            40.8
+          ],
+          [
+            42.0,
+            47.5
+          ],
+          [
+            27.0,
+            47.5
+          ],
+          [
+            27.0,
+            41.1
+          ]
+        ]
+      }
+    ],
+    "-6000": [
+      {
+        "name": "Caspian Sea (map 6000*): close to the first Holocene lowstand, about -41 m at 7710 cal BP (Brunel repository 2438/10374)",
+        "level": -40,
+        "today": -27,
+        "seed": [
+          51.0,
+          39.0
+        ],
+        "area": [
+          [
+            46.5,
+            36.5
+          ],
+          [
+            55.5,
+            36.5
+          ],
+          [
+            55.5,
+            47.5
+          ],
+          [
+            46.5,
+            47.5
+          ],
+          [
+            46.5,
+            36.5
+          ]
+        ]
+      },
+      {
+        "name": "Black Sea and Sea of Azov (map 6000*): connected to the Mediterranean, same level as the ocean; the Sea of Azov is still land",
+        "level": -20,
         "today": 0,
         "seed": [
           34.0,

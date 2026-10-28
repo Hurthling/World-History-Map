@@ -1,8 +1,9 @@
 {
-  "_about": "Years whose maps were reviewed against scientific sources. 'years': maps drawn only from dated finds — empty land is hatched as 'No data'. 'probability': maps where an area is coloured if the species' presence is more likely than 50 % — no hatching, empty land = 'probability below 50 %'. 'coastNotes': key of a note shown under the year (translations/ui); on a map with an ancient coastline it is shown after the sea level. 'regions': for a map reviewed only in part, the outline (corrections/regions/<shape>.geojson) of the reviewed parts — only there empty land is hatched — and the key of a note under the year. See corrections/README.md.",
+  "_about": "Years whose maps were reviewed against scientific sources. 'years': maps drawn only from dated finds — empty land is hatched as 'No data'. 'probability': maps where an area is coloured if the species' presence is more likely than 50 % — no hatching, empty land = 'probability below 50 %'. 'coastNotes': key of a note shown under the year (translations/ui); on a map with an ancient coastline it is shown after the sea level. 'regions': for a map reviewed only in part, the outline (corrections/regions/<shape>.geojson) of the reviewed parts — only there empty land is hatched — and the key of a note under the year. See corrections/README.md. 'noSource': years without a source map (map 6000*) — built from our zones only, starting from empty land.",
   "years": [
     -10000,
-    -8000
+    -8000,
+    -6000
   ],
   "probability": [
     -123000
@@ -10,7 +11,11 @@
   "coastNotes": {
     "-123000": "coastModernHigher",
     "-10000": "seaLevelsApprox",
-    "-8000": "seaLevelsApprox"
+    "-8000": "seaLevelsApprox",
+    "-6000": "seaLevelsApprox"
   },
-  "regions": {}
+  "regions": {},
+  "noSource": [
+    -6000
+  ]
 }
