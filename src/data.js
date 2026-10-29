@@ -10,6 +10,8 @@
 //   loadHydro()          -> { rivers, lakes } — today's rivers and lakes (all maps)
 //   loadRiversExt(year)  -> river extensions over the exposed sea floor for
 //                           maps with a lower sea level (index.json: "riversExt"), or []
+//   loadVanishedLakes(year) -> vanished lakes of that year (index.json: "vanishedLakes",
+//                           GeoJSON, e.g. Lake Agassiz on map 8000), or []
 //
 // Border files are TopoJSON (compact); they are converted to GeoJSON here
 // using the topojson-client library (global `topojson`, see index.html).
@@ -75,6 +77,18 @@ export function loadRiversExt(year) {
     extCache.set(file, promise);
   }
   return extCache.get(file);
+}
+
+const lakeCache = new Map();
+export function loadVanishedLakes(year) {
+  const file = index.years.find(y => y.year === year)?.vanishedLakes;
+  if (!file) return Promise.resolve([]);
+  if (!lakeCache.has(file)) {
+    const promise = loadJson(CONFIG.paths.dataRoot + file).then(geo => geo.features);
+    promise.catch(() => lakeCache.delete(file));
+    lakeCache.set(file, promise);
+  }
+  return lakeCache.get(file);
 }
 
 // Map reviewed only in part (map 8000): the reviewed parts of the land (GeoJSON),

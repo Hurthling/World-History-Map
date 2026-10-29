@@ -476,6 +476,7 @@ body.is-loading .timeline::before { opacity: 1; animation: loading 900ms ease-in
 /* Rivers and lakes (today's; see tools/hydro.mjs). They ignore the mouse. */
 .hydro, .lakes, .rivers, .ice-cover { pointer-events: none; }
 .ice-cover path { stroke: none; }
+.vanished-lake { fill: var(--ocean); pointer-events: none; }
 .lake { fill: var(--ocean); stroke: var(--river); stroke-width: calc(0.5px * var(--rs, 1)); vector-effect: non-scaling-stroke; }
 .river {
   fill: none; stroke: var(--river); stroke-linecap: round; stroke-linejoin: round;

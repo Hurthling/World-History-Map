@@ -62,14 +62,15 @@ async function start() {
     const token = ++loadToken;
     document.body.classList.add('is-loading');
     try {
-      const [features, land, riversExt, reviewedArea] = await Promise.all([
+      const [features, land, riversExt, reviewedArea, vanishedLakes] = await Promise.all([
         data.loadYear(year), data.loadLand(year), data.loadRiversExt(year).catch(() => []),
-        data.loadReviewedArea(year),
+        data.loadReviewedArea(year), data.loadVanishedLakes(year).catch(() => []),
       ]);
       if (token !== loadToken) return; // a newer year was requested meanwhile
       map.setLand(land);
       map.setReviewedArea(reviewedArea);
       map.setRiversExt(riversExt);
+      map.setVanishedLakes(vanishedLakes);
       const mode = data.mapMode(year);
       map.setMode(mode);
       map.setFeatures(features);

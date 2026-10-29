@@ -2707,8 +2707,7 @@
     "id": "m8-nw-coast-early",
     "why": "Map 8000, item 3-59.",
     "years": [
-      -8000,
-      -6000
+      -8000
     ],
     "action": "add",
     "shape": "m8-nw-coast-early",
@@ -2722,8 +2721,7 @@
     "id": "m8-old-cordilleran",
     "why": "Map 8000, item 3-60.",
     "years": [
-      -8000,
-      -6000
+      -8000
     ],
     "action": "add",
     "shape": "m8-old-cordilleran",
@@ -2745,15 +2743,16 @@
     "properties": {
       "NAME": "Western Stemmed Tradition",
       "NOTE": "western-stemmed-8000",
-      "SOURCES": "https://en.wikipedia.org/wiki/Western_Stemmed_Tradition | https://oregonencyclopedia.org/articles/fort_rock_sandals"
+      "SOURCES": "https://en.wikipedia.org/wiki/Western_Stemmed_Tradition | https://oregonencyclopedia.org/articles/fort_rock_sandals",
+      "GROUP": "Western Stemmed Tradition",
+      "AREA": "Great Basin and Columbia Plateau"
     }
   },
   {
     "id": "m8-channel-islands",
     "why": "Map 8000, item 3-62.",
     "years": [
-      -8000,
-      -6000
+      -8000
     ],
     "action": "add",
     "shape": "channel-islands",
@@ -2792,7 +2791,8 @@
     "properties": {
       "NAME": "San Dieguito / early La Jolla complex",
       "NOTE": "san-dieguito",
-      "SOURCES": "https://sandiegoarchaeology.org/baja-and-california/la-jolla-phases/ | https://www.sandiegoarchaeology.org/Laylander/Issues/chron.sandieguito.htm"
+      "SOURCES": "https://sandiegoarchaeology.org/baja-and-california/la-jolla-phases/ | https://www.sandiegoarchaeology.org/Laylander/Issues/chron.sandieguito.htm",
+      "GROUP": "Western Stemmed Tradition"
     }
   },
   {
@@ -2870,7 +2870,7 @@
     "properties": {
       "NAME": "Golondrina complex",
       "NOTE": "golondrina",
-      "SOURCES": "https://www.texasbeyondhistory.net/st-plains/prehistory/images/golondrina.html | https://scholarworks.sfasu.edu/ita/vol1983/iss1/28",
+      "SOURCES": "https://www.texasbeyondhistory.net/st-plains/prehistory/images/golondrina.html | https://scholarworks.sfasu.edu/ita/vol1983/iss1/28 | https://en.wikipedia.org/wiki/Golondrina_point",
       "GROUP": "Golondrina"
     }
   },
@@ -2906,8 +2906,7 @@
     "id": "m8-el-riego",
     "why": "Map 8000, item 3-68 (closes 3-21).",
     "years": [
-      -8000,
-      -6000
+      -8000
     ],
     "action": "add",
     "shape": "m8-el-riego",
@@ -2947,9 +2946,10 @@
   },
   {
     "id": "m8-belize",
-    "why": "Map 8000, item 3-68.",
+    "why": "Map 8000, item 3-68. Map 6000*, item 6-22 (29.10): kept on 6000*.",
     "years": [
-      -8000
+      -8000,
+      -6000
     ],
     "action": "add",
     "shape": "belize-rockshelters",
@@ -5303,58 +5303,62 @@
   },
   {
     "id": "m6-paleo-arctic",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-paleo-arctic) with a new name or note.",
+    "why": "Map 6000*, North America package, item 6-2, 6-32, 6-33 (29.10): Late Denali; Brooks Range, upper Susitna, south-west Yukon.",
     "years": [
       -6000
     ],
     "action": "add",
-    "shape": "m8-paleo-arctic",
+    "shape": "m6-paleo-arctic",
     "properties": {
-      "NAME": "Late Paleo-Arctic foragers of interior Alaska",
+      "NAME": "Late Denali complex (American Paleo-Arctic tradition)",
       "NOTE": "paleo-arctic-6000",
-      "SOURCES": "https://en.wikipedia.org/wiki/Paleo-Arctic_tradition | https://dnr.alaska.gov/parks/oha/projects/brokenmammoth.htm"
+      "SOURCES": "https://en.wikipedia.org/wiki/Paleo-Arctic_tradition | https://dnr.alaska.gov/parks/oha/projects/brokenmammoth.htm | https://ynlc.ca/wp-content/uploads/dakeyi/07junction/02canyon/canyondyk.html | https://www.nature.com/articles/s41597-022-01118-7"
     }
   },
   {
     "id": "m6-western-stemmed",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-western-stemmed) with a new name or note.",
+    "why": "Map 6000*, North America package, item 6-5 (b), 6-24 (29.10): Great Basin area of the group; plateau to the Old Cordilleran.",
     "years": [
       -6000
     ],
     "action": "add",
-    "shape": "western-stemmed",
+    "shape": "m6-great-basin",
     "properties": {
-      "NAME": "Early Archaic of the Great Basin and Columbia Plateau",
+      "NAME": "Early Archaic of the Great Basin and Mojave Desert",
       "NOTE": "great-basin-archaic-6000",
-      "SOURCES": "https://en.wikipedia.org/wiki/Western_Stemmed_Tradition | https://oregonencyclopedia.org/articles/fort_rock_sandals"
+      "SOURCES": "https://en.wikipedia.org/wiki/Western_Stemmed_Tradition | https://oregonencyclopedia.org/articles/fort_rock_sandals | https://www.nature.com/articles/s41597-022-01118-7",
+      "GROUP": "Early Archaic of the Great Basin and Mojave Desert",
+      "AREA": "Great Basin (Northern Side-notched)"
     }
   },
   {
     "id": "m6-san-dieguito",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-san-dieguito) with a new name or note.",
+    "why": "Map 6000*, North America package, item 6-6 (29.10): La Jolla — area of the Millingstone Horizon group.",
     "years": [
       -6000
     ],
     "action": "add",
     "shape": "m8-san-dieguito",
     "properties": {
-      "NAME": "La Jolla complex",
+      "NAME": "Millingstone Horizon",
       "NOTE": "la-jolla-6000",
-      "SOURCES": "https://sandiegoarchaeology.org/baja-and-california/la-jolla-phases/ | https://www.sandiegoarchaeology.org/Laylander/Issues/chron.sandieguito.htm"
+      "SOURCES": "https://sandiegoarchaeology.org/baja-and-california/la-jolla-phases/ | https://www.sandiegoarchaeology.org/Laylander/Issues/chron.sandieguito.htm",
+      "GROUP": "Millingstone Horizon",
+      "AREA": "San Diego coast and northern Baja California (La Jolla)"
     }
   },
   {
     "id": "m6-early-archaic-east",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-early-archaic-east) with a new name or note.",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-early-archaic-east) with a new name or note. 6-28 (b) (29.10): southern Lower Michigan.",
     "years": [
       -6000
     ],
     "action": "add",
-    "shape": "m8-early-archaic-east",
+    "shape": "m6-early-archaic-east",
     "properties": {
       "NAME": "Early to Middle Archaic of the East (Kirk Stemmed, Stanly)",
       "NOTE": "archaic-east-6000",
-      "SOURCES": "https://archaeology.sites.unc.edu/wp-content/uploads/sites/187/2020/09/Chapman-1975-PhD-RLA.pdf"
+      "SOURCES": "https://archaeology.sites.unc.edu/wp-content/uploads/sites/187/2020/09/Chapman-1975-PhD-RLA.pdf | https://www.nature.com/articles/s41597-022-01118-7"
     }
   },
   {
@@ -6101,12 +6105,12 @@
   },
   {
     "id": "m6-southern-new-england",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-southern-new-england) with a new name or note.",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-southern-new-england) with a new name or note. 6-14 (29.10): Merrimack valley added.",
     "years": [
       -6000
     ],
     "action": "add",
-    "shape": "m8-southern-new-england",
+    "shape": "m6-southern-new-england",
     "properties": {
       "NAME": "Middle Archaic of southern New England (Neville, Stark)",
       "NOTE": "southern-new-england-6000",
@@ -6115,34 +6119,521 @@
   },
   {
     "id": "m6-foothill-wyoming",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-foothill-wyoming) with a new name or note.",
+    "why": "Map 6000*, North America package, item 6-11, 6-27, 6-28 (a) (29.10): one zone of the Early Plains Archaic.",
     "years": [
       -6000
     ],
     "action": "add",
-    "shape": "m8-foothill-wyoming",
+    "shape": "m6-plains-archaic",
     "properties": {
       "NAME": "Early Plains Archaic",
-      "AREA": "Wyoming Basin",
-      "NOTE": "early-plains-archaic-6000",
-      "SOURCES": "https://www.projectilepoints.net/Points/Pryor.html | https://www.nature.com/articles/s41597-022-01118-7",
-      "GROUP": "Early Plains Archaic"
+      "NOTE": "plains-archaic-6000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
     }
   },
   {
-    "id": "m6-foothill-montana",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-foothill-montana) with a new name or note.",
+    "id": "m2-basin-mexico",
+    "why": "Map 10 000, item 139 (29.10): Paleoindians of the Basin of Mexico.",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "basin-mexico-paleo",
+    "properties": {
+      "NAME": "Paleoindians of the Basin of Mexico (Tlapacoya, Peñón)",
+      "NOTE": "basin-mexico-10000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Tlapacoya"
+    }
+  },
+  {
+    "id": "m2-santa-marta",
+    "why": "Map 10 000, item 140 (29.10): Ocozocoautla caves.",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "santa-marta",
+    "properties": {
+      "NAME": "Foragers of the Ocozocoautla caves (Santa Marta, Los Grifos)",
+      "GROUP": "Foragers of the Ocozocoautla caves",
+      "NOTE": "santa-marta-10000",
+      "SOURCES": "https://www.redalyc.org/articulo.oa?id=94362579002"
+    }
+  },
+  {
+    "id": "m2-cape-region",
+    "why": "Map 10 000, item 142 (29.10): Cape region, area of the Paleocoastal group, with a note.",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "cape-region",
+    "properties": {
+      "NAME": "Paleocoastal people",
+      "GROUP": "Paleocoastal people",
+      "AREA": "Cape region (Covacha Babisuri)",
+      "NOTE": "cape-region-10000",
+      "SOURCES": "https://www.cambridge.org/core/journals/latin-american-antiquity/article/antiquity-of-pearling-in-the-americas-pearl-modification-beginning-at-least-8500-years-ago-in-baja-california-sur-mexico/46FA49E3D37B40940EF7D790334676B1 | https://en.wikipedia.org/wiki/Harumi_Fujita_(archaeologist)"
+    }
+  },
+  {
+    "id": "m8-cross-creek",
+    "why": "Map 8000, item 3-206 (29.10): early Millingstone of the central California coast.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-cross-creek",
+    "properties": {
+      "NAME": "Early Millingstone of the central California coast (Cross Creek)",
+      "GROUP": "Millingstone Horizon",
+      "NOTE": "cross-creek-8000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-eel-point",
+    "why": "Map 8000, item 3-207 (29.10): Eel Point, area of the Paleocoastal group.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "eel-point",
+    "properties": {
+      "NAME": "Paleocoastal people",
+      "GROUP": "Paleocoastal people",
+      "AREA": "Southern Channel Islands (Eel Point)",
+      "NOTE": "eel-point-8000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-mojave",
+    "why": "Map 8000, item 3-208 (29.10): Lake Mojave complex, area of the Western Stemmed group.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "mojave",
+    "properties": {
+      "NAME": "Western Stemmed Tradition",
+      "GROUP": "Western Stemmed Tradition",
+      "AREA": "Mojave Desert (Lake Mojave)",
+      "NOTE": "mojave-8000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-clear-lake",
+    "why": "Map 8000, item 3-209 (29.10): Post Pattern, area of the Western Stemmed group.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "clear-lake",
+    "properties": {
+      "NAME": "Western Stemmed Tradition",
+      "GROUP": "Western Stemmed Tradition",
+      "AREA": "Clear Lake basin (Post Pattern)",
+      "NOTE": "post-pattern-8000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Post_Pattern | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-santa-marta",
+    "why": "Map 8000, item 3-211 (29.10): Santa Marta with a note.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "santa-marta",
+    "properties": {
+      "NAME": "Foragers of the Ocozocoautla caves (Santa Marta)",
+      "GROUP": "Foragers of the Ocozocoautla caves",
+      "NOTE": "santa-marta-8000",
+      "SOURCES": "https://www.redalyc.org/articulo.oa?id=94362579002"
+    }
+  },
+  {
+    "id": "m8-cape-region",
+    "why": "Map 8000, item 3-212 (29.10): Cape region, area of the Paleocoastal group.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "cape-region",
+    "properties": {
+      "NAME": "Paleocoastal people",
+      "GROUP": "Paleocoastal people",
+      "AREA": "Cape region (Covacha Babisuri)",
+      "NOTE": "cape-region",
+      "SOURCES": "https://www.cambridge.org/core/journals/latin-american-antiquity/article/antiquity-of-pearling-in-the-americas-pearl-modification-beginning-at-least-8500-years-ago-in-baja-california-sur-mexico/46FA49E3D37B40940EF7D790334676B1 | https://en.wikipedia.org/wiki/Harumi_Fujita_(archaeologist)"
+    }
+  },
+  {
+    "id": "m6-anangula",
+    "why": "Map 6000*, North America package, item 6-3 (29.10).",
     "years": [
       -6000
     ],
     "action": "add",
-    "shape": "m8-foothill-montana",
+    "shape": "m6-anangula",
     "properties": {
-      "NAME": "Early Plains Archaic",
-      "AREA": "Mountain valleys of south-western Montana",
-      "NOTE": "early-plains-archaic-6000",
-      "SOURCES": "https://en.wikipedia.org/wiki/Barton_Gulch | https://www.projectilepoints.net/Points/Pryor.html | https://www.nature.com/articles/s41597-022-01118-7",
-      "GROUP": "Early Plains Archaic"
+      "NAME": "Anangula tradition",
+      "NOTE": "anangula-6000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Anangula_Archeological_District | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-kodiak",
+    "why": "Map 6000*, North America package, item 6-4 (29.10): Kodiak by the ±250 window, with a note.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-kodiak",
+    "properties": {
+      "NAME": "Ocean Bay I foragers of Kodiak",
+      "NOTE": "kodiak-6000",
+      "SOURCES": "https://alutiiqmuseum.org/ | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-old-cordilleran",
+    "why": "Map 6000*, North America package, item 6-5 (a), 6-30 (b) (29.10): with the Columbia Plateau and south-west Oregon.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-old-cordilleran",
+    "properties": {
+      "NAME": "Old Cordilleran tradition (Cascade phase)",
+      "NOTE": "old-cordilleran-6000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Old_Cordilleran_culture | https://core.tdar.org/document/473063/cascadia-cave-the-excavations | https://www.nature.com/articles/s41597-022-01118-7",
+      "GROUP": "Old Cordilleran (Cascade)"
+    }
+  },
+  {
+    "id": "m6-nw-coast",
+    "why": "Map 6000*, North America package, item 6-31 (29.10): north to Icy Strait and the central BC coast (Namu).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-nw-coast",
+    "properties": {
+      "NAME": "Early Northwest Coast foragers (Haida Gwaii, Southeast Alaska)",
+      "NOTE": "nw-coast-6000",
+      "SOURCES": "https://qmackie.com/tag/annotation/ | https://en.wikipedia.org/wiki/On_Your_Knees_Cave | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-mojave",
+    "why": "Map 6000*, North America package, item 6-9 (29.10): Mojave area of the Great Basin group.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "mojave",
+    "properties": {
+      "NAME": "Early Archaic of the Great Basin and Mojave Desert",
+      "GROUP": "Early Archaic of the Great Basin and Mojave Desert",
+      "AREA": "Mojave Desert (Pinto complex)",
+      "NOTE": "mojave-pinto-6000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-buena-vista",
+    "why": "Map 6000*, North America package, item 6-9 (29.10): Buena Vista Lake by the ±250 window, with a note.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-buena-vista",
+    "properties": {
+      "NAME": "Early Holocene lakeshore foragers of Buena Vista Lake (San Dieguito component)",
+      "NOTE": "buena-vista-6000",
+      "SOURCES": "https://escholarship.org/uc/item/7rj1b9g0 | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-millingstone",
+    "why": "Map 6000*, North America package, item 6-6 (a), 6-29 (b) (29.10): central and southern California coast.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-millingstone",
+    "properties": {
+      "NAME": "Millingstone Horizon",
+      "GROUP": "Millingstone Horizon",
+      "AREA": "Central and southern California coast (Topanga)",
+      "NOTE": "millingstone-6000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-channel-islands",
+    "why": "Map 6000*, North America package, item 6-6 (29.10): Santarosae, Busted Balls in the card.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "channel-islands",
+    "properties": {
+      "NAME": "Paleocoastal people",
+      "NOTE": "channel-islands-6000",
+      "SOURCES": "https://pure.psu.edu/en/publications/paleoindian-seafaring-maritime-technologies-and-coastal-foraging-",
+      "GROUP": "Paleocoastal people",
+      "AREA": "Northern Channel Islands (Santarosae)"
+    }
+  },
+  {
+    "id": "m6-southern-channel-islands",
+    "why": "Map 6000*, North America package, item 6-6 (c) (29.10).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-southern-channel-islands",
+    "properties": {
+      "NAME": "Paleocoastal people",
+      "GROUP": "Paleocoastal people",
+      "AREA": "Southern Channel Islands (Eel Point)",
+      "NOTE": "southern-channel-islands-6000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-cape-region",
+    "why": "Map 6000*, North America package, item 6-7 (29.10): Cape region, area of the Paleocoastal group.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "cape-region",
+    "properties": {
+      "NAME": "Paleocoastal people",
+      "GROUP": "Paleocoastal people",
+      "AREA": "Cape region (Covacha Babisuri)",
+      "NOTE": "cape-region",
+      "SOURCES": "https://www.cambridge.org/core/journals/latin-american-antiquity/article/antiquity-of-pearling-in-the-americas-pearl-modification-beginning-at-least-8500-years-ago-in-baja-california-sur-mexico/46FA49E3D37B40940EF7D790334676B1 | https://en.wikipedia.org/wiki/Harumi_Fujita_(archaeologist)"
+    }
+  },
+  {
+    "id": "m6-clear-lake",
+    "why": "Map 6000*, North America package, item 6-8 (29.10).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "clear-lake",
+    "properties": {
+      "NAME": "Borax Lake Pattern",
+      "GROUP": "Borax Lake Pattern",
+      "AREA": "Clear Lake basin",
+      "NOTE": "borax-lake-6000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Borax_Lake_site | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-north-coast-ranges",
+    "why": "Map 6000*, North America package, item 6-30 (a) (29.10).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-north-coast-ranges",
+    "properties": {
+      "NAME": "Borax Lake Pattern",
+      "GROUP": "Borax Lake Pattern",
+      "AREA": "North Coast Ranges (Pilot Ridge)",
+      "NOTE": "pilot-ridge-6000",
+      "SOURCES": "https://solararch.org/wp-content/uploads/2021/02/An-Environmental-and-Cultural-History-of-the-Pilot-Creek-Watershed-Humboldt-and-Trinity-Counties-CA..pdf | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-oshara",
+    "why": "Map 6000*, North America package, item 6-10, 6-25 (29.10).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-oshara",
+    "properties": {
+      "NAME": "Early Archaic of the Colorado Plateau (Oshara tradition, Jay phase)",
+      "NOTE": "oshara-6000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Oshara_tradition | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-mountain-tradition",
+    "why": "Map 6000*, North America package, item 6-25 (29.10).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-mountain-tradition",
+    "properties": {
+      "NAME": "Mountain Tradition (Southern Rocky Mountains)",
+      "NOTE": "mountain-tradition-6000",
+      "SOURCES": "https://archaeologycolorado.org/sites/default/files/Black%201991%20Archaic%20Continuity%20the%20Mountian%20Tradition.pdf | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-texas",
+    "why": "Map 6000*, North America package, item 6-12, 6-26, 6-27 (29.10).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-texas",
+    "properties": {
+      "NAME": "Early Archaic of Central and South Texas (Martindale, Uvalde)",
+      "NOTE": "texas-archaic-6000",
+      "SOURCES": "https://www.texasbeyondhistory.net/trans-p/prehistory/images/earlyarchaic.html | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-wapekeka",
+    "why": "Map 6000*, North America package, item 6-13 (29.10): with a note.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-wapekeka",
+    "properties": {
+      "NAME": "Early burials of Wapekeka (northwestern Ontario)",
+      "NOTE": "wapekeka-6000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-gulf-of-maine",
+    "why": "Map 6000*, North America package, item 6-14 (29.10).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-gulf-of-maine",
+    "properties": {
+      "NAME": "Gulf of Maine Archaic tradition",
+      "NOTE": "gulf-of-maine-6000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-belle-isle",
+    "why": "Map 6000*, North America package, item 6-15 (29.10).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-belle-isle",
+    "properties": {
+      "NAME": "Early Maritime Archaic (Strait of Belle Isle)",
+      "NOTE": "belle-isle-6000",
+      "SOURCES": "https://en.wikipedia.org/wiki/L%27Anse_Amour | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-coahuila",
+    "why": "Map 6000*, North America package, item 6-16 (a) (29.10).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-coahuila",
+    "properties": {
+      "NAME": "Coahuila complex (Frightful Cave)",
+      "NOTE": "coahuila-6000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Frightful_Cave"
+    }
+  },
+  {
+    "id": "m6-tamaulipas",
+    "why": "Map 6000*, North America package, item 6-16 (b) (29.10).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-tamaulipas",
+    "properties": {
+      "NAME": "Archaic of the Tamaulipas sierras (Infiernillo and Lerma phases)",
+      "NOTE": "tamaulipas-6000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Richard_MacNeish"
+    }
+  },
+  {
+    "id": "m6-el-riego",
+    "why": "Map 6000*, North America package, item 6-17 (29.10): AMS dates of Coxcatlán in the card.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m8-el-riego",
+    "properties": {
+      "NAME": "El Riego phase (Tehuacán Valley)",
+      "NOTE": "el-riego-6000",
+      "SOURCES": "https://en.wikipedia.org/wiki/El_Riego_phase | https://www.cambridge.org/core/product/F4C32FB10E73D660CB7D9B44E2C29A72"
+    }
+  },
+  {
+    "id": "m6-oaxaca",
+    "why": "Map 6000*, North America package, item 6-18 (29.10): Guilá Naquitz and Gheo-Shih, with a note.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m8-guila-naquitz",
+    "properties": {
+      "NAME": "Archaic foragers of the Valley of Oaxaca (Naquitz and Jícaras phases)",
+      "NOTE": "oaxaca-6000",
+      "SOURCES": "https://sites.lsa.umich.edu/oaxaca-archaeology/origins-of-agriculture | https://en.wikipedia.org/wiki/Gheo-Shih"
+    }
+  },
+  {
+    "id": "m6-basin-mexico",
+    "why": "Map 6000*, North America package, item 6-19 (29.10): by the ±250 window, with a note.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-basin-mexico",
+    "properties": {
+      "NAME": "Archaic of the southern Basin of Mexico (Zohapilco, Atlapulco)",
+      "NOTE": "basin-mexico-6000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Tlapacoya"
+    }
+  },
+  {
+    "id": "m6-santa-marta",
+    "why": "Map 6000*, North America package, item 6-20 (29.10).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "santa-marta",
+    "properties": {
+      "NAME": "Foragers of the Ocozocoautla caves (Santa Marta)",
+      "GROUP": "Foragers of the Ocozocoautla caves",
+      "NOTE": "santa-marta-6000",
+      "SOURCES": "https://www.redalyc.org/articulo.oa?id=94362579002"
+    }
+  },
+  {
+    "id": "m6-charlie-lake",
+    "why": "Map 6000*, North America package, item 6-34 (29.10): with a note.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-charlie-lake",
+    "properties": {
+      "NAME": "Charlie Lake Cave foragers (Peace River)",
+      "NOTE": "charlie-lake-6000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Charlie_Lake_Cave | https://www.nature.com/articles/s41597-022-01118-7"
     }
   },
   {

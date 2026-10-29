@@ -10,9 +10,10 @@
 //   map.refreshLabels()           — redraw labels (e.g. after language change)
 //   map.setHydro({rivers, lakes}) — today's rivers and lakes (once)
 //   map.setRiversExt(features)    — rivers extended over the exposed sea floor (per year)
+//   map.setVanishedLakes(features) — vanished lakes of the year (e.g. Lake Agassiz), drawn over rivers
 //
 // Layers, bottom to top: ocean → graticule → land → countries → lakes →
-// rivers → ice cover → selection outline → labels. Lakes and rivers ignore the mouse, so
+// rivers → ice cover → vanished lakes → selection outline → labels. Lakes and rivers ignore the mouse, so
 // clicks go to the land or zone underneath. Small rivers appear only when
 // zoomed in (CONFIG.rivers).
 //
@@ -69,10 +70,14 @@ export function createMap(svgEl, tooltipEl, { onSelect }) {
   const hydroG = zoomLayer.append('g').attr('class', 'hydro');
   const lakesG = hydroG.append('g').attr('class', 'lakes');
   const riversG = hydroG.append('g').attr('class', 'rivers');
-  // Rivers and lakes are hidden under ice sheets (zones with NOTE "uninhabited-ice"):
+  // Rivers and lakes are hidden under ice sheets (zones whose NOTE starts with
+  // "uninhabited-ice": "uninhabited-ice", "uninhabited-ice-8000", "uninhabited-ice-scand-8000" …):
   // the ice zones are drawn once more on top of them. (An SVG <mask> did the same,
   // but Chrome on Android drew rectangular garbage around the rivers with it.)
   const iceCoverG = zoomLayer.append('g').attr('class', 'ice-cover');
+  // Vanished lakes (Lake Agassiz …) are cut out of the land; drawn here in the water colour
+  // so today's rivers and lakes do not show through them (item 3-205)
+  const lakeCoverG = zoomLayer.append('g').attr('class', 'lake-cover');
   const selectionPath = zoomLayer.append('path').attr('class', 'selection-outline');
   const labelsG = svg.append('g').attr('class', 'labels').attr('aria-hidden', 'true');
 
@@ -126,6 +131,7 @@ export function createMap(svgEl, tooltipEl, { onSelect }) {
     lakesG.selectAll('path').attr('d', path);
     riversG.selectAll('path').attr('d', d => path(d.f));
     iceCoverG.selectAll('path').attr('d', path);
+    lakeCoverG.selectAll('path').attr('d', path);
     drawSelection();
     drawScreenLines();
     anchors = computeLabelAnchors(features, path);
@@ -206,7 +212,7 @@ export function createMap(svgEl, tooltipEl, { onSelect }) {
         + (d.properties?.KIND === 'overlap' ? ` overlap${d.properties.AREA ? ' overlap-same' : ''}` : ''))
       .style('fill', fillOf);
     iceCoverG.selectAll('path')
-      .data(features.filter(f => f.properties?.NOTE === 'uninhabited-ice'))
+      .data(features.filter(f => String(f.properties?.NOTE || '').startsWith('uninhabited-ice')))
       .join('path').attr('d', path).style('fill', d => fillFor(d.properties));
     anchors = computeLabelAnchors(features, path);
     drawSelection();
@@ -308,6 +314,9 @@ export function createMap(svgEl, tooltipEl, { onSelect }) {
     setReviewedArea(geo) { reviewedArea = geo; drawHatchClip(); },
     setHydro(next) { hydro = next; shownRank = 0; drawHydro(); },
     setRiversExt(next) { riversExt = next; shownRank = 0; drawHydro(); },
+    setVanishedLakes(next) {
+      lakeCoverG.selectAll('path').data(next || []).join('path').attr('class', 'vanished-lake').attr('d', path);
+    },
     setFeatures(next) { features = next; drawCountries(); },
     setSelected(name) { selected = name; drawSelection(); scheduleLabels(); },
     refreshLabels() { scheduleLabels(); },

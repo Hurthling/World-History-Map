@@ -223,6 +223,17 @@ async function buildBorders(coasts, land, riversExt) {
     const entry = { year, file: `borders/${outName}`, count: names.length };
     if (coasts[year]) { entry.land = coasts[year].file; entry.seaLevel = coasts[year].level; }
     if (riversExt[year]) entry.riversExt = riversExt[year];
+    // Vanished lakes of this year (cut out of the land): the page draws them over today's rivers (item 3-205)
+    const lakeNames = (seaLevels.lakes || {})[year] || [];
+    if (lakeNames.length) {
+      const lakeFeatures = lakeNames.flatMap(n => {
+        const g = JSON.parse(fs.readFileSync(path.join(ROOT, 'corrections', 'lakes', n + '.geojson'), 'utf8'));
+        return (g.type === 'FeatureCollection' ? g.features : [g]).map(f => ({ type: 'Feature', properties: { name: n }, geometry: f.geometry }));
+      });
+      const lakeFile = `coast/lakes_${year}.json`;
+      fs.writeFileSync(path.join(ROOT, 'data', lakeFile), JSON.stringify({ type: 'FeatureCollection', features: lakeFeatures }));
+      entry.vanishedLakes = lakeFile;
+    }
     if (reviewedYears.includes(year)) entry.reviewed = true;
     if (reviewedAreas[year]) { entry.reviewedArea = reviewedAreas[year].file; entry.reviewedNote = reviewedAreas[year].note; }
     if (probabilityYears.includes(year)) entry.mode = 'probability';
