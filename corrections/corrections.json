@@ -6119,7 +6119,7 @@
   },
   {
     "id": "m6-foothill-wyoming",
-    "why": "Map 6000*, North America package, item 6-11, 6-27, 6-28 (a) (29.10): one zone of the Early Plains Archaic.",
+    "why": "Map 6000*, North America package, item 6-11, 6-27, 6-28 (a) (29.10): one zone of the Early Plains Archaic; item 6-37 (30.10): northern edge and southern block by dated finds + 50 km.",
     "years": [
       -6000
     ],
@@ -6315,7 +6315,7 @@
   },
   {
     "id": "m6-nw-coast",
-    "why": "Map 6000*, North America package, item 6-31 (29.10): north to Icy Strait and the central BC coast (Namu).",
+    "why": "Map 6000*, North America package, item 6-31 (29.10): north to Icy Strait and the central BC coast (Namu); item 6-36 (30.10): one mainland strip from Chatham Sound to Milbank Sound.",
     "years": [
       -6000
     ],
@@ -6324,7 +6324,7 @@
     "properties": {
       "NAME": "Early Northwest Coast foragers (Haida Gwaii, Southeast Alaska)",
       "NOTE": "nw-coast-6000",
-      "SOURCES": "https://qmackie.com/tag/annotation/ | https://en.wikipedia.org/wiki/On_Your_Knees_Cave | https://www.nature.com/articles/s41597-022-01118-7"
+      "SOURCES": "https://qmackie.com/tag/annotation/ | https://en.wikipedia.org/wiki/On_Your_Knees_Cave | https://ojs.library.ubc.ca/index.php/bcstudies/article/view/186158 | https://www.nature.com/articles/s41597-022-01118-7"
     }
   },
   {
@@ -6483,7 +6483,7 @@
   },
   {
     "id": "m6-texas",
-    "why": "Map 6000*, North America package, item 6-12, 6-26, 6-27 (29.10).",
+    "why": "Map 6000*, North America package, item 6-12, 6-26, 6-27 (29.10); item 6-37 (30.10): north and east edges by dated finds + 50 km.",
     "years": [
       -6000
     ],
@@ -6623,17 +6623,17 @@
     }
   },
   {
-    "id": "m6-charlie-lake",
-    "why": "Map 6000*, North America package, item 6-34 (29.10): with a note.",
+    "id": "m6-peace-river",
+    "why": "Map 6000*, North America package, item 6-34 (29.10), 6-40 (30.10): Peace River country — Charlie Lake Cave and Saskatoon Mountain (replaces the Charlie Lake circle).",
     "years": [
       -6000
     ],
     "action": "add",
-    "shape": "m6-charlie-lake",
+    "shape": "m6-peace-river",
     "properties": {
-      "NAME": "Charlie Lake Cave foragers (Peace River)",
-      "NOTE": "charlie-lake-6000",
-      "SOURCES": "https://en.wikipedia.org/wiki/Charlie_Lake_Cave | https://www.nature.com/articles/s41597-022-01118-7"
+      "NAME": "Early Holocene foragers of the Peace River country",
+      "NOTE": "peace-river-6000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Charlie_Lake_Cave | https://canadianarchaeology.ca/samples/8263 | https://www.nature.com/articles/s41597-022-01118-7"
     }
   },
   {

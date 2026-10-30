@@ -262,7 +262,15 @@ export function createMap(svgEl, tooltipEl, { onSelect }) {
         .attr('font-size', d => d.fontSize)
         .classed('is-major', d => d.major)
         .classed('is-selected', d => selected && (d.name === selected || d.name === String(selected).split('::')[0]))
-        .text(d => d.text);
+        // Long names: one <tspan> per line, the block centred on the label point (labels.js, splitLabel)
+        .each(function (d) {
+          d3.select(this).selectAll('tspan')
+            .data(d.lines.map((line, i) => ({ line, i, x: d.x, n: d.lines.length })))
+            .join('tspan')
+            .attr('x', l => l.x)
+            .attr('dy', l => (l.i === 0 ? `${(-(l.n - 1) * 1.1 / 2).toFixed(2)}em` : '1.1em'))
+            .text(l => l.line);
+        });
     });
   }
 
