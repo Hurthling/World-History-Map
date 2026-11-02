@@ -272,7 +272,7 @@
   },
   {
     "id": "m2-agate-basin",
-    "why": "Map 2, items 16 and 47 (Hell Gap added to the note). Plano group of one colour — item 94 (20.10).",
+    "why": "Map 2, items 16 and 47 (Hell Gap added to the note). Plano group of one colour — item 94 (20.10). Item 166 (a) (applied 02.11): extended to MacHaffie.",
     "years": [
       -10000
     ],
@@ -814,7 +814,7 @@
   },
   {
     "id": "m2c-central-alaska",
-    "why": "Map 2, item 43 (b).",
+    "why": "Map 2, item 43 (b). Items 163 (a), 164 (a) (applied 02.11): extended to Tangle Lakes and east to the Yukon border.",
     "years": [
       -10000
     ],
@@ -884,7 +884,7 @@
   },
   {
     "id": "m2c-western-stemmed",
-    "why": "Map 2, item 47 (a).",
+    "why": "Map 2, item 47 (a). Item 168 (a) (applied 02.11): corridor up the Clearwater to Kelly Forks (the outline is shared with map 8000).",
     "years": [
       -10000
     ],
@@ -913,7 +913,7 @@
   },
   {
     "id": "m2c-dalton",
-    "why": "Map 2, item 47 (c).",
+    "why": "Map 2, item 47 (c). Item 169 (a) (applied 02.11): extended east along the Ohio to Louisville.",
     "years": [
       -10000
     ],
@@ -1013,12 +1013,12 @@
   },
   {
     "id": "m2d-paijan",
-    "why": "Map 2, item 58 (b).",
+    "why": "Map 2, item 58 (b). Item 152 (b) (applied 02.11): extended south to the Chillón valley and the upper Chilca caves.",
     "years": [
       -10000
     ],
     "action": "add",
-    "shape": "paijan",
+    "shape": "paijan-10000",
     "properties": {
       "NAME": "Paiján culture",
       "NOTE": "paijan",
@@ -1085,16 +1085,31 @@
   },
   {
     "id": "m2d-central-brazil",
-    "why": "Map 2, item 58 (g).",
+    "why": "Map 2, item 58 (g). Item 151 (applied 02.11): extended north to the Peruaçu valley and west to MS-PA-02.",
     "years": [
       -10000
     ],
     "action": "add",
-    "shape": "central-brazil",
+    "shape": "central-brazil-10000",
     "properties": {
       "NAME": "Itaparica tradition and Lagoa Santa",
       "NOTE": "central-brazil",
       "SOURCES": "https://journals.ed.ac.uk/lithicstudies/article/download/1423/2117"
+    }
+  },
+  {
+    "id": "m2-lajeado",
+    "why": "Map 10 000, item 150 (queue-map8000.md; owner 02.11, applied 02.11): a separate part of the Itaparica zone.",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "lajeado-10000",
+    "properties": {
+      "NAME": "Itaparica tradition and Lagoa Santa",
+      "AREA": "Middle Tocantins (Lajeado)",
+      "NOTE": "lajeado-10000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
     }
   },
   {
@@ -2691,7 +2706,7 @@
   },
   {
     "id": "m8-paleo-arctic",
-    "why": "Map 8000, item 3-58.",
+    "why": "Map 8000, item 3-58. Item 3-252 (a) (applied 02.11): + Lime Hills Cave 1 as a separate part.",
     "years": [
       -8000
     ],
@@ -2705,7 +2720,7 @@
   },
   {
     "id": "m8-nw-coast-early",
-    "why": "Map 8000, item 3-59.",
+    "why": "Map 8000, item 3-59. Item 3-253 (applied 02.11): extended north to Icy Strait and the Namu coast (as 6-31).",
     "years": [
       -8000
     ],
@@ -2719,7 +2734,7 @@
   },
   {
     "id": "m8-old-cordilleran",
-    "why": "Map 8000, item 3-60.",
+    "why": "Map 8000, item 3-60. Items 3-254, 3-256 (a) (applied 02.11): extended up the Fraser to Yale and south to the Rogue.",
     "years": [
       -8000
     ],
@@ -2734,7 +2749,7 @@
   },
   {
     "id": "m8-western-stemmed",
-    "why": "Map 8000, item 3-61.",
+    "why": "Map 8000, item 3-61. Item 3-255 (a) (applied 02.11): corridor up the Clearwater to Kelly Forks (the outline is shared with map 10 000).",
     "years": [
       -8000
     ],
@@ -2809,6 +2824,22 @@
       "SOURCES": "https://www.nps.gov/subjects/swscience/paleoindian.htm",
       "GROUP": "Plano cultures",
       "AREA": "Cody complex (Scottsbluff, Eden)"
+    }
+  },
+  {
+    "id": "m8-water-canyon",
+    "why": "Map 8000, item 3-261 (a) (queue-map8000.md; owner 02.11, applied 02.11).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "water-canyon",
+    "properties": {
+      "NAME": "Plano tradition",
+      "AREA": "Cody complex (Water Canyon)",
+      "GROUP": "Plano cultures",
+      "NOTE": "plano-water-canyon",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
     }
   },
   {
@@ -3090,7 +3121,7 @@
   },
   {
     "id": "m2i-atacama-salar",
-    "why": "Map 10 000, item 103 (a) (queue-map2.md; accepted 21.10, applied 22.10).",
+    "why": "Map 10 000, item 103 (a) (queue-map2.md; accepted 21.10, applied 22.10). Item 154 (applied 02.11): extended to Tuina-1, San Lorenzo-1 and Tulán-109.",
     "years": [
       -10000
     ],
@@ -3134,7 +3165,7 @@
   },
   {
     "id": "m2i-huentelauquen",
-    "why": "Map 10 000, item 106 (queue-map2.md; accepted 21.10, applied 22.10).",
+    "why": "Map 10 000, item 106 (queue-map2.md; accepted 21.10, applied 22.10). Item 156 (a) (applied 02.11): extended south to Punta Ñagué.",
     "years": [
       -10000
     ],
@@ -3262,16 +3293,29 @@
   },
   {
     "id": "m8-las-vegas",
-    "why": "Map 8000, item 3-77 (a) (queue-map8000.md; accepted 21.10, applied 22.10).",
+    "why": "Map 8000, item 3-77 (a) (queue-map8000.md; accepted 21.10, applied 22.10). Map 6000* moved to rule m6-las-vegas (item 6-68, applied 02.11).",
     "years": [
-      -8000,
-      -6000
+      -8000
     ],
     "action": "add",
     "shape": "las-vegas",
     "properties": {
       "NAME": "Las Vegas culture",
       "NOTE": "las-vegas",
+      "SOURCES": "https://en.wikipedia.org/wiki/Las_Vegas_culture"
+    }
+  },
+  {
+    "id": "m6-las-vegas",
+    "why": "Map 6000*: carried from map 8000 (m8-las-vegas). Item 6-68 (queue-map6000.md; owner 02.11, applied 02.11): extended east to El Muerto.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "las-vegas-6000",
+    "properties": {
+      "NAME": "Las Vegas culture",
+      "NOTE": "las-vegas-6000",
       "SOURCES": "https://en.wikipedia.org/wiki/Las_Vegas_culture"
     }
   },
@@ -3306,12 +3350,12 @@
   },
   {
     "id": "m8-paijan",
-    "why": "Map 8000, item 3-78 (a, b) (queue-map8000.md; accepted 21.10, applied 22.10).",
+    "why": "Map 8000, item 3-78 (a, b) (queue-map8000.md; accepted 21.10, applied 22.10). Item 3-229 (b) (applied 02.11): extended south to Paracas.",
     "years": [
       -8000
     ],
     "action": "add",
-    "shape": "paijan",
+    "shape": "paijan-8000",
     "properties": {
       "NAME": "Paiján culture",
       "NOTE": "paijan-8000",
@@ -3363,7 +3407,7 @@
   },
   {
     "id": "m8-tambillo",
-    "why": "Map 8000, item 3-81 (a); dates of Tambillo checked 22.10 (p3k14c: Núñez et al. 2002) (queue-map8000.md; accepted 21.10, applied 22.10).",
+    "why": "Map 8000, item 3-81 (a); dates of Tambillo checked 22.10 (p3k14c: Núñez et al. 2002) (queue-map8000.md; accepted 21.10, applied 22.10). Item 3-235 (applied 02.11): extended to Aguas Calientes-1.",
     "years": [
       -8000
     ],
@@ -3377,12 +3421,12 @@
   },
   {
     "id": "m8-puna-jujuy",
-    "why": "Map 8000, item 3-81 (b) (queue-map8000.md; accepted 21.10, applied 22.10).",
+    "why": "Map 8000, item 3-81 (b) (queue-map8000.md; accepted 21.10, applied 22.10). Item 3-240 (applied 02.11): extended to Cueva de Yavi and Hornillos 2.",
     "years": [
       -8000
     ],
     "action": "add",
-    "shape": "puna-jujuy",
+    "shape": "puna-jujuy-8000",
     "properties": {
       "NAME": "Early Archaic hunters of the Puna of Jujuy (Inca Cueva, Huachichocana, Pintoscayoc)",
       "NOTE": "puna-jujuy",
@@ -3391,7 +3435,7 @@
   },
   {
     "id": "m8-huentelauquen",
-    "why": "Map 8000, item 3-81 (c) (queue-map8000.md; accepted 21.10, applied 22.10). Item 3-223 (applied 02.11): extended into the Elqui valley (La Fundición 1).",
+    "why": "Map 8000, item 3-81 (c) (queue-map8000.md; accepted 21.10, applied 22.10). Item 3-223 (applied 02.11): extended into the Elqui valley (La Fundición 1). Items 156 (a), 3-236 (applied 02.11): extended south to Punta Ñagué and north to La Chimba 13.",
     "years": [
       -8000
     ],
@@ -3405,14 +3449,14 @@
   },
   {
     "id": "m8-piuquenes",
-    "why": "Map 8000, item 3-82 (a) (queue-map8000.md; accepted 21.10, applied 22.10). Item 3-221 (applied 02.11): extended south to El Manzano 1 (Maipo).",
+    "why": "Map 8000, item 3-82 (a) (queue-map8000.md; accepted 21.10, applied 22.10). Item 3-221 (applied 02.11): extended south to El Manzano 1 (Maipo). Item 3-242 (a) (applied 02.11): + Paso de las Conchas (Bucalemu) as a coastal part; renamed.",
     "years": [
       -8000
     ],
     "action": "add",
-    "shape": "piuquenes",
+    "shape": "piuquenes-8000",
     "properties": {
-      "NAME": "Early Archaic of the central Chilean Andes (Los Piuquenes, El Manzano)",
+      "NAME": "Early Archaic of central Chile (Los Piuquenes, El Manzano, Paso de las Conchas)",
       "NOTE": "piuquenes",
       "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
     }
@@ -3447,13 +3491,12 @@
   },
   {
     "id": "m8-serra-talhada",
-    "why": "Map 8000, item 3-83 (a) (queue-map8000.md; accepted 21.10, applied 22.10).",
+    "why": "Map 8000, item 3-83 (a) (queue-map8000.md; accepted 21.10, applied 22.10). Item 3-232 (applied 02.11): extended to Boa Vista I, Rosa do Dalton, Baixa do Cipó and Paraguaio; map 6000* moved to rule m6-serra-talhada.",
     "years": [
-      -8000,
-      -6000
+      -8000
     ],
     "action": "add",
-    "shape": "serra-talhada",
+    "shape": "serra-talhada-8000",
     "properties": {
       "NAME": "Serra Talhada phase (Serra da Capivara)",
       "NOTE": "serra-talhada",
@@ -3461,17 +3504,46 @@
     }
   },
   {
+    "id": "m6-serra-talhada",
+    "why": "Map 6000*: carried from map 8000 (m8-serra-talhada). Item 6-76 (queue-map6000.md; owner 02.11, applied 02.11): extended to Toca do Paraguaio.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "serra-talhada-6000",
+    "properties": {
+      "NAME": "Serra Talhada phase (Serra da Capivara)",
+      "NOTE": "serra-talhada-6000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
     "id": "m8-central-brazil",
-    "why": "Map 8000, item 3-83 (b) (queue-map8000.md; accepted 21.10, applied 22.10).",
+    "why": "Map 8000, item 3-83 (b) (queue-map8000.md; accepted 21.10, applied 22.10). Item 3-234 (applied 02.11): extended north to the Peruaçu valley, Boqueirão Soberbo and Barreirinho.",
     "years": [
       -8000
     ],
     "action": "add",
-    "shape": "central-brazil",
+    "shape": "central-brazil-8000",
     "properties": {
       "NAME": "Itaparica tradition and Lagoa Santa",
       "NOTE": "central-brazil-8000",
       "SOURCES": "https://journals.ed.ac.uk/lithicstudies/article/download/1423/2117"
+    }
+  },
+  {
+    "id": "m8-lajeado",
+    "why": "Map 8000, item 3-233 (queue-map8000.md; owner 02.11, applied 02.11): a separate part of the Itaparica zone.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "lajeado-8000",
+    "properties": {
+      "NAME": "Itaparica tradition and Lagoa Santa",
+      "AREA": "Middle Tocantins (Lajeado)",
+      "NOTE": "lajeado-8000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
     }
   },
   {
@@ -3505,16 +3577,29 @@
   },
   {
     "id": "m8-moxos",
-    "why": "Map 8000, item 3-83 (h) (queue-map8000.md; accepted 21.10, applied 22.10).",
+    "why": "Map 8000, item 3-83 (h) (queue-map8000.md; accepted 21.10, applied 22.10). Item 3-245 (a) (applied 02.11): Isla 493 and Isla 575 as separate parts; map 6000* moved to rule m6-moxos.",
     "years": [
-      -8000,
+      -8000
+    ],
+    "action": "add",
+    "shape": "moxos-8000",
+    "properties": {
+      "NAME": "Forest-island foragers of the Llanos de Moxos",
+      "NOTE": "moxos-8000",
+      "SOURCES": "https://www.nature.com/articles/s41586-020-2162-7"
+    }
+  },
+  {
+    "id": "m6-moxos",
+    "why": "Map 6000*: carried from map 8000 (m8-moxos). Item 6-70 (queue-map6000.md; owner 02.11, applied 02.11): extended to Isla 433.",
+    "years": [
       -6000
     ],
     "action": "add",
-    "shape": "moxos",
+    "shape": "moxos-6000",
     "properties": {
       "NAME": "Forest-island foragers of the Llanos de Moxos",
-      "NOTE": "moxos",
+      "NOTE": "moxos-6000",
       "SOURCES": "https://www.nature.com/articles/s41586-020-2162-7"
     }
   },
@@ -5098,7 +5183,7 @@
   },
   {
     "id": "m8-foothill-montana",
-    "why": "Map 8000, item 3-200 (accepted 28.10): Foothill–Mountain Paleoindians, south-western Montana.",
+    "why": "Map 8000, item 3-200 (accepted 28.10): Foothill–Mountain Paleoindians, south-western Montana. Item 3-257 (applied 02.11): extended south to Birch Creek (Veratic Rockshelter).",
     "years": [
       -8000
     ],
@@ -5432,7 +5517,7 @@
   },
   {
     "id": "m6-acha",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-acha) with a new name or note. Item 6-47 (c) (applied 02.11): renamed Chinchorro culture, coast from Ilo to Camarones.",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-acha) with a new name or note. Item 6-47 (c) (applied 02.11): renamed Chinchorro culture, coast from Ilo to Camarones. Item 6-74 (applied 02.11): extended south to Quebrada Tiliviche.",
     "years": [
       -6000
     ],
@@ -5446,7 +5531,7 @@
   },
   {
     "id": "m6-piuquenes",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-piuquenes) with a new name or note. Item 6-50 (c) (applied 02.11): extended to the Maipo and Tagua Tagua, renamed.",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-piuquenes) with a new name or note. Item 6-50 (c) (applied 02.11): extended to the Maipo and Tagua Tagua, renamed. Item 6-77 (applied 02.11): + Paso de las Conchas (Bucalemu) as a separate part.",
     "years": [
       -6000
     ],
@@ -5461,7 +5546,7 @@
   },
   {
     "id": "m6-patagonia",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-patagonia) with a new name or note. Items 6-53, 6-54 (applied 02.11): a group of three areas; extended east to Gruta Molina.",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-patagonia) with a new name or note. Items 6-53, 6-54 (applied 02.11): a group of three areas; extended east to Gruta Molina. Item 6-75 (applied 02.11): extended to Cueva del Paisano Desconocido.",
     "years": [
       -6000
     ],
@@ -6179,7 +6264,7 @@
   },
   {
     "id": "m8-cross-creek",
-    "why": "Map 8000, item 3-206 (29.10): early Millingstone of the central California coast.",
+    "why": "Map 8000, item 3-206 (29.10): early Millingstone of the central California coast. Item 3-262 (a) (applied 02.11): + Los Vaqueros as a separate part.",
     "years": [
       -8000
     ],
@@ -6456,7 +6541,7 @@
   },
   {
     "id": "m6-oshara",
-    "why": "Map 6000*, North America package, item 6-10, 6-25 (29.10).",
+    "why": "Map 6000*, North America package, item 6-10, 6-25 (29.10). Item 3-260 (applied 02.11): GROUP \"Early Archaic of the Colorado Plateau\" — one colour with the zone of map 8000.",
     "years": [
       -6000
     ],
@@ -6465,7 +6550,8 @@
     "properties": {
       "NAME": "Early Archaic of the Colorado Plateau (Oshara tradition, Jay phase)",
       "NOTE": "oshara-6000",
-      "SOURCES": "https://en.wikipedia.org/wiki/Oshara_tradition | https://www.nature.com/articles/s41597-022-01118-7"
+      "SOURCES": "https://en.wikipedia.org/wiki/Oshara_tradition | https://www.nature.com/articles/s41597-022-01118-7",
+      "GROUP": "Early Archaic of the Colorado Plateau"
     }
   },
   {
@@ -6702,31 +6788,15 @@
   },
   {
     "id": "m6-zana-nanchoc",
-    "why": "Map 6000*, South America package, item 6-45 (a) (owner 01–02.11; applied 02.11).",
+    "why": "Map 6000*, South America package, item 6-45 (a) (owner 01–02.11; applied 02.11). Item 6-62 (applied 02.11): one outline and one card with the Chicama coast (rule m6-chicama removed).",
     "years": [
       -6000
     ],
     "action": "add",
-    "shape": "zana-nanchoc",
+    "shape": "north-coast-peru-6000",
     "properties": {
-      "NAME": "Preceramic farmers of the Zaña and Ñanchoc valleys (Las Pircas — Tierra Blanca)",
-      "AREA": "Zaña and Ñanchoc valleys (Nanchoc)",
-      "NOTE": "zana-nanchoc",
-      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
-    }
-  },
-  {
-    "id": "m6-chicama",
-    "why": "Map 6000*, South America package, item 6-45 (b) (owner 01–02.11; applied 02.11).",
-    "years": [
-      -6000
-    ],
-    "action": "add",
-    "shape": "chicama-6000",
-    "properties": {
-      "NAME": "Preceramic farmers of the Zaña and Ñanchoc valleys (Las Pircas — Tierra Blanca)",
-      "AREA": "Chicama coast (Huaca Prieta, Ascope)",
-      "NOTE": "chicama-6000",
+      "NAME": "Preceramic farmers and fishers of the north coast of Peru (Ñanchoc, Huaca Prieta)",
+      "NOTE": "north-coast-peru-6000",
       "SOURCES": "https://en.wikipedia.org/wiki/Huaca_Prieta | https://www.nature.com/articles/s41597-022-01118-7"
     }
   },
@@ -6893,7 +6963,7 @@
   },
   {
     "id": "m6-north-patagonia",
-    "why": "Map 6000*, South America package, item 6-53 (a) (owner 01–02.11; applied 02.11).",
+    "why": "Map 6000*, South America package, item 6-53 (a) (owner 01–02.11; applied 02.11). Item 6-75 (applied 02.11): extended west to Loconaco 2.",
     "years": [
       -6000
     ],
@@ -7049,15 +7119,46 @@
   },
   {
     "id": "m6-lagoa-santa",
-    "why": "Map 6000*, South America package, item 6-59 (a2) (owner 01–02.11; applied 02.11).",
+    "why": "Map 6000*, South America package, item 6-59 (a2) (owner 01–02.11; applied 02.11). Item 6-66 (a) (applied 02.11): an area of the group \"Foragers of central Minas Gerais\".",
     "years": [
       -6000
     ],
     "action": "add",
     "shape": "lagoa-santa-6000",
     "properties": {
-      "NAME": "Foragers of the Lagoa Santa karst",
+      "NAME": "Foragers of central Minas Gerais",
+      "AREA": "Lagoa Santa karst",
       "NOTE": "lagoa-santa-6000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-cha-do-caboclo",
+    "why": "Map 6000*, item 6-66 (a) (queue-map6000.md; owner 02.11, applied 02.11).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "cha-do-caboclo",
+    "properties": {
+      "NAME": "Foragers of central Minas Gerais",
+      "AREA": "Chã do Caboclo",
+      "NOTE": "cha-do-caboclo",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-lapa-pequena",
+    "why": "Map 6000*, item 6-66 (a) (queue-map6000.md; owner 02.11, applied 02.11).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "lapa-pequena",
+    "properties": {
+      "NAME": "Foragers of central Minas Gerais",
+      "AREA": "Lapa Pequena (Montes Claros)",
+      "NOTE": "lapa-pequena",
       "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
     }
   },
@@ -7077,14 +7178,14 @@
   },
   {
     "id": "m2-jaguay",
-    "why": "Map 10000, South America package, item 144 (owner 01–02.11; applied 02.11).",
+    "why": "Map 10000, South America package, item 144 (owner 01–02.11; applied 02.11). Item 153 (a) (applied 02.11): Quebrada Tacahuay as a second part; renamed.",
     "years": [
       -10000
     ],
     "action": "add",
-    "shape": "jaguay",
+    "shape": "jaguay-10000",
     "properties": {
-      "NAME": "Early maritime foragers of Quebrada Jaguay",
+      "NAME": "Early maritime foragers of southern Peru (Quebrada Jaguay, Quebrada Tacahuay)",
       "NOTE": "jaguay-10000",
       "SOURCES": "https://doi.org/10.1126/science.281.5384.1830 | https://www.nature.com/articles/s41597-022-01118-7"
     }
@@ -7128,6 +7229,589 @@
     "properties": {
       "NAME": "Furna do Estrago rockshelter",
       "NOTE": "furna-do-estrago",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-central-coast-peru",
+    "why": "Map 6000*, item 6-63 (queue-map6000.md; owner 02.11, applied 02.11).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "central-coast-peru-6000",
+    "properties": {
+      "NAME": "Preceramic foragers of the central coast of Peru (Paloma, Chilca)",
+      "NOTE": "central-coast-peru-6000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Paloma_(archaeological_site) | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-guitarrero",
+    "why": "Map 6000*, item 6-64 (queue-map6000.md; owner 02.11, applied 02.11).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "guitarrero",
+    "properties": {
+      "NAME": "Guitarrero Cave foragers",
+      "NOTE": "guitarrero-6000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Guitarrero_Cave | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-guitarrero",
+    "why": "Map 8000, item 3-230 (queue-map6000.md; owner 02.11, applied 02.11).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "guitarrero",
+    "properties": {
+      "NAME": "Guitarrero Cave foragers",
+      "NOTE": "guitarrero-8000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Guitarrero_Cave | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-carajas",
+    "why": "Map 6000*, item 6-67 (queue-map6000.md; owner 02.11, applied 02.11).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "carajas",
+    "properties": {
+      "NAME": "Foragers of the Serra dos Carajás caves (Gruta do Gavião, Pequiá)",
+      "NOTE": "carajas-6000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-carajas",
+    "why": "Map 8000, item 3-231 (queue-map6000.md; owner 02.11, applied 02.11).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "carajas",
+    "properties": {
+      "NAME": "Foragers of the Serra dos Carajás caves (Gruta do Gavião, Pequiá)",
+      "NOTE": "carajas-8000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-trombetas",
+    "why": "Map 6000*, item 6-69 (a) (queue-map6000.md; owner 02.11, applied 02.11).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "trombetas-boa-vista",
+    "properties": {
+      "NAME": "Early foragers of the Trombetas (Boa Vista)",
+      "NOTE": "trombetas-boa-vista",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-flechal",
+    "why": "Map 6000*, item 6-69 (a) (queue-map6000.md; owner 02.11, applied 02.11).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "flechal",
+    "properties": {
+      "NAME": "Early foragers of the lower Madeira (Flechal)",
+      "NOTE": "flechal",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-san-lucas",
+    "why": "Map 6000*, item 6-71 (queue-map6000.md; owner 02.11, applied 02.11).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "san-lucas",
+    "properties": {
+      "NAME": "Early foragers of the San Lucas highlands (Chuquisaca)",
+      "NOTE": "san-lucas",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-arq-18",
+    "why": "Map 6000*, item 6-72 (a) (queue-map6000.md; owner 02.11, applied 02.11).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "arq-18",
+    "properties": {
+      "NAME": "Highland hunters of the Las Taguas valley (ARQ-18)",
+      "NOTE": "arq-18-6000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-arq-18",
+    "why": "Map 8000, item 3-241 (queue-map8000.md; owner 02.11, applied 02.11).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "arq-18",
+    "properties": {
+      "NAME": "Highland hunters of the Las Taguas valley (ARQ-18)",
+      "NOTE": "arq-18-8000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-el-penoncito",
+    "why": "Map 6000*, item 6-72 (a) (queue-map6000.md; owner 02.11, applied 02.11).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "el-penoncito",
+    "properties": {
+      "NAME": "Hunter-gatherers of El Peñoncito cave (San Juan)",
+      "NOTE": "el-penoncito",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-los-morrillos",
+    "why": "Map 6000*, item 6-72 (a) (queue-map6000.md; owner 02.11, applied 02.11).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "los-morrillos",
+    "properties": {
+      "NAME": "Los Morrillos culture (Ansilta range)",
+      "NOTE": "los-morrillos",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-cordoba",
+    "why": "Map 6000*, item 6-73 (a) (queue-map6000.md; owner 02.11, applied 02.11).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "cordoba-6000",
+    "properties": {
+      "NAME": "Hunter-gatherers of Córdoba (El Alto 3, Arroyo El Gaucho 1)",
+      "NOTE": "cordoba-6000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-patapatane",
+    "why": "Map 6000*, item 6-74 (queue-map6000.md; owner 02.11, applied 02.11).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "patapatane",
+    "properties": {
+      "NAME": "Archaic hunters of the Arica highlands (Patapatane)",
+      "GROUP": "Archaic hunters of the Arica highlands",
+      "NOTE": "patapatane",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-calima",
+    "why": "Map 6000*, item 6-78 (queue-map8000.md; owner 02.11, applied 02.11).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "calima-el-pital",
+    "properties": {
+      "NAME": "Calima preceramic tradition (El Pital)",
+      "GROUP": "Calima preceramic tradition",
+      "NOTE": "calima-6000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-calima",
+    "why": "Map 8000, item 3-249 (a) (queue-map8000.md; owner 02.11, applied 02.11).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "calima-8000",
+    "properties": {
+      "NAME": "Calima preceramic tradition (Sauzalito, El Recreo)",
+      "GROUP": "Calima preceramic tradition",
+      "NOTE": "calima-8000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m2-serra-talhada",
+    "why": "Map 10 000, item 149 (queue-map8000.md; owner 02.11, applied 02.11).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "serra-talhada-10000",
+    "properties": {
+      "NAME": "Serra Talhada phase (Serra da Capivara)",
+      "NOTE": "serra-talhada-10000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Serra_da_Capivara_National_Park | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m2-penas-trampas",
+    "why": "Map 10 000, item 155 (a) (queue-map8000.md; owner 02.11, applied 02.11).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "penas-trampas",
+    "properties": {
+      "NAME": "Early hunters of Antofagasta de la Sierra (Peñas de las Trampas)",
+      "NOTE": "penas-trampas",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m2-agua-de-la-cueva",
+    "why": "Map 10 000, item 157 (queue-map8000.md; owner 02.11, applied 02.11).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "agua-de-la-cueva",
+    "properties": {
+      "NAME": "Early hunters of the Mendoza Precordillera (Agua de la Cueva)",
+      "NOTE": "agua-de-la-cueva-10000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-agua-de-la-cueva",
+    "why": "Map 8000, item 3-237 (queue-map8000.md; owner 02.11, applied 02.11).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "agua-de-la-cueva",
+    "properties": {
+      "NAME": "Early hunters of the Mendoza Precordillera (Agua de la Cueva)",
+      "NOTE": "agua-de-la-cueva-8000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m2-tagua-tagua",
+    "why": "Map 10 000, item 158 (a) (queue-map8000.md; owner 02.11, applied 02.11): an area of the fishtail zone.",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "tagua-tagua",
+    "properties": {
+      "NAME": "Paleoindians of the Pampas and Patagonia (Fishtail points)",
+      "AREA": "Laguna Tagua Tagua (central Chile)",
+      "NOTE": "tagua-tagua",
+      "SOURCES": "https://en.wikipedia.org/wiki/Fishtail_projectile_point | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m2-el-alto-3",
+    "why": "Map 10 000, item 159 (a) (queue-map8000.md; owner 02.11, applied 02.11).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "el-alto-3",
+    "properties": {
+      "NAME": "Early hunter-gatherers of the Sierras of Córdoba (El Alto 3)",
+      "NOTE": "el-alto-3",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m2-marfilo",
+    "why": "Map 10 000, item 160 (a) (queue-map8000.md; owner 02.11, applied 02.11).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "marfilo",
+    "properties": {
+      "NAME": "Early Holocene foragers of Lake Calafquén (Marfilo 1)",
+      "NOTE": "marfilo",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m2-cerro-casa-de-piedra",
+    "why": "Map 10 000, item 161 (a) (queue-map8000.md; owner 02.11, applied 02.11).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "cerro-casa-de-piedra",
+    "properties": {
+      "NAME": "Early hunters of Cerro Casa de Piedra (Santa Cruz)",
+      "NOTE": "cerro-casa-de-piedra",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m2-nare",
+    "why": "Map 10 000, item 148 (a) (queue-map8000.md; owner 02.11, applied 02.11).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "nare",
+    "properties": {
+      "NAME": "Nare lithic tradition (Middle Magdalena: La Palestina, San Juan de Bedout, Yondó)",
+      "NOTE": "nare",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m2-porce",
+    "why": "Map 10 000, item 148 (a) (queue-map8000.md; owner 02.11, applied 02.11).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "porce",
+    "properties": {
+      "NAME": "Early foragers of the Porce valley",
+      "NOTE": "porce",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-arica-highlands",
+    "why": "Map 8000, item 3-238 (queue-map8000.md; owner 02.11, applied 02.11).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "arica-highlands-8000",
+    "properties": {
+      "NAME": "Archaic hunters of the Arica highlands (Hakenasa, Las Cuevas, Ipilla)",
+      "GROUP": "Archaic hunters of the Arica highlands",
+      "NOTE": "arica-highlands-8000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-cerros-pintados",
+    "why": "Map 8000, item 3-239 (a) (queue-map8000.md; owner 02.11, applied 02.11).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "cerros-pintados",
+    "properties": {
+      "NAME": "Early Archaic foragers of the Pampa del Tamarugal (Cerros Pintados)",
+      "NOTE": "cerros-pintados",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-chinchihuapi",
+    "why": "Map 8000, item 3-243 (queue-map8000.md; owner 02.11, applied 02.11).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "chinchihuapi",
+    "properties": {
+      "NAME": "Early Holocene foragers of Chinchihuapi (Monte Verde area)",
+      "NOTE": "chinchihuapi",
+      "SOURCES": "https://en.wikipedia.org/wiki/Monte_Verde | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-abrigo-do-sol",
+    "why": "Map 8000, item 3-246 (queue-map8000.md; owner 02.11, applied 02.11).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "abrigo-do-sol",
+    "properties": {
+      "NAME": "Foragers of Abrigo do Sol (upper Guaporé)",
+      "NOTE": "abrigo-do-sol-8000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-justino",
+    "why": "Map 8000, item 3-247 (a) (queue-map8000.md; owner 02.11, applied 02.11).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "justino",
+    "properties": {
+      "NAME": "Early hunter-gatherers of Xingó (Justino, cemetery D)",
+      "NOTE": "justino",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-abrigo-do-pilao",
+    "why": "Map 8000, item 3-247 (a) (queue-map8000.md; owner 02.11, applied 02.11).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "abrigo-do-pilao",
+    "properties": {
+      "NAME": "Early foragers of central Bahia (Abrigo do Pilão)",
+      "NOTE": "abrigo-do-pilao",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-breu-branco",
+    "why": "Map 8000, item 3-248 (a) (queue-map8000.md; owner 02.11, applied 02.11).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "breu-branco",
+    "properties": {
+      "NAME": "Early foragers of the lower Tocantins (Breu Branco)",
+      "NOTE": "breu-branco",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-el-abrigo-ica",
+    "why": "Map 8000, item 3-250 (a) (queue-map8000.md; owner 02.11, applied 02.11).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "el-abrigo-ica",
+    "properties": {
+      "NAME": "Early Holocene foragers of the Ica valley (El Abrigo)",
+      "NOTE": "el-abrigo-ica",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m2-vermilion-lakes",
+    "why": "Map 10 000, item 165 (a) (queue-map8000.md; owner 02.11, applied 02.11).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "vermilion-lakes",
+    "properties": {
+      "NAME": "Paleoindians of the Bow Valley (Vermilion Lakes)",
+      "NOTE": "vermilion-lakes",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m2-western-colorado",
+    "why": "Map 10 000, item 167 (a) (queue-map8000.md; owner 02.11, applied 02.11).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "western-colorado-10000",
+    "properties": {
+      "NAME": "Paleoindians of western Colorado (Kib Ridge, Eagle Rock, Mountaineer)",
+      "NOTE": "western-colorado-10000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m2-nesquehoning",
+    "why": "Map 10 000, item 170 (a) (queue-map8000.md; owner 02.11, applied 02.11).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "nesquehoning",
+    "properties": {
+      "NAME": "Late Paleoindians of the Middle Atlantic",
+      "AREA": "Nesquehoning Creek (Pennsylvania)",
+      "NOTE": "middle-atlantic-nesquehoning",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m2-barton-18ag3",
+    "why": "Map 10 000, item 170 (a) (queue-map8000.md; owner 02.11, applied 02.11).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "barton-18ag3",
+    "properties": {
+      "NAME": "Late Paleoindians of the Middle Atlantic",
+      "AREA": "Barton site (Maryland)",
+      "NOTE": "middle-atlantic-barton",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m2-cactus-hill",
+    "why": "Map 10 000, item 170 (a) (queue-map8000.md; owner 02.11, applied 02.11).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "cactus-hill",
+    "properties": {
+      "NAME": "Late Paleoindians of the Middle Atlantic",
+      "AREA": "Cactus Hill (Virginia)",
+      "NOTE": "middle-atlantic-cactus-hill",
+      "SOURCES": "https://en.wikipedia.org/wiki/Cactus_Hill | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-peace-river",
+    "why": "Map 8000, item 3-258 (a) (queue-map8000.md; owner 02.11, applied 02.11).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "peace-river-8000",
+    "properties": {
+      "NAME": "Early Holocene foragers of the Peace River country",
+      "NOTE": "peace-river-8000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-colorado-plateau",
+    "why": "Map 8000, item 3-260 (a′) (queue-map8000.md; owner 02.11, applied 02.11).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "colorado-plateau-8000",
+    "properties": {
+      "NAME": "Early Archaic of the Colorado Plateau (North Creek, Dust Devil)",
+      "GROUP": "Early Archaic of the Colorado Plateau",
+      "NOTE": "colorado-plateau-8000",
       "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
     }
   }
