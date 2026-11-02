@@ -2904,30 +2904,32 @@
   },
   {
     "id": "m8-el-riego",
-    "why": "Map 8000, item 3-68 (closes 3-21).",
+    "why": "Map 8000, item 3-68 (closes 3-21). Item 3-227 (applied 02.11): area of the group \"Highland Archaic of central and southern Mexico\".",
     "years": [
       -8000
     ],
     "action": "add",
     "shape": "m8-el-riego",
     "properties": {
-      "NAME": "El Riego phase (Tehuacán Valley)",
+      "NAME": "Highland Archaic of central and southern Mexico",
       "NOTE": "el-riego",
-      "SOURCES": "https://en.wikipedia.org/wiki/El_Riego_phase | https://www.cambridge.org/core/product/F4C32FB10E73D660CB7D9B44E2C29A72"
+      "SOURCES": "https://en.wikipedia.org/wiki/El_Riego_phase | https://www.cambridge.org/core/product/F4C32FB10E73D660CB7D9B44E2C29A72",
+      "AREA": "Tehuacán Valley (El Riego phase)"
     }
   },
   {
     "id": "m8-guila-naquitz",
-    "why": "Map 8000, item 3-68 (closes 3-21).",
+    "why": "Map 8000, item 3-68 (closes 3-21). Item 3-227 (applied 02.11): area of the group \"Highland Archaic of central and southern Mexico\".",
     "years": [
       -8000
     ],
     "action": "add",
     "shape": "m8-guila-naquitz",
     "properties": {
-      "NAME": "Naquitz phase foragers (Valley of Oaxaca)",
+      "NAME": "Highland Archaic of central and southern Mexico",
       "NOTE": "guila-naquitz",
-      "SOURCES": "https://ehrafarchaeology.yale.edu/traditions/ny30/documents/027 | https://en.wikipedia.org/wiki/Guil%C3%A1_Naquitz_Cave"
+      "SOURCES": "https://ehrafarchaeology.yale.edu/traditions/ny30/documents/027 | https://en.wikipedia.org/wiki/Guil%C3%A1_Naquitz_Cave",
+      "AREA": "Valley of Oaxaca (Naquitz phase)"
     }
   },
   {
@@ -3062,9 +3064,7 @@
     "id": "m8-middle-cauca",
     "why": "Map 8000, item 3-86, and map 10 000, item 100 (accepted 21.10, applied 22.10).",
     "years": [
-      -10000,
-      -8000,
-      -6000
+      -10000
     ],
     "action": "add",
     "shape": "middle-cauca",
@@ -3106,14 +3106,14 @@
   },
   {
     "id": "m2i-piuquenes",
-    "why": "Map 10 000, item 104 (a) (queue-map2.md; accepted 21.10, applied 22.10).",
+    "why": "Map 10 000, item 104 (a) (queue-map2.md; accepted 21.10, applied 22.10). Item 145 (applied 02.11): extended south to El Manzano 1 (Maipo).",
     "years": [
       -10000
     ],
     "action": "add",
     "shape": "piuquenes",
     "properties": {
-      "NAME": "Early Archaic of the central Chilean Andes (Los Piuquenes)",
+      "NAME": "Early Archaic of the central Chilean Andes (Los Piuquenes, El Manzano)",
       "NOTE": "piuquenes-10000",
       "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
     }
@@ -3349,12 +3349,12 @@
   },
   {
     "id": "m8-acha",
-    "why": "Map 8000, item 3-80, candidate Acha-2 (queue-map8000.md; accepted 21.10, applied 22.10).",
+    "why": "Map 8000, item 3-80, candidate Acha-2 (queue-map8000.md; accepted 21.10, applied 22.10). Item 3-219 (applied 02.11): extended to Ilo.",
     "years": [
       -8000
     ],
     "action": "add",
-    "shape": "acha",
+    "shape": "acha-8000",
     "properties": {
       "NAME": "Early Archaic fishers of the Arica coast (Acha)",
       "NOTE": "acha",
@@ -3379,8 +3379,7 @@
     "id": "m8-puna-jujuy",
     "why": "Map 8000, item 3-81 (b) (queue-map8000.md; accepted 21.10, applied 22.10).",
     "years": [
-      -8000,
-      -6000
+      -8000
     ],
     "action": "add",
     "shape": "puna-jujuy",
@@ -3392,12 +3391,12 @@
   },
   {
     "id": "m8-huentelauquen",
-    "why": "Map 8000, item 3-81 (c) (queue-map8000.md; accepted 21.10, applied 22.10).",
+    "why": "Map 8000, item 3-81 (c) (queue-map8000.md; accepted 21.10, applied 22.10). Item 3-223 (applied 02.11): extended into the Elqui valley (La Fundición 1).",
     "years": [
       -8000
     ],
     "action": "add",
-    "shape": "huentelauquen",
+    "shape": "huentelauquen-8000",
     "properties": {
       "NAME": "Huentelauquén cultural complex",
       "NOTE": "huentelauquen",
@@ -3406,14 +3405,14 @@
   },
   {
     "id": "m8-piuquenes",
-    "why": "Map 8000, item 3-82 (a) (queue-map8000.md; accepted 21.10, applied 22.10).",
+    "why": "Map 8000, item 3-82 (a) (queue-map8000.md; accepted 21.10, applied 22.10). Item 3-221 (applied 02.11): extended south to El Manzano 1 (Maipo).",
     "years": [
       -8000
     ],
     "action": "add",
     "shape": "piuquenes",
     "properties": {
-      "NAME": "Early Archaic of the central Chilean Andes (Los Piuquenes)",
+      "NAME": "Early Archaic of the central Chilean Andes (Los Piuquenes, El Manzano)",
       "NOTE": "piuquenes",
       "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
     }
@@ -3434,16 +3433,16 @@
   },
   {
     "id": "m8-pay-paso",
-    "why": "Map 8000, item 3-82 (f) (queue-map8000.md; accepted 21.10, applied 22.10).",
+    "why": "Map 8000, item 3-82 (f) (queue-map8000.md; accepted 21.10, applied 22.10). Item 3-228 (applied 02.11): extended to Zanja del Tigre.",
     "years": [
       -8000
     ],
     "action": "add",
-    "shape": "pay-paso",
+    "shape": "pay-paso-8000",
     "properties": {
       "NAME": "Early Holocene foragers of northern Uruguay (Pay Paso)",
       "NOTE": "pay-paso",
-      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7 | https://cir.cenieh.es/bitstream/20.500.12136/676/1/Excavaciones%20en%20Zanja%20del%20Tigre%20(Uruguay).%20Primeras%20ocupaciones%20humanas%20de%20Am%C3%A9rica_Mateos%20Cachotto_et_al_2012.pdf"
     }
   },
   {
@@ -5433,44 +5432,46 @@
   },
   {
     "id": "m6-acha",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-acha) with a new name or note.",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-acha) with a new name or note. Item 6-47 (c) (applied 02.11): renamed Chinchorro culture, coast from Ilo to Camarones.",
     "years": [
       -6000
     ],
     "action": "add",
-    "shape": "acha",
+    "shape": "chinchorro-6000",
     "properties": {
-      "NAME": "Early Archaic fishers of the Arica coast",
-      "NOTE": "acha-6000",
-      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+      "NAME": "Chinchorro culture",
+      "NOTE": "chinchorro-6000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Chinchorro_culture | https://www.nature.com/articles/s41597-022-01118-7"
     }
   },
   {
     "id": "m6-piuquenes",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-piuquenes) with a new name or note.",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-piuquenes) with a new name or note. Item 6-50 (c) (applied 02.11): extended to the Maipo and Tagua Tagua, renamed.",
     "years": [
       -6000
     ],
     "action": "add",
-    "shape": "piuquenes",
+    "shape": "central-chile-6000",
     "properties": {
-      "NAME": "Early Archaic of the central Chilean Andes (Los Piuquenes)",
-      "NOTE": "piuquenes-6000",
-      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+      "NAME": "Middle Archaic of central Chile (Los Piuquenes, El Manzano, Cuchipuy)",
+      "NOTE": "central-chile-6000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7",
+      "GROUP": "Archaic of the central Chilean Andes"
     }
   },
   {
     "id": "m6-patagonia",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-patagonia) with a new name or note.",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-patagonia) with a new name or note. Items 6-53, 6-54 (applied 02.11): a group of three areas; extended east to Gruta Molina.",
     "years": [
       -6000
     ],
     "action": "add",
-    "shape": "patagonia-early-holocene",
+    "shape": "patagonia-6000",
     "properties": {
-      "NAME": "Hunters of Patagonia (Santa Cruz and Aysén)",
+      "NAME": "Hunters of Patagonia",
       "NOTE": "patagonia-6000",
-      "SOURCES": "https://en.wikipedia.org/wiki/Cueva_de_las_Manos | https://www.nature.com/articles/s41597-022-01118-7"
+      "SOURCES": "https://en.wikipedia.org/wiki/Cueva_de_las_Manos | https://www.nature.com/articles/s41597-022-01118-7",
+      "AREA": "Santa Cruz and Aysén"
     }
   },
   {
@@ -6091,12 +6092,12 @@
   },
   {
     "id": "m6-pampas",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-pampas) with a new name or note.",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-pampas) with a new name or note. Item 6-52 (applied 02.11): extended along the coast to Monte Hermoso.",
     "years": [
       -6000
     ],
     "action": "add",
-    "shape": "pampas-early-holocene",
+    "shape": "pampas-6000",
     "properties": {
       "NAME": "Hunter-gatherers of the Pampas",
       "NOTE": "pampas-6000",
@@ -6483,16 +6484,17 @@
   },
   {
     "id": "m6-texas",
-    "why": "Map 6000*, North America package, item 6-12, 6-26, 6-27 (29.10); item 6-37 (30.10): north and east edges by dated finds + 50 km.",
+    "why": "Map 6000*, North America package, item 6-12, 6-26, 6-27 (29.10); item 6-37 (30.10): north and east edges by dated finds + 50 km. Item 6-60 (b) (applied 02.11): area of the group \"Archaic of Texas and northeastern Mexico\".",
     "years": [
       -6000
     ],
     "action": "add",
     "shape": "m6-texas",
     "properties": {
-      "NAME": "Early Archaic of Central and South Texas (Martindale, Uvalde)",
+      "NAME": "Archaic of Texas and northeastern Mexico",
       "NOTE": "texas-archaic-6000",
-      "SOURCES": "https://www.texasbeyondhistory.net/trans-p/prehistory/images/earlyarchaic.html | https://www.nature.com/articles/s41597-022-01118-7"
+      "SOURCES": "https://www.texasbeyondhistory.net/trans-p/prehistory/images/earlyarchaic.html | https://www.nature.com/articles/s41597-022-01118-7",
+      "AREA": "Texas (Edwards Plateau, South Texas, Trans-Pecos)"
     }
   },
   {
@@ -6539,58 +6541,62 @@
   },
   {
     "id": "m6-coahuila",
-    "why": "Map 6000*, North America package, item 6-16 (a) (29.10).",
+    "why": "Map 6000*, North America package, item 6-16 (a) (29.10). Item 6-60 (b) (applied 02.11): area of the group \"Archaic of Texas and northeastern Mexico\".",
     "years": [
       -6000
     ],
     "action": "add",
     "shape": "m6-coahuila",
     "properties": {
-      "NAME": "Coahuila complex (Frightful Cave)",
+      "NAME": "Archaic of Texas and northeastern Mexico",
       "NOTE": "coahuila-6000",
-      "SOURCES": "https://en.wikipedia.org/wiki/Frightful_Cave"
+      "SOURCES": "https://en.wikipedia.org/wiki/Frightful_Cave",
+      "AREA": "Coahuila (Frightful Cave)"
     }
   },
   {
     "id": "m6-tamaulipas",
-    "why": "Map 6000*, North America package, item 6-16 (b) (29.10).",
+    "why": "Map 6000*, North America package, item 6-16 (b) (29.10). Item 6-60 (b) (applied 02.11): area of the group \"Archaic of Texas and northeastern Mexico\".",
     "years": [
       -6000
     ],
     "action": "add",
     "shape": "m6-tamaulipas",
     "properties": {
-      "NAME": "Archaic of the Tamaulipas sierras (Infiernillo and Lerma phases)",
+      "NAME": "Archaic of Texas and northeastern Mexico",
       "NOTE": "tamaulipas-6000",
-      "SOURCES": "https://en.wikipedia.org/wiki/Richard_MacNeish"
+      "SOURCES": "https://en.wikipedia.org/wiki/Richard_MacNeish",
+      "AREA": "Tamaulipas sierras (Infiernillo and Lerma phases)"
     }
   },
   {
     "id": "m6-el-riego",
-    "why": "Map 6000*, North America package, item 6-17 (29.10): AMS dates of Coxcatlán in the card.",
+    "why": "Map 6000*, North America package, item 6-17 (29.10): AMS dates of Coxcatlán in the card. Item 6-60 (applied 02.11): area of the group \"Highland Archaic of central and southern Mexico\".",
     "years": [
       -6000
     ],
     "action": "add",
     "shape": "m8-el-riego",
     "properties": {
-      "NAME": "El Riego phase (Tehuacán Valley)",
+      "NAME": "Highland Archaic of central and southern Mexico",
       "NOTE": "el-riego-6000",
-      "SOURCES": "https://en.wikipedia.org/wiki/El_Riego_phase | https://www.cambridge.org/core/product/F4C32FB10E73D660CB7D9B44E2C29A72"
+      "SOURCES": "https://en.wikipedia.org/wiki/El_Riego_phase | https://www.cambridge.org/core/product/F4C32FB10E73D660CB7D9B44E2C29A72",
+      "AREA": "Tehuacán Valley (El Riego phase)"
     }
   },
   {
     "id": "m6-oaxaca",
-    "why": "Map 6000*, North America package, item 6-18 (29.10): Guilá Naquitz and Gheo-Shih, with a note.",
+    "why": "Map 6000*, North America package, item 6-18 (29.10): Guilá Naquitz and Gheo-Shih, with a note. Item 6-60 (applied 02.11): area of the group \"Highland Archaic of central and southern Mexico\".",
     "years": [
       -6000
     ],
     "action": "add",
     "shape": "m8-guila-naquitz",
     "properties": {
-      "NAME": "Archaic foragers of the Valley of Oaxaca (Naquitz and Jícaras phases)",
+      "NAME": "Highland Archaic of central and southern Mexico",
       "NOTE": "oaxaca-6000",
-      "SOURCES": "https://sites.lsa.umich.edu/oaxaca-archaeology/origins-of-agriculture | https://en.wikipedia.org/wiki/Gheo-Shih"
+      "SOURCES": "https://sites.lsa.umich.edu/oaxaca-archaeology/origins-of-agriculture | https://en.wikipedia.org/wiki/Gheo-Shih",
+      "AREA": "Valley of Oaxaca (Naquitz and Jícaras phases)"
     }
   },
   {
@@ -6649,6 +6655,480 @@
       "NOTE": "uninhabited-ice-6000",
       "SOURCES": "https://en.wikipedia.org/wiki/Laurentide_ice_sheet | https://doi.org/10.1016/j.quascirev.2020.106223",
       "KIND": "uninhabited"
+    }
+  },
+  {
+    "id": "m8-middle-cauca-north",
+    "why": "Map 8000 and 6000*, South America package, item 3-226, 6-41 (c) (owner 01–02.11; applied 02.11).",
+    "years": [
+      -8000,
+      -6000
+    ],
+    "action": "add",
+    "shape": "middle-cauca-north",
+    "properties": {
+      "NAME": "Early foragers of the Middle Cauca Valley",
+      "NOTE": "middle-cauca-8000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-banwari-trace",
+    "why": "Map 6000*, South America package, item 6-42 (d) (owner 01–02.11; applied 02.11).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "banwari-trace",
+    "properties": {
+      "NAME": "Early foragers of Trinidad (Banwari Trace)",
+      "NOTE": "banwari-trace",
+      "SOURCES": "https://en.wikipedia.org/wiki/Banwari_Trace"
+    }
+  },
+  {
+    "id": "m6-alaka",
+    "why": "Map 6000*, South America package, item 6-43 (a) (owner 01–02.11; applied 02.11).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "alaka",
+    "properties": {
+      "NAME": "Alaka phase (shell mounds of northwestern Guyana)",
+      "NOTE": "alaka",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-zana-nanchoc",
+    "why": "Map 6000*, South America package, item 6-45 (a) (owner 01–02.11; applied 02.11).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "zana-nanchoc",
+    "properties": {
+      "NAME": "Preceramic farmers of the Zaña and Ñanchoc valleys (Las Pircas — Tierra Blanca)",
+      "AREA": "Zaña and Ñanchoc valleys (Nanchoc)",
+      "NOTE": "zana-nanchoc",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-chicama",
+    "why": "Map 6000*, South America package, item 6-45 (b) (owner 01–02.11; applied 02.11).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "chicama-6000",
+    "properties": {
+      "NAME": "Preceramic farmers of the Zaña and Ñanchoc valleys (Las Pircas — Tierra Blanca)",
+      "AREA": "Chicama coast (Huaca Prieta, Ascope)",
+      "NOTE": "chicama-6000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Huaca_Prieta | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-amotape-siches",
+    "why": "Map 8000 and 6000*, South America package, item 3-216, 6-45 (c) (owner 01–02.11; applied 02.11).",
+    "years": [
+      -8000,
+      -6000
+    ],
+    "action": "add",
+    "shape": "amotape-siches",
+    "properties": {
+      "NAME": "Amotape and Siches phases (far north coast of Peru)",
+      "NOTE": "amotape-siches",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m2-ayacucho",
+    "why": "Map 10000, South America package, item 146 (owner 01–02.11; applied 02.11).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "ayacucho",
+    "properties": {
+      "NAME": "Archaic foragers of the Ayacucho Basin (Jaywamachay, Puente)",
+      "GROUP": "Archaic foragers of the Ayacucho Basin",
+      "NOTE": "ayacucho-10000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-ayacucho",
+    "why": "Map 8000, South America package, item 3-217 (owner 01–02.11; applied 02.11).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "ayacucho",
+    "properties": {
+      "NAME": "Archaic foragers of the Ayacucho Basin (Jaywamachay, Puente)",
+      "GROUP": "Archaic foragers of the Ayacucho Basin",
+      "NOTE": "ayacucho-8000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-ayacucho",
+    "why": "Map 6000*, South America package, item 6-46 (owner 01–02.11; applied 02.11).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "ayacucho",
+    "properties": {
+      "NAME": "Archaic foragers of the Ayacucho Basin (Jaywamachay, Puente)",
+      "GROUP": "Archaic foragers of the Ayacucho Basin",
+      "NOTE": "ayacucho-6000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-morro-colorado",
+    "why": "Map 6000*, South America package, item 6-48 (a) (owner 01–02.11; applied 02.11).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "morro-colorado",
+    "properties": {
+      "NAME": "Early fishers of Taltal (Morro Colorado)",
+      "NOTE": "morro-colorado",
+      "SOURCES": "https://www.scielo.cl/scielo.php?pid=S0718-10432015000100002&script=sci_arttext"
+    }
+  },
+  {
+    "id": "m6-puna-jujuy",
+    "why": "Map 6000*, South America package, item 6-49 (a, b) (owner 01–02.11; applied 02.11).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "puna-jujuy-6000",
+    "properties": {
+      "NAME": "Middle Archaic hunters of the Puna of Jujuy (Hornillos 2)",
+      "GROUP": "Hunters of the Puna of Jujuy",
+      "NOTE": "puna-jujuy-6000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-antofagasta",
+    "why": "Map 8000, South America package, item 3-220 (owner 01–02.11; applied 02.11).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "antofagasta-8000",
+    "properties": {
+      "NAME": "Archaic hunters of Antofagasta de la Sierra (Quebrada Seca, Salamanca)",
+      "NOTE": "antofagasta-8000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-antofagasta",
+    "why": "Map 6000*, South America package, item 6-49 (e) (owner 01–02.11; applied 02.11).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "antofagasta-6000",
+    "properties": {
+      "NAME": "Archaic hunters of Antofagasta de la Sierra (Quebrada Seca, Salamanca)",
+      "NOTE": "antofagasta-6000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-pichasca",
+    "why": "Map 6000*, South America package, item 6-50 (b) (owner 01–02.11; applied 02.11).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "pichasca",
+    "properties": {
+      "NAME": "Middle Archaic of the Hurtado valley (Pichasca)",
+      "NOTE": "pichasca",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-south-mendoza",
+    "why": "Map 6000*, South America package, item 6-51 (a) (owner 01–02.11; applied 02.11).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "south-mendoza-6000",
+    "properties": {
+      "NAME": "Hunter-gatherers of southern Mendoza (Gruta de El Manzano)",
+      "GROUP": "Hunter-gatherers of the Atuel valley",
+      "NOTE": "south-mendoza-6000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-casa-de-piedra",
+    "why": "Map 8000 and 6000*, South America package, item 3-222, 6-51 (d) (owner 01–02.11; applied 02.11).",
+    "years": [
+      -8000,
+      -6000
+    ],
+    "action": "add",
+    "shape": "casa-de-piedra",
+    "properties": {
+      "NAME": "Foragers of the middle Colorado River (Casa de Piedra)",
+      "NOTE": "casa-de-piedra",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-north-patagonia",
+    "why": "Map 6000*, South America package, item 6-53 (a) (owner 01–02.11; applied 02.11).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "north-patagonia-6000",
+    "properties": {
+      "NAME": "Hunters of Patagonia",
+      "AREA": "Northern Patagonia (Epullán Grande, Traful, Haichol)",
+      "NOTE": "north-patagonia-6000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-fell",
+    "why": "Map 6000*, South America package, item 6-54 (owner 01–02.11; applied 02.11).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "fell-6000",
+    "properties": {
+      "NAME": "Hunters of Patagonia",
+      "AREA": "Pali Aike (Fell's Cave)",
+      "NOTE": "fell-6000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Fell%27s_Cave | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-canoe",
+    "why": "Map 6000*, South America package, item 6-54 (owner 01–02.11; applied 02.11).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "canoe-6000",
+    "properties": {
+      "NAME": "Early canoe hunter-gatherers of the Magellan and Beagle channels (Ponsonby, Imiwaia)",
+      "NOTE": "canoe-6000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-rincon-indios",
+    "why": "Map 6000*, South America package, item 6-55 (a) (owner 01–02.11; applied 02.11).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "rincon-indios",
+    "properties": {
+      "NAME": "Early-Middle Holocene foragers of eastern Uruguay (Rincón de los Indios)",
+      "NOTE": "rincon-indios",
+      "SOURCES": "https://portal.amelica.org/ameli/journal/128/128817013/html/ | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-cuareimense",
+    "why": "Map 6000*, South America package, item 6-55 (W-52) (owner 01–02.11; applied 02.11).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "cuareimense",
+    "properties": {
+      "NAME": "Cuareimense foragers of the middle Uruguay River (W-52, Mandiyú)",
+      "NOTE": "cuareimense",
+      "SOURCES": "https://portal.amelica.org/ameli/journal/128/128817013/html/"
+    }
+  },
+  {
+    "id": "m6-nuagapua",
+    "why": "Map 6000*, South America package, item 6-56 (a) (owner 01–02.11; applied 02.11).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "nuagapua",
+    "properties": {
+      "NAME": "Early foragers of the Bolivian Chaco (Ñuagapua)",
+      "NOTE": "nuagapua",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-lower-amazon",
+    "why": "Map 6000*, South America package, item 6-57 (a, b) (owner 01–02.11; applied 02.11).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "lower-amazon-6000",
+    "properties": {
+      "NAME": "Early pottery makers of the lower Amazon (Taperinha, Paituna)",
+      "NOTE": "lower-amazon-6000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Caverna_da_Pedra_Pintada | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-upper-madeira",
+    "why": "Map 6000*, South America package, item 6-57 (c) (owner 01–02.11; applied 02.11).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "upper-madeira",
+    "properties": {
+      "NAME": "Archaic of the upper Madeira (Teotônio, Cachoeirinha, Garbin)",
+      "NOTE": "upper-madeira",
+      "SOURCES": "https://doi.org/10.1371/journal.pone.0199868 | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-monte-castelo",
+    "why": "Map 6000*, South America package, item 6-57 (Monte Castelo) (owner 01–02.11; applied 02.11).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "monte-castelo",
+    "properties": {
+      "NAME": "Shell-mound foragers of Monte Castelo (Guaporé)",
+      "NOTE": "monte-castelo",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-abrigo-do-sol",
+    "why": "Map 6000*, South America package, item 6-57 (Abrigo do Sol) (owner 01–02.11; applied 02.11).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "abrigo-do-sol",
+    "properties": {
+      "NAME": "Foragers of Abrigo do Sol (upper Guaporé)",
+      "NOTE": "abrigo-do-sol",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-serranopolis",
+    "why": "Map 6000*, South America package, item 6-59 (a1) (owner 01–02.11; applied 02.11).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "serranopolis",
+    "properties": {
+      "NAME": "Serranópolis phase (southwest Goiás)",
+      "NOTE": "serranopolis",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-lagoa-santa",
+    "why": "Map 6000*, South America package, item 6-59 (a2) (owner 01–02.11; applied 02.11).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "lagoa-santa-6000",
+    "properties": {
+      "NAME": "Foragers of the Lagoa Santa karst",
+      "NOTE": "lagoa-santa-6000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-humaita",
+    "why": "Map 6000*, South America package, item 6-59 (c1) (owner 01–02.11; applied 02.11).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "humaita",
+    "properties": {
+      "NAME": "Humaitá tradition (José Vieira)",
+      "NOTE": "humaita",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m2-jaguay",
+    "why": "Map 10000, South America package, item 144 (owner 01–02.11; applied 02.11).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "jaguay",
+    "properties": {
+      "NAME": "Early maritime foragers of Quebrada Jaguay",
+      "NOTE": "jaguay-10000",
+      "SOURCES": "https://doi.org/10.1126/science.281.5384.1830 | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-jaguay",
+    "why": "Map 8000, South America package, item 3-218 (owner 01–02.11; applied 02.11).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "jaguay",
+    "properties": {
+      "NAME": "Early maritime foragers of Quebrada Jaguay",
+      "NOTE": "jaguay-8000",
+      "SOURCES": "https://doi.org/10.1126/science.281.5384.1830 | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m2-el-jobo",
+    "why": "Map 10000, South America package, item 143 (owner 01–02.11; applied 02.11).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "el-jobo",
+    "properties": {
+      "NAME": "El Jobo point makers (Falcón and Lara)",
+      "NOTE": "el-jobo-10000",
+      "SOURCES": "https://link.springer.com/article/10.1007/s12520-025-02296-2 | https://en.wikipedia.org/wiki/Taima-Taima"
+    }
+  },
+  {
+    "id": "m8-furna-do-estrago",
+    "why": "Map 8000, South America package, item 3-224 (owner 01–02.11; applied 02.11).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "furna-do-estrago",
+    "properties": {
+      "NAME": "Furna do Estrago rockshelter",
+      "NOTE": "furna-do-estrago",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
     }
   }
 ]
