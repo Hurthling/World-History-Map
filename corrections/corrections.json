@@ -3380,14 +3380,27 @@
     "id": "m8-south-central-andes",
     "why": "Map 8000, item 3-80 (queue-map8000.md; accepted 21.10, applied 22.10).",
     "years": [
-      -8000,
-      -6000
+      -8000
     ],
     "action": "add",
     "shape": "south-central-andes",
     "properties": {
       "NAME": "Early Archaic foragers of the south-central Andes",
       "NOTE": "south-central-andes",
+      "SOURCES": "https://en.wikipedia.org/wiki/Wilamaya_Patjxa | https://en.wikipedia.org/wiki/Toquepala_Caves | https://www.science.org/doi/10.1126/sciadv.abd0310 | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-south-central-andes",
+    "why": "Map 6000*: the zone of map 8000 (m8-south-central-andes, carried 28.10 unchanged) with its own outline and card. Item 6-82 (a) (owner 02.11, applied 04.11): Patapatane (item 6-74) joined to the zone; rule m6-patapatane removed.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "south-central-andes-6000",
+    "properties": {
+      "NAME": "Early Archaic foragers of the south-central Andes",
+      "NOTE": "south-central-andes-6000",
       "SOURCES": "https://en.wikipedia.org/wiki/Wilamaya_Patjxa | https://en.wikipedia.org/wiki/Toquepala_Caves | https://www.science.org/doi/10.1126/sciadv.abd0310 | https://www.nature.com/articles/s41597-022-01118-7"
     }
   },
@@ -3591,16 +3604,16 @@
   },
   {
     "id": "m6-moxos",
-    "why": "Map 6000*: carried from map 8000 (m8-moxos). Item 6-70 (queue-map6000.md; owner 02.11, applied 02.11): extended to Isla 433.",
+    "why": "Map 6000*: carried from map 8000 (m8-moxos). Item 6-70 (queue-map6000.md; owner 02.11, applied 02.11): extended to Isla 433. Item 6-84 (a) (owner 02.11, applied 04.11): Monte Castelo joined, renamed; rule m6-monte-castelo removed. Sources checked for 6000 BC (04.11, owner: \"check and fix Sources\").",
     "years": [
       -6000
     ],
     "action": "add",
     "shape": "moxos-6000",
     "properties": {
-      "NAME": "Forest-island foragers of the Llanos de Moxos",
+      "NAME": "Shell-mound foragers of the Llanos de Moxos and the Guaporé (forest islands, Monte Castelo)",
       "NOTE": "moxos-6000",
-      "SOURCES": "https://www.nature.com/articles/s41586-020-2162-7"
+      "SOURCES": "https://www.nature.com/articles/s41586-020-2162-7 | https://doi.org/10.1371/journal.pone.0072746 | https://www.nature.com/articles/s41597-022-01118-7"
     }
   },
   {
@@ -5255,7 +5268,7 @@
   },
   {
     "id": "m6-west-maghreb",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-west-maghreb) with a new name or note.",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-west-maghreb) with a new name or note. Sources checked for 6000 BC (04.11, owner: \"check and fix Sources\").",
     "years": [
       -6000
     ],
@@ -5264,7 +5277,7 @@
     "properties": {
       "NAME": "Epipalaeolithic foragers of the western Maghreb",
       "NOTE": "west-maghreb-6000",
-      "SOURCES": "https://www.sfb806.uni-koeln.de | https://www.prehistoire.org | https://www.nature.com/articles/s41597-022-01118-7"
+      "SOURCES": "https://crc806db.uni-koeln.de/publication/show/the-holocene-archaeological-sequence-and-site-formation-processes-at-ifri-oudadane-ne-mo1432804141/ | https://www.nature.com/articles/s41597-022-01118-7"
     }
   },
   {
@@ -5325,7 +5338,7 @@
   },
   {
     "id": "m6-hora",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-hora) with a new name or note.",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-hora) with a new name or note. Sources checked for 6000 BC (04.11, owner: \"check and fix Sources\").",
     "years": [
       -6000
     ],
@@ -5334,12 +5347,12 @@
     "properties": {
       "NAME": "Hora foragers (northern Malawi)",
       "NOTE": "hora-6000",
-      "SOURCES": "https://www.science.org/journal/sciadv | https://www.nature.com/articles/s41586-022-04430-9"
+      "SOURCES": "https://www.nature.com/articles/s41586-022-04430-9"
     }
   },
   {
     "id": "m6-oakhurst",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-oakhurst) with a new name or note.",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-oakhurst) with a new name or note. Sources checked for 6000 BC (04.11, owner: \"check and fix Sources\").",
     "years": [
       -6000
     ],
@@ -5348,14 +5361,14 @@
     "properties": {
       "NAME": "Wilton-type foragers of southern Africa",
       "NOTE": "wilton-6000",
-      "SOURCES": "https://scholarlypublications.universiteitleiden.nl | https://www.nature.com/natecolevol/",
+      "SOURCES": "https://en.wikipedia.org/wiki/Wilton_culture | https://www.nature.com/articles/s41597-022-01118-7",
       "GROUP": "Wilton-type foragers of southern Africa",
       "AREA": "Wilton industry (South Africa, Lesotho)"
     }
   },
   {
     "id": "m6-pomongwan",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-pomongwan) with a new name or note.",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-pomongwan) with a new name or note. Sources checked for 6000 BC (04.11, owner: \"check and fix Sources\").",
     "years": [
       -6000
     ],
@@ -5364,7 +5377,7 @@
     "properties": {
       "NAME": "Wilton-type foragers of southern Africa",
       "NOTE": "matobo-6000",
-      "SOURCES": "https://www.eva.mpg.de",
+      "SOURCES": "https://en.wikipedia.org/wiki/Pomongwe_Cave | https://www.nature.com/articles/s41597-022-01118-7",
       "GROUP": "Wilton-type foragers of southern Africa",
       "AREA": "Matobo Hills (Zimbabwe)"
     }
@@ -5401,7 +5414,7 @@
   },
   {
     "id": "m6-western-stemmed",
-    "why": "Map 6000*, North America package, item 6-5 (b), 6-24 (29.10): Great Basin area of the group; plateau to the Old Cordilleran.",
+    "why": "Map 6000*, North America package, item 6-5 (b), 6-24 (29.10): Great Basin area of the group; plateau to the Old Cordilleran. Sources checked for 6000 BC (04.11, owner: \"check and fix Sources\").",
     "years": [
       -6000
     ],
@@ -5410,14 +5423,14 @@
     "properties": {
       "NAME": "Early Archaic of the Great Basin and Mojave Desert",
       "NOTE": "great-basin-archaic-6000",
-      "SOURCES": "https://en.wikipedia.org/wiki/Western_Stemmed_Tradition | https://oregonencyclopedia.org/articles/fort_rock_sandals | https://www.nature.com/articles/s41597-022-01118-7",
+      "SOURCES": "https://en.wikipedia.org/wiki/Danger_Cave | https://www.nature.com/articles/s41597-022-01118-7",
       "GROUP": "Early Archaic of the Great Basin and Mojave Desert",
       "AREA": "Great Basin (Northern Side-notched)"
     }
   },
   {
     "id": "m6-san-dieguito",
-    "why": "Map 6000*, North America package, item 6-6 (29.10): La Jolla — area of the Millingstone Horizon group.",
+    "why": "Map 6000*, North America package, item 6-6 (29.10): La Jolla — area of the Millingstone Horizon group. Sources checked for 6000 BC (04.11, owner: \"check and fix Sources\").",
     "years": [
       -6000
     ],
@@ -5426,7 +5439,7 @@
     "properties": {
       "NAME": "Millingstone Horizon",
       "NOTE": "la-jolla-6000",
-      "SOURCES": "https://sandiegoarchaeology.org/baja-and-california/la-jolla-phases/ | https://www.sandiegoarchaeology.org/Laylander/Issues/chron.sandieguito.htm",
+      "SOURCES": "https://sandiegoarchaeology.org/baja-and-california/la-jolla-phases/ | https://en.wikipedia.org/wiki/La_Jolla_Complex | https://www.nature.com/articles/s41597-022-01118-7",
       "GROUP": "Millingstone Horizon",
       "AREA": "San Diego coast and northern Baja California (La Jolla)"
     }
@@ -5503,14 +5516,15 @@
   },
   {
     "id": "m6-puna-junin",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-puna-junin) with a new name or note.",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-puna-junin) with a new name or note. Item 6-87 (a) (owner 02.11, applied 04.11): an area of the group \"Archaic hunters of the central Peruvian Andes\".",
     "years": [
       -6000
     ],
     "action": "add",
     "shape": "puna-junin",
     "properties": {
-      "NAME": "Puna hunters of the central Peruvian Andes (Lauricocha, Junín)",
+      "NAME": "Archaic hunters of the central Peruvian Andes",
+      "AREA": "Lauricocha and Junín puna",
       "NOTE": "puna-junin-6000",
       "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
     }
@@ -5531,7 +5545,7 @@
   },
   {
     "id": "m6-piuquenes",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-piuquenes) with a new name or note. Item 6-50 (c) (applied 02.11): extended to the Maipo and Tagua Tagua, renamed. Item 6-77 (applied 02.11): + Paso de las Conchas (Bucalemu) as a separate part.",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-piuquenes) with a new name or note. Item 6-50 (c) (applied 02.11): extended to the Maipo and Tagua Tagua, renamed. Item 6-77 (applied 02.11): + Paso de las Conchas (Bucalemu) as a separate part. Item 6-81 (applied 04.11): Bucalemu joined to the main part (one outline).",
     "years": [
       -6000
     ],
@@ -5561,12 +5575,12 @@
   },
   {
     "id": "m6-umbu",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-umbu) with a new name or note.",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-umbu) with a new name or note. Item 6-85 (a) (owner 02.11, applied 04.11): José Vieira (former Humaitá tradition) joined; own outline umbu-6000; rule m6-humaita removed.",
     "years": [
       -6000
     ],
     "action": "add",
-    "shape": "umbu",
+    "shape": "umbu-6000",
     "properties": {
       "NAME": "Umbu tradition",
       "NOTE": "umbu-6000",
@@ -5575,7 +5589,7 @@
   },
   {
     "id": "m6-komsa",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-komsa) with a new name or note.",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-komsa) with a new name or note. Sources checked for 6000 BC (04.11, owner: \"check and fix Sources\").",
     "years": [
       -6000
     ],
@@ -5584,12 +5598,12 @@
     "properties": {
       "NAME": "Late Mesolithic of Finnmark",
       "NOTE": "finnmark-6000",
-      "SOURCES": "https://en.wikipedia.org/wiki/Komsa_culture | https://www.nature.com/articles/s41597-022-01118-7"
+      "SOURCES": "https://www.cambridge.org/core/product/E0AA194DEB909AE5F8C3131D57D8FF46 | https://journals.rcsi.science/2309-4370/article/view/90482 | https://www.nature.com/articles/s41597-022-01118-7"
     }
   },
   {
     "id": "m6-west-scandinavia",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-west-scandinavia) with a new name or note.",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-west-scandinavia) with a new name or note. Sources checked for 6000 BC (04.11, owner: \"check and fix Sources\").",
     "years": [
       -6000
     ],
@@ -5598,12 +5612,12 @@
     "properties": {
       "NAME": "Late Mesolithic of Norway and western Sweden (Nøstvet, Lihult)",
       "NOTE": "west-scandinavia-6000",
-      "SOURCES": "https://en.wikipedia.org/wiki/Fosna%E2%80%93Hensbacka_culture | https://www.nature.com/articles/s41597-022-01118-7"
+      "SOURCES": "https://en.wikipedia.org/wiki/N%C3%B8stvet_and_Lihult_cultures | https://www.cambridge.org/core/product/E0AA194DEB909AE5F8C3131D57D8FF46 | https://www.nature.com/articles/s41597-022-01118-7"
     }
   },
   {
     "id": "m6-finland",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-finland) with a new name or note.",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-finland) with a new name or note. Sources checked for 6000 BC (04.11, owner: \"check and fix Sources\").",
     "years": [
       -6000
     ],
@@ -5612,12 +5626,12 @@
     "properties": {
       "NAME": "Suomusjärvi culture",
       "NOTE": "suomusjarvi-6000",
-      "SOURCES": "https://en.wikipedia.org/wiki/Antrea_Net | https://www.nature.com/articles/s41597-022-01118-7"
+      "SOURCES": "https://doaj.org/article/771ef60b8d63453fb44f2d986ee2f663 | https://www.nature.com/articles/s41597-022-01118-7"
     }
   },
   {
     "id": "m6-maglemose",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-maglemose) with a new name or note.",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-maglemose) with a new name or note. Sources checked for 6000 BC (04.11, owner: \"check and fix Sources\").",
     "years": [
       -6000
     ],
@@ -5626,12 +5640,12 @@
     "properties": {
       "NAME": "Kongemose culture",
       "NOTE": "kongemose-6000",
-      "SOURCES": "https://en.wikipedia.org/wiki/Maglemosian_culture | https://www.nature.com/articles/s41597-022-01118-7"
+      "SOURCES": "https://en.wikipedia.org/wiki/Kongemose_culture | https://www.nature.com/articles/s41597-022-01118-7"
     }
   },
   {
     "id": "m6-britain",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-britain) with a new name or note.",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-britain) with a new name or note. Sources checked for 6000 BC (04.11, owner: \"check and fix Sources\").",
     "years": [
       -6000
     ],
@@ -5640,7 +5654,7 @@
     "properties": {
       "NAME": "Late Mesolithic of Britain",
       "NOTE": "britain-6000",
-      "SOURCES": "https://en.wikipedia.org/wiki/Star_Carr | https://www.nature.com/articles/s41597-022-01118-7"
+      "SOURCES": "https://www.cambridge.org/core/product/0AD03AE18BCD46BB2F3505DB043F8652 | https://www.nature.com/articles/s41597-022-01118-7"
     }
   },
   {
@@ -5980,7 +5994,7 @@
   },
   {
     "id": "m6-shigir",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-shigir) with a new name or note.",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-shigir) with a new name or note. Sources checked for 6000 BC (04.11, owner: \"check and fix Sources\").",
     "years": [
       -6000
     ],
@@ -5989,7 +6003,7 @@
     "properties": {
       "NAME": "Hunter-fishers of the Middle Urals (Gorbunovo bog)",
       "NOTE": "shigir-6000",
-      "SOURCES": "https://www.cambridge.org/core/product/F3D2E5D73C3850C8E41225E739698432 | https://archaeology.org/news/2021/04/04/210405-shigir-idol-wood/"
+      "SOURCES": "https://www.cambridge.org/core/product/F3D2E5D73C3850C8E41225E739698432 | https://journals.rcsi.science/2309-4370/article/view/34319"
     }
   },
   {
@@ -6036,7 +6050,7 @@
   },
   {
     "id": "m6-ppnb-cyprus",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-ppnb-cyprus) with a new name or note.",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-ppnb-cyprus) with a new name or note. Sources checked for 6000 BC (04.11, owner: \"check and fix Sources\").",
     "years": [
       -6000
     ],
@@ -6045,7 +6059,7 @@
     "properties": {
       "NAME": "Khirokitia culture",
       "NOTE": "khirokitia-6000",
-      "SOURCES": "https://en.wikipedia.org/wiki/Shillourokambos | https://www.nature.com/articles/s41597-022-01118-7"
+      "SOURCES": "https://en.wikipedia.org/wiki/Khirokitia | https://www.nature.com/articles/s41597-022-01118-7"
     }
   },
   {
@@ -6107,7 +6121,7 @@
   },
   {
     "id": "m6-lijiagou",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-lijiagou) with a new name or note.",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-lijiagou) with a new name or note. Sources checked for 6000 BC (04.11, owner: \"check and fix Sources\").",
     "years": [
       -6000
     ],
@@ -6116,7 +6130,7 @@
     "properties": {
       "NAME": "Peiligang culture",
       "NOTE": "peiligang-6000",
-      "SOURCES": "https://www.cambridge.org/core/journals/antiquity/article/lijiagou-and-the-earliest-pottery-in-henan-province-china/DEB39062CB84B123C53A712866305801"
+      "SOURCES": "https://en.wikipedia.org/wiki/Peiligang_culture | https://www.nature.com/articles/s41597-022-01118-7"
     }
   },
   {
@@ -6135,7 +6149,7 @@
   },
   {
     "id": "m6-hokkaido",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-hokkaido) with a new name or note.",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-hokkaido) with a new name or note. Sources checked for 6000 BC (04.11, owner: \"check and fix Sources\").",
     "years": [
       -6000
     ],
@@ -6144,7 +6158,7 @@
     "properties": {
       "NAME": "Hunter-gatherers of Hokkaido",
       "NOTE": "hokkaido-6000",
-      "SOURCES": "https://www.mdpi.com/2571-550X/3/3/21 | https://archaeology.jp/sites/2006/taisho3.htm"
+      "SOURCES": "https://www.mdpi.com/2571-550X/3/3/21 | https://www.nature.com/articles/s41597-022-01118-7"
     }
   },
   {
@@ -6401,7 +6415,7 @@
   },
   {
     "id": "m6-nw-coast",
-    "why": "Map 6000*, North America package, item 6-31 (29.10): north to Icy Strait and the central BC coast (Namu); item 6-36 (30.10): one mainland strip from Chatham Sound to Milbank Sound.",
+    "why": "Map 6000*, North America package, item 6-31 (29.10): north to Icy Strait and the central BC coast (Namu); item 6-36 (30.10): one mainland strip from Chatham Sound to Milbank Sound. Sources checked for 6000 BC (04.11, owner: \"check and fix Sources\").",
     "years": [
       -6000
     ],
@@ -6410,7 +6424,7 @@
     "properties": {
       "NAME": "Early Northwest Coast foragers (Haida Gwaii, Southeast Alaska)",
       "NOTE": "nw-coast-6000",
-      "SOURCES": "https://qmackie.com/tag/annotation/ | https://en.wikipedia.org/wiki/On_Your_Knees_Cave | https://ojs.library.ubc.ca/index.php/bcstudies/article/view/186158 | https://www.nature.com/articles/s41597-022-01118-7"
+      "SOURCES": "https://qmackie.com/tag/annotation/ | https://en.wikipedia.org/wiki/Namu,_British_Columbia | https://ojs.library.ubc.ca/index.php/bcstudies/article/view/186158 | https://www.nature.com/articles/s41597-022-01118-7"
     }
   },
   {
@@ -6747,14 +6761,27 @@
     "id": "m8-middle-cauca-north",
     "why": "Map 8000 and 6000*, South America package, item 3-226, 6-41 (c) (owner 01–02.11; applied 02.11).",
     "years": [
-      -8000,
-      -6000
+      -8000
     ],
     "action": "add",
     "shape": "middle-cauca-north",
     "properties": {
       "NAME": "Early foragers of the Middle Cauca Valley",
       "NOTE": "middle-cauca-8000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-middle-cauca",
+    "why": "Map 6000*: the zone of map 8000 (m8-middle-cauca-north, carried 28.10) with its own outline, name and card. Item 6-83 (a) (owner 02.11, applied 04.11): El Pital — Calima tradition (item 6-78) joined to the zone; rule m6-calima removed.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "middle-cauca-6000",
+    "properties": {
+      "NAME": "Preceramic foragers of the Cauca basin (Middle Cauca, Calima)",
+      "NOTE": "middle-cauca-6000",
       "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
     }
   },
@@ -6847,15 +6874,15 @@
   },
   {
     "id": "m6-ayacucho",
-    "why": "Map 6000*, South America package, item 6-46 (owner 01–02.11; applied 02.11).",
+    "why": "Map 6000*, South America package, item 6-46 (owner 01–02.11; applied 02.11). Item 6-87 (a) (owner 02.11, applied 04.11): an area of the group \"Archaic hunters of the central Peruvian Andes\".",
     "years": [
       -6000
     ],
     "action": "add",
     "shape": "ayacucho",
     "properties": {
-      "NAME": "Archaic foragers of the Ayacucho Basin (Jaywamachay, Puente)",
-      "GROUP": "Archaic foragers of the Ayacucho Basin",
+      "NAME": "Archaic hunters of the central Peruvian Andes",
+      "AREA": "Ayacucho Basin (Jaywamachay, Puente)",
       "NOTE": "ayacucho-6000",
       "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
     }
@@ -6876,15 +6903,15 @@
   },
   {
     "id": "m6-puna-jujuy",
-    "why": "Map 6000*, South America package, item 6-49 (a, b) (owner 01–02.11; applied 02.11).",
+    "why": "Map 6000*, South America package, item 6-49 (a, b) (owner 01–02.11; applied 02.11). Item 6-86 (a) (owner 02.11, applied 04.11): an area of the group \"Middle Archaic hunters of the Argentine Puna\".",
     "years": [
       -6000
     ],
     "action": "add",
     "shape": "puna-jujuy-6000",
     "properties": {
-      "NAME": "Middle Archaic hunters of the Puna of Jujuy (Hornillos 2)",
-      "GROUP": "Hunters of the Puna of Jujuy",
+      "NAME": "Middle Archaic hunters of the Argentine Puna",
+      "AREA": "Puna of Jujuy (Hornillos 2)",
       "NOTE": "puna-jujuy-6000",
       "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
     }
@@ -6905,28 +6932,30 @@
   },
   {
     "id": "m6-antofagasta",
-    "why": "Map 6000*, South America package, item 6-49 (e) (owner 01–02.11; applied 02.11).",
+    "why": "Map 6000*, South America package, item 6-49 (e) (owner 01–02.11; applied 02.11). Item 6-86 (a) (owner 02.11, applied 04.11): an area of the group \"Middle Archaic hunters of the Argentine Puna\".",
     "years": [
       -6000
     ],
     "action": "add",
     "shape": "antofagasta-6000",
     "properties": {
-      "NAME": "Archaic hunters of Antofagasta de la Sierra (Quebrada Seca, Salamanca)",
+      "NAME": "Middle Archaic hunters of the Argentine Puna",
+      "AREA": "Antofagasta de la Sierra (Quebrada Seca, Salamanca)",
       "NOTE": "antofagasta-6000",
       "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
     }
   },
   {
     "id": "m6-pichasca",
-    "why": "Map 6000*, South America package, item 6-50 (b) (owner 01–02.11; applied 02.11).",
+    "why": "Map 6000*, South America package, item 6-50 (b) (owner 01–02.11; applied 02.11). Item 6-88 (a) (owner 02.11, applied 04.11): an area of the group \"Los Morrillos tradition\".",
     "years": [
       -6000
     ],
     "action": "add",
     "shape": "pichasca",
     "properties": {
-      "NAME": "Middle Archaic of the Hurtado valley (Pichasca)",
+      "NAME": "Los Morrillos tradition",
+      "AREA": "Hurtado valley (Pichasca)",
       "NOTE": "pichasca",
       "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
     }
@@ -7076,20 +7105,6 @@
     }
   },
   {
-    "id": "m6-monte-castelo",
-    "why": "Map 6000*, South America package, item 6-57 (Monte Castelo) (owner 01–02.11; applied 02.11).",
-    "years": [
-      -6000
-    ],
-    "action": "add",
-    "shape": "monte-castelo",
-    "properties": {
-      "NAME": "Shell-mound foragers of Monte Castelo (Guaporé)",
-      "NOTE": "monte-castelo",
-      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
-    }
-  },
-  {
     "id": "m6-abrigo-do-sol",
     "why": "Map 6000*, South America package, item 6-57 (Abrigo do Sol) (owner 01–02.11; applied 02.11).",
     "years": [
@@ -7118,61 +7133,16 @@
     }
   },
   {
-    "id": "m6-lagoa-santa",
-    "why": "Map 6000*, South America package, item 6-59 (a2) (owner 01–02.11; applied 02.11). Item 6-66 (a) (applied 02.11): an area of the group \"Foragers of central Minas Gerais\".",
+    "id": "m6-central-minas",
+    "why": "Map 6000*, item 6-79 (owner 02.11, applied 04.11): Lagoa Santa karst, Chã do Caboclo and Lapa Pequena (items 6-59 a2, 6-66) as one outline, one name, one card.",
     "years": [
       -6000
     ],
     "action": "add",
-    "shape": "lagoa-santa-6000",
+    "shape": "central-minas-6000",
     "properties": {
       "NAME": "Foragers of central Minas Gerais",
-      "AREA": "Lagoa Santa karst",
-      "NOTE": "lagoa-santa-6000",
-      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
-    }
-  },
-  {
-    "id": "m6-cha-do-caboclo",
-    "why": "Map 6000*, item 6-66 (a) (queue-map6000.md; owner 02.11, applied 02.11).",
-    "years": [
-      -6000
-    ],
-    "action": "add",
-    "shape": "cha-do-caboclo",
-    "properties": {
-      "NAME": "Foragers of central Minas Gerais",
-      "AREA": "Chã do Caboclo",
-      "NOTE": "cha-do-caboclo",
-      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
-    }
-  },
-  {
-    "id": "m6-lapa-pequena",
-    "why": "Map 6000*, item 6-66 (a) (queue-map6000.md; owner 02.11, applied 02.11).",
-    "years": [
-      -6000
-    ],
-    "action": "add",
-    "shape": "lapa-pequena",
-    "properties": {
-      "NAME": "Foragers of central Minas Gerais",
-      "AREA": "Lapa Pequena (Montes Claros)",
-      "NOTE": "lapa-pequena",
-      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
-    }
-  },
-  {
-    "id": "m6-humaita",
-    "why": "Map 6000*, South America package, item 6-59 (c1) (owner 01–02.11; applied 02.11).",
-    "years": [
-      -6000
-    ],
-    "action": "add",
-    "shape": "humaita",
-    "properties": {
-      "NAME": "Humaitá tradition (José Vieira)",
-      "NOTE": "humaita",
+      "NOTE": "central-minas-6000",
       "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
     }
   },
@@ -7248,14 +7218,15 @@
   },
   {
     "id": "m6-guitarrero",
-    "why": "Map 6000*, item 6-64 (queue-map6000.md; owner 02.11, applied 02.11).",
+    "why": "Map 6000*, item 6-64 (queue-map6000.md; owner 02.11, applied 02.11). Item 6-87 (a) (owner 02.11, applied 04.11): an area of the group \"Archaic hunters of the central Peruvian Andes\".",
     "years": [
       -6000
     ],
     "action": "add",
     "shape": "guitarrero",
     "properties": {
-      "NAME": "Guitarrero Cave foragers",
+      "NAME": "Archaic hunters of the central Peruvian Andes",
+      "AREA": "Callejón de Huaylas (Guitarrero Cave)",
       "NOTE": "guitarrero-6000",
       "SOURCES": "https://en.wikipedia.org/wiki/Guitarrero_Cave | https://www.nature.com/articles/s41597-022-01118-7"
     }
@@ -7388,21 +7359,22 @@
   },
   {
     "id": "m6-los-morrillos",
-    "why": "Map 6000*, item 6-72 (a) (queue-map6000.md; owner 02.11, applied 02.11).",
+    "why": "Map 6000*, item 6-72 (a) (queue-map6000.md; owner 02.11, applied 02.11). Item 6-88 (a) (owner 02.11, applied 04.11): an area of the group \"Los Morrillos tradition\".",
     "years": [
       -6000
     ],
     "action": "add",
     "shape": "los-morrillos",
     "properties": {
-      "NAME": "Los Morrillos culture (Ansilta range)",
+      "NAME": "Los Morrillos tradition",
+      "AREA": "Ansilta range (Los Morrillos)",
       "NOTE": "los-morrillos",
       "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
     }
   },
   {
     "id": "m6-cordoba",
-    "why": "Map 6000*, item 6-73 (a) (queue-map6000.md; owner 02.11, applied 02.11).",
+    "why": "Map 6000*, item 6-73 (a) (queue-map6000.md; owner 02.11, applied 02.11). Item 6-80 (applied 04.11): one outline — convex hull of both circles.",
     "years": [
       -6000
     ],
@@ -7411,36 +7383,6 @@
     "properties": {
       "NAME": "Hunter-gatherers of Córdoba (El Alto 3, Arroyo El Gaucho 1)",
       "NOTE": "cordoba-6000",
-      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
-    }
-  },
-  {
-    "id": "m6-patapatane",
-    "why": "Map 6000*, item 6-74 (queue-map6000.md; owner 02.11, applied 02.11).",
-    "years": [
-      -6000
-    ],
-    "action": "add",
-    "shape": "patapatane",
-    "properties": {
-      "NAME": "Archaic hunters of the Arica highlands (Patapatane)",
-      "GROUP": "Archaic hunters of the Arica highlands",
-      "NOTE": "patapatane",
-      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
-    }
-  },
-  {
-    "id": "m6-calima",
-    "why": "Map 6000*, item 6-78 (queue-map8000.md; owner 02.11, applied 02.11).",
-    "years": [
-      -6000
-    ],
-    "action": "add",
-    "shape": "calima-el-pital",
-    "properties": {
-      "NAME": "Calima preceramic tradition (El Pital)",
-      "GROUP": "Calima preceramic tradition",
-      "NOTE": "calima-6000",
       "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
     }
   },
