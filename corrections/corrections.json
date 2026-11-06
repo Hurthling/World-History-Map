@@ -214,8 +214,22 @@
     }
   },
   {
+    "id": "m2m-belloisian",
+    "why": "Map 10 000, run 173 (owner decisions 06.11, applied 06.11): item 174 (a).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "belloisian",
+    "properties": {
+      "NAME": "Long-blade industries (Belloisian) of the Somme basin",
+      "NOTE": "belloisian",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
     "id": "m2-azilian",
-    "why": "Map 2, item 4. Item 129 (28.10): AREA added — the culture now has a second area (Rhône valley and the Northern Alps).",
+    "why": "Map 2, item 4. Item 129 (28.10): AREA added — the culture now has a second area (Rhône valley and the Northern Alps). Item 179 (applied 06.11): A Valiña, El Parco, Els Colls, Gazel.",
     "years": [
       -10000
     ],
@@ -230,7 +244,7 @@
   },
   {
     "id": "m2-laborian",
-    "why": "Map 2, item 5: drawn only where dated sites are known.",
+    "why": "Map 2, item 5: drawn only where dated sites are known. Items 177 (a), 179 (applied 06.11): Charente and Vienne, Pont d'Ambon, Roquemissou.",
     "years": [
       -10000
     ],
@@ -434,7 +448,7 @@
   },
   {
     "id": "m2b-epigravettian",
-    "why": "Map 2, item 27. Item 136 (28.10): extended west along the Ligurian coast to the Maritime Alps (Arene Candide, Grimaldi, Abri Martin).",
+    "why": "Map 2, item 27. Item 136 (28.10): extended west along the Ligurian coast to the Maritime Alps (Arene Candide, Grimaldi, Abri Martin). Item 179 (applied 06.11): Riparo Cogola, La Cala.",
     "years": [
       -10000
     ],
@@ -444,6 +458,36 @@
       "NAME": "Final Epigravettian",
       "NOTE": "epigravettian",
       "SOURCES": "https://en.wikipedia.org/wiki/Epigravettian | https://books.openedition.org/apdca/598"
+    }
+  },
+  {
+    "id": "m2m-epigravettian-istria",
+    "why": "Map 10 000, run 173 (owner decisions 06.11, applied 06.11): item 175 (a).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "epigravettian-istria",
+    "properties": {
+      "NAME": "Final Epigravettian",
+      "AREA": "Istria and northern Dalmatia (Pupićina, Vlakno)",
+      "NOTE": "epigravettian-istria",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m2m-epigravettian-epirus",
+    "why": "Map 10 000, run 173 (owner decisions 06.11, applied 06.11): item 176 (a).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "epigravettian-epirus",
+    "properties": {
+      "NAME": "Final Epigravettian",
+      "AREA": "Epirus (Boila, Klithi)",
+      "NOTE": "epigravettian-epirus",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
     }
   },
   {
@@ -1142,7 +1186,7 @@
   },
   {
     "id": "m2d-shigir",
-    "why": "Map 2, item 61.",
+    "why": "Map 2, item 61. Item 185 (a) (applied 06.11): Beregovaya 2 on the Gorbunovo bog.",
     "years": [
       -10000
     ],
@@ -1155,8 +1199,22 @@
     }
   },
   {
+    "id": "m2m-zolotoruchye",
+    "why": "Map 10 000, run 173 (owner decisions 06.11, applied 06.11): item 184 (a).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "zolotoruchye",
+    "properties": {
+      "NAME": "Zolotoruchye tradition (Upper Volga)",
+      "NOTE": "zolotoruchye",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
     "id": "m2f-cyprus",
-    "why": "Map 2, item 73.",
+    "why": "Map 2, item 73. Item 186 (applied 06.11): the coast of 10 000 misses the tip of the Akrotiri peninsula, so the zone is cut to the land by hand and drawn without clipping.",
     "years": [
       -10000
     ],
@@ -1166,7 +1224,8 @@
       "NAME": "Late Epipalaeolithic foragers of Cyprus (Akrotiri Aetokremnos)",
       "NOTE": "cyprus-epipalaeolithic",
       "SOURCES": "https://www.ancientportsantiques.com/wp-content/uploads/Documents/PLACES/Crete-Cyprus/Aetokremnos-Simmons2013.pdf | https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4540316/ | https://www.aegeussociety.org/en/news/roudias-site-in-the-troodos-mountains-aristotle-university-of-thessaloniki/"
-    }
+    },
+    "clipToLand": false
   },
   {
     "id": "m2e-remove-aboriginal-tribes",
@@ -1630,16 +1689,74 @@
   },
   {
     "id": "m2g-santa-maira",
-    "why": "Map 2, item 76 (a).",
+    "why": "Map 2, item 76 (a). Items 179, 183 (applied 06.11): Casa Corona; the name without \"(Santa Maira)\" — the culture now has a second area (Diablets).",
     "years": [
       -10000
     ],
     "action": "add",
     "shape": "santa-maira",
     "properties": {
-      "NAME": "Microlaminar Epipalaeolithic (Santa Maira)",
+      "NAME": "Microlaminar Epipalaeolithic",
       "NOTE": "santa-maira",
-      "SOURCES": "https://www.researchgate.net/publication/229416422_Human_Responses_to_Younger_Dryas_in_the_Ebro_Valley_and_Mediterranean_Watershed_Eastern_Spain"
+      "SOURCES": "https://www.researchgate.net/publication/229416422_Human_Responses_to_Younger_Dryas_in_the_Ebro_Valley_and_Mediterranean_Watershed_Eastern_Spain",
+      "AREA": "Santa Maira"
+    }
+  },
+  {
+    "id": "m2m-diablets",
+    "why": "Map 10 000, run 173 (owner decisions 06.11, applied 06.11): item 183 (a).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "diablets",
+    "properties": {
+      "NAME": "Microlaminar Epipalaeolithic",
+      "AREA": "Diablets",
+      "NOTE": "diablets",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m2m-estebanvela",
+    "why": "Map 10 000, run 173 (owner decisions 06.11, applied 06.11): item 180 (a).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "estebanvela",
+    "properties": {
+      "NAME": "Late Magdalenian and Azilian of the northern Meseta (Peña de Estebanvela)",
+      "NOTE": "estebanvela",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m2m-fariseu",
+    "why": "Map 10 000, run 173 (owner decisions 06.11, applied 06.11): item 181 (a).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "fariseu",
+    "properties": {
+      "NAME": "Final Magdalenian of the Côa valley (Fariseu)",
+      "NOTE": "fariseu",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m2m-nerja",
+    "why": "Map 10 000, run 173 (owner decisions 06.11, applied 06.11): item 182 (a).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "nerja-10000",
+    "properties": {
+      "NAME": "Epimagdalenian of Málaga (Nerja)",
+      "NOTE": "nerja-10000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Caves_of_Nerja | https://www.nature.com/articles/s41597-022-01118-7"
     }
   },
   {
@@ -2749,16 +2866,16 @@
   },
   {
     "id": "m8-western-stemmed",
-    "why": "Map 8000, item 3-61. Item 3-255 (a) (applied 02.11): corridor up the Clearwater to Kelly Forks (the outline is shared with map 10 000).",
+    "why": "Map 8000, item 3-61. Item 3-255 (a) (applied 02.11): corridor up the Clearwater to Kelly Forks (the outline is shared with map 10 000). Item 3-275 (b) (applied 06.11): own contour m8-western-stemmed with the Lahontan basin (10 000 keeps western-stemmed).",
     "years": [
       -8000
     ],
     "action": "add",
-    "shape": "western-stemmed",
+    "shape": "m8-western-stemmed",
     "properties": {
       "NAME": "Western Stemmed Tradition",
       "NOTE": "western-stemmed-8000",
-      "SOURCES": "https://en.wikipedia.org/wiki/Western_Stemmed_Tradition | https://oregonencyclopedia.org/articles/fort_rock_sandals",
+      "SOURCES": "https://en.wikipedia.org/wiki/Western_Stemmed_Tradition | https://oregonencyclopedia.org/articles/fort_rock_sandals | https://en.wikipedia.org/wiki/Spirit_Cave_mummy",
       "GROUP": "Western Stemmed Tradition",
       "AREA": "Great Basin and Columbia Plateau"
     }
@@ -3633,21 +3750,21 @@
   },
   {
     "id": "m8-komsa",
-    "why": "Map 8000, Europe, item 3-91 (accepted 23.10).",
+    "why": "Map 8000, Europe, item 3-91 (accepted 23.10). Map 8000, package \"Europe\" (owner decisions 06.11, applied 06.11): items 3-266 (b), 3-270 (a): extended through Troms to Harstad and Alta, and east to the Kildin strait; renamed.",
     "years": [
       -8000
     ],
     "action": "add",
     "shape": "m8-komsa",
     "properties": {
-      "NAME": "Komsa culture",
+      "NAME": "Early Mesolithic of northern Norway (Komsa and eastern blade tradition)",
       "NOTE": "komsa",
       "SOURCES": "https://en.wikipedia.org/wiki/Komsa_culture | https://www.nature.com/articles/s41597-022-01118-7"
     }
   },
   {
     "id": "m8-west-scandinavia",
-    "why": "Map 8000, Europe, item 3-92 (b) (accepted 23.10).",
+    "why": "Map 8000, Europe, item 3-92 (b) (accepted 23.10). Item 3-269 (k) (applied 06.11): to Kyvik.",
     "years": [
       -8000
     ],
@@ -3677,8 +3794,7 @@
     "id": "m8-kunda",
     "why": "Map 8000, Europe, item 3-94 (accepted 23.10).",
     "years": [
-      -8000,
-      -6000
+      -8000
     ],
     "action": "add",
     "shape": "m8-kunda",
@@ -3692,8 +3808,7 @@
     "id": "m8-butovo",
     "why": "Map 8000, Europe, item 3-90 (a) (accepted 23.10).",
     "years": [
-      -8000,
-      -6000
+      -8000
     ],
     "action": "add",
     "shape": "m8-butovo",
@@ -3735,7 +3850,7 @@
   },
   {
     "id": "m8-britain",
-    "why": "Map 8000, Europe, item 3-96 (b) (accepted 23.10). Item 3-118 (24.10): Britain is the second area of the Maglemosian culture (same name and colour group, own card).",
+    "why": "Map 8000, Europe, item 3-96 (b) (accepted 23.10). Item 3-118 (24.10): Britain is the second area of the Maglemosian culture (same name and colour group, own card). Item 3-269 (a) (applied 06.11): extended to Rum (Kinloch).",
     "years": [
       -8000
     ],
@@ -3747,6 +3862,20 @@
       "SOURCES": "https://en.wikipedia.org/wiki/Star_Carr | https://www.nature.com/articles/s41597-022-01118-7",
       "GROUP": "North Sea plain Early Mesolithic",
       "AREA": "Britain (Star Carr type)"
+    }
+  },
+  {
+    "id": "m8-bertheaume",
+    "why": "Map 8000, package \"Europe\" (owner decisions 06.11, applied 06.11): item 3-269 (c).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-bertheaume",
+    "properties": {
+      "NAME": "Bertheaume group (Early Mesolithic of western Brittany)",
+      "NOTE": "bertheaume-8000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
     }
   },
   {
@@ -3779,7 +3908,7 @@
   },
   {
     "id": "m8-beuron-north",
-    "why": "Map 8000, Europe, item 3-98 (a), 3-111 (b) (accepted 23.10). Item 3-119 (24.10): extended south to Ovno, Pincevent and Noyen.",
+    "why": "Map 8000, Europe, item 3-98 (a), 3-111 (b) (accepted 23.10). Item 3-119 (24.10): extended south to Ovno, Pincevent and Noyen. Item 3-269 (d) (applied 06.11): to the Müllerthal (Loschbour).",
     "years": [
       -8000
     ],
@@ -3930,7 +4059,7 @@
   },
   {
     "id": "m8-epigravettian-south",
-    "why": "Map 8000, Europe, item 3-100 (accepted 23.10); item 3-122 (24.10, applied 26.10): name without brackets.",
+    "why": "Map 8000, Europe, item 3-100 (accepted 23.10); item 3-122 (24.10, applied 26.10): name without brackets. Item 3-274 (applied 06.11): edge moved to Grotta dell'Uzzo.",
     "years": [
       -8000
     ],
@@ -3944,16 +4073,30 @@
   },
   {
     "id": "m8-franchthi",
-    "why": "Map 8000, Europe, item 3-104 (accepted 23.10).",
+    "why": "Map 8000, Europe, item 3-104 (accepted 23.10). Item 3-271 (a) (applied 06.11): Argolid, Attica, Boeotia; own contour m8-franchthi (the 10 000 map keeps franchthi).",
     "years": [
       -8000
     ],
     "action": "add",
-    "shape": "franchthi",
+    "shape": "m8-franchthi",
     "properties": {
       "NAME": "Mesolithic of southern Greece (Franchthi Cave)",
       "NOTE": "franchthi-8000",
       "SOURCES": "https://en.wikipedia.org/wiki/Franchthi_Cave | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-cyclops",
+    "why": "Map 8000, package \"Europe\" (owner decisions 06.11, applied 06.11): item 3-271 (b).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-cyclops",
+    "properties": {
+      "NAME": "Mesolithic of the Northern Sporades (Cave of Cyclops)",
+      "NOTE": "cyclops-8000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Cyclops_Cave_(Youra) | https://www.nature.com/articles/s41597-022-01118-7"
     }
   },
   {
@@ -5240,16 +5383,16 @@
   },
   {
     "id": "m6-iron-gates",
-    "why": "Map 6000* (28.10): carried from map 8000 (m2-iron-gates) with a new name or note.",
+    "why": "Map 6000* (28.10): carried from map 8000 (m2-iron-gates) with a new name or note. Item 6-123 (applied 06.11): renamed Lepenski Vir culture.",
     "years": [
       -6000
     ],
     "action": "add",
     "shape": "iron-gates",
     "properties": {
-      "NAME": "Iron Gates Mesolithic",
+      "NAME": "Lepenski Vir culture (Iron Gates Mesolithic)",
       "NOTE": "iron-gates-6000",
-      "SOURCES": "https://en.wikipedia.org/wiki/Iron_Gates_Mesolithic"
+      "SOURCES": "https://en.wikipedia.org/wiki/Lepenski_Vir_culture | https://www.nature.com/articles/s41597-022-01118-7"
     }
   },
   {
@@ -5589,40 +5732,68 @@
   },
   {
     "id": "m6-komsa",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-komsa) with a new name or note. Sources checked for 6000 BC (04.11, owner: \"check and fix Sources\").",
+    "why": "Map 6000*, package \"Europe\" (owner decisions 06.11, applied 06.11): item 6-91 (a): the Finnmark zone extended to Troms (Harstad, Tromsø, Målselv, Solli) and inner Finnmark (Kautokeino), renamed.",
     "years": [
       -6000
     ],
     "action": "add",
-    "shape": "m8-komsa",
+    "shape": "m6-north-norway",
     "properties": {
-      "NAME": "Late Mesolithic of Finnmark",
+      "NAME": "Late Mesolithic of northern Norway",
       "NOTE": "finnmark-6000",
       "SOURCES": "https://www.cambridge.org/core/product/E0AA194DEB909AE5F8C3131D57D8FF46 | https://journals.rcsi.science/2309-4370/article/view/90482 | https://www.nature.com/articles/s41597-022-01118-7"
     }
   },
   {
-    "id": "m6-west-scandinavia",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-west-scandinavia) with a new name or note. Sources checked for 6000 BC (04.11, owner: \"check and fix Sources\").",
+    "id": "m6-nostvet-lihult",
+    "why": "Map 6000*, package \"Europe\" (owner decisions 06.11, applied 06.11): item 6-89 (a): Nøstvet–Lihult culture — Skagerrak coast from Lista to Göteborg, Oslofjord lowland with Romerike, Lake Vänern with Karlstad and inner Värmland.",
     "years": [
       -6000
     ],
     "action": "add",
-    "shape": "m8-west-scandinavia",
+    "shape": "m6-nostvet-lihult",
     "properties": {
-      "NAME": "Late Mesolithic of Norway and western Sweden (Nøstvet, Lihult)",
-      "NOTE": "west-scandinavia-6000",
+      "NAME": "Nøstvet–Lihult culture",
+      "NOTE": "nostvet-lihult-6000",
       "SOURCES": "https://en.wikipedia.org/wiki/N%C3%B8stvet_and_Lihult_cultures | https://www.cambridge.org/core/product/E0AA194DEB909AE5F8C3131D57D8FF46 | https://www.nature.com/articles/s41597-022-01118-7"
     }
   },
   {
-    "id": "m6-finland",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-finland) with a new name or note. Sources checked for 6000 BC (04.11, owner: \"check and fix Sources\").",
+    "id": "m6-west-norway",
+    "why": "Map 6000*, package \"Europe\" (owner decisions 06.11, applied 06.11): items 6-89 (b), 6-90: coast and fjords from Lista to Lofoten, Hardanger fjord to Sævarhelleren.",
     "years": [
       -6000
     ],
     "action": "add",
-    "shape": "m8-finland",
+    "shape": "m6-west-norway",
+    "properties": {
+      "NAME": "Late Mesolithic of western Norway",
+      "NOTE": "west-norway-6000",
+      "SOURCES": "https://www.cambridge.org/core/product/E0AA194DEB909AE5F8C3131D57D8FF46 | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-norway-uplands",
+    "why": "Map 6000*, package \"Europe\" (owner decisions 06.11, applied 06.11): item 6-89 (c): Hardangervidda, Agder heights, Valdres, Rena valley.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-norway-uplands",
+    "properties": {
+      "NAME": "Mesolithic of the south Norwegian uplands",
+      "NOTE": "norway-uplands-6000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-finland",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-finland) with a new name or note. Sources checked for 6000 BC (04.11, owner: \"check and fix Sources\"). Item 6-92 (a) (applied 06.11): extended over almost all Finland, from the south coast to Inari and Enontekiö.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-suomusjarvi",
     "properties": {
       "NAME": "Suomusjärvi culture",
       "NOTE": "suomusjarvi-6000",
@@ -5630,8 +5801,78 @@
     }
   },
   {
+    "id": "m6-motala",
+    "why": "Map 6000*, package \"Europe\" (owner decisions 06.11, applied 06.11): item 6-93 (a).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-motala",
+    "properties": {
+      "NAME": "Late Mesolithic of the Motala river (eastern Götaland)",
+      "NOTE": "motala-6000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Scandinavian_hunter-gatherer | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-gotland",
+    "why": "Map 6000*, package \"Europe\" (owner decisions 06.11, applied 06.11): item 6-94 (name by the owner).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-gotland",
+    "properties": {
+      "NAME": "Mesolithic Seal Hunters of Gotland",
+      "NOTE": "gotland-6000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-kalmar-strait",
+    "why": "Map 6000*, package \"Europe\" (owner decisions 06.11, applied 06.11): item 6-95 (a).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-kalmar-strait",
+    "properties": {
+      "NAME": "Late Mesolithic of the Kalmar Strait (Tingby, Alby)",
+      "NOTE": "kalmar-strait-6000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Kalmar_Strait | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-kunda",
+    "why": "Map 6000*, package \"Europe\" (owner decisions 06.11, applied 06.11): item 6-96 (a, b; Saaremaa — decision (a) 06.11): northern coast of Estonia, western Latvia to Sise, north-western Saaremaa; the Serteya zone cut out (6-134). Until 06.11 the 6000* map used m8-kunda.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-kunda",
+    "properties": {
+      "NAME": "Kunda culture",
+      "NOTE": "kunda-6000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Kunda_culture | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-butovo",
+    "why": "Map 6000*, package \"Europe\" (owner decisions 06.11, applied 06.11): item 6-134: the 8000 contour without the Serteya zone (6-133: Berendeevo 2a is already inside). Until 06.11 the 6000* map used m8-butovo.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-butovo",
+    "properties": {
+      "NAME": "Butovo culture",
+      "NOTE": "butovo",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
     "id": "m6-maglemose",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-maglemose) with a new name or note. Sources checked for 6000 BC (04.11, owner: \"check and fix Sources\").",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-maglemose) with a new name or note. Sources checked for 6000 BC (04.11, owner: \"check and fix Sources\"). Items 6-100 (b), 6-103 (applied 06.11): northern Netherlands to the Vecht (Northwest Group), corridor to Berlin.",
     "years": [
       -6000
     ],
@@ -5645,12 +5886,12 @@
   },
   {
     "id": "m6-britain",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-britain) with a new name or note. Sources checked for 6000 BC (04.11, owner: \"check and fix Sources\").",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-britain) with a new name or note. Sources checked for 6000 BC (04.11, owner: \"check and fix Sources\"). Item 6-104 (applied 06.11): all of Scotland with the Inner Hebrides and Gower; the Isle of Man goes to the Irish zone (6-105 a); Obanian shell middens in the card (6-144 b).",
     "years": [
       -6000
     ],
     "action": "add",
-    "shape": "m8-britain",
+    "shape": "m6-britain",
     "properties": {
       "NAME": "Late Mesolithic of Britain",
       "NOTE": "britain-6000",
@@ -5658,13 +5899,41 @@
     }
   },
   {
-    "id": "m6-komornica",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-komornica) with a new name or note.",
+    "id": "m6-ireland",
+    "why": "Map 6000*, package \"Europe\" (owner decisions 06.11, applied 06.11): item 6-105 (name by the owner; Isle of Man — decision (a) 06.11).",
     "years": [
       -6000
     ],
     "action": "add",
-    "shape": "m8-komornica",
+    "shape": "m6-ireland",
+    "properties": {
+      "NAME": "Later Mesolithic of Ireland",
+      "NOTE": "ireland-6000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Irish_Mesolithic | https://en.wikipedia.org/wiki/Mount_Sandel_Mesolithic_site | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-teviec",
+    "why": "Map 6000*, package \"Europe\" (owner decisions 06.11, applied 06.11): item 6-106 (name by the owner).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-teviec",
+    "properties": {
+      "NAME": "Téviecian culture",
+      "NOTE": "teviec-6000",
+      "SOURCES": "https://en.wikipedia.org/wiki/T%C3%A9viec | https://en.wikipedia.org/wiki/H%C5%93dic | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-komornica",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-komornica) with a new name or note. Item 6-110 (b) (applied 06.11): corridors to Pomorsko 1 and Krzekotówek; the east goes to the Janisławice zone.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-komornica",
     "properties": {
       "NAME": "Komornica culture",
       "NOTE": "komornica-6000",
@@ -5672,47 +5941,61 @@
     }
   },
   {
-    "id": "m6-central-france",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-central-france) with a new name or note.",
+    "id": "m6-janislawice",
+    "why": "Map 6000*, package \"Europe\" (owner decisions 06.11, applied 06.11): item 6-110 (a).",
     "years": [
       -6000
     ],
     "action": "add",
-    "shape": "m8-central-france",
+    "shape": "m6-janislawice",
     "properties": {
-      "NAME": "Mesolithic of central France and Burgundy",
+      "NAME": "Janisławice culture (Nemunas)",
+      "NOTE": "janislawice-6000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Janis%C5%82awice_culture | https://en.wikipedia.org/wiki/Neman_culture | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-central-france",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-central-france) with a new name or note. Item 6-108 (a) (applied 06.11): extended south and west by finds, renamed.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-central-france",
+    "properties": {
+      "NAME": "Second Mesolithic of western and central France",
       "NOTE": "central-france-6000",
       "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7 | https://hls-dhs-dss.ch/fr/articles/008011/2019-10-29/"
     }
   },
   {
     "id": "m6-beuron-north",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-beuron-north) with a new name or note.",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-beuron-north) with a new name or note. Items 6-101, 6-142 (b) (applied 06.11): renamed Rhine–Meuse–Scheldt (Tardenoisian); extended to the Vecht, Luxembourg and Le Rougemont.",
     "years": [
       -6000
     ],
     "action": "add",
-    "shape": "m8-beuron-north",
+    "shape": "m6-rms",
     "properties": {
-      "NAME": "Tardenoisian culture",
+      "NAME": "Rhine–Meuse–Scheldt culture (Tardenoisian)",
       "NOTE": "tardenoisian-6000",
       "SOURCES": "https://en.wikipedia.org/wiki/Tardenoisian | https://www.nature.com/articles/s41597-022-01118-7"
     }
   },
   {
     "id": "m6-beuron-south",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-beuron-south) with a new name or note.",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-beuron-south) with a new name or note. Item 6-142 (a) (applied 06.11): extended to the Swiss Plateau.",
     "years": [
       -6000
     ],
     "action": "add",
-    "shape": "m8-beuron-south",
+    "shape": "m6-beuron-south",
     "properties": {
       "NAME": "Late Mesolithic of central Europe",
       "NOTE": "late-meso-s-germany-6000",
       "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7",
       "GROUP": "Late Mesolithic of central Europe",
-      "AREA": "Southern Germany, Alsace and northern Switzerland"
+      "AREA": "Southern Germany, Alsace and the Swiss Plateau"
     }
   },
   {
@@ -5747,26 +6030,58 @@
   },
   {
     "id": "m6-estremadura",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-estremadura) with a new name or note.",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-estremadura) with a new name or note. Item 6-113 (a) (applied 06.11): area of the group of the Tagus, Sado and Mira shell middens, widened by 25 km.",
     "years": [
       -6000
     ],
     "action": "add",
-    "shape": "m8-estremadura",
+    "shape": "m6-tagus",
     "properties": {
-      "NAME": "Late Mesolithic of Estremadura and the Tagus (Muge)",
+      "NAME": "Late Mesolithic shell-midden communities of the Tagus, Sado and Mira",
       "NOTE": "muge-6000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7",
+      "GROUP": "Late Mesolithic shell-midden communities of the Tagus, Sado and Mira",
+      "AREA": "Tagus and Estremadura (Muge)"
+    }
+  },
+  {
+    "id": "m6-sado-mira",
+    "why": "Map 6000*, package \"Europe\" (owner decisions 06.11, applied 06.11): item 6-113 (a).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-sado-mira",
+    "properties": {
+      "NAME": "Late Mesolithic shell-midden communities of the Tagus, Sado and Mira",
+      "NOTE": "sado-mira-6000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7",
+      "GROUP": "Late Mesolithic shell-midden communities of the Tagus, Sado and Mira",
+      "AREA": "Sado and Mira"
+    }
+  },
+  {
+    "id": "m6-algarve",
+    "why": "Map 6000*, package \"Europe\" (owner decisions 06.11, applied 06.11): item 6-114 (name by the owner's request).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-algarve",
+    "properties": {
+      "NAME": "Late Mesolithic of the western Algarve",
+      "NOTE": "algarve-6000",
       "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
     }
   },
   {
     "id": "m6-nerja",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-nerja) with a new name or note.",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-nerja) with a new name or note. Item 6-115 (applied 06.11): along the coast to Torremolinos (Bajondillo), corridors to Los Castillejos and Carigüela.",
     "years": [
       -6000
     ],
     "action": "add",
-    "shape": "m8-nerja",
+    "shape": "m6-nerja",
     "properties": {
       "NAME": "Mesolithic of Andalusia (Nerja Cave)",
       "NOTE": "nerja-6000",
@@ -5774,17 +6089,405 @@
     }
   },
   {
-    "id": "m6-kukrek",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-kukrek) with a new name or note.",
+    "id": "m6-cocina",
+    "why": "Map 6000*, package \"Europe\" (owner decisions 06.11, applied 06.11): item 6-116.",
     "years": [
       -6000
     ],
     "action": "add",
-    "shape": "m8-kukrek",
+    "shape": "m6-cocina",
+    "properties": {
+      "NAME": "Geometric Mesolithic of eastern Iberia (Cocina facies)",
+      "NOTE": "cocina-6000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-upper-ebro",
+    "why": "Map 6000*, package \"Europe\" (owner decisions 06.11, applied 06.11): items 6-118 (a), 6-109 (a) (Margineda).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-upper-ebro",
+    "properties": {
+      "NAME": "Geometric Mesolithic of the upper Ebro and the western Pyrenees",
+      "NOTE": "upper-ebro-6000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-castelnovian",
+    "why": "Map 6000*, package \"Europe\" (owner decisions 06.11, applied 06.11): items 6-112 (a), 6-143 (b–e).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-castelnovian",
+    "properties": {
+      "NAME": "Castelnovian culture",
+      "NOTE": "castelnovian-6000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-uzzo",
+    "why": "Map 6000*, package \"Europe\" (owner decisions 06.11, applied 06.11): item 6-143 (a) (name by the owner).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-uzzo",
+    "properties": {
+      "NAME": "Late Mesolithic of western Sicily (Uzzo)",
+      "NOTE": "uzzo-6000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-impressa-apulia",
+    "why": "Map 6000*, package \"Europe\" (owner decisions 06.11, applied 06.11): item 6-119.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-impressa-apulia",
+    "properties": {
+      "NAME": "Impressed Ware (Impressa)",
+      "NOTE": "impressa-apulia-6000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Cardium_pottery | https://en.wikipedia.org/wiki/Neolithic_Italy | https://www.nature.com/articles/s41597-022-01118-7",
+      "GROUP": "Impressed Ware (Impressa)",
+      "AREA": "Apulia and Basilicata"
+    }
+  },
+  {
+    "id": "m6-impressa-adriatic",
+    "why": "Map 6000*, package \"Europe\" (owner decisions 06.11, applied 06.11): item 6-119 (Dalmatia — yes, Pogradec — no; Sidari — here).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-impressa-adriatic",
+    "properties": {
+      "NAME": "Impressed Ware (Impressa)",
+      "NOTE": "impressa-adriatic-6000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Cardium_pottery | https://www.nature.com/articles/s41597-022-01118-7",
+      "GROUP": "Impressed Ware (Impressa)",
+      "AREA": "Eastern Adriatic"
+    }
+  },
+  {
+    "id": "m6-starcevo",
+    "why": "Map 6000*, package \"Europe\" (owner decisions 06.11, applied 06.11): item 6-122.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-starcevo",
+    "properties": {
+      "NAME": "Early Neolithic of the Balkans",
+      "NOTE": "starcevo-6000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Star%C4%8Devo%E2%80%93K%C3%B6r%C3%B6s%E2%80%93Cri%C8%99_culture | https://www.nature.com/articles/s41597-022-01118-7",
+      "GROUP": "Early Neolithic of the Balkans",
+      "AREA": "Starčevo–Criş"
+    }
+  },
+  {
+    "id": "m6-karanovo",
+    "why": "Map 6000*, package \"Europe\" (owner decisions 06.11, applied 06.11): item 6-122.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-karanovo",
+    "properties": {
+      "NAME": "Early Neolithic of the Balkans",
+      "NOTE": "karanovo-6000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Karanovo_culture | https://www.nature.com/articles/s41597-022-01118-7",
+      "GROUP": "Early Neolithic of the Balkans",
+      "AREA": "Karanovo I"
+    }
+  },
+  {
+    "id": "m6-thessaly",
+    "why": "Map 6000*, package \"Europe\" (owner decisions 06.11, applied 06.11): item 6-122 and 6-125 (Franchthi).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-thessaly",
+    "properties": {
+      "NAME": "Early Neolithic of the Balkans",
+      "NOTE": "thessaly-6000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Sesklo | https://en.wikipedia.org/wiki/Franchthi_Cave | https://www.nature.com/articles/s41597-022-01118-7",
+      "GROUP": "Early Neolithic of the Balkans",
+      "AREA": "Thessaly and central Greece (proto-Sesklo)"
+    }
+  },
+  {
+    "id": "m6-anzabegovo",
+    "why": "Map 6000*, package \"Europe\" (owner decisions 06.11, applied 06.11): item 6-122.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-anzabegovo",
+    "properties": {
+      "NAME": "Early Neolithic of the Balkans",
+      "NOTE": "anzabegovo-6000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Amzabegovo | https://www.nature.com/articles/s41597-022-01118-7",
+      "GROUP": "Early Neolithic of the Balkans",
+      "AREA": "Anzabegovo–Vršnik"
+    }
+  },
+  {
+    "id": "m6-nea-nikomedeia",
+    "why": "Map 6000*, package \"Europe\" (owner decisions 06.11, applied 06.11): item 6-122.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-nea-nikomedeia",
+    "properties": {
+      "NAME": "Early Neolithic of the Balkans",
+      "NOTE": "nea-nikomedeia-6000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Nea_Nikomedeia | https://www.nature.com/articles/s41597-022-01118-7",
+      "GROUP": "Early Neolithic of the Balkans",
+      "AREA": "Nea Nikomedeia"
+    }
+  },
+  {
+    "id": "m6-turkish-thrace",
+    "why": "Map 6000*, package \"Europe\" (owner decisions 06.11, applied 06.11): item 6-122 (f).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-turkish-thrace",
+    "properties": {
+      "NAME": "Neolithic of Turkish Thrace and the Marmara (Fikirtepe)",
+      "NOTE": "turkish-thrace-6000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Fikirtepe | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-knossos",
+    "why": "Map 6000*, package \"Europe\" (owner decisions 06.11, applied 06.11): item 6-124.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-knossos",
+    "properties": {
+      "NAME": "Early Neolithic of Crete (Knossos)",
+      "NOTE": "knossos-6000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Knossos | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-maroulas",
+    "why": "Map 6000*, package \"Europe\" (owner decisions 06.11, applied 06.11): item 6-124 (a).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-maroulas",
+    "properties": {
+      "NAME": "Mesolithic of the Cyclades (Maroulas)",
+      "NOTE": "maroulas-6000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-kukrek",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-kukrek) with a new name or note. Items 6-128, 6-129 (a) (applied 06.11): corridor up the Dnieper to Dereivka; Mountain Crimea is a zone of its own.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-kukrek",
     "properties": {
       "NAME": "Kukrek culture",
       "NOTE": "kukrek-6000",
       "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-murzak-koba",
+    "why": "Map 6000*, package \"Europe\" (owner decisions 06.11, applied 06.11): item 6-129 (a).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-murzak-koba",
+    "properties": {
+      "NAME": "Murzak-Koba culture",
+      "NOTE": "murzak-koba-6000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-dniester-bug",
+    "why": "Map 6000*, package \"Europe\" (owner decisions 06.11, applied 06.11): item 6-127 (a).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-dniester-bug",
+    "properties": {
+      "NAME": "Late Mesolithic of the Dniester and Southern Bug (Grebeniki; early Buh-Dniester)",
+      "NOTE": "dniester-bug-6000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Bug%E2%80%93Dniester_culture | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-rakushechny-yar",
+    "why": "Map 6000*, package \"Europe\" (owner decisions 06.11, applied 06.11): item 6-130.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-rakushechny-yar",
+    "properties": {
+      "NAME": "Rakushechny Yar culture",
+      "NOTE": "rakushechny-yar-6000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-middle-don",
+    "why": "Map 6000*, package \"Europe\" (owner decisions 06.11, applied 06.11): item 6-132 (a).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-middle-don",
+    "properties": {
+      "NAME": "Middle Don culture (Bityug)",
+      "NOTE": "middle-don-6000"
+    }
+  },
+  {
+    "id": "m6-serteya",
+    "why": "Map 6000*, package \"Europe\" (owner decisions 06.11, applied 06.11): item 6-134.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-serteya",
+    "properties": {
+      "NAME": "Serteya culture",
+      "NOTE": "serteya-6000"
+    }
+  },
+  {
+    "id": "m6-elshanka",
+    "why": "Map 6000*, package \"Europe\" (owner decisions 06.11, applied 06.11): item 6-135 (a).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-elshanka",
+    "properties": {
+      "NAME": "Elshanka culture",
+      "NOTE": "elshanka-6000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Elshanka_culture"
+    }
+  },
+  {
+    "id": "m6-vozhe",
+    "why": "Map 6000*, package \"Europe\" (owner decisions 06.11, applied 06.11): item 6-137.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-vozhe",
+    "properties": {
+      "NAME": "Mesolithic–Early Neolithic of Lake Vozhe",
+      "NOTE": "vozhe-6000"
+    }
+  },
+  {
+    "id": "m6-orlovka",
+    "why": "Map 6000*, package \"Europe\" (owner decisions 06.11, applied 06.11): item 6-138 (two separate zones).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-orlovka",
+    "properties": {
+      "NAME": "Orlovka culture",
+      "NOTE": "orlovka-6000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-kairshak",
+    "why": "Map 6000*, package \"Europe\" (owner decisions 06.11, applied 06.11): item 6-138 (two separate zones).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-kairshak",
+    "properties": {
+      "NAME": "Caspian Neolithic: Kairshak–Tentyaksor",
+      "NOTE": "kairshak-6000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-shulaveri",
+    "why": "Map 6000*, package \"Europe\" (owner decisions 06.11, applied 06.11): item 6-140 (a), Kiçik Tepe included.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-shulaveri",
+    "properties": {
+      "NAME": "Shulaveri–Shomutepe culture",
+      "NOTE": "shulaveri-6000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Shulaveri%E2%80%93Shomu_culture | https://en.wikipedia.org/wiki/Arukhlo | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-aratashen",
+    "why": "Map 6000*, package \"Europe\" (owner decisions 06.11, applied 06.11): item 6-140 (window ±250, start — accepted by the owner).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-aratashen",
+    "properties": {
+      "NAME": "Aratashen culture",
+      "NOTE": "aratashen-6000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Aratashen | https://en.wikipedia.org/wiki/Aknashen | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-kultepe",
+    "why": "Map 6000*, package \"Europe\" (owner decisions 06.11, applied 06.11): item 6-140.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-kultepe",
+    "properties": {
+      "NAME": "Kültepe culture (Nakhchivan)",
+      "NOTE": "kultepe-6000",
+      "SOURCES": "https://en.wikipedia.org/wiki/K%C3%BClt%C9%99p%C9%99"
+    }
+  },
+  {
+    "id": "m6-chokh",
+    "why": "Map 6000*, package \"Europe\" (owner decisions 06.11, applied 06.11): item 6-141.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-chokh",
+    "properties": {
+      "NAME": "Chokh culture (Neolithic of mountain Dagestan)",
+      "NOTE": "chokh-6000"
     }
   },
   {

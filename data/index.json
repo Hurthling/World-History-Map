@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-04",
+  "generated": "2026-11-06",
   "source": "historical-basemaps by A. Ourednik (GPL-3.0)",
   "simplify": "8%",
   "years": [
@@ -13,7 +13,7 @@
     {
       "year": -10000,
       "file": "borders/world_-10000.json",
-      "count": 129,
+      "count": 134,
       "land": "coast/land_-10000.json",
       "seaLevel": -60,
       "riversExt": "coast/rivers_ext_-10000.json",
@@ -23,7 +23,7 @@
     {
       "year": -8000,
       "file": "borders/world_-8000.json",
-      "count": 168,
+      "count": 170,
       "land": "coast/land_-8000.json",
       "seaLevel": -40,
       "riversExt": "coast/rivers_ext_-8000.json",
@@ -34,7 +34,7 @@
     {
       "year": -6000,
       "file": "borders/world_-6000.json",
-      "count": 140,
+      "count": 171,
       "land": "coast/land_-6000.json",
       "seaLevel": -20,
       "riversExt": "coast/rivers_ext_-6000.json",
