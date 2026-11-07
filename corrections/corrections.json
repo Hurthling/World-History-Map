@@ -145,7 +145,7 @@
   },
   {
     "id": "m2-natufian",
-    "why": "Map 2, item 6: one outline = the Levant (outline of the source zone) + Late Natufian sites on the Middle Euphrates (Abu Hureyra, Mureybet). Earlier the Euphrates part was a separate piece.",
+    "why": "Map 2, item 6: one outline = the Levant (outline of the source zone) + Late Natufian sites on the Middle Euphrates (Abu Hureyra, Mureybet). Earlier the Euphrates part was a separate piece. Item 187 (07.11, variant a + c): Galilee, Hula, Carmel, northern Jordan valley, Baaz, Negev highlands (Harifian), Tell Qaramel; South Sinai (Tbeik, Abu Madi I) as a separate piece.",
     "years": [
       -10000
     ],
@@ -154,12 +154,12 @@
     "properties": {
       "NAME": "Natufian culture",
       "NOTE": "natufian",
-      "SOURCES": "https://en.wikipedia.org/wiki/Natufian_culture | https://en.wikipedia.org/wiki/Tell_Abu_Hureyra"
+      "SOURCES": "https://en.wikipedia.org/wiki/Natufian_culture | https://en.wikipedia.org/wiki/Tell_Abu_Hureyra | https://en.wikipedia.org/wiki/Abu_Madi"
     }
   },
   {
     "id": "m2-upper-tigris",
-    "why": "Map 2, item 7.",
+    "why": "Map 2, item 7. Item 188 (07.11): extended to Cayonu.",
     "years": [
       -10000
     ],
@@ -168,7 +168,7 @@
     "properties": {
       "NAME": "Upper Tigris sedentary foragers",
       "NOTE": "upper-tigris",
-      "SOURCES": "https://en.wikipedia.org/wiki/K%C3%B6rtik_Tepe"
+      "SOURCES": "https://en.wikipedia.org/wiki/K%C3%B6rtik_Tepe | https://en.wikipedia.org/wiki/Cayonu"
     }
   },
   {
@@ -258,7 +258,7 @@
   },
   {
     "id": "m2-iberomaurusian",
-    "why": "Map 2, item 9.",
+    "why": "Map 2, item 9. Item 195 (07.11): extended to Oued Guettara.",
     "years": [
       -10000
     ],
@@ -434,7 +434,7 @@
   },
   {
     "id": "m2b-ushki",
-    "why": "Map 2, items 25 and 46 (Ushki + Anavgai 2; note removed by the ±1000-year rule, item 41).",
+    "why": "Map 2, items 25 and 46 (Ushki + Anavgai 2; note removed by the ±1000-year rule, item 41). Item 195 (07.11): eastern edge moved to Ushki I.",
     "years": [
       -10000
     ],
@@ -746,12 +746,27 @@
   },
   {
     "id": "m2c-robberg-oakhurst",
-    "why": "Map 2, item 34.",
+    "why": "Map 2, item 34. Items 195 / 3-288 (07.11): Nelson Bay Cave is inside the outline but in the sea of the 10-minute coast grid — see the next rule (nelson-bay).",
     "years": [
       -10000
     ],
     "action": "add",
     "shape": "robberg-oakhurst",
+    "properties": {
+      "NAME": "Robberg / Oakhurst (southern African foragers)",
+      "NOTE": "robberg-oakhurst",
+      "SOURCES": "https://scholarlypublications.universiteitleiden.nl/access/item%3A3562829/download | https://pmc.ncbi.nlm.nih.gov/articles/PMC11541196/"
+    }
+  },
+  {
+    "id": "m2-nelson-bay",
+    "why": "Items 195 / 3-288 (07.11): the 10-minute coast grid leaves Nelson Bay Cave (Robberg peninsula) in the sea; a 5 km circle at the cave, not clipped by land (as Akrotiri, item 186).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "nelson-bay",
+    "clipToLand": false,
     "properties": {
       "NAME": "Robberg / Oakhurst (southern African foragers)",
       "NOTE": "robberg-oakhurst",
@@ -1172,7 +1187,7 @@
   },
   {
     "id": "m2d-yenisei",
-    "why": "Map 2, items 59 and 122 (accepted 26.10): one solid area over the two find spots (Maina, Maltat), with a note.",
+    "why": "Map 2, items 59 and 122 (accepted 26.10): one solid area over the two find spots (Maina, Maltat), with a note. Item 195 (07.11): extended to Eleneva Cave.",
     "years": [
       -10000
     ],
@@ -1285,7 +1300,7 @@
   },
   {
     "id": "m2e-einasleigh",
-    "why": "Map 2, item 62 (c).",
+    "why": "Map 2, item 62 (c). Item 195 (07.11): extended to Mickey Springs 34.",
     "years": [
       -10000
     ],
@@ -1845,7 +1860,7 @@
   },
   {
     "id": "m2g-pymva-shor",
-    "why": "Map 2, item 85 (a), with a note.",
+    "why": "Map 2, item 85 (a), with a note. Item 195 (07.11): circle moved to the site (67.17 N, 60.85 E).",
     "years": [
       -10000
     ],
@@ -1873,7 +1888,7 @@
   },
   {
     "id": "m2g-qinghai",
-    "why": "Map 2, item 86, with a note.",
+    "why": "Map 2, item 86, with a note. Item 195 (07.11): extended to Yantaidong.",
     "years": [
       -10000
     ],
@@ -2487,7 +2502,7 @@
   },
   {
     "id": "m8-west-maghreb",
-    "why": "Map 8000, item 3-28. Item 3-198 (28.10): the Eastern Rif area extended to the lower Moulouya (Mtlili 1, Ifri el Baroud).",
+    "why": "Map 8000, item 3-28. Item 3-198 (28.10): the Eastern Rif area extended to the lower Moulouya (Mtlili 1, Ifri el Baroud). Item 3-284 (07.11, variant a): extended to the 'Site de la piste' near Oujda.",
     "years": [
       -8000
     ],
@@ -2516,10 +2531,9 @@
   },
   {
     "id": "m8-acacus",
-    "why": "Map 8000, items 3-12, 3-50; Acacus and Tassili merged into one outline (item 3-73 a, 22.10).",
+    "why": "Map 8000, items 3-12, 3-50; Acacus and Tassili merged into one outline (item 3-73 a, 22.10). Item 3-282 (07.11): extended to Ti-n Hanakaten.",
     "years": [
-      -8000,
-      -6000
+      -8000
     ],
     "action": "add",
     "shape": "m8-acacus-tassili",
@@ -2532,11 +2546,26 @@
     }
   },
   {
-    "id": "m8-amekni",
-    "why": "Map 8000, item 3-51.",
+    "id": "m6-acacus",
+    "why": "Map 8000, items 3-12, 3-50; Acacus and Tassili merged into one outline (item 3-73 a, 22.10). Map 6000* (07.11): own copy of the outline (the -8000 outline was extended by items 3-279 / 3-282).",
     "years": [
-      -8000,
       -6000
+    ],
+    "action": "add",
+    "shape": "m6-acacus-tassili",
+    "properties": {
+      "NAME": "Central Saharan foragers",
+      "NOTE": "acacus-tassili-8000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Takarkori_rock_shelter | https://en.wikipedia.org/wiki/Tassili_n%27Ajjer",
+      "GROUP": "Central Saharan foragers",
+      "AREA": "Tadrart Acacus and Tassili n'Ajjer (Takarkori, Ti-n Hanakaten)"
+    }
+  },
+  {
+    "id": "m8-amekni",
+    "why": "Map 8000, item 3-51. Item 3-282 (07.11): extended to Tiltekin I.",
+    "years": [
+      -8000
     ],
     "action": "add",
     "shape": "m8-amekni",
@@ -2549,8 +2578,24 @@
     }
   },
   {
+    "id": "m6-amekni",
+    "why": "Map 8000, item 3-51. Map 6000* (07.11): own copy of the outline (the -8000 outline was extended by items 3-279 / 3-282).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-amekni",
+    "properties": {
+      "NAME": "Central Saharan foragers",
+      "NOTE": "amekni",
+      "SOURCES": "https://journals.uair.arizona.edu/index.php/radiocarbon",
+      "GROUP": "Central Saharan foragers",
+      "AREA": "Hoggar (Amekni)"
+    }
+  },
+  {
     "id": "m8-eastern-sahara",
-    "why": "Map 8000, item 3-74 (accepted 23.10, variant a): one zone Nabta – Kiseiba – Gilf Kebir – Dakhla – Regenfeld instead of two El Adam areas (item 3-13).",
+    "why": "Map 8000, item 3-74 (accepted 23.10, variant a): one zone Nabta – Kiseiba – Gilf Kebir – Dakhla – Regenfeld instead of two El Adam areas (item 3-13). Item 3-276 (07.11, variant a): Kharga with Midauwara; Ain Dalla and the eastern edge of the Great Sand Sea.",
     "years": [
       -8000
     ],
@@ -2594,13 +2639,28 @@
   },
   {
     "id": "m8-early-khartoum",
-    "why": "Map 8000, item 3-41.",
+    "why": "Map 8000, item 3-41. Item 3-279 (07.11, variant a): down the Nile to the Atbara mouth (Abu Darbein).",
     "years": [
-      -8000,
-      -6000
+      -8000
     ],
     "action": "add",
     "shape": "m8-early-khartoum",
+    "properties": {
+      "NAME": "Early Khartoum tradition",
+      "NOTE": "early-khartoum-8000",
+      "SOURCES": "https://link.springer.com/journal/10437",
+      "GROUP": "Nile Early Khartoum",
+      "AREA": "Early Khartoum (central Sudan)"
+    }
+  },
+  {
+    "id": "m6-early-khartoum",
+    "why": "Map 8000, item 3-41. Map 6000* (07.11): own copy of the outline (the -8000 outline was extended by items 3-279 / 3-282).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-early-khartoum",
     "properties": {
       "NAME": "Early Khartoum tradition",
       "NOTE": "early-khartoum",
@@ -2744,12 +2804,29 @@
   },
   {
     "id": "m8-oakhurst",
-    "why": "Map 8000, item 3-29.",
+    "why": "Map 8000, item 3-29. Items 195 / 3-288 (07.11): Nelson Bay Cave is inside the outline but in the sea of the 10-minute coast grid — see the next rule (nelson-bay).",
     "years": [
       -8000
     ],
     "action": "add",
     "shape": "robberg-oakhurst",
+    "properties": {
+      "NAME": "Oakhurst-type foragers of southern Africa",
+      "NOTE": "oakhurst-8000",
+      "SOURCES": "https://scholarlypublications.universiteitleiden.nl | https://www.nature.com/natecolevol/",
+      "GROUP": "Oakhurst-type foragers of southern Africa",
+      "AREA": "Oakhurst industry (South Africa, Lesotho)"
+    }
+  },
+  {
+    "id": "m8-nelson-bay",
+    "why": "Items 195 / 3-288 (07.11): the 10-minute coast grid leaves Nelson Bay Cave (Robberg peninsula) in the sea; a 5 km circle at the cave, not clipped by land (as Akrotiri, item 186).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "nelson-bay",
+    "clipToLand": false,
     "properties": {
       "NAME": "Oakhurst-type foragers of southern Africa",
       "NOTE": "oakhurst-8000",
@@ -5411,12 +5488,12 @@
   },
   {
     "id": "m6-west-maghreb",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-west-maghreb) with a new name or note. Sources checked for 6000 BC (04.11, owner: \"check and fix Sources\").",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-west-maghreb) with a new name or note. Sources checked for 6000 BC (04.11, owner: \"check and fix Sources\"). 07.11: own copy of the outline (the -8000 outline was extended by item 3-284).",
     "years": [
       -6000
     ],
     "action": "add",
-    "shape": "m8-west-maghreb",
+    "shape": "m6-west-maghreb",
     "properties": {
       "NAME": "Epipalaeolithic foragers of the western Maghreb",
       "NOTE": "west-maghreb-6000",
@@ -5425,12 +5502,12 @@
   },
   {
     "id": "m6-eastern-sahara",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-eastern-sahara) with a new name or note.",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-eastern-sahara) with a new name or note. 07.11: own copy of the outline (the -8000 outline was extended by item 3-276).",
     "years": [
       -6000
     ],
     "action": "add",
-    "shape": "m8-eastern-sahara",
+    "shape": "m6-eastern-sahara",
     "properties": {
       "NAME": "Foragers and early herders of the Eastern Sahara",
       "NOTE": "eastern-sahara-6000",
@@ -8457,6 +8534,214 @@
       "NAME": "Early Archaic of the Colorado Plateau (North Creek, Dust Devil)",
       "GROUP": "Early Archaic of the Colorado Plateau",
       "NOTE": "colorado-plateau-8000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m2-nemrikian",
+    "why": "Item 189 (07.11, variant a).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "nemrikian",
+    "properties": {
+      "NAME": "Nemrikian (northern Iraq PPNA: Nemrik 9, M'lefaat, Qermez Dere)",
+      "NOTE": "nemrikian",
+      "SOURCES": "https://en.wikipedia.org/wiki/Nemrik_9 | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m2-bolaghi",
+    "why": "Item 190 (07.11, variant a): the same circle as on map 8000 (item 3-162).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "bolaghi-10000",
+    "properties": {
+      "NAME": "Epipalaeolithic foragers of the Bolaghi valley (Fars)",
+      "NOTE": "bolaghi-10000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m2-pigeon-mountain",
+    "why": "Item 191 (07.11, variant a).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "pigeon-mountain",
+    "properties": {
+      "NAME": "Mesolithic foragers of Pigeon Mountain (Ningxia)",
+      "NOTE": "pigeon-mountain",
+      "SOURCES": "https://doi.org/10.3389/feart.2023.1134677 | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m2-sagan-nuge",
+    "why": "Item 193 (07.11, variant a).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "sagan-nuge",
+    "properties": {
+      "NAME": "Final Palaeolithic of the western Baikal shore (Sagan-Nuge)",
+      "NOTE": "sagan-nuge",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m2-denisova",
+    "why": "Item 194 (07.11, variant a).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "denisova",
+    "properties": {
+      "NAME": "Final Palaeolithic of the Altai (Denisova Cave)",
+      "NOTE": "denisova-10000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Denisova_Cave | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-tibesti",
+    "why": "Item 3-280 (07.11, variant a, with Serir Tibesti).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-tibesti",
+    "properties": {
+      "NAME": "Central Saharan foragers",
+      "NOTE": "tibesti-8000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7",
+      "GROUP": "Central Saharan foragers",
+      "AREA": "Tibesti (Enneri Tabi, Enneri Dirennao)"
+    }
+  },
+  {
+    "id": "m8-kawar",
+    "why": "Item 3-281 (07.11, variant a).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-kawar",
+    "properties": {
+      "NAME": "Central Saharan foragers",
+      "NOTE": "kawar-8000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7",
+      "GROUP": "Central Saharan foragers",
+      "AREA": "Kawar (Bilma)"
+    }
+  },
+  {
+    "id": "m8-termit",
+    "why": "Item 3-281 (07.11, variant a).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-termit",
+    "properties": {
+      "NAME": "Central Saharan foragers",
+      "NOTE": "termit-8000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7",
+      "GROUP": "Central Saharan foragers",
+      "AREA": "Termit"
+    }
+  },
+  {
+    "id": "m8-ouargla",
+    "why": "Item 3-283 (07.11, variant a).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-ouargla",
+    "properties": {
+      "NAME": "Epipalaeolithic foragers of the northern Algerian Sahara",
+      "NOTE": "ouargla-8000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7",
+      "GROUP": "Epipalaeolithic foragers of the northern Algerian Sahara",
+      "AREA": "Ouargla basin (Sebkha Mellala, Hassi Mouillah)"
+    }
+  },
+  {
+    "id": "m8-tinrhert",
+    "why": "Item 3-283 (07.11, variant a).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-tinrhert",
+    "properties": {
+      "NAME": "Epipalaeolithic foragers of the northern Algerian Sahara",
+      "NOTE": "tinrhert-8000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7",
+      "GROUP": "Epipalaeolithic foragers of the northern Algerian Sahara",
+      "AREA": "Tinrhert plateau (Izimane)"
+    }
+  },
+  {
+    "id": "m8-ouled-nail",
+    "why": "Item 3-283 (07.11, variant a).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-ouled-nail",
+    "properties": {
+      "NAME": "Epipalaeolithic foragers of the northern Algerian Sahara",
+      "NOTE": "ouled-nail-8000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7",
+      "GROUP": "Epipalaeolithic foragers of the northern Algerian Sahara",
+      "AREA": "Ouled Naïl mountains (Aïn Naga)"
+    }
+  },
+  {
+    "id": "m8-tshitolian",
+    "why": "Item 3-285 (07.11, variant a); Pointe-Noire is a separate piece (gap > 100 km).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-tshitolian",
+    "properties": {
+      "NAME": "Tshitolian (Malebo Pool and lower Congo)",
+      "NOTE": "tshitolian-8000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-mouanko",
+    "why": "Item 3-286 (07.11, variant a).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-mouanko",
+    "properties": {
+      "NAME": "Later Stone Age of the Sanaga estuary (Mouanko)",
+      "NOTE": "mouanko-8000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-chicaza",
+    "why": "Item 3-287 (07.11, variant a).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-chicaza",
+    "properties": {
+      "NAME": "Later Stone Age of the Niassa plateau (Chicaza)",
+      "NOTE": "chicaza-8000",
       "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
     }
   }
