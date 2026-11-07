@@ -4295,7 +4295,7 @@
   },
   {
     "id": "m8-se-australia",
-    "why": "Map 8000, item 3-113: the Murray–Darling area of map 10 000 merged with Victoria, south-eastern South Australia and the Sydney Basin (sites on the date of the map without gaps).",
+    "why": "Map 8000, item 3-113: the Murray–Darling area of map 10 000 merged with Victoria, south-eastern South Australia and the Sydney Basin (sites on the date of the map without gaps). 07.11, item 3-295: extended to Cape Martin near Beachport (+ 40 km).",
     "years": [
       -8000
     ],
@@ -4327,7 +4327,7 @@
   },
   {
     "id": "m8-einasleigh",
-    "why": "Map 8000, item 3-113: outline of map 10 000 extended north-east to Nonda Rock and Chillagoe.",
+    "why": "Map 8000, item 3-113: outline of map 10 000 extended north-east to Nonda Rock and Chillagoe. 07.11, item 3-294: extended to Mickey Springs 34 (+ 40 km).",
     "years": [
       -8000
     ],
@@ -4507,8 +4507,7 @@
     "id": "m8-new-ireland",
     "why": "Map 8000, item 3-115: outline of map 10 000.",
     "years": [
-      -8000,
-      -6000
+      -8000
     ],
     "action": "add",
     "shape": "new-ireland",
@@ -6569,12 +6568,12 @@
   },
   {
     "id": "m6-se-australia",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-se-australia) with a new name or note.",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-se-australia) with a new name or note. 07.11: own copy of the outline (the -8000 outline was extended by item 3-295). Item 6-151: extended to Moffats Swamp.",
     "years": [
       -6000
     ],
     "action": "add",
-    "shape": "m8-se-australia",
+    "shape": "m6-se-australia",
     "properties": {
       "NAME": "Foragers of Australia",
       "NOTE": "australia-6000",
@@ -6585,12 +6584,12 @@
   },
   {
     "id": "m6-se-queensland",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-se-queensland) with a new name or note.",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-se-queensland) with a new name or note. 07.11, item 6-151: own outline, extended to Wallen Wallen Creek.",
     "years": [
       -6000
     ],
     "action": "add",
-    "shape": "se-queensland",
+    "shape": "m6-se-queensland",
     "properties": {
       "NAME": "Foragers of Australia",
       "NOTE": "australia-6000",
@@ -6601,12 +6600,12 @@
   },
   {
     "id": "m6-einasleigh",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-einasleigh) with a new name or note.",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-einasleigh) with a new name or note. 07.11: own copy of the outline (the -8000 outline was extended by item 3-294).",
     "years": [
       -6000
     ],
     "action": "add",
-    "shape": "m8-einasleigh",
+    "shape": "m6-einasleigh",
     "properties": {
       "NAME": "Foragers of Australia",
       "NOTE": "australia-6000",
@@ -6649,12 +6648,12 @@
   },
   {
     "id": "m6-kimberley",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-kimberley) with a new name or note.",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-kimberley) with a new name or note. 07.11, item 6-146: own outline, extended to High Cliffy.",
     "years": [
       -6000
     ],
     "action": "add",
-    "shape": "kimberley",
+    "shape": "m6-kimberley",
     "properties": {
       "NAME": "Foragers of Australia",
       "NOTE": "australia-6000",
@@ -6713,7 +6712,7 @@
   },
   {
     "id": "m6-nullarbor",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-nullarbor) with a new name or note.",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-nullarbor) with a new name or note. 07.11, item 6-153: own card (no bracket of dates on 6000*).",
     "years": [
       -6000
     ],
@@ -6721,7 +6720,7 @@
     "shape": "m8-nullarbor",
     "properties": {
       "NAME": "Foragers of Australia",
-      "NOTE": "australia-6000",
+      "NOTE": "nullarbor-6000",
       "SOURCES": "https://researchonline.jcu.edu.au/28670/ | https://www.nature.com/articles/s41597-022-01118-7",
       "GROUP": "Sahul — Australia",
       "AREA": "Foragers of the Nullarbor Plain"
@@ -6729,12 +6728,12 @@
   },
   {
     "id": "m6-tasmania",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-tasmania) with a new name or note.",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-tasmania) with a new name or note. 07.11, item 6-152: own outline, extended to Cave Bay Cave (Hunter Island) and Apollo Bay (Bruny).",
     "years": [
       -6000
     ],
     "action": "add",
-    "shape": "m8-tasmania",
+    "shape": "m6-tasmania",
     "properties": {
       "NAME": "Foragers of Tasmania",
       "NOTE": "tasmania-6000",
@@ -6756,6 +6755,102 @@
       "SOURCES": "https://digitalcollections.anu.edu.au/bitstreams/b87cac31-3d9e-4685-aab1-03ffce19807f/download",
       "GROUP": "Sahul — New Guinea",
       "AREA": "Foragers of Buka (Kilu Cave)"
+    }
+  },
+  {
+    "id": "m6-new-ireland",
+    "why": "Map 6000*, item 6-156 (07.11): same outline as map 8000, own card (Balof 2; Panakiwuk abandoned).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "new-ireland",
+    "properties": {
+      "NAME": "Foragers of New Guinea and nearby islands",
+      "NOTE": "new-ireland-6000",
+      "SOURCES": "https://pmc.ncbi.nlm.nih.gov/articles/PMC26825 | https://pmc.ncbi.nlm.nih.gov/articles/PMC8899615",
+      "GROUP": "Sahul — New Guinea",
+      "AREA": "Foragers of New Ireland"
+    }
+  },
+  {
+    "id": "m6-nw-australia",
+    "why": "Map 6000*, item 6-147 (07.11): shell middens and rockshelters of the north-west coast, three pieces along the coast.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-nw-australia",
+    "properties": {
+      "NAME": "Foragers of Australia",
+      "NOTE": "australia-6000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7",
+      "GROUP": "Sahul — Australia",
+      "AREA": "Foragers of the north-west coast (Shark Bay, North West Cape, Barrow Island, Murujuga)"
+    }
+  },
+  {
+    "id": "m6-vanderlin",
+    "why": "Map 6000*, item 6-148 (07.11): Wobuya rockshelter, Vanderlin Island.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-vanderlin",
+    "properties": {
+      "NAME": "Foragers of Australia",
+      "NOTE": "vanderlin-6000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7",
+      "GROUP": "Sahul — Australia",
+      "AREA": "Foragers of the south-western Gulf coast (Sir Edward Pellew Islands)"
+    }
+  },
+  {
+    "id": "m6-urumbal",
+    "why": "Map 6000*, item 6-149 (07.11): Urumbal Pocket, Atherton Tableland.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-urumbal",
+    "properties": {
+      "NAME": "Foragers of Australia",
+      "NOTE": "urumbal-6000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7",
+      "GROUP": "Sahul — Australia",
+      "AREA": "Foragers of the Wet Tropics (Urumbal Pocket)"
+    }
+  },
+  {
+    "id": "m6-nara-inlet",
+    "why": "Map 6000*, item 6-150 (07.11): Nara Inlet 1, Hook Island.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-nara-inlet",
+    "properties": {
+      "NAME": "Foragers of Australia",
+      "NOTE": "nara-inlet-6000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7",
+      "GROUP": "Sahul — Australia",
+      "AREA": "Foragers of the Whitsunday coast (Nara Inlet)"
+    }
+  },
+  {
+    "id": "m6-youlain",
+    "why": "Map 6000*, item 6-151 (07.11): Youlain Springs; place from p3k14c (rounded).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-youlain",
+    "properties": {
+      "NAME": "Foragers of Australia",
+      "NOTE": "youlain-6000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7",
+      "GROUP": "Sahul — Australia",
+      "AREA": "Foragers of the Paroo (Youlain Springs)"
     }
   },
   {
