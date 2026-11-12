@@ -1846,16 +1846,34 @@
   },
   {
     "id": "m2g-mezmaiskaya",
-    "why": "Map 2, item 84, with a note.",
+    "why": "Map 2, item 84, with a note. Items 197 (a1) and 199 (a) (07.11): area of the group \"Epipalaeolithic of the North Caucasus\"; extended to the Gubs gorge.",
     "years": [
       -10000
     ],
     "action": "add",
     "shape": "mezmaiskaya",
     "properties": {
-      "NAME": "Epipalaeolithic of the north-western Caucasus (Mezmaiskaya Cave)",
+      "NAME": "Epipalaeolithic of the North Caucasus",
       "NOTE": "mezmaiskaya",
-      "SOURCES": "https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D0%B7%D0%BC%D0%B0%D0%B9%D1%81%D0%BA%D0%B0%D1%8F_%D0%BF%D0%B5%D1%89%D0%B5%D1%80%D0%B0"
+      "SOURCES": "https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D0%B7%D0%BC%D0%B0%D0%B9%D1%81%D0%BA%D0%B0%D1%8F_%D0%BF%D0%B5%D1%89%D0%B5%D1%80%D0%B0 | https://doi.org/10.26516/2227-2380.2021.38.78",
+      "AREA": "North-western Caucasus (Mezmaiskaya Cave, Gubs gorge)",
+      "GROUP": "Epipalaeolithic of the North Caucasus"
+    }
+  },
+  {
+    "id": "m2n-psytuaje",
+    "why": "Item 197 (07.11, variant a1): new area of the group.",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "psytuaje-10000",
+    "properties": {
+      "NAME": "Epipalaeolithic of the North Caucasus",
+      "AREA": "North-central Caucasus (Psytuaje, Sosruko)",
+      "GROUP": "Epipalaeolithic of the North Caucasus",
+      "NOTE": "psytuaje-10000",
+      "SOURCES": "https://geoenv.ru/documents/244/THE_EPIPALEOLITHIC.pdf | https://doi.org/10.26516/2227-2380.2021.38.78"
     }
   },
   {
@@ -4281,16 +4299,46 @@
   },
   {
     "id": "m8-trialetian",
-    "why": "Map 8000, Europe, item 3-108 (accepted 23.10).",
+    "why": "Map 8000, Europe, item 3-108 (accepted 23.10). Item 3-298 (07.11, variant a): own outline, extended to Kobuleti.",
     "years": [
       -8000
     ],
     "action": "add",
-    "shape": "trialetian",
+    "shape": "m8-trialetian",
     "properties": {
       "NAME": "Trialetian culture",
       "NOTE": "trialetian-8000",
       "SOURCES": "https://en.wikipedia.org/wiki/Trialetian | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-psytuaje",
+    "why": "Item 3-296 (07.11, variant a; name by item 197 a1).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-psytuaje",
+    "properties": {
+      "NAME": "Epipalaeolithic of the North Caucasus",
+      "AREA": "North-central Caucasus (Sosruko, Psytuaje)",
+      "GROUP": "Epipalaeolithic of the North Caucasus",
+      "NOTE": "psytuaje-8000",
+      "SOURCES": "https://geoenv.ru/documents/244/THE_EPIPALEOLITHIC.pdf"
+    }
+  },
+  {
+    "id": "m8-dvoinaya",
+    "why": "Item 3-297 (07.11, variant a).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-dvoinaya",
+    "properties": {
+      "NAME": "Late Mesolithic of the north-western Caucasus (Dvoinaya Cave, Chygai)",
+      "NOTE": "dvoinaya-8000",
+      "SOURCES": "https://archaeolog.ru/media/ksia/ksia_273.pdf | https://doi.org/10.26516/2227-2380.2021.38.78"
     }
   },
   {
@@ -4581,8 +4629,7 @@
     "id": "m8-ust-karenga",
     "why": "Map 8000, Siberia, item 3-128 (accepted 26.10): same outline as on map 10 000.",
     "years": [
-      -8000,
-      -6000
+      -8000
     ],
     "action": "add",
     "shape": "ust-karenga",
@@ -4593,11 +4640,24 @@
     }
   },
   {
+    "id": "m6-ust-karenga",
+    "why": "Map 6000*, item 6-187 (12.11): same outline as on maps 10 000 and 8000, own card.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "ust-karenga",
+    "properties": {
+      "NAME": "Ust-Karenga culture",
+      "NOTE": "ust-karenga-6000",
+      "SOURCES": "https://www.arch.ox.ac.uk/node/884531 | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
     "id": "m8-sumnagin",
     "why": "Map 8000, Siberia, item 3-130 (accepted 26.10): same outline; Khatystyr Cave in the note.",
     "years": [
-      -8000,
-      -6000
+      -8000
     ],
     "action": "add",
     "shape": "sumnagin",
@@ -4608,8 +4668,23 @@
     }
   },
   {
+    "id": "m6-sumnagin",
+    "why": "Map 6000*, item 6-191 (12.11): same outline, own card; area of the Sumnagin group (6-192).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "sumnagin",
+    "properties": {
+      "NAME": "Sumnagin culture",
+      "NOTE": "sumnagin-6000",
+      "SOURCES": "https://www.cambridge.org/core/journals/antiquity/article/migrations-and-interactions-in-prehistoric-beringia-the-evolution-of-yakutian-lithic-technology/A3AB32E57F1B9513A21E639CFEBD9F9E | https://journals.dvfu.ru/gisdv/article/view/724",
+      "AREA": "Aldan and Middle Lena"
+    }
+  },
+  {
     "id": "m8-upper-kolyma",
-    "why": "Map 8000, Siberia, item 3-131 (accepted 26.10, variant a): a separate neutral zone.",
+    "why": "Map 8000, Siberia, item 3-131 (accepted 26.10, variant a): a separate neutral zone. Item 3-303 (12.11, variant a): + Khurendzha (Azamat) and Lake Ui (separate piece).",
     "years": [
       -8000
     ],
@@ -4618,7 +4693,7 @@
     "properties": {
       "NAME": "Early Holocene foragers of the Upper Kolyma",
       "NOTE": "upper-kolyma-8000",
-      "SOURCES": "https://journals.dvfu.ru/gisdv/article/view/724"
+      "SOURCES": "https://journals.dvfu.ru/gisdv/article/view/724 | https://doi.org/10.21638/spbu02.2023.414"
     }
   },
   {
@@ -4693,7 +4768,7 @@
   },
   {
     "id": "m8-ust-kova",
-    "why": "Map 8000, Siberia, item 3-140 (accepted 26.10): 35 km circle around Ust-Kova.",
+    "why": "Map 8000, Siberia, item 3-140 (accepted 26.10): 35 km circle around Ust-Kova. 12.11 (item 6-190): new AMS date GV-1817 in the note.",
     "years": [
       -8000
     ],
@@ -5693,16 +5768,16 @@
   },
   {
     "id": "m6-kitovyi",
-    "why": "Map 6000* (28.10): carried from map 8000 (m2j-kitovyi) with a new name or note.",
+    "why": "Map 6000* (28.10): carried from map 8000 (m2j-kitovyi) with a new name or note. Item 6-204 (12.11, variant a): same circle, new name and card.",
     "years": [
       -6000
     ],
     "action": "add",
     "shape": "kitovyi",
     "properties": {
-      "NAME": "Incipient Neolithic of the Kurils (Kitovyi)",
+      "NAME": "Early Jōmon-type foragers of Iturup (Yankito)",
       "NOTE": "kurils-6000",
-      "SOURCES": "https://archaeology.nsc.ru/en/publications/jr-aeae-en/22-50-2/annot-01/"
+      "SOURCES": "https://doi.org/10.1080/15564891003663927 | https://archaeology.nsc.ru/en/publications/jr-aeae-en/22-50-2/annot-01/"
     }
   },
   {
@@ -6759,18 +6834,34 @@
   },
   {
     "id": "m6-new-ireland",
-    "why": "Map 6000*, item 6-156 (07.11): same outline as map 8000, own card (Balof 2; Panakiwuk abandoned).",
+    "why": "Map 6000*, item 6-156 (07.11): same outline as map 8000, own card (Balof 2; Panakiwuk abandoned). Item 6-164 (07.11): new card; own outline with Matenkupkum and Matenbek.",
     "years": [
       -6000
     ],
     "action": "add",
-    "shape": "new-ireland",
+    "shape": "m6-new-ireland",
     "properties": {
       "NAME": "Foragers of New Guinea and nearby islands",
       "NOTE": "new-ireland-6000",
-      "SOURCES": "https://pmc.ncbi.nlm.nih.gov/articles/PMC26825 | https://pmc.ncbi.nlm.nih.gov/articles/PMC8899615",
+      "SOURCES": "https://doi.org/10.1002/oa.70108 | https://pmc.ncbi.nlm.nih.gov/articles/PMC26825 | https://pmc.ncbi.nlm.nih.gov/articles/PMC8899615",
       "GROUP": "Sahul — New Guinea",
       "AREA": "Foragers of New Ireland"
+    }
+  },
+  {
+    "id": "m6-ayamaru",
+    "why": "Item 6-160 (07.11, variant a).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "ayamaru",
+    "properties": {
+      "NAME": "Foragers of New Guinea and nearby islands",
+      "AREA": "Foragers of the Bird's Head (Ayamaru Plateau)",
+      "GROUP": "Sahul — New Guinea",
+      "NOTE": "ayamaru-6000",
+      "SOURCES": "https://doi.org/10.1002/j.1834-4453.2002.tb00510.x"
     }
   },
   {
@@ -6839,7 +6930,7 @@
   },
   {
     "id": "m6-youlain",
-    "why": "Map 6000*, item 6-151 (07.11): Youlain Springs; place from p3k14c (rounded).",
+    "why": "Map 6000*, item 6-151 (07.11): Youlain Springs; place from p3k14c (rounded). Item 6-163 (07.11): circle moved to the site (Robins 1998).",
     "years": [
       -6000
     ],
@@ -6848,79 +6939,291 @@
     "properties": {
       "NAME": "Foragers of Australia",
       "NOTE": "youlain-6000",
-      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7",
+      "SOURCES": "https://museum.qld.gov.au/collections-and-research/memoirs/culture-1/mqm-c1-1-3-robins | https://www.nature.com/articles/s41597-022-01118-7",
       "GROUP": "Sahul — Australia",
       "AREA": "Foragers of the Paroo (Youlain Springs)"
     }
   },
   {
+    "id": "m6-badu",
+    "why": "Item 6-161 (07.11, variant a; revises 6-154).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-badu",
+    "properties": {
+      "NAME": "Foragers of Australia",
+      "AREA": "Foragers of western Torres Strait (Badu 15)",
+      "GROUP": "Sahul — Australia",
+      "NOTE": "badu-6000",
+      "SOURCES": "https://researchportalplus.anu.edu.au/en/publications/badu-15-and-the-papuan-austronesian-settlement-of-torres-strait/"
+    }
+  },
+  {
+    "id": "m6-puntutjarpa",
+    "why": "Item 6-162 (07.11, Puntutjarpa - variant a; Karnatukul - not shown).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "puntutjarpa",
+    "properties": {
+      "NAME": "Foragers of Australia",
+      "AREA": "Foragers of the Western Desert (Puntutjarpa)",
+      "GROUP": "Sahul — Australia",
+      "NOTE": "puntutjarpa-6000",
+      "SOURCES": "https://doi.org/10.1080/03122417.2017.1351673"
+    }
+  },
+  {
     "id": "m6-upper-kolyma",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-upper-kolyma) with a new name or note.",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-upper-kolyma) with a new name or note. Item 6-192 (12.11, variant a): area of the Sumnagin culture; own outline with Buyunda III and Zapyataya. Item 6-193: Pridorozhnaya - in the card only.",
     "years": [
       -6000
     ],
     "action": "add",
-    "shape": "m8-upper-kolyma",
+    "shape": "m6-upper-kolyma",
     "properties": {
-      "NAME": "Early Holocene foragers of the Upper Kolyma",
+      "NAME": "Sumnagin culture",
       "NOTE": "upper-kolyma-6000",
-      "SOURCES": "https://journals.dvfu.ru/gisdv/article/view/724"
+      "SOURCES": "https://doi.org/10.21638/spbu02.2023.414 | https://journals.dvfu.ru/gisdv/article/view/724",
+      "AREA": "Upper Kolyma"
     }
   },
   {
-    "id": "m6-shigir",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-shigir) with a new name or note. Sources checked for 6000 BC (04.11, owner: \"check and fix Sources\").",
+    "id": "m6-east-chukotka",
+    "why": "Item 6-194 (12.11, variant a): area of the Sumnagin culture; Ulkhum placed by the owner (longitude read as 172 W).",
     "years": [
       -6000
     ],
     "action": "add",
-    "shape": "m8-shigir",
+    "shape": "m6-east-chukotka",
     "properties": {
-      "NAME": "Hunter-fishers of the Middle Urals (Gorbunovo bog)",
-      "NOTE": "shigir-6000",
-      "SOURCES": "https://www.cambridge.org/core/product/F3D2E5D73C3850C8E41225E739698432 | https://journals.rcsi.science/2309-4370/article/view/34319"
+      "NAME": "Sumnagin culture",
+      "AREA": "Eastern Chukotka (Naivan, Ulkhum)",
+      "NOTE": "east-chukotka-6000",
+      "SOURCES": "https://www.old.archeo.ru/izdaniya-1/rossiiskii-arheologicheskii-ezhegodnik/vypuski-ezhegodnika/pdf/04RAE4Kuzmin_Dikova.pdf | https://doi.org/10.21638/spbu02.2023.414"
     }
   },
   {
-    "id": "m6-konda",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-konda) with a new name or note.",
+    "id": "m6-trans-urals",
+    "why": "Map 6000*, item 6-166 (12.11, variant a): replaces the Late Mesolithic zone of the Gorbunovo bog (m6-shigir); Mergen 6 placed by item 6-181.",
     "years": [
       -6000
     ],
     "action": "add",
-    "shape": "m8-konda",
+    "shape": "m6-trans-urals",
     "properties": {
-      "NAME": "Late Mesolithic of the Konda basin",
-      "NOTE": "konda-6000",
-      "SOURCES": "https://bakhtiniada.ru/2309-4370/article/view/34549"
+      "NAME": "Early Neolithic of the Trans-Urals (Koshkino and Kozlovo traditions)",
+      "NOTE": "trans-urals-6000",
+      "SOURCES": "https://doi.org/10.24852/2587-6112.2024.4.92.101"
+    }
+  },
+  {
+    "id": "m6-baraba",
+    "why": "Item 6-167 (12.11, variant a).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-baraba",
+    "properties": {
+      "NAME": "Baraba culture (Early Neolithic)",
+      "NOTE": "baraba-6000",
+      "SOURCES": "https://doi.org/10.25205/1818-7919-2020-19-7-69-93"
+    }
+  },
+  {
+    "id": "m6-ws-konda",
+    "why": "Map 6000*, items 6-168, 6-171 ... 6-174, 6-180 (12.11, variant a): group of the Early Neolithic taiga (replaces the Late Mesolithic of the Konda, m6-konda).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-konda",
+    "properties": {
+      "NAME": "Early Neolithic of the West Siberian taiga",
+      "AREA": "Konda (Umytya, Leushi)",
+      "GROUP": "Early Neolithic of the West Siberian taiga",
+      "NOTE": "wsib-taiga-6000",
+      "SOURCES": "https://doi.org/10.24411/2309-4370-2020-11202"
+    }
+  },
+  {
+    "id": "m6-ws-amnya",
+    "why": "Map 6000*, items 6-168, 6-171 ... 6-174, 6-180 (12.11, variant a): group of the Early Neolithic taiga (replaces the Late Mesolithic of the Konda, m6-konda).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-amnya",
+    "properties": {
+      "NAME": "Early Neolithic of the West Siberian taiga",
+      "AREA": "Amnya type (Kazym)",
+      "GROUP": "Early Neolithic of the West Siberian taiga",
+      "NOTE": "wsib-taiga-6000",
+      "SOURCES": "https://doi.org/10.15184/aqy.2023.164"
+    }
+  },
+  {
+    "id": "m6-ws-kayukovo",
+    "why": "Map 6000*, items 6-168, 6-171 ... 6-174, 6-180 (12.11, variant a): group of the Early Neolithic taiga (replaces the Late Mesolithic of the Konda, m6-konda).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-kayukovo",
+    "properties": {
+      "NAME": "Early Neolithic of the West Siberian taiga",
+      "AREA": "Kayukovo and Barsova Gora (Salym — Yugan — Surgut Ob)",
+      "GROUP": "Early Neolithic of the West Siberian taiga",
+      "NOTE": "wsib-taiga-6000",
+      "SOURCES": "https://doi.org/10.15184/aqy.2023.164"
+    }
+  },
+  {
+    "id": "m6-ws-etto",
+    "why": "Map 6000*, items 6-168, 6-171 ... 6-174, 6-180 (12.11, variant a): group of the Early Neolithic taiga (replaces the Late Mesolithic of the Konda, m6-konda).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-etto",
+    "properties": {
+      "NAME": "Early Neolithic of the West Siberian taiga",
+      "AREA": "Etto (Nadym — Pur)",
+      "GROUP": "Early Neolithic of the West Siberian taiga",
+      "NOTE": "wsib-taiga-6000",
+      "SOURCES": "https://doi.org/10.15184/aqy.2023.164"
+    }
+  },
+  {
+    "id": "m6-ws-satyga",
+    "why": "Map 6000*, items 6-168, 6-171 ... 6-174, 6-180 (12.11, variant a): group of the Early Neolithic taiga (replaces the Late Mesolithic of the Konda, m6-konda).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-satyga",
+    "properties": {
+      "NAME": "Early Neolithic of the West Siberian taiga",
+      "AREA": "Satyga type (Northern Trans-Urals)",
+      "GROUP": "Early Neolithic of the West Siberian taiga",
+      "NOTE": "satyga-6000",
+      "SOURCES": "https://doaj.org/article/0eb180e972864fb89967ae4fbf59316a"
+    }
+  },
+  {
+    "id": "m6-yenisei",
+    "why": "Item 6-175 (12.11, variant a).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-yenisei",
+    "properties": {
+      "NAME": "Early Neolithic of the Middle Yenisei (Eleneva Cave)",
+      "NOTE": "yenisei-6000",
+      "SOURCES": "https://scholar.sfu-kras.ru/publication/184090520-627136478"
     }
   },
   {
     "id": "m6-upper-angara",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-upper-angara) with a new name or note.",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-upper-angara) with a new name or note. Items 6-182 ... 6-185 (12.11): new card; own outline with the western Baikal shore, Tunka (Elovka-Nugan I) and the northern Angara (Ust-Yodarma II).",
     "years": [
       -6000
     ],
     "action": "add",
-    "shape": "m8-upper-angara",
+    "shape": "m6-cis-baikal",
     "properties": {
       "NAME": "Early Neolithic of Cis-Baikal (Ust-Khaita)",
       "NOTE": "cis-baikal-6000",
-      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+      "SOURCES": "https://doi.org/10.26516/2227-2380.2019.29.38 | https://doi.org/10.26516/2227-2380.2020.33.23 | https://doi.org/10.26516/2227-2380.2022.42.43"
+    }
+  },
+  {
+    "id": "m6-chikoi",
+    "why": "Item 6-186 (12.11, variant a; full outline, not cut at the border).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-chikoi",
+    "properties": {
+      "NAME": "Early Neolithic of the Chikoi valley (Zhindo, Ust-Menza)",
+      "NOTE": "chikoi-6000",
+      "SOURCES": "https://archaeology.nsc.ru/wp-content/uploads/2021/11/Tsydenova_NV_dissert.pdf"
+    }
+  },
+  {
+    "id": "m6-middle-vitim",
+    "why": "Item 6-188 (12.11, variant a).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-middle-vitim",
+    "properties": {
+      "NAME": "Early Neolithic burials of the middle Vitim (Nizhnyaya Dzhilinda, Staryi Vitim)",
+      "NOTE": "middle-vitim-6000",
+      "SOURCES": "https://archaeology.nsc.ru/wp-content/uploads/2021/11/Tsydenova_NV_dissert.pdf"
     }
   },
   {
     "id": "m6-sakhalin",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-sakhalin) with a new name or note.",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-sakhalin) with a new name or note. Item 6-201 (12.11, variant a): whole island except the far north, new name and card.",
     "years": [
       -6000
     ],
     "action": "add",
-    "shape": "m8-sakhalin",
+    "shape": "m6-sakhalin",
     "properties": {
-      "NAME": "Early Neolithic of Sakhalin",
+      "NAME": "Neolithic of Sakhalin",
       "NOTE": "sakhalin-6000",
-      "SOURCES": "https://repository.arizona.edu/handle/10150/655086"
+      "SOURCES": "https://doi.org/10.1017/S0033822200039655 | https://repository.arizona.edu/handle/10150/655086"
+    }
+  },
+  {
+    "id": "m6-lower-amur",
+    "why": "Item 6-200 (12.11, variant a).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-lower-amur",
+    "properties": {
+      "NAME": "Middle Neolithic of the Lower Amur",
+      "NOTE": "lower-amur-6000",
+      "SOURCES": "https://lib.kunstkamera.ru/files/lib/978-5-88431-190-9/978-5-88431-190-9_05.pdf"
+    }
+  },
+  {
+    "id": "m6-rudnaya",
+    "why": "Item 6-202 (12.11, accepted).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-rudnaya",
+    "properties": {
+      "NAME": "Rudnaya culture",
+      "NOTE": "rudnaya-6000",
+      "SOURCES": "https://zenon.dainst.org/Record/001240590"
+    }
+  },
+  {
+    "id": "m6-orlinyi-klyuv",
+    "why": "Item 6-203 (12.11, variant a).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-orlinyi-klyuv",
+    "properties": {
+      "NAME": "Orlinyi Klyuv culture",
+      "NOTE": "orlinyi-klyuv-6000",
+      "SOURCES": "https://www.old.archeo.ru/izdaniya-1/rossiiskii-arheologicheskii-ezhegodnik/vypuski-ezhegodnika/pdf/16RAE4Lynsha_Tarasenko.pdf"
     }
   },
   {
@@ -8676,7 +8979,7 @@
   },
   {
     "id": "m2-sagan-nuge",
-    "why": "Item 193 (07.11, variant a).",
+    "why": "Item 193 (07.11, variant a). 12.11 (item 6-190): new AMS date OxA-34599 in the note.",
     "years": [
       -10000
     ],
@@ -8685,7 +8988,7 @@
     "properties": {
       "NAME": "Final Palaeolithic of the western Baikal shore (Sagan-Nuge)",
       "NOTE": "sagan-nuge",
-      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7 | https://doi.org/10.26516/2227-2380.2022.42.43"
     }
   },
   {
@@ -8838,6 +9141,126 @@
       "NAME": "Later Stone Age of the Niassa plateau (Chicaza)",
       "NOTE": "chicaza-8000",
       "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m2n-baume-loire",
+    "why": "Item 198 (07.11, variant a).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "baume-loire",
+    "properties": {
+      "NAME": "Final Magdalenian of the upper Loire (Baume-Loire)",
+      "NOTE": "baume-loire-10000",
+      "SOURCES": "https://doi.org/10.3406/bspf.1991.9467 | https://doi.org/10.3406/mhnly.1975.1164 | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m2n-ayamaru",
+    "why": "Item 200 (07.11, variant a).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "ayamaru",
+    "properties": {
+      "NAME": "Foragers of New Guinea and nearby islands",
+      "AREA": "Foragers of the Bird's Head (Ayamaru Plateau)",
+      "GROUP": "Sahul — New Guinea",
+      "NOTE": "ayamaru-10000",
+      "SOURCES": "https://doi.org/10.1002/j.1834-4453.2002.tb00510.x"
+    }
+  },
+  {
+    "id": "m2n-puntutjarpa",
+    "why": "Item 201 (07.11, variant a).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "puntutjarpa",
+    "properties": {
+      "NAME": "Foragers of Australia",
+      "AREA": "Foragers of the Western Desert (Puntutjarpa)",
+      "GROUP": "Sahul — Australia",
+      "NOTE": "puntutjarpa-10000",
+      "SOURCES": "https://doi.org/10.1080/03122417.2017.1351673"
+    }
+  },
+  {
+    "id": "m2n-golyi-mys",
+    "why": "Item 202 (12.11, variant a).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "golyi-mys",
+    "properties": {
+      "NAME": "Final Palaeolithic of the Lower Amur (Golyi Mys IV)",
+      "NOTE": "golyi-mys-10000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7 | https://lib.kunstkamera.ru/files/lib/978-5-88431-190-9/978-5-88431-190-9_05.pdf"
+    }
+  },
+  {
+    "id": "m8-ayamaru",
+    "why": "Item 3-299 (07.11, variant a).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "ayamaru",
+    "properties": {
+      "NAME": "Foragers of New Guinea and nearby islands",
+      "AREA": "Foragers of the Bird's Head (Ayamaru Plateau)",
+      "GROUP": "Sahul — New Guinea",
+      "NOTE": "ayamaru-8000",
+      "SOURCES": "https://doi.org/10.1002/j.1834-4453.2002.tb00510.x"
+    }
+  },
+  {
+    "id": "m8-puntutjarpa",
+    "why": "Item 3-300 (07.11, variant a: no caveat note).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "puntutjarpa",
+    "properties": {
+      "NAME": "Foragers of Australia",
+      "AREA": "Foragers of the Western Desert (Puntutjarpa)",
+      "GROUP": "Sahul — Australia",
+      "NOTE": "puntutjarpa-8000",
+      "SOURCES": "https://doi.org/10.1080/03122417.2017.1351673"
+    }
+  },
+  {
+    "id": "m8-baikal-shore",
+    "why": "Item 3-301 (12.11, variant a; revises 3-140).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-baikal-shore",
+    "properties": {
+      "NAME": "Mesolithic of the western Baikal shore (Ityrkhei, Berloga, Buguldeika)",
+      "NOTE": "baikal-shore-8000",
+      "SOURCES": "https://doi.org/10.26516/2227-2380.2022.42.43"
+    }
+  },
+  {
+    "id": "m8-kamchatka",
+    "why": "Item 3-302 (12.11, variant a; revises 3-129): same outline as the -10000 Ushki zone.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "ushki",
+    "properties": {
+      "NAME": "Initial Neolithic of Kamchatka (Ushki, Anavgai)",
+      "NOTE": "kamchatka-8000",
+      "SOURCES": "https://journal.archaeology.nsc.ru/jour/article/download/892/698"
     }
   }
 ]
