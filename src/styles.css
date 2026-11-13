@@ -443,6 +443,7 @@ body.is-loading .timeline::before { opacity: 1; animation: loading 900ms ease-in
   font-size: 0.72rem; color: var(--ink-muted); white-space: nowrap;
   font-variant-numeric: tabular-nums;
 }
+.tick-label.is-hidden { visibility: hidden; }
 .credit {
   grid-column: 1 / -1;
   margin: 0;

@@ -64,7 +64,28 @@ export function createTimeline(root, years, { onChange, onTogglePlay }) {
       }
       ticks.appendChild(mark);
     });
+    hideOverlaps();
   }
+
+  // Longer texts (e.g. Russian "10 тыс. до н.э.") can collide on a narrow
+  // slider: keep the main labels, hide an "optional" one that overlaps.
+  function hideOverlaps() {
+    const labels = [...ticks.querySelectorAll('.tick-label')];
+    labels.forEach(l => l.classList.remove('is-hidden'));
+    const order = [...labels.filter(l => !l.classList.contains('optional')),
+                   ...labels.filter(l => l.classList.contains('optional'))];
+    const kept = [];
+    const GAP = 6;
+    for (const l of order) {
+      const r = l.getBoundingClientRect();
+      if (!r.width) continue; // hidden by CSS (small screens) or not laid out yet
+      const hit = kept.some(k => r.left < k.right + GAP && r.right > k.left - GAP);
+      if (hit) l.classList.add('is-hidden');
+      else kept.push(r);
+    }
+  }
+  if (typeof ResizeObserver !== 'undefined') new ResizeObserver(hideOverlaps).observe(ticks);
+  document.fonts?.ready?.then(hideOverlaps); // label widths change once web fonts load
 
   function nearestIndex(target) {
     let best = 0;
