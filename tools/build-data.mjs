@@ -41,6 +41,7 @@ import { buildCoasts, flatLand } from './coast.mjs';
 import { buildHydro } from './hydro.mjs';
 import { buildOverlaps } from './overlaps.mjs';
 import { checkColors } from './check-colors.mjs';
+import { checkZones } from './check-zones.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const CACHE = path.join(ROOT, 'tools', '.cache', 'historical-basemaps');
@@ -302,4 +303,8 @@ const index = {
   years,
 };
 fs.writeFileSync(path.join(ROOT, 'data', 'index.json'), JSON.stringify(index, null, 2) + '\n');
+// Zone registry (corrections/zones.tsv, zone-maps.tsv) against corrections.json — warnings only
+const registryWarnings = checkZones();
+for (const line of registryWarnings) console.warn(`  ! registry ${line}`);
+if (!registryWarnings.length) console.log('  registry: matches corrections.json');
 console.log(`\nDone: ${years.length} maps -> data/borders/, index -> data/index.json`);
