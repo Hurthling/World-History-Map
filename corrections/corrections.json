@@ -4286,7 +4286,7 @@
   },
   {
     "id": "m8-zimovniki",
-    "why": "Map 8000, Europe, item 3-106 (a) (accepted 23.10).",
+    "why": "Map 8000, Europe, item 3-106 (a) (accepted 23.10). Item 3-306 (a, 16.11): the Khoroshee date in the card.",
     "years": [
       -8000
     ],
@@ -6409,7 +6409,7 @@
   },
   {
     "id": "m6-turkish-thrace",
-    "why": "Map 6000*, package \"Europe\" (owner decisions 06.11, applied 06.11): item 6-122 (f).",
+    "why": "Map 6000*, package \"Europe\" (owner decisions 06.11, applied 06.11): item 6-122 (f). Item 6-218 (a, 13.11): extended to the Iznik and Yenişehir basins and Aktopraklık.",
     "years": [
       -6000
     ],
@@ -6493,7 +6493,7 @@
   },
   {
     "id": "m6-rakushechny-yar",
-    "why": "Map 6000*, package \"Europe\" (owner decisions 06.11, applied 06.11): item 6-130.",
+    "why": "Map 6000*, package \"Europe\" (owner decisions 06.11, applied 06.11): item 6-130. 17.11 (item 6-247 c): boundary with the lower Seversky Donets - midline between the nearest finds.",
     "years": [
       -6000
     ],
@@ -6503,6 +6503,38 @@
       "NAME": "Rakushechny Yar culture",
       "NOTE": "rakushechny-yar-6000",
       "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-donets-middle",
+    "why": "Map 6000*, item 6-247 (c, 16.11): area 1.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-donets-middle",
+    "properties": {
+      "NAME": "Early Neolithic of the Seversky Donets (Kleshnya type / early Donetsk culture)",
+      "AREA": "Middle Seversky Donets",
+      "GROUP": "Early Neolithic of the Seversky Donets (Kleshnya type / early Donetsk culture)",
+      "NOTE": "donets-middle-6000",
+      "SOURCES": "https://doi.org/10.15407/arheologia2022.02.019"
+    }
+  },
+  {
+    "id": "m6-donets-lower",
+    "why": "Map 6000*, item 6-247 (c, 16.11): area 2; boundary with the Rakushechny Yar zone - midline between the nearest finds.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-donets-lower",
+    "properties": {
+      "NAME": "Early Neolithic of the Seversky Donets (Kleshnya type / early Donetsk culture)",
+      "AREA": "Lower Seversky Donets (Ust-Bystraya)",
+      "GROUP": "Early Neolithic of the Seversky Donets (Kleshnya type / early Donetsk culture)",
+      "NOTE": "donets-lower-6000",
+      "SOURCES": "https://doi.org/10.15407/arheologia2022.02.019"
     }
   },
   {
@@ -6574,7 +6606,7 @@
   },
   {
     "id": "m6-kairshak",
-    "why": "Map 6000*, package \"Europe\" (owner decisions 06.11, applied 06.11): item 6-138 (two separate zones).",
+    "why": "Map 6000*, package \"Europe\" (owner decisions 06.11, applied 06.11): item 6-138 (two separate zones). Item 6-249 (a, 16.11): Kugat IV and Kulagaisy in the card.",
     "years": [
       -6000
     ],
@@ -6583,7 +6615,7 @@
     "properties": {
       "NAME": "Caspian Neolithic: Kairshak–Tentyaksor",
       "NOTE": "kairshak-6000",
-      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+      "SOURCES": "https://doi.org/10.15688/jvolsu4.2020.1.12 | https://www.nature.com/articles/s41597-022-01118-7"
     }
   },
   {
@@ -7228,30 +7260,206 @@
   },
   {
     "id": "m6-ppnb-cyprus",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-ppnb-cyprus) with a new name or note. Sources checked for 6000 BC (04.11, owner: \"check and fix Sources\").",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-ppnb-cyprus) with a new name or note. Sources checked for 6000 BC (04.11, owner: \"check and fix Sources\"). Item 6-237 (accepted 14.11): own outline with Cape Andreas (Kastros).",
     "years": [
       -6000
     ],
     "action": "add",
-    "shape": "m1-uninhabited-cyprus",
+    "shape": "m6-cyprus",
     "properties": {
       "NAME": "Khirokitia culture",
       "NOTE": "khirokitia-6000",
-      "SOURCES": "https://en.wikipedia.org/wiki/Khirokitia | https://www.nature.com/articles/s41597-022-01118-7"
+      "SOURCES": "https://doi.org/10.3406/paleo.2009.5302 | https://en.wikipedia.org/wiki/Khirokitia | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-yarmukian",
+    "why": "Map 6000*, items 6-210 (a, 13.11) and 6-233 (a, 14.11): Yarmukian and Jericho IX sites, hull + 50 km.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-yarmukian",
+    "properties": {
+      "NAME": "Pottery Neolithic of the southern Levant (Yarmukian, Jericho IX)",
+      "NOTE": "yarmukian-6000",
+      "SOURCES": "https://doi.org/10.3406/paleo.2007.5208 | https://doi.org/10.3406/paleo.1993.4587 | https://doi.org/10.3406/paleo.2016.5722 | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-black-desert",
+    "why": "Map 6000*, item 6-234 (a, 14.11; revises 6-211).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-black-desert",
+    "properties": {
+      "NAME": "Late Neolithic of the Black Desert (Wisad Pools, Burqu, Dhuweila)",
+      "NOTE": "black-desert-6000",
+      "SOURCES": "https://doi.org/10.1080/00758914.2024.2350316 | https://doi.org/10.3406/paleo.1993.4582 | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-timnian",
+    "why": "Map 6000*, item 6-235 (a, 14.11; revises 6-211).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-timnian",
+    "properties": {
+      "NAME": "Early Timnian (herder-gatherers of the Negev)",
+      "NOTE": "timnian-6000",
+      "SOURCES": "https://doi.org/10.1080/03344355.2018.1412059 | https://doi.org/10.1017/S0033822200014569 | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-dfbw",
+    "why": "Map 6000*, items 6-212 (a, 13.11) and 6-236 (a, 14.11): Bekaa inside, Nachcharini removed.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-dfbw",
+    "properties": {
+      "NAME": "Pottery Neolithic of the northern Levant and Cilicia (Dark Faced Burnished Ware)",
+      "NOTE": "dfbw-6000",
+      "SOURCES": "https://doi.org/10.3406/paleo.2007.5208 | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-proto-halaf",
+    "why": "Map 6000*, items 6-238 (a, 14.11; revises 6-213) and 6-243 (a): with Domuztepe and a note.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-proto-halaf",
+    "properties": {
+      "NAME": "Proto-Halaf (transition to the Halaf)",
+      "NOTE": "proto-halaf-6000",
+      "SOURCES": "https://doi.org/10.3406/paleo.2004.4772 | https://escholarship.org/uc/item/8db8f7gw | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-hassuna",
+    "why": "Map 6000*, items 6-214 (13.11) and 6-239 (a, 14.11).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-hassuna",
+    "properties": {
+      "NAME": "Hassuna culture",
+      "AREA": "Northern Iraq (Hassuna, Yarim Tepe, Shimshara)",
+      "GROUP": "Hassuna culture",
+      "NOTE": "hassuna-6000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Hassuna_culture | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-hakemi-use",
+    "why": "Map 6000*, item 6-239 (a, 14.11): area of the Hassuna culture, 35 km circle.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-hakemi-use",
+    "properties": {
+      "NAME": "Hassuna culture",
+      "AREA": "Upper Tigris (Hakemi Use)",
+      "GROUP": "Hassuna culture",
+      "NOTE": "hakemi-use-6000",
+      "SOURCES": "https://doi.org/10.36891/anatolia.702456 | https://doi.org/10.26650/anar.2023.29.1250477"
+    }
+  },
+  {
+    "id": "m6-samarra",
+    "why": "Map 6000*, item 6-214 (13.11).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-samarra",
+    "properties": {
+      "NAME": "Samarra culture",
+      "AREA": "Middle Tigris and Diyala (Tell es-Sawwan, Choga Mami)",
+      "GROUP": "Samarra culture",
+      "NOTE": "samarra-6000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Samarra_culture | https://doi.org/10.3406/paleo.2016.5696 | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-baghuz",
+    "why": "Map 6000*, item 6-239 (a, 14.11): area of the Samarra culture, 35 km circle, date by pottery style only.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-baghuz",
+    "properties": {
+      "NAME": "Samarra culture",
+      "AREA": "Middle Euphrates (Tell Baghuz)",
+      "GROUP": "Samarra culture",
+      "NOTE": "baghuz-6000",
+      "SOURCES": "https://doi.org/10.3406/syria.1999.7603"
+    }
+  },
+  {
+    "id": "m6-oueili",
+    "why": "Map 6000*, items 6-244, 6-246 (a, 14.11; revises 6-240): 35 km circle.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-oueili",
+    "properties": {
+      "NAME": "Ubaid 0 (Tell el-Oueili)",
+      "NOTE": "oueili-6000",
+      "SOURCES": "https://www.persee.fr/doc/syria_0039-7946_1999_num_76_1_7616_t1_0291_0000_3 | https://www.nature.com/articles/s41597-022-01118-7"
     }
   },
   {
     "id": "m6-hacilar",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-hacilar) with a new name or note.",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-hacilar) with a new name or note. Item 6-216 (b, 13.11): own outline with Kuruçay and Karain B, new name; Erbaba not shown.",
     "years": [
       -6000
     ],
     "action": "add",
-    "shape": "m8-hacilar",
+    "shape": "m6-lake-district",
     "properties": {
-      "NAME": "Late Neolithic of Hacılar",
+      "NAME": "Late Neolithic of the Lake District (Hacılar, Kuruçay)",
       "NOTE": "hacilar-6000",
       "SOURCES": "https://en.wikipedia.org/wiki/Hac%C4%B1lar | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-konya",
+    "why": "Map 6000*, item 6-215 (variant 1, 13.11): separate zone from the Lake District.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-konya",
+    "properties": {
+      "NAME": "Late Neolithic and Early Chalcolithic of the Konya plain (Çatalhöyük East and West, Can Hasan I, Pınarbaşı B)",
+      "NOTE": "konya-6000",
+      "SOURCES": "https://en.wikipedia.org/wiki/%C3%87atalh%C3%B6y%C3%BCk | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-aegean",
+    "why": "Map 6000*, item 6-217 (a, 13.11).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-aegean",
+    "properties": {
+      "NAME": "Neolithic of the Aegean coast of Anatolia (Ulucak, Ege Gübre, Çukuriçi)",
+      "NOTE": "aegean-6000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
     }
   },
   {
@@ -7271,16 +7479,76 @@
   },
   {
     "id": "m6-sang-e-chakhmaq",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-sang-e-chakhmaq) with a new name or note.",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-sang-e-chakhmaq) with a new name or note. Item 6-222 (b, 13.11): area of the group \"Jeitun culture\".",
     "years": [
       -6000
     ],
     "action": "add",
     "shape": "m8-sang-e-chakhmaq",
     "properties": {
-      "NAME": "Neolithic of Sang-e Chakhmaq",
+      "NAME": "Jeitun culture",
       "NOTE": "sang-e-chakhmaq-6000",
-      "SOURCES": "https://en.wikipedia.org/wiki/Sang-e_Chakhmaq | https://www.nature.com/articles/s41597-022-01118-7"
+      "SOURCES": "https://en.wikipedia.org/wiki/Sang-e_Chakhmaq | https://www.nature.com/articles/s41597-022-01118-7",
+      "AREA": "Shahrud (Sang-e Chakhmaq)",
+      "GROUP": "Jeitun culture"
+    }
+  },
+  {
+    "id": "m6-jeitun",
+    "why": "Map 6000*, item 6-222 (b, 13.11): area of the group \"Jeitun culture\".",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-jeitun",
+    "properties": {
+      "NAME": "Jeitun culture",
+      "AREA": "Kopet Dag foothills (Jeitun, Chagylly)",
+      "GROUP": "Jeitun culture",
+      "NOTE": "jeitun-6000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Jeitun | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-hajji-firuz",
+    "why": "Map 6000*, item 6-220 (a, 13.11).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-hajji-firuz",
+    "properties": {
+      "NAME": "Hajji Firuz culture (Lake Urmia basin)",
+      "NOTE": "hajji-firuz-6000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Hajji_Firuz_Tepe | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-qazvin",
+    "why": "Map 6000*, item 6-220 (a, 13.11): 35 km circle.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-qazvin",
+    "properties": {
+      "NAME": "Early Neolithic of the Qazvin plain (Chahar Boneh)",
+      "NOTE": "qazvin-6000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-fars",
+    "why": "Map 6000*, item 6-221 (a, 13.11).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-fars",
+    "properties": {
+      "NAME": "Neolithic of Fars (Mushki, Jari, Bashi)",
+      "NOTE": "fars-6000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
     }
   },
   {
@@ -7299,16 +7567,118 @@
   },
   {
     "id": "m6-lijiagou",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-lijiagou) with a new name or note. Sources checked for 6000 BC (04.11, owner: \"check and fix Sources\").",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-lijiagou) with a new name or note. Sources checked for 6000 BC (04.11, owner: \"check and fix Sources\"). Item 6-225 (a, 13.11): own outline extended to Tieshenggou, Shigu, Zhongshanzhai, Shuiquan; area of the group with Jiahu.",
     "years": [
       -6000
     ],
     "action": "add",
-    "shape": "m8-lijiagou",
+    "shape": "m6-peiligang",
     "properties": {
       "NAME": "Peiligang culture",
       "NOTE": "peiligang-6000",
-      "SOURCES": "https://en.wikipedia.org/wiki/Peiligang_culture | https://www.nature.com/articles/s41597-022-01118-7"
+      "SOURCES": "https://en.wikipedia.org/wiki/Peiligang_culture | https://www.nature.com/articles/s41597-022-01118-7",
+      "AREA": "Central Henan (Peiligang, Lijiagou)",
+      "GROUP": "Peiligang culture"
+    }
+  },
+  {
+    "id": "m6-jiahu",
+    "why": "Map 6000*, item 6-225 (a, 13.11): Jiahu - area of the Peiligang culture, 35 km circle.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-jiahu",
+    "properties": {
+      "NAME": "Peiligang culture",
+      "AREA": "Jiahu type (Wuyang)",
+      "GROUP": "Peiligang culture",
+      "NOTE": "jiahu-6000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Jiahu | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-cishan",
+    "why": "Map 6000*, item 6-225 (13.11).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-cishan",
+    "properties": {
+      "NAME": "Cishan culture",
+      "NOTE": "cishan-6000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Cishan_culture | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-beifudi",
+    "why": "Map 6000*, item 6-225 (13.11): 35 km circle.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-beifudi",
+    "properties": {
+      "NAME": "Beifudi culture",
+      "NOTE": "beifudi-6000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-houli",
+    "why": "Map 6000*, item 6-225 (13.11).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-houli",
+    "properties": {
+      "NAME": "Houli culture",
+      "NOTE": "houli-6000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Houli_culture | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-xinglongwa",
+    "why": "Map 6000*, item 6-224 (a, 13.11).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-xinglongwa",
+    "properties": {
+      "NAME": "Xinglongwa culture",
+      "NOTE": "xinglongwa-6000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Xinglongwa_culture | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-kuahuqiao",
+    "why": "Map 6000*, item 6-226 (a, 13.11).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-kuahuqiao",
+    "properties": {
+      "NAME": "Kuahuqiao culture",
+      "NOTE": "kuahuqiao-6000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Kuahuqiao_culture | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-pengtoushan",
+    "why": "Map 6000*, item 6-226 (a, 13.11).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-pengtoushan",
+    "properties": {
+      "NAME": "Pengtoushan and Lower Zaoshi culture",
+      "NOTE": "pengtoushan-6000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Pengtoushan_culture | https://www.nature.com/articles/s41597-022-01118-7"
     }
   },
   {

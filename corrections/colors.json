@@ -1,5 +1,5 @@
 {
-  "_about": "Colours of culture zones set by hand (map 8000, items 3-70, 3-73, 3-84, 3-71; Europe of map 8000 — picked by a script 24.10; South America — picked by a script so that zones closer than ≈ 1500 km, and cultures replacing each other in one place, differ): key = GROUP of the zone, or its NAME if it has no GROUP; value = number of the colour in the common palette (src/styles.css, --polity-0 … --polity-17). Map 10 000, items 114–116 (applied 26.10): backed-point groups keep colour 1, Mezmaiskaya 11, Far East — Ust-Karenga 11, Ustinovka 17, Kamchatka 8, Sumnagin 15 and Jōmon 10 written explicitly. Siberia and the Russian Far East (map 8000) and new zones of map 10 000 (items 117, 120, 121) — picked by a script 26.10. One culture — one colour on every map. Zones not listed here get a colour by the hash of their name, like states. Checked by tools/check-colors.mjs at every build. See corrections/README.md. Asia of map 8000 and the new zones of map 10 000 (items 3-157 … 3-184, 123, 125; applied 27.10): picked by the same script; zones carried over from map 10 000 keep their colour where possible (Guangxi caves, Hokkaido, Gunung Sewu, Gebe changed to avoid neighbours of the same colour). Items 128 / 3-188 (applied 28.10): Nejd Leptolithic 4 → 2, Gunung Sewu 9 → 12, Laleia 9 → 3; the \"same colour\" distance is 2000 km since then (tools/check-colors.mjs, SAME_KM; \"similar\" stays 1500 km). New zones of the 28.10 package (items 129–138 of map 10 000, 3-189 … 3-203 of map 8000) — picked by a script: no same colour closer than 2000 km on either map, the fewest similar neighbours closer than 1500 km; Al-Rabyah (moved to map 8000) re-picked 11 → 12. Package «North America» (29.10.2026): item 6-1 — a zone renamed on the next map keeps its colour (Late Denali, Archaic of the East, Great Basin, Millingstone/La Jolla, El Gigante, Finnmark, Cantabria, Oaxaca), old names of map 8000 written explicitly; Western Stemmed group 0 (San Dieguito joins it, 3-208); new zones — picked by a script. South America package (items 6-41 … 6-60, 3-215 … 3-228, 143 … 147; applied 02.11): new zones picked by the same script (no same colour closer than 2000 km); renamed zones keep their colour (Chinchorro = Acha 7, Puna of Jujuy 1, central Chile = Los Piuquenes 15, southern Mendoza = Atuel 4, Hunters of Patagonia 2); the groups \"Highland Archaic of central and southern Mexico\" (El Riego 16) and \"Archaic of Texas and northeastern Mexico\" (Texas 2). Package \"Europe\" (applied 06.11): renamed zones keep their colours (Late Mesolithic of northern Norway, Early Mesolithic of northern Norway, Rhine–Meuse–Scheldt, Second Mesolithic of western and central France, the Tagus–Sado–Mira group, Nøstvet–Lihult, Lepenski Vir 0 and Microlaminar Epipalaeolithic 8 — as their former hash colours); the new zones of 6000*, 8000 and 10 000 are picked by a script (random restarts, penalty growing as the square of closeness): on 6000* Europe is too dense for 18 colours — the closest new same-colour pairs are 1437–1915 km. Stage 30 (12.11): new zones of maps 10 000, 8000 and 6000* (Caucasus, Loire, Siberia and the Far East) — picked by a script (Claude outputs/run-apply30/pick-colors.mjs): no same colour closer than 2000 km; similar colours only where no other choice.",
+  "_about": "Colours of culture zones set by hand (map 8000, items 3-70, 3-73, 3-84, 3-71; Europe of map 8000 — picked by a script 24.10; South America — picked by a script so that zones closer than ≈ 1500 km, and cultures replacing each other in one place, differ): key = GROUP of the zone, or its NAME if it has no GROUP; value = number of the colour in the common palette (src/styles.css, --polity-0 … --polity-17). Map 10 000, items 114–116 (applied 26.10): backed-point groups keep colour 1, Mezmaiskaya 11, Far East — Ust-Karenga 11, Ustinovka 17, Kamchatka 8, Sumnagin 15 and Jōmon 10 written explicitly. Siberia and the Russian Far East (map 8000) and new zones of map 10 000 (items 117, 120, 121) — picked by a script 26.10. One culture — one colour on every map. Zones not listed here get a colour by the hash of their name, like states. Checked by tools/check-colors.mjs at every build. See corrections/README.md. Asia of map 8000 and the new zones of map 10 000 (items 3-157 … 3-184, 123, 125; applied 27.10): picked by the same script; zones carried over from map 10 000 keep their colour where possible (Guangxi caves, Hokkaido, Gunung Sewu, Gebe changed to avoid neighbours of the same colour). Items 128 / 3-188 (applied 28.10): Nejd Leptolithic 4 → 2, Gunung Sewu 9 → 12, Laleia 9 → 3; the \"same colour\" distance is 2000 km since then (tools/check-colors.mjs, SAME_KM; \"similar\" stays 1500 km). New zones of the 28.10 package (items 129–138 of map 10 000, 3-189 … 3-203 of map 8000) — picked by a script: no same colour closer than 2000 km on either map, the fewest similar neighbours closer than 1500 km; Al-Rabyah (moved to map 8000) re-picked 11 → 12. Package «North America» (29.10.2026): item 6-1 — a zone renamed on the next map keeps its colour (Late Denali, Archaic of the East, Great Basin, Millingstone/La Jolla, El Gigante, Finnmark, Cantabria, Oaxaca), old names of map 8000 written explicitly; Western Stemmed group 0 (San Dieguito joins it, 3-208); new zones — picked by a script. South America package (items 6-41 … 6-60, 3-215 … 3-228, 143 … 147; applied 02.11): new zones picked by the same script (no same colour closer than 2000 km); renamed zones keep their colour (Chinchorro = Acha 7, Puna of Jujuy 1, central Chile = Los Piuquenes 15, southern Mendoza = Atuel 4, Hunters of Patagonia 2); the groups \"Highland Archaic of central and southern Mexico\" (El Riego 16) and \"Archaic of Texas and northeastern Mexico\" (Texas 2). Package \"Europe\" (applied 06.11): renamed zones keep their colours (Late Mesolithic of northern Norway, Early Mesolithic of northern Norway, Rhine–Meuse–Scheldt, Second Mesolithic of western and central France, the Tagus–Sado–Mira group, Nøstvet–Lihult, Lepenski Vir 0 and Microlaminar Epipalaeolithic 8 — as their former hash colours); the new zones of 6000*, 8000 and 10 000 are picked by a script (random restarts, penalty growing as the square of closeness): on 6000* Europe is too dense for 18 colours — the closest new same-colour pairs are 1437–1915 km. Stage 30 (12.11): new zones of maps 10 000, 8000 and 6000* (Caucasus, Loire, Siberia and the Far East) — picked by a script (Claude outputs/run-apply30/pick-colors.mjs): no same colour closer than 2000 km; similar colours only where no other choice. Stage 34 (17.11, rest of Asia on 6000*): the 2000 km rule cannot be met in the Near East with 18 colours (owner 17.11, variant \"v\": for now the rule is softened in dense areas — no same colour closer than ≈ 1000 km, similar colours not next to each other; a larger palette — before map 5000, queue-site.md С-8); new zones picked by a script minimising penalties (Claude outputs/run-apply31/opt-colors.mjs). Item 6-208: Late Denali / American Paleo-Arctic 15 → 10. Renamed zones keep their colours (Lake District = Hacılar 10, Jeitun group = Sang-e Chakhmaq 1).",
   "colors": {
     "Oakhurst-type foragers of southern Africa": 0,
     "Robberg / Oakhurst (southern African foragers)": 0,
@@ -152,8 +152,8 @@
     "Late Mesolithic of Britain": 3,
     "Sahul — Tasmania": 0,
     "Early to Middle Archaic of the East (Kirk Stemmed, Stanly)": 15,
-    "Late Denali complex (American Paleo-Arctic tradition)": 15,
-    "American Paleo-Arctic tradition": 15,
+    "Late Denali complex (American Paleo-Arctic tradition)": 10,
+    "American Paleo-Arctic tradition": 10,
     "Early Archaic of the East (Palmer, Kirk)": 15,
     "Early Archaic of the Great Basin and Mojave Desert": 0,
     "Western Stemmed Tradition": 0,
@@ -310,6 +310,28 @@
     "Early Neolithic burials of the middle Vitim (Nizhnyaya Dzhilinda, Staryi Vitim)": 7,
     "Middle Neolithic of the Lower Amur": 17,
     "Orlinyi Klyuv culture": 3,
-    "Early Jōmon-type foragers of Iturup (Yankito)": 9
+    "Early Jōmon-type foragers of Iturup (Yankito)": 9,
+    "Late Neolithic of the Lake District (Hacılar, Kuruçay)": 10,
+    "Pottery Neolithic of the southern Levant (Yarmukian, Jericho IX)": 3,
+    "Pottery Neolithic of the northern Levant and Cilicia (Dark Faced Burnished Ware)": 15,
+    "Proto-Halaf (transition to the Halaf)": 4,
+    "Hassuna culture": 2,
+    "Samarra culture": 14,
+    "Late Neolithic and Early Chalcolithic of the Konya plain (Çatalhöyük East and West, Can Hasan I, Pınarbaşı B)": 17,
+    "Neolithic of the Aegean coast of Anatolia (Ulucak, Ege Gübre, Çukuriçi)": 7,
+    "Late Neolithic of the Black Desert (Wisad Pools, Burqu, Dhuweila)": 12,
+    "Early Timnian (herder-gatherers of the Negev)": 9,
+    "Ubaid 0 (Tell el-Oueili)": 8,
+    "Hajji Firuz culture (Lake Urmia basin)": 10,
+    "Early Neolithic of the Qazvin plain (Chahar Boneh)": 15,
+    "Neolithic of Fars (Mushki, Jari, Bashi)": 16,
+    "Jeitun culture": 1,
+    "Cishan culture": 11,
+    "Houli culture": 4,
+    "Beifudi culture": 6,
+    "Xinglongwa culture": 13,
+    "Kuahuqiao culture": 0,
+    "Pengtoushan and Lower Zaoshi culture": 12,
+    "Early Neolithic of the Seversky Donets (Kleshnya type / early Donetsk culture)": 6
   }
 }
