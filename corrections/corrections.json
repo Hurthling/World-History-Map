@@ -3590,7 +3590,7 @@
   },
   {
     "id": "m8-south-central-andes",
-    "why": "Map 8000, item 3-80 (queue-map8000.md; accepted 21.10, applied 22.10).",
+    "why": "Map 8000, item 3-80 (queue-map8000.md; accepted 21.10, applied 22.10). Item 3-307 (17.11): the Arica highlands joined (one outline); rule m8-arica-highlands removed.",
     "years": [
       -8000
     ],
@@ -3604,14 +3604,14 @@
   },
   {
     "id": "m6-south-central-andes",
-    "why": "Map 6000*: the zone of map 8000 (m8-south-central-andes, carried 28.10 unchanged) with its own outline and card. Item 6-82 (a) (owner 02.11, applied 04.11): Patapatane (item 6-74) joined to the zone; rule m6-patapatane removed.",
+    "why": "Map 6000*: the zone of map 8000 (m8-south-central-andes, carried 28.10 unchanged) with its own outline and card. Item 6-82 (a) (owner 02.11, applied 04.11): Patapatane (item 6-74) joined to the zone; rule m6-patapatane removed. Item 6-254 (17.11): name and card of the Middle Archaic.",
     "years": [
       -6000
     ],
     "action": "add",
     "shape": "south-central-andes-6000",
     "properties": {
-      "NAME": "Early Archaic foragers of the south-central Andes",
+      "NAME": "Middle Archaic foragers of the south-central Andes",
       "NOTE": "south-central-andes-6000",
       "SOURCES": "https://en.wikipedia.org/wiki/Wilamaya_Patjxa | https://en.wikipedia.org/wiki/Toquepala_Caves | https://www.science.org/doi/10.1126/sciadv.abd0310 | https://www.nature.com/articles/s41597-022-01118-7"
     }
@@ -5010,6 +5010,20 @@
     }
   },
   {
+    "id": "m8-jebel-faya",
+    "why": "Map 8000, item 3-309 (a, 17.11): 35 km circle, dates on marine shell only.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-jebel-faya",
+    "properties": {
+      "NAME": "Early Neolithic of Jebel Faya (Faya points)",
+      "NOTE": "jebel-faya-8000",
+      "SOURCES": "https://doi.org/10.1007/978-90-481-2719-1_15"
+    }
+  },
+  {
     "id": "m8-umm-jirsan",
     "why": "Map 8000, item 3-163 (accepted 27.10): 35 km circle, no note on the date.",
     "years": [
@@ -5024,11 +5038,10 @@
   },
   {
     "id": "m2k-nejd-leptolithic",
-    "why": "Map 8000, item 3-163 and map 2, item 125 (accepted 27.10): zone with a note on both maps.",
+    "why": "Map 8000, item 3-163 and map 2, item 125 (accepted 27.10): zone with a note on both maps. Item 6-265 (a, 17.11): not on map 6000* (last Leptolithic assemblage c. 8.5 ka, Hilbert 2015) - replaced by the Neolithic with trihedral points.",
     "years": [
       -10000,
-      -8000,
-      -6000
+      -8000
     ],
     "action": "add",
     "shape": "nejd-leptolithic",
@@ -7422,16 +7435,16 @@
   },
   {
     "id": "m6-hacilar",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-hacilar) with a new name or note. Item 6-216 (b, 13.11): own outline with Kuruçay and Karain B, new name; Erbaba not shown.",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-hacilar) with a new name or note. Item 6-216 (b, 13.11): own outline with Kuruçay and Karain B, new name; Erbaba not shown. Items 6-257 (b) and 6-258 (a) (17.11): extended to Erbaba (Lake Beyşehir) and Ekşi Höyük (upper Meander), new name.",
     "years": [
       -6000
     ],
     "action": "add",
     "shape": "m6-lake-district",
     "properties": {
-      "NAME": "Late Neolithic of the Lake District (Hacılar, Kuruçay)",
+      "NAME": "Late Neolithic of the Lake District (Hacılar, Kuruçay, Ekşi Höyük, Erbaba)",
       "NOTE": "hacilar-6000",
-      "SOURCES": "https://en.wikipedia.org/wiki/Hac%C4%B1lar | https://www.nature.com/articles/s41597-022-01118-7"
+      "SOURCES": "https://doi.org/10.5281/zenodo.7604940 | https://doi.org/10.1016/j.jasrep.2026.105879 | https://en.wikipedia.org/wiki/Hac%C4%B1lar | https://www.nature.com/articles/s41597-022-01118-7"
     }
   },
   {
@@ -7446,6 +7459,20 @@
       "NAME": "Late Neolithic and Early Chalcolithic of the Konya plain (Çatalhöyük East and West, Can Hasan I, Pınarbaşı B)",
       "NOTE": "konya-6000",
       "SOURCES": "https://en.wikipedia.org/wiki/%C3%87atalh%C3%B6y%C3%BCk | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-tepecik",
+    "why": "Map 6000*, item 6-256 (a, 17.11): 35 km circle.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-tepecik",
+    "properties": {
+      "NAME": "Pottery Neolithic of Volcanic Cappadocia (Tepecik-Çiftlik)",
+      "NOTE": "tepecik-6000",
+      "SOURCES": "https://doi.org/10.26650/anar.32.1702365 | https://www.nature.com/articles/s41597-022-01118-7"
     }
   },
   {
@@ -7464,16 +7491,16 @@
   },
   {
     "id": "m6-hotu",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-hotu) with a new name or note.",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-hotu) with a new name or note. Item 6-262 (17.11): name \"Caspian Neolithic\"; Hotu, Belt, Touq Tappeh, Valiki in the card.",
     "years": [
       -6000
     ],
     "action": "add",
     "shape": "hotu-belt",
     "properties": {
-      "NAME": "Caspian Neolithic (Hotu and Belt caves)",
+      "NAME": "Caspian Neolithic",
       "NOTE": "hotu-belt-6000",
-      "SOURCES": "https://en.wikipedia.org/wiki/Hotu_and_Kamarband_Caves | https://www.nature.com/articles/s41597-022-01118-7",
+      "SOURCES": "https://doi.org/10.1371/journal.pone.0322478 | https://en.wikipedia.org/wiki/Hotu_and_Kamarband_Caves | https://www.nature.com/articles/s41597-022-01118-7",
       "GROUP": "South Caspian"
     }
   },
@@ -7524,8 +7551,54 @@
     }
   },
   {
+    "id": "m6-central-zagros",
+    "why": "Map 6000*, item 6-259 (a, 17.11).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-central-zagros",
+    "properties": {
+      "NAME": "Late Neolithic of the Central Zagros (Tepe Sarab, Tepe Guran)",
+      "NOTE": "central-zagros-6000",
+      "SOURCES": "https://www.iranicaonline.org/articles/ceramics-iii/ | https://etheses.durham.ac.uk/id/eprint/3547/ | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-deh-luran",
+    "why": "Map 6000*, item 6-260 (a, 17.11): area 1 of the group.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-deh-luran",
+    "properties": {
+      "NAME": "Neolithic of the Khuzestan lowlands",
+      "AREA": "Deh Luran plain (Chogha Sefid, Tepe Sabz)",
+      "GROUP": "Neolithic of the Khuzestan lowlands",
+      "NOTE": "deh-luran-6000",
+      "SOURCES": "https://doi.org/10.1080/00934690.2024.2382012 | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-susiana",
+    "why": "Map 6000*, item 6-260 (a, 17.11): area 2 of the group.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-susiana",
+    "properties": {
+      "NAME": "Neolithic of the Khuzestan lowlands",
+      "AREA": "Susiana plain (Archaic Susiana: Chogha Mish, Chogha Bonut)",
+      "GROUP": "Neolithic of the Khuzestan lowlands",
+      "NOTE": "susiana-6000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Chogha_Mish | https://en.wikipedia.org/wiki/Chogha_Bonut"
+    }
+  },
+  {
     "id": "m6-qazvin",
-    "why": "Map 6000*, item 6-220 (a, 13.11): 35 km circle.",
+    "why": "Map 6000*, item 6-220 (a, 13.11): 35 km circle. Item 6-261 (a, 17.11): no change; Sialk and Khalese (edge of the window) in the card.",
     "years": [
       -6000
     ],
@@ -7539,16 +7612,78 @@
   },
   {
     "id": "m6-fars",
-    "why": "Map 6000*, item 6-221 (a, 13.11).",
+    "why": "Map 6000*, item 6-221 (a, 13.11). Item 6-264 (a, 17.11): extended to the Bavanat valley (Hormangan).",
     "years": [
       -6000
     ],
     "action": "add",
     "shape": "m6-fars",
     "properties": {
-      "NAME": "Neolithic of Fars (Mushki, Jari, Bashi)",
+      "NAME": "Neolithic of Fars (Mushki, Jari, Bashi, Hormangan)",
       "NOTE": "fars-6000",
-      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+      "SOURCES": "https://doi.org/10.1017/RDC.2020.113 | https://www.jstor.org/stable/4300702 | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-hadramawt",
+    "why": "Map 6000*, item 6-265 (a2, 17-18.11): area 1 of the group.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-hadramawt",
+    "properties": {
+      "NAME": "Neolithic of southern and eastern Arabia with trihedral points",
+      "AREA": "Hadramawt (Manayzah, Wadi Wa'shah)",
+      "GROUP": "Neolithic of southern and eastern Arabia with trihedral points",
+      "NOTE": "hadramawt-6000",
+      "SOURCES": "https://doi.org/10.1016/j.crte.2009.05.003 | https://doi.org/10.1371/journal.pone.0236314"
+    }
+  },
+  {
+    "id": "m6-dhofar",
+    "why": "Map 6000*, item 6-265 (a2, 17-18.11): area 2 of the group, instead of the Nejd Leptolithic.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-dhofar",
+    "properties": {
+      "NAME": "Neolithic of southern and eastern Arabia with trihedral points",
+      "AREA": "Dhofar (Hailat Araka, Ad-Dahariz)",
+      "GROUP": "Neolithic of southern and eastern Arabia with trihedral points",
+      "NOTE": "dhofar-6000",
+      "SOURCES": "https://doi.org/10.1111/aae.12009 | https://doi.org/10.1371/journal.pone.0236314 | https://doi.org/10.1016/j.quaint.2015.02.053"
+    }
+  },
+  {
+    "id": "m6-jebel-faya",
+    "why": "Map 6000*, item 6-265 (a2, 17-18.11): area 3 of the group, 35 km circle.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-jebel-faya",
+    "properties": {
+      "NAME": "Neolithic of southern and eastern Arabia with trihedral points",
+      "AREA": "Jebel Faya (Sharjah)",
+      "GROUP": "Neolithic of southern and eastern Arabia with trihedral points",
+      "NOTE": "jebel-faya-6000",
+      "SOURCES": "https://doi.org/10.1007/978-90-481-2719-1_15"
+    }
+  },
+  {
+    "id": "m6-qatar",
+    "why": "Map 6000*, item 6-268 (a, 18.11; revises 6-266).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-qatar",
+    "properties": {
+      "NAME": "Neolithic of Qatar (Al-Khor, Shaqah)",
+      "NOTE": "qatar-6000",
+      "SOURCES": "https://doi.org/10.1017/S0033822200000126 | https://www.nature.com/articles/s41597-022-01118-7"
     }
   },
   {
@@ -8307,14 +8442,14 @@
   },
   {
     "id": "m8-middle-cauca-north",
-    "why": "Map 8000 and 6000*, South America package, item 3-226, 6-41 (c) (owner 01–02.11; applied 02.11).",
+    "why": "Map 8000 and 6000*, South America package, item 3-226, 6-41 (c) (owner 01–02.11; applied 02.11). Item 3-308 (17.11): Calima (Sauzalito, El Recreo) joined, name as on 6000*; rule m8-calima removed.",
     "years": [
       -8000
     ],
     "action": "add",
     "shape": "middle-cauca-north",
     "properties": {
-      "NAME": "Early foragers of the Middle Cauca Valley",
+      "NAME": "Preceramic foragers of the Cauca basin (Middle Cauca, Calima)",
       "NOTE": "middle-cauca-8000",
       "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
     }
@@ -8331,6 +8466,20 @@
       "NAME": "Preceramic foragers of the Cauca basin (Middle Cauca, Calima)",
       "NOTE": "middle-cauca-6000",
       "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-el-prodigio",
+    "why": "Map 6000*, item 6-255 (a, 17.11): 35 km circle, one date of this time.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-el-prodigio",
+    "properties": {
+      "NAME": "Preceramic foragers of southern Tolima (El Prodigio)",
+      "NOTE": "el-prodigio-6000",
+      "SOURCES": "https://publicaciones.banrepcultural.org/index.php/fian/article/download/5161/5409/10568"
     }
   },
   {
@@ -8935,21 +9084,6 @@
     }
   },
   {
-    "id": "m8-calima",
-    "why": "Map 8000, item 3-249 (a) (queue-map8000.md; owner 02.11, applied 02.11).",
-    "years": [
-      -8000
-    ],
-    "action": "add",
-    "shape": "calima-8000",
-    "properties": {
-      "NAME": "Calima preceramic tradition (Sauzalito, El Recreo)",
-      "GROUP": "Calima preceramic tradition",
-      "NOTE": "calima-8000",
-      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
-    }
-  },
-  {
     "id": "m2-serra-talhada",
     "why": "Map 10 000, item 149 (queue-map8000.md; owner 02.11, applied 02.11).",
     "years": [
@@ -9087,21 +9221,6 @@
     "properties": {
       "NAME": "Early foragers of the Porce valley",
       "NOTE": "porce",
-      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
-    }
-  },
-  {
-    "id": "m8-arica-highlands",
-    "why": "Map 8000, item 3-238 (queue-map8000.md; owner 02.11, applied 02.11).",
-    "years": [
-      -8000
-    ],
-    "action": "add",
-    "shape": "arica-highlands-8000",
-    "properties": {
-      "NAME": "Archaic hunters of the Arica highlands (Hakenasa, Las Cuevas, Ipilla)",
-      "GROUP": "Archaic hunters of the Arica highlands",
-      "NOTE": "arica-highlands-8000",
       "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
     }
   },
