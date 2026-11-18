@@ -3419,6 +3419,20 @@
     }
   },
   {
+    "id": "m2o-houtaomuga",
+    "why": "Map 10 000, item 204 (a, 18.11): 35 km circle.",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "m2o-houtaomuga",
+    "properties": {
+      "NAME": "Early pottery foragers of the Song-Nen Plain (Houtaomuga I)",
+      "NOTE": "houtaomuga-10000",
+      "SOURCES": "https://doi.org/10.1016/j.quaint.2017.01.031 | https://doi.org/10.1016/j.ara.2020.100192"
+    }
+  },
+  {
     "id": "m2j-sumpanya",
     "why": "Map 2, item 120 (accepted 26.10, variant a): 35 km circle with a note on the 1980s dates.",
     "years": [
@@ -5096,10 +5110,9 @@
   },
   {
     "id": "m8-obishir",
-    "why": "Map 8000, items 3-165, 3-166 (accepted 27.10): Obishir culture, area 1 — 35 km circle around Obishir V (coordinates from PMC12775865).",
+    "why": "Map 8000, items 3-165, 3-166 (accepted 27.10): Obishir culture, area 1 — 35 km circle around Obishir V (coordinates from PMC12775865). Item 6-274 (18.11): map 6000* moved to its own rule m6-obishir (own card).",
     "years": [
-      -8000,
-      -6000
+      -8000
     ],
     "action": "add",
     "shape": "m8-obishir",
@@ -5128,11 +5141,24 @@
     }
   },
   {
-    "id": "m8-middle-ganga",
-    "why": "Map 8000, item 3-168 (accepted 27.10): the zone continues, wider (Sarai Nahar Rai, Mahadaha, Damdama).",
+    "id": "m8-kaynar-kamar",
+    "why": "Map 8000, item 3-310 (a, 18.11): 35 km circle, the +-1000-year fork (periods 5 and 4).",
     "years": [
-      -8000,
-      -6000
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-kaynar-kamar",
+    "properties": {
+      "NAME": "Early Holocene foragers of the Machay valley (Kaynar Kamar)",
+      "NOTE": "kaynar-kamar-8000",
+      "SOURCES": "https://doi.org/10.1016/j.ara.2022.100352"
+    }
+  },
+  {
+    "id": "m8-middle-ganga",
+    "why": "Map 8000, item 3-168 (accepted 27.10): the zone continues, wider (Sarai Nahar Rai, Mahadaha, Damdama). Item 6-279 (18.11): map 6000* moved to rule m6-middle-ganga (own outline, midline with the Belan - Prayagraj zone).",
+    "years": [
+      -8000
     ],
     "action": "add",
     "shape": "m8-middle-ganga",
@@ -7521,19 +7547,208 @@
     }
   },
   {
-    "id": "m6-jeitun",
-    "why": "Map 6000*, item 6-222 (b, 13.11): area of the group \"Jeitun culture\".",
+    "id": "m6-jeitun-akhal",
+    "why": "Map 6000*, item 6-271 (b, 18.11): area of the group \"Jeitun culture\" (replaces the strip of 6-222 built on a wrong base point of Monjukli).",
     "years": [
       -6000
     ],
     "action": "add",
-    "shape": "m6-jeitun",
+    "shape": "m6-jeitun-akhal",
     "properties": {
       "NAME": "Jeitun culture",
-      "AREA": "Kopet Dag foothills (Jeitun, Chagylly)",
+      "AREA": "Akhal (Jeitun, Chopan, Togolok)",
       "GROUP": "Jeitun culture",
       "NOTE": "jeitun-6000",
-      "SOURCES": "https://en.wikipedia.org/wiki/Jeitun | https://www.nature.com/articles/s41597-022-01118-7"
+      "SOURCES": "https://doi.org/10.3406/paleo.2002.4744 | https://en.wikipedia.org/wiki/Jeitun | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-jeitun-etek",
+    "why": "Map 6000*, item 6-271 (b, 18.11): area of the group \"Jeitun culture\".",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-jeitun-etek",
+    "properties": {
+      "NAME": "Jeitun culture",
+      "AREA": "Etek (Monjukli, Chagylly)",
+      "GROUP": "Jeitun culture",
+      "NOTE": "jeitun-6000",
+      "SOURCES": "https://www.sidestone.com/books/looking-closely | https://doi.org/10.3406/paleo.2002.4744 | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-ayakagytma",
+    "why": "Map 6000*, item 6-272 (a, 18.11): 35 km circle.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-ayakagytma",
+    "properties": {
+      "NAME": "Early Kelteminar (Darya-say phase): Ayakagytma",
+      "NOTE": "ayakagytma-6000",
+      "SOURCES": "https://journals.openedition.org/asiecentrale/1814 | https://doi.org/10.1177/09596836221114289"
+    }
+  },
+  {
+    "id": "m6-tutkaul",
+    "why": "Map 6000*, item 6-273 (a, 18.11): 35 km circle.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-tutkaul",
+    "properties": {
+      "NAME": "Hissar culture (Tutkaul)",
+      "NOTE": "tutkaul-6000",
+      "SOURCES": "https://doi.org/10.31857/S0869606323040165"
+    }
+  },
+  {
+    "id": "m6-obishir",
+    "why": "Map 6000*, item 6-274 (a, 18.11): the Fergana area of map 8000 (outline m8-obishir) with its own card; domestic sheep by 6000 BC (Taylor et al. 2021).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m8-obishir",
+    "properties": {
+      "NAME": "Obishir culture",
+      "AREA": "Fergana foothills (Obishir V)",
+      "GROUP": "Obishir culture",
+      "NOTE": "obishir-6000",
+      "SOURCES": "https://archaeology.nsc.ru/en/publications/jr-aeae-en/18-46-1/annot-01/ | https://pmc.ncbi.nlm.nih.gov/articles/PMC12775865/ | https://doi.org/10.1016/j.isci.2025.114349"
+    }
+  },
+  {
+    "id": "m6-oshkhona",
+    "why": "Map 6000*, item 6-274 (a, 18.11): area of the group \"Obishir culture\", 35 km circle.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-oshkhona",
+    "properties": {
+      "NAME": "Obishir culture",
+      "AREA": "Northern Pamir — Markansu (Oshkhona)",
+      "GROUP": "Obishir culture",
+      "NOTE": "oshkhona-6000",
+      "SOURCES": "https://doi.org/10.1016/j.quaint.2020.07.026"
+    }
+  },
+  {
+    "id": "m6-aq-kupruk",
+    "why": "Map 6000*, item 6-276 (a, 18.11): 35 km circle; dates of the 1960s, partly inverted - caveat in the card.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-aq-kupruk",
+    "properties": {
+      "NAME": "Neolithic of Aq Kupruk (Ghar-i Mar)",
+      "NOTE": "aq-kupruk-6000",
+      "SOURCES": "https://doi.org/10.1038/s41598-025-92621-5"
+    }
+  },
+  {
+    "id": "m6-loteshwar",
+    "why": "Map 6000*, item 6-277 (a, 18.11): 35 km circle.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-loteshwar",
+    "properties": {
+      "NAME": "Mesolithic of North Gujarat (Loteshwar)",
+      "NOTE": "loteshwar-6000",
+      "SOURCES": "https://doi.org/10.1371/journal.pone.0267654"
+    }
+  },
+  {
+    "id": "m6-bhimbetka",
+    "why": "Map 6000*, item 6-278 (a, 18.11): hull + 35 km; old dates with large errors - caveat in the card.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-bhimbetka",
+    "properties": {
+      "NAME": "Mesolithic of the Vindhyas and the Narmada (Bhimbetka, Adamgarh)",
+      "NOTE": "bhimbetka-6000",
+      "SOURCES": "https://repozytorium.ur.edu.pl/handle/item/2888 | https://en.wikipedia.org/wiki/Bhimbetka_rock_shelters"
+    }
+  },
+  {
+    "id": "m6-lahuradewa",
+    "why": "Map 6000*, item 6-279 (a, 18.11): 35 km circle.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-lahuradewa",
+    "properties": {
+      "NAME": "Early potters of Lahuradewa",
+      "NOTE": "lahuradewa-6000",
+      "SOURCES": "https://doi.org/10.1007/s10963-006-9006-8"
+    }
+  },
+  {
+    "id": "m6-belan",
+    "why": "Map 6000*, item 6-279 (a, 18.11): hull + 35 km; the overlap with the Middle Ganga zone is divided by the midline between the nearest finds.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-belan",
+    "properties": {
+      "NAME": "Early Neolithic of the Belan and Prayagraj (Jhusi, Tokwa)",
+      "NOTE": "belan-6000",
+      "SOURCES": "https://doi.org/10.1007/s10963-006-9006-8"
+    }
+  },
+  {
+    "id": "m6-middle-ganga",
+    "why": "Map 6000*: carried from map 8000 (m8-middle-ganga); item 6-279 (18.11): own outline - the part nearer to Jhusi goes to the Belan - Prayagraj zone. Item 6-280: the zone stays.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-middle-ganga",
+    "properties": {
+      "NAME": "Mesolithic foragers of the Middle Ganga",
+      "NOTE": "middle-ganga-8000",
+      "SOURCES": "https://ebooks.inflibnet.ac.in/icp02/chapter/mesolithic-cultures-of-india/",
+      "GROUP": "Middle Ganga"
+    }
+  },
+  {
+    "id": "m6-paisra",
+    "why": "Map 6000*, item 6-281 (a for Paisra, 18.11): 35 km circle; Baghor - not placed (b).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-paisra",
+    "properties": {
+      "NAME": "Mesolithic of Paisra (Kharagpur hills)",
+      "NOTE": "paisra-6000",
+      "SOURCES": "https://repozytorium.ur.edu.pl/handle/item/2888"
+    }
+  },
+  {
+    "id": "m6-lower-sindh",
+    "why": "Map 6000*, item 6-285 (a, 18.11): hull + 35 km; the +-1000-year fork on surface shells - caveat in the card.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-lower-sindh",
+    "properties": {
+      "NAME": "Mesolithic of Lower Sindh (Mulri Hills, Khadeji)",
+      "NOTE": "lower-sindh-6000",
+      "SOURCES": "https://iris.unive.it/handle/10278/3702243"
     }
   },
   {
@@ -7565,35 +7780,17 @@
     }
   },
   {
-    "id": "m6-deh-luran",
-    "why": "Map 6000*, item 6-260 (a, 17.11): area 1 of the group.",
+    "id": "m6-khuzestan",
+    "why": "Map 6000*, items 6-269 (owner 18.11, 07:18: one zone instead of the two areas of 6-260) and 6-270 (Hole 1977).",
     "years": [
       -6000
     ],
     "action": "add",
-    "shape": "m6-deh-luran",
+    "shape": "m6-khuzestan",
     "properties": {
-      "NAME": "Neolithic of the Khuzestan lowlands",
-      "AREA": "Deh Luran plain (Chogha Sefid, Tepe Sabz)",
-      "GROUP": "Neolithic of the Khuzestan lowlands",
-      "NOTE": "deh-luran-6000",
-      "SOURCES": "https://doi.org/10.1080/00934690.2024.2382012 | https://www.nature.com/articles/s41597-022-01118-7"
-    }
-  },
-  {
-    "id": "m6-susiana",
-    "why": "Map 6000*, item 6-260 (a, 17.11): area 2 of the group.",
-    "years": [
-      -6000
-    ],
-    "action": "add",
-    "shape": "m6-susiana",
-    "properties": {
-      "NAME": "Neolithic of the Khuzestan lowlands",
-      "AREA": "Susiana plain (Archaic Susiana: Chogha Mish, Chogha Bonut)",
-      "GROUP": "Neolithic of the Khuzestan lowlands",
-      "NOTE": "susiana-6000",
-      "SOURCES": "https://en.wikipedia.org/wiki/Chogha_Mish | https://en.wikipedia.org/wiki/Chogha_Bonut"
+      "NAME": "Neolithic of the Khuzestan lowlands (Deh Luran, Susiana)",
+      "NOTE": "khuzestan-6000",
+      "SOURCES": "https://doi.org/10.1080/00934690.2024.2382012 | https://en.wikipedia.org/wiki/Chogha_Mish | https://en.wikipedia.org/wiki/Chogha_Bonut | https://www.nature.com/articles/s41597-022-01118-7"
     }
   },
   {
@@ -7688,21 +7885,21 @@
   },
   {
     "id": "m6-balangoda",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-balangoda) with a new name or note.",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-balangoda) with a new name or note. Item 6-283 (a, 18.11): own outline - extended to Patirajawela (Bundala, south coast).",
     "years": [
       -6000
     ],
     "action": "add",
-    "shape": "balangoda",
+    "shape": "m6-balangoda",
     "properties": {
       "NAME": "Balangoda culture",
       "NOTE": "balangoda-6000",
-      "SOURCES": "https://doi.org/10.1371/journal.pone.0222606"
+      "SOURCES": "https://doi.org/10.1371/journal.pone.0222606 | https://doi.org/10.29173/anlk637 | https://doi.org/10.1038/s41598-024-77504-5"
     }
   },
   {
     "id": "m6-lijiagou",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-lijiagou) with a new name or note. Sources checked for 6000 BC (04.11, owner: \"check and fix Sources\"). Item 6-225 (a, 13.11): own outline extended to Tieshenggou, Shigu, Zhongshanzhai, Shuiquan; area of the group with Jiahu.",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-lijiagou) with a new name or note. Sources checked for 6000 BC (04.11, owner: \"check and fix Sources\"). Item 6-225 (a, 13.11): own outline extended to Tieshenggou, Shigu, Zhongshanzhai, Shuiquan; area of the group with Jiahu. Item 6-293 (a, 18.11): area \"Central Henan\" extended to the west to Bancun (Mianchi); Baligang not placed.",
     "years": [
       -6000
     ],
@@ -7730,6 +7927,34 @@
       "GROUP": "Peiligang culture",
       "NOTE": "jiahu-6000",
       "SOURCES": "https://en.wikipedia.org/wiki/Jiahu | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-xiaoshankou",
+    "why": "Map 6000*, item 6-295 (a, 18.11): 35 km circle.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-xiaoshankou",
+    "properties": {
+      "NAME": "Xiaoshankou I culture",
+      "NOTE": "xiaoshankou-6000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-shunshanji",
+    "why": "Map 6000*, item 6-296 (a, 18.11): 35 km circle.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-shunshanji",
+    "properties": {
+      "NAME": "Shunshanji culture (Shunshanji, Hanjing)",
+      "NOTE": "shunshanji-6000",
+      "SOURCES": "https://doi.org/10.1007/s00334-020-00782-2"
     }
   },
   {
@@ -7776,7 +8001,7 @@
   },
   {
     "id": "m6-xinglongwa",
-    "why": "Map 6000*, item 6-224 (a, 13.11).",
+    "why": "Map 6000*, item 6-224 (a, 13.11). Item 6-286 (b, 18.11): extended to the west - Baiyinchahan and Nantaizi (Linxi, Hexigten); Jiajiagou-Xi in the card.",
     "years": [
       -6000
     ],
@@ -7785,7 +8010,91 @@
     "properties": {
       "NAME": "Xinglongwa culture",
       "NOTE": "xinglongwa-6000",
-      "SOURCES": "https://en.wikipedia.org/wiki/Xinglongwa_culture | https://www.nature.com/articles/s41597-022-01118-7"
+      "SOURCES": "https://en.wikipedia.org/wiki/Xinglongwa_culture | https://www.nature.com/articles/s41597-022-01118-7 | https://doi.org/10.15184/aqy.2020.236 | https://doi.org/10.1371/journal.pone.0218751"
+    }
+  },
+  {
+    "id": "m6-yumin",
+    "why": "Map 6000*, item 6-287 (a, 18.11): hull + 50 km.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-yumin",
+    "properties": {
+      "NAME": "Yumin culture (Yumin, Xinglong)",
+      "NOTE": "yumin-6000",
+      "SOURCES": "https://doi.org/10.1016/j.xinn.2025.101186 | https://doi.org/10.1007/s11430-023-1316-9"
+    }
+  },
+  {
+    "id": "m6-tamsagbulag",
+    "why": "Map 6000*, item 6-288 (a, 18.11): 35 km circle.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-tamsagbulag",
+    "properties": {
+      "NAME": "Tamsagbulag culture",
+      "NOTE": "tamsagbulag-6000",
+      "SOURCES": "https://doi.org/10.15184/aqy.2020.236"
+    }
+  },
+  {
+    "id": "m6-zaraa-uul",
+    "why": "Map 6000*, item 6-288 (a, 18.11): 35 km circle, a separate zone (seasonal camps of the Gobi oases).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-zaraa-uul",
+    "properties": {
+      "NAME": "Early Neolithic of the Gobi (Oasis 2): Zaraa Uul",
+      "NOTE": "zaraa-uul-6000",
+      "SOURCES": "https://doi.org/10.1371/journal.pone.0249848 | https://doi.org/10.1007/s10963-016-9100-5"
+    }
+  },
+  {
+    "id": "m6-hailar",
+    "why": "Map 6000*, item 6-289 (a, 18.11): hull + 50 km.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-hailar",
+    "properties": {
+      "NAME": "Early Neolithic of the Hailar basin (Hag, Huiheshuiba, Yiminhe)",
+      "NOTE": "hailar-6000",
+      "SOURCES": "https://doi.org/10.15184/aqy.2020.236 | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-song-nen",
+    "why": "Map 6000*, item 6-290 (a, 18.11): hull + 50 km; Tengjiagang not included.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-song-nen",
+    "properties": {
+      "NAME": "Huangjiaweizi type (Houtaomuga II, Shuangta I)",
+      "NOTE": "song-nen-6000",
+      "SOURCES": "https://doi.org/10.1016/j.quaint.2017.01.031 | https://doi.org/10.1016/j.ara.2020.100192"
+    }
+  },
+  {
+    "id": "m6-tolbor",
+    "why": "Map 6000*, item 6-291 (a, 18.11): 35 km circle by the +-1000-year fork (two vessels) - caveat in the card.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-tolbor",
+    "properties": {
+      "NAME": "Early pottery of northern Mongolia (Tolbor-15)",
+      "NOTE": "tolbor-6000",
+      "SOURCES": "https://doi.org/10.11141/ia.37.9"
     }
   },
   {
