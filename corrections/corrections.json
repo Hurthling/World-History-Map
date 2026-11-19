@@ -1530,7 +1530,7 @@
   },
   {
     "id": "m2e-hoabinhian",
-    "why": "Map 2, item 65 (a-f).",
+    "why": "Map 2, item 65 (a-f). Item 205 (a, 19.11): the shared outline extended to the Bac Son caves.",
     "years": [
       -10000
     ],
@@ -1539,7 +1539,7 @@
     "properties": {
       "NAME": "Hoabinhian",
       "NOTE": "hoabinhian",
-      "SOURCES": "https://rasmishoocongdej.com/wp-content/uploads/2025/08/2021-Hoabinhianoxfordhb-chapter-6_2-finalproof.pdf | https://www.researchgate.net/publication/355165732_Re-evaluating_Pleistocene-Holocene_occupation_of_cave_sites_in_north-west_Thailand_new_radiocarbon_and_luminescence_dating"
+      "SOURCES": "https://rasmishoocongdej.com/wp-content/uploads/2025/08/2021-Hoabinhianoxfordhb-chapter-6_2-finalproof.pdf | https://www.researchgate.net/publication/355165732_Re-evaluating_Pleistocene-Holocene_occupation_of_cave_sites_in_north-west_Thailand_new_radiocarbon_and_luminescence_dating | https://doi.org/10.1093/oxfordhb/9780199355358.013.15 | https://en.wikipedia.org/wiki/B%E1%BA%AFc_S%C6%A1n_culture"
     }
   },
   {
@@ -1554,6 +1554,20 @@
       "NAME": "Foragers of Niah (Borneo)",
       "NOTE": "niah",
       "SOURCES": "https://pages.upd.edu.ph/sites/default/files/pawlik/files/niah_ch05_late_pleistocene_foragers.pdf"
+    }
+  },
+  {
+    "id": "m2e-mangkalihat",
+    "why": "Map 10 000, item 207 (a, 19.11): hull + 50 km.",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "m2e-mangkalihat",
+    "properties": {
+      "NAME": "Foragers of the Mangkalihat karst (East Kalimantan): Liang Abu, Kimanis",
+      "NOTE": "mangkalihat",
+      "SOURCES": "https://doi.org/10.1080/15564894.2022.2108947"
     }
   },
   {
@@ -1572,7 +1586,7 @@
   },
   {
     "id": "m2e-laili",
-    "why": "Map 2, item 67 (c).",
+    "why": "Map 2, item 67 (c). Item 206 (a, 19.11): first area of the group (second - Matja Kuru 2).",
     "years": [
       -10000
     ],
@@ -1581,9 +1595,27 @@
     "properties": {
       "NAME": "Foragers of Laili (Timor)",
       "NOTE": "laili",
-      "SOURCES": "https://nomadit.co.uk/conference/euraseaa15/p/3551"
+      "SOURCES": "https://nomadit.co.uk/conference/euraseaa15/p/3551",
+      "AREA": "Laili",
+      "GROUP": "Foragers of Laili (Timor)"
     },
     "clipToLand": false
+  },
+  {
+    "id": "m2e-laili-mk2",
+    "why": "Map -10000, item 206 (a, 19.11): second area of the group, 35 km circle.",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "laili-mk2",
+    "properties": {
+      "NAME": "Foragers of Laili (Timor)",
+      "AREA": "Matja Kuru (Lake Ira Lalaro)",
+      "GROUP": "Foragers of Laili (Timor)",
+      "NOTE": "laili",
+      "SOURCES": "https://doi.org/10.1016/j.quascirev.2023.108340"
+    }
   },
   {
     "id": "m2e-gebe",
@@ -5241,6 +5273,20 @@
     }
   },
   {
+    "id": "m8-yongjiang-shellmounds",
+    "why": "Map 8000, item 3-311 (a, 18.11): hull + 50 km.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-yongjiang-shellmounds",
+    "properties": {
+      "NAME": "Shell-mound foragers of the Yong River (Baozitou, Nabeizui)",
+      "NOTE": "yongjiang-8000",
+      "SOURCES": "https://doi.org/10.1016/j.ara.2024.100502"
+    }
+  },
+  {
     "id": "m2k-xianrendong",
     "why": "Map 2, item 123 (accepted 27.10, variant a): 35 km circle.",
     "years": [
@@ -5297,22 +5343,101 @@
   },
   {
     "id": "m8-hoabinhian",
-    "why": "Map 8000, item 3-178 (accepted 27.10): same outline as map 10 000; Bac Son in the card.",
+    "why": "Map 8000, item 3-178 (accepted 27.10): same outline as map 10 000; Bac Son in the card. Items 3-312, 6-312 (a, 19.11): the shared outline extended to the Bac Son caves; map 6000* moved to rule m6-hoabinhian (areas, own card).",
     "years": [
-      -8000,
-      -6000
+      -8000
     ],
     "action": "add",
     "shape": "hoabinhian",
     "properties": {
       "NAME": "Hoabinhian",
       "NOTE": "hoabinhian-8000",
-      "SOURCES": "https://rasmishoocongdej.com/wp-content/uploads/2025/08/2021-Hoabinhianoxfordhb-chapter-6_2-finalproof.pdf | https://www.researchgate.net/publication/355165732_Re-evaluating_Pleistocene-Holocene_occupation_of_cave_sites_in_north-west_Thailand_new_radiocarbon_and_luminescence_dating"
+      "SOURCES": "https://rasmishoocongdej.com/wp-content/uploads/2025/08/2021-Hoabinhianoxfordhb-chapter-6_2-finalproof.pdf | https://www.researchgate.net/publication/355165732_Re-evaluating_Pleistocene-Holocene_occupation_of_cave_sites_in_north-west_Thailand_new_radiocarbon_and_luminescence_dating | https://doi.org/10.1093/oxfordhb/9780199355358.013.15 | https://en.wikipedia.org/wiki/B%E1%BA%AFc_S%C6%A1n_culture"
+    }
+  },
+  {
+    "id": "m6-hoabinhian",
+    "why": "Map 6000*: carried from map 8000 (m8-hoabinhian, shared outline); items 6-312, 6-313, 6-318 (a, 19.11): a group with areas, own card.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "hoabinhian",
+    "properties": {
+      "NAME": "Hoabinhian",
+      "AREA": "Mainland Southeast Asia",
+      "GROUP": "Hoabinhian",
+      "NOTE": "hoabinhian-6000",
+      "SOURCES": "https://rasmishoocongdej.com/wp-content/uploads/2025/08/2021-Hoabinhianoxfordhb-chapter-6_2-finalproof.pdf | https://www.researchgate.net/publication/355165732_Re-evaluating_Pleistocene-Holocene_occupation_of_cave_sites_in_north-west_Thailand_new_radiocarbon_and_luminescence_dating | https://doi.org/10.1093/oxfordhb/9780199355358.013.15 | https://en.wikipedia.org/wiki/B%E1%BA%AFc_S%C6%A1n_culture"
+    }
+  },
+  {
+    "id": "m6-padahlin",
+    "why": "Map 6000*, item 6-313 (a, 19.11): area of the Hoabinhian group, 35 km circle.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-padahlin",
+    "properties": {
+      "NAME": "Hoabinhian",
+      "AREA": "Padah-lin (Shan State)",
+      "GROUP": "Hoabinhian",
+      "NOTE": "hoabinhian-6000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Padah-Lin_Caves | https://whc.unesco.org/en/tentativelists/822/"
+    }
+  },
+  {
+    "id": "m6-sumatra-ne",
+    "why": "Map 6000*, item 6-318 (a, 19.11): area of the Hoabinhian group, hull + 50 km.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-sumatra-ne",
+    "properties": {
+      "NAME": "Hoabinhian",
+      "AREA": "Northeast Sumatra (shell middens)",
+      "GROUP": "Hoabinhian",
+      "NOTE": "hoabinhian-6000",
+      "SOURCES": "https://doi.org/10.22459/TA56.2024 | https://doi.org/10.1093/oxfordhb/9780199355358.013.15"
+    }
+  },
+  {
+    "id": "m6-nias",
+    "why": "Map 6000*, item 6-318 (a, 19.11): area of the Hoabinhian group, 35 km circle.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-nias",
+    "properties": {
+      "NAME": "Hoabinhian",
+      "AREA": "Nias (Tögi Ndrawa)",
+      "GROUP": "Hoabinhian",
+      "NOTE": "hoabinhian-6000",
+      "SOURCES": "https://doi.org/10.22459/TA56.2024"
+    }
+  },
+  {
+    "id": "m6-gua-pandan",
+    "why": "Map 6000*, item 6-318 (a, 19.11): area of the Hoabinhian group, 35 km circle.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-gua-pandan",
+    "properties": {
+      "NAME": "Hoabinhian",
+      "AREA": "South Sumatra (Gua Pandan)",
+      "GROUP": "Hoabinhian",
+      "NOTE": "hoabinhian-6000",
+      "SOURCES": "https://doi.org/10.22459/TA56.2024"
     }
   },
   {
     "id": "m8-niah",
-    "why": "Map 8000, item 3-179 (accepted 27.10): same outline as map 10 000.",
+    "why": "Map 8000, item 3-179 (accepted 27.10): same outline as map 10 000. Item 6-316 (a, 19.11): the zone stays on 6000*; card extended.",
     "years": [
       -8000,
       -6000
@@ -5322,7 +5447,7 @@
     "properties": {
       "NAME": "Foragers of Niah (Borneo)",
       "NOTE": "niah-8000",
-      "SOURCES": "https://pages.upd.edu.ph/sites/default/files/pawlik/files/niah_ch05_late_pleistocene_foragers.pdf"
+      "SOURCES": "https://pages.upd.edu.ph/sites/default/files/pawlik/files/niah_ch05_late_pleistocene_foragers.pdf | https://doi.org/10.1017/S0003598X00067909"
     }
   },
   {
@@ -5338,6 +5463,34 @@
       "NAME": "Foragers of Gunung Sewu (Java)",
       "NOTE": "gunung-sewu-8000",
       "SOURCES": "https://pages.upd.edu.ph/sites/default/files/pawlik/files/pawlik_and_piper_2018_the_philippines_from_c_14000_to_4000_cal_bp_in_regional_context_caj.pdf"
+    }
+  },
+  {
+    "id": "m6-pawon",
+    "why": "Map 6000*, item 6-315 (a, 19.11): 35 km circle.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-pawon",
+    "properties": {
+      "NAME": "Foragers of Gua Pawon (West Java)",
+      "NOTE": "pawon-6000",
+      "SOURCES": "https://doi.org/10.22459/TA45.03.2017 | https://en.wikipedia.org/wiki/Pawon_Cave"
+    }
+  },
+  {
+    "id": "m6-toalean",
+    "why": "Map 6000*, item 6-317 (a, 19.11): hull + 50 km.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-toalean",
+    "properties": {
+      "NAME": "Early Toalean (South Sulawesi)",
+      "NOTE": "toalean-6000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Toalean | https://doi.org/10.1093/oxfordhb/9780199355358.013.15"
     }
   },
   {
@@ -5385,7 +5538,7 @@
   },
   {
     "id": "m8-laili",
-    "why": "Map 8000, item 3-184 (accepted 27.10): same outline as map 10 000, new name (Hatu Saur), no note on the date.",
+    "why": "Map 8000, item 3-184 (accepted 27.10): same outline as map 10 000, new name (Hatu Saur), no note on the date. Item 3-313 (a, 19.11): first area of the group (second - Matja Kuru 2).",
     "years": [
       -8000
     ],
@@ -5394,9 +5547,27 @@
     "properties": {
       "NAME": "Foragers of Laleia (Timor): Laili, Hatu Saur",
       "NOTE": "laili-8000",
-      "SOURCES": "https://researchonline.jcu.edu.au/80667/ | https://nomadit.co.uk/conference/euraseaa15/p/3551"
+      "SOURCES": "https://researchonline.jcu.edu.au/80667/ | https://nomadit.co.uk/conference/euraseaa15/p/3551",
+      "AREA": "Laleia (Laili, Hatu Saur)",
+      "GROUP": "Foragers of Laleia (Timor): Laili, Hatu Saur"
     },
     "clipToLand": false
+  },
+  {
+    "id": "m8-laili-mk2",
+    "why": "Map -8000, item 3-313 (a, 19.11): second area of the group, 35 km circle.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "laili-mk2",
+    "properties": {
+      "NAME": "Foragers of Laleia (Timor): Laili, Hatu Saur",
+      "AREA": "Matja Kuru (Lake Ira Lalaro)",
+      "GROUP": "Foragers of Laleia (Timor): Laili, Hatu Saur",
+      "NOTE": "laili-8000",
+      "SOURCES": "https://doi.org/10.1016/j.quascirev.2023.108340"
+    }
   },
   {
     "id": "m2l-azilian-rhone",
@@ -8099,7 +8270,7 @@
   },
   {
     "id": "m6-kuahuqiao",
-    "why": "Map 6000*, item 6-226 (a, 13.11).",
+    "why": "Map 6000*, item 6-226 (a, 13.11). Item 6-300 (a, 18.11): + Jingtoushan (Yuyao), new hull + 50 km.",
     "years": [
       -6000
     ],
@@ -8108,7 +8279,67 @@
     "properties": {
       "NAME": "Kuahuqiao culture",
       "NOTE": "kuahuqiao-6000",
-      "SOURCES": "https://en.wikipedia.org/wiki/Kuahuqiao_culture | https://www.nature.com/articles/s41597-022-01118-7"
+      "SOURCES": "https://en.wikipedia.org/wiki/Kuahuqiao_culture | https://www.nature.com/articles/s41597-022-01118-7 | https://doi.org/10.1007/s11430-023-1257-8 | https://doi.org/10.3389/feart.2021.635640"
+    }
+  },
+  {
+    "id": "m6-niutoushan",
+    "why": "Map 6000*, item 6-301 (a, 18.11): 35 km circle.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-niutoushan",
+    "properties": {
+      "NAME": "Early Neolithic of the lower Min River (Niutoushan)",
+      "NOTE": "niutoushan-6000",
+      "SOURCES": "https://doi.org/10.3390/quat9030036"
+    }
+  },
+  {
+    "id": "m6-qinghai-ne",
+    "why": "Map 6000*, items 6-305 (a, 18.11) and 6-308 (a, 18.11): area of the group; hull + 50 km minus Qinghai Lake.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-qinghai-ne",
+    "properties": {
+      "NAME": "Microlithic foragers of the northeastern Tibetan Plateau",
+      "AREA": "Qinghai Lake and Yellow River (Shalongka)",
+      "GROUP": "Microlithic foragers of the northeastern Tibetan Plateau",
+      "NOTE": "qinghai-ne-6000",
+      "SOURCES": "https://doi.org/10.1038/s41598-020-68518-w | https://doi.org/10.1016/j.jas.2014.02.022 | https://doi.org/10.11928/j.issn.1001-7410.2020.02.21 | https://doi.org/10.16359/j.cnki.cn11-1963/q.2017.0057"
+    }
+  },
+  {
+    "id": "m6-qinghai-ne-qilian",
+    "why": "Map 6000*, item 6-308 (a, 18.11): second area of the group, 35 km circle.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-qinghai-ne-qilian",
+    "properties": {
+      "NAME": "Microlithic foragers of the northeastern Tibetan Plateau",
+      "AREA": "Qilian (Huangzangsi)",
+      "GROUP": "Microlithic foragers of the northeastern Tibetan Plateau",
+      "NOTE": "qinghai-ne-6000",
+      "SOURCES": "https://doi.org/10.11928/j.issn.1001-7410.2022.04.10"
+    }
+  },
+  {
+    "id": "m6-canxionggashuo",
+    "why": "Map 6000*, item 6-306 (a, 18.11): 35 km circle.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-canxionggashuo",
+    "properties": {
+      "NAME": "Microlithic foragers of the Tongtian River (Canxionggashuo)",
+      "NOTE": "canxionggashuo-6000",
+      "SOURCES": "https://doi.org/10.1038/s41598-020-68518-w"
     }
   },
   {
@@ -8126,6 +8357,20 @@
     }
   },
   {
+    "id": "m6-chengbeixi",
+    "why": "Map 6000*, item 6-299 (a, 18.11): hull + 50 km minus the Pengtoushan zone.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-chengbeixi",
+    "properties": {
+      "NAME": "Chengbeixi culture",
+      "NOTE": "chengbeixi-6000",
+      "SOURCES": "https://doi.org/10.1038/s40494-025-02296-4 | https://en.wikipedia.org/wiki/Chengbeixi_culture | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
     "id": "m6-jomon",
     "why": "Map 6000* (28.10): carried from map 8000 (m8-jomon) with a new name or note.",
     "years": [
@@ -8137,6 +8382,20 @@
       "NAME": "Jōmon",
       "NOTE": "jomon-6000",
       "SOURCES": "https://en.wikipedia.org/wiki/J%C5%8Dmon_pottery"
+    }
+  },
+  {
+    "id": "m6-osanri",
+    "why": "Map 6000*, item 6-309 (a, 19.11): hull + 50 km.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-osanri",
+    "properties": {
+      "NAME": "Osan-ri tradition (Early Chulmun of the east coast of Korea)",
+      "NOTE": "osanri-6000",
+      "SOURCES": "https://doi.org/10.1016/j.quaint.2019.10.013"
     }
   },
   {
