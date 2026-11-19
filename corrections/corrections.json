@@ -1530,7 +1530,7 @@
   },
   {
     "id": "m2e-hoabinhian",
-    "why": "Map 2, item 65 (a-f). Item 205 (a, 19.11): the shared outline extended to the Bac Son caves.",
+    "why": "Map 2, item 65 (a-f). Item 205 (a, 19.11): the shared outline extended to the Bac Son caves. Items 213 / 3-319 (a, 19.11): main area of the Hoabinhian group (second area - Nias).",
     "years": [
       -10000
     ],
@@ -1539,7 +1539,25 @@
     "properties": {
       "NAME": "Hoabinhian",
       "NOTE": "hoabinhian",
-      "SOURCES": "https://rasmishoocongdej.com/wp-content/uploads/2025/08/2021-Hoabinhianoxfordhb-chapter-6_2-finalproof.pdf | https://www.researchgate.net/publication/355165732_Re-evaluating_Pleistocene-Holocene_occupation_of_cave_sites_in_north-west_Thailand_new_radiocarbon_and_luminescence_dating | https://doi.org/10.1093/oxfordhb/9780199355358.013.15 | https://en.wikipedia.org/wiki/B%E1%BA%AFc_S%C6%A1n_culture"
+      "SOURCES": "https://rasmishoocongdej.com/wp-content/uploads/2025/08/2021-Hoabinhianoxfordhb-chapter-6_2-finalproof.pdf | https://www.researchgate.net/publication/355165732_Re-evaluating_Pleistocene-Holocene_occupation_of_cave_sites_in_north-west_Thailand_new_radiocarbon_and_luminescence_dating | https://doi.org/10.1093/oxfordhb/9780199355358.013.15 | https://en.wikipedia.org/wiki/B%E1%BA%AFc_S%C6%A1n_culture",
+      "AREA": "Mainland Southeast Asia",
+      "GROUP": "Hoabinhian"
+    }
+  },
+  {
+    "id": "m2o-nias",
+    "why": "Map 10 000, item 213 (a, 19.11): area of the Hoabinhian group; outline of map 6000* (35 km circle).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "m6-nias",
+    "properties": {
+      "NAME": "Hoabinhian",
+      "AREA": "Nias (Tögi Ndrawa)",
+      "GROUP": "Hoabinhian",
+      "NOTE": "hoabinhian",
+      "SOURCES": "https://doi.org/10.22459/TA56.2024"
     }
   },
   {
@@ -1558,9 +1576,10 @@
   },
   {
     "id": "m2e-mangkalihat",
-    "why": "Map 10 000, item 207 (a, 19.11): hull + 50 km.",
+    "why": "Map 10 000, item 207 (a, 19.11): hull + 50 km. Item 3-320 (a, 19.11): also on map 8000 (Kimanis ANU-11149).",
     "years": [
-      -10000
+      -10000,
+      -8000
     ],
     "action": "add",
     "shape": "m2e-mangkalihat",
@@ -1568,6 +1587,34 @@
       "NAME": "Foragers of the Mangkalihat karst (East Kalimantan): Liang Abu, Kimanis",
       "NOTE": "mangkalihat",
       "SOURCES": "https://doi.org/10.1080/15564894.2022.2108947"
+    }
+  },
+  {
+    "id": "m2o-tianko-panjang",
+    "why": "Maps 10 000 and 8000, items 212, 3-318 (a, 19.11): 35 km circle.",
+    "years": [
+      -10000,
+      -8000
+    ],
+    "action": "add",
+    "shape": "m2o-tianko-panjang",
+    "properties": {
+      "NAME": "Obsidian-flake foragers of Tianko Panjang (Jambi highlands)",
+      "NOTE": "tianko-panjang"
+    }
+  },
+  {
+    "id": "m2o-madai",
+    "why": "Maps 10 000 and 8000, items 214, 3-321 (a, 19.11): 35 km circle.",
+    "years": [
+      -10000,
+      -8000
+    ],
+    "action": "add",
+    "shape": "m2o-madai",
+    "properties": {
+      "NAME": "Foragers of the Madai caves (Sabah): Agop Atas, Agop Sarapad",
+      "NOTE": "madai"
     }
   },
   {
@@ -3478,6 +3525,47 @@
     }
   },
   {
+    "id": "m2o-telmana",
+    "why": "Map 10 000, item 208 (a, 19.11): 35 km circle.",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "m2o-telmana",
+    "properties": {
+      "NAME": "Mesolithic foragers of the Ishim steppe (Telmana XIVa)",
+      "NOTE": "telmana"
+    }
+  },
+  {
+    "id": "m2o-aq-kupruk",
+    "why": "Map 10 000, item 209 (a, 19.11): Ghar-i Asp, Hv-1355; outline of map 6000* (35 km circle).",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "m6-aq-kupruk",
+    "properties": {
+      "NAME": "Early Holocene foragers of Aq Kupruk (Ghar-i Asp)",
+      "NOTE": "aq-kupruk-10000",
+      "SOURCES": "https://doi.org/10.1038/s41598-025-92621-5"
+    }
+  },
+  {
+    "id": "m2o-xinglong",
+    "why": "Map 10 000, item 211 (a, 19.11): 35 km circle.",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "m2o-xinglong",
+    "properties": {
+      "NAME": "Microblade foragers of the Bashang plateau (Xinglong)",
+      "NOTE": "xinglong-10000",
+      "SOURCES": "https://doi.org/10.1016/j.xinn.2025.101186"
+    }
+  },
+  {
     "id": "m2j-kitovyi",
     "why": "Map 2, item 121 and map 8000, item 3-152 (the second 3-148; accepted 26.10): the ±1000-year fork passes on both maps.",
     "years": [
@@ -5084,16 +5172,29 @@
   },
   {
     "id": "m2k-nejd-leptolithic",
-    "why": "Map 8000, item 3-163 and map 2, item 125 (accepted 27.10): zone with a note on both maps. Item 6-265 (a, 17.11): not on map 6000* (last Leptolithic assemblage c. 8.5 ka, Hilbert 2015) - replaced by the Neolithic with trihedral points.",
+    "why": "Map 8000, item 3-163 and map 2, item 125 (accepted 27.10): zone with a note on both maps. Item 6-265 (a, 17.11): not on map 6000* (last Leptolithic assemblage c. 8.5 ka, Hilbert 2015) - replaced by the Neolithic with trihedral points. Item 3-323 (a, 19.11): map 8000 moved to rule m8-nejd-leptolithic (outline to Habarut).",
     "years": [
-      -10000,
-      -8000
+      -10000
     ],
     "action": "add",
     "shape": "nejd-leptolithic",
     "properties": {
       "NAME": "Nejd Leptolithic (Dhofar)",
       "NOTE": "nejd-leptolithic",
+      "SOURCES": "https://ro.uow.edu.au/smhpapers/3187 | https://antiquity.ac.uk/projgall/rose341"
+    }
+  },
+  {
+    "id": "m8-nejd-leptolithic",
+    "why": "Map 8000, item 3-323 (a, 19.11): the outline of m2k-nejd-leptolithic extended west to Habarut 1 (Mahra; Amirkhanov 1997).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-nejd-leptolithic",
+    "properties": {
+      "NAME": "Nejd Leptolithic (Dhofar)",
+      "NOTE": "nejd-leptolithic-8000",
       "SOURCES": "https://ro.uow.edu.au/smhpapers/3187 | https://antiquity.ac.uk/projgall/rose341"
     }
   },
@@ -5302,15 +5403,58 @@
   },
   {
     "id": "m8-chikhen-agui",
-    "why": "Map 8000, item 3-175 (accepted 27.10): 35 km circle, coordinates from the owner.",
+    "why": "Map 8000, item 3-175 (accepted 27.10): 35 km circle, coordinates from the owner. Item 210 (a, 19.11): also on map 10 000 (Janz 2017: 13.4-8.7 ka cal BP); card added.",
     "years": [
+      -10000,
       -8000
     ],
     "action": "add",
     "shape": "m8-chikhen-agui",
     "properties": {
       "NAME": "Early Holocene foragers of the Gobi Altai (Chikhen Agui)",
-      "SOURCES": "https://jmraae.arizona.edu/fieldreport_2000.html"
+      "SOURCES": "https://jmraae.arizona.edu/fieldreport_2000.html",
+      "NOTE": "chikhen-agui"
+    }
+  },
+  {
+    "id": "m8-aq-kupruk",
+    "why": "Map 8000, item 3-314 (a, 19.11): Ghar-i Mar, Hv-425; outline of map 6000* (35 km circle).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m6-aq-kupruk",
+    "properties": {
+      "NAME": "Early Holocene foragers of Aq Kupruk (Ghar-i Mar)",
+      "NOTE": "aq-kupruk-8000",
+      "SOURCES": "https://doi.org/10.1038/s41598-025-92621-5"
+    }
+  },
+  {
+    "id": "m8-bashang",
+    "why": "Map 8000, item 3-315 (a, 19.11): fork of periods I and II; 35 km circle.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-bashang",
+    "properties": {
+      "NAME": "Early Holocene foragers of the Bashang plateau (Sitai)",
+      "NOTE": "sitai-8000",
+      "SOURCES": "https://doi.org/10.1016/j.xinn.2025.101186"
+    }
+  },
+  {
+    "id": "m8-zanskar",
+    "why": "Map 8000, item 3-317 (a, 19.11): 35 km circle.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-zanskar",
+    "properties": {
+      "NAME": "High-altitude foragers of Zanskar (Mune)",
+      "NOTE": "zanskar-8000"
     }
   },
   {
@@ -5343,7 +5487,7 @@
   },
   {
     "id": "m8-hoabinhian",
-    "why": "Map 8000, item 3-178 (accepted 27.10): same outline as map 10 000; Bac Son in the card. Items 3-312, 6-312 (a, 19.11): the shared outline extended to the Bac Son caves; map 6000* moved to rule m6-hoabinhian (areas, own card).",
+    "why": "Map 8000, item 3-178 (accepted 27.10): same outline as map 10 000; Bac Son in the card. Items 3-312, 6-312 (a, 19.11): the shared outline extended to the Bac Son caves; map 6000* moved to rule m6-hoabinhian (areas, own card). Items 213 / 3-319 (a, 19.11): main area of the Hoabinhian group (second area - Nias).",
     "years": [
       -8000
     ],
@@ -5352,7 +5496,25 @@
     "properties": {
       "NAME": "Hoabinhian",
       "NOTE": "hoabinhian-8000",
-      "SOURCES": "https://rasmishoocongdej.com/wp-content/uploads/2025/08/2021-Hoabinhianoxfordhb-chapter-6_2-finalproof.pdf | https://www.researchgate.net/publication/355165732_Re-evaluating_Pleistocene-Holocene_occupation_of_cave_sites_in_north-west_Thailand_new_radiocarbon_and_luminescence_dating | https://doi.org/10.1093/oxfordhb/9780199355358.013.15 | https://en.wikipedia.org/wiki/B%E1%BA%AFc_S%C6%A1n_culture"
+      "SOURCES": "https://rasmishoocongdej.com/wp-content/uploads/2025/08/2021-Hoabinhianoxfordhb-chapter-6_2-finalproof.pdf | https://www.researchgate.net/publication/355165732_Re-evaluating_Pleistocene-Holocene_occupation_of_cave_sites_in_north-west_Thailand_new_radiocarbon_and_luminescence_dating | https://doi.org/10.1093/oxfordhb/9780199355358.013.15 | https://en.wikipedia.org/wiki/B%E1%BA%AFc_S%C6%A1n_culture",
+      "AREA": "Mainland Southeast Asia",
+      "GROUP": "Hoabinhian"
+    }
+  },
+  {
+    "id": "m8-nias",
+    "why": "Map 8000, item 3-319 (a, 19.11): area of the Hoabinhian group; outline of map 6000* (35 km circle).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m6-nias",
+    "properties": {
+      "NAME": "Hoabinhian",
+      "AREA": "Nias (Tögi Ndrawa)",
+      "GROUP": "Hoabinhian",
+      "NOTE": "hoabinhian-8000",
+      "SOURCES": "https://doi.org/10.22459/TA56.2024"
     }
   },
   {
@@ -8010,7 +8172,7 @@
   },
   {
     "id": "m6-dhofar",
-    "why": "Map 6000*, item 6-265 (a2, 17-18.11): area 2 of the group, instead of the Nejd Leptolithic.",
+    "why": "Map 6000*, item 6-265 (a2, 17-18.11): area 2 of the group, instead of the Nejd Leptolithic. Item 6-322 (a, 19.11): extended west to Habarut 1 (Mahra).",
     "years": [
       -6000
     ],

@@ -13,7 +13,7 @@
     {
       "year": -10000,
       "file": "borders/world_-10000.json",
-      "count": 143,
+      "count": 149,
       "land": "coast/land_-10000.json",
       "seaLevel": -60,
       "riversExt": "coast/rivers_ext_-10000.json",
@@ -23,7 +23,7 @@
     {
       "year": -8000,
       "file": "borders/world_-8000.json",
-      "count": 179,
+      "count": 185,
       "land": "coast/land_-8000.json",
       "seaLevel": -40,
       "riversExt": "coast/rivers_ext_-8000.json",
