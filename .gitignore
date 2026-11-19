@@ -3,6 +3,8 @@ tools/.cache/
 # Not published (see corrections/queue-site.md, item С-1)
 Claude outputs/
 Источники/
+# Working Excel tables of the parts of the world (owner 19.11.2026): parsed into dates and zones, not needed on the site
+Разборы/
 _to_delete/
 ~$*
 *.tgz

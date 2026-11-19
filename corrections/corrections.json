@@ -4845,6 +4845,19 @@
     }
   },
   {
+    "id": "m8-tytylvaam",
+    "why": "Map 8000, item 3-324 (a, 19.11): Tytylvaam IV - fork (CAMS-80788 ... 9725 +- 45 before, CAMS-96452 8645 +- 40 after; Slobodin, Zelenskaya 2024); 35 km circle.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-tytylvaam",
+    "properties": {
+      "NAME": "Terminal Palaeolithic of western Chukotka (Tytylvaam IV)",
+      "NOTE": "tytylvaam-8000"
+    }
+  },
+  {
     "id": "m8-shigir",
     "why": "Map 8000, Siberia, item 3-134 (accepted 26.10): Shigir outline + Beregovaya 2 (Gorbunovo bog); new name and note.",
     "years": [
@@ -4912,6 +4925,20 @@
       "NAME": "Early Holocene site of the lower Angara (Ust-Kova)",
       "NOTE": "ust-kova-8000",
       "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-lower-vitim",
+    "why": "Map 8000, item 3-327 (a, 19.11): Invalidny III SOAN-4884 8925 +- 110 covers the date; fork by Pavlova I and SOAN-5278 (Ulanov et al. 2020, table 1); 35 km circle.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-lower-vitim",
+    "properties": {
+      "NAME": "Early Holocene foragers of the lower Vitim (Bolshaya Severnaya type: Invalidny III, Pavlova I)",
+      "NOTE": "lower-vitim-8000",
+      "SOURCES": "https://doi.org/10.21285/2415-8739-2020-2-9-28"
     }
   },
   {
@@ -5455,6 +5482,20 @@
     "properties": {
       "NAME": "High-altitude foragers of Zanskar (Mune)",
       "NOTE": "zanskar-8000"
+    }
+  },
+  {
+    "id": "m8-karasai",
+    "why": "Map 8000, item 3-328 (a, 19.11): Karasai layer 2, AMS GV-02376 (bone) 10 213-9707 cal BP covers the date (Taimagambetov et al. 2024); 35 km circle (approximate centre).",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-karasai",
+    "properties": {
+      "NAME": "Mesolithic of the Shilikty valley (Karasai)",
+      "NOTE": "karasai-8000",
+      "SOURCES": "https://doi.org/10.47500/2024.v17.i1.01 | https://doi.org/10.1016/j.ara.2020.100249"
     }
   },
   {
@@ -10208,6 +10249,19 @@
       "NAME": "Final Palaeolithic of the western Baikal shore (Sagan-Nuge)",
       "NOTE": "sagan-nuge",
       "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7 | https://doi.org/10.26516/2227-2380.2022.42.43"
+    }
+  },
+  {
+    "id": "m2o-chikoi",
+    "why": "Map 10 000, item 215 (a, 19.11): Konstantinov 1994 - early Mesolithic 10.8-10.3 ka BP; Ust-Menza 1 GIN-5459 10 380 +- 250 covers the date; union of 35 km circles.",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "m2o-chikoi",
+    "properties": {
+      "NAME": "Early Mesolithic of the Chikoi (Ust-Menza 1, Studenoe 1)",
+      "NOTE": "chikoi-10000"
     }
   },
   {
