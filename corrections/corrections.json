@@ -2689,34 +2689,18 @@
   },
   {
     "id": "m6-amekni",
-    "why": "Map 8000, item 3-51. Map 6000* (07.11): own copy of the outline (the -8000 outline was extended by items 3-279 / 3-282). 20.11.2026: group renamed (item 6-341 a); outline - copy of the -8000 one, to Tiltekin (item 6-343 a).",
+    "why": "Map 8000, item 3-51. Map 6000* (07.11): own copy of the outline (the -8000 outline was extended by items 3-279 / 3-282). 20.11.2026: group renamed (item 6-341 a); outline - copy of the -8000 one, to Tiltekin (item 6-343 a). 20.11.2026 (item 6-354 a): one area with the Tefedest (Timidouin) - convex hull m6-hoggar; new card hoggar-6000 (the -8000 card amekni stays).",
     "years": [
       -6000
     ],
     "action": "add",
-    "shape": "m6-amekni",
+    "shape": "m6-hoggar",
     "properties": {
       "NAME": "Central Saharan foragers and early herders",
-      "NOTE": "amekni",
+      "NOTE": "hoggar-6000",
       "SOURCES": "https://journals.uair.arizona.edu/index.php/radiocarbon | https://doi.org/10.1017/S0021853700001286",
       "GROUP": "Central Saharan foragers and early herders",
-      "AREA": "Hoggar (Amekni)"
-    }
-  },
-  {
-    "id": "m6-tefedest",
-    "why": "Map 6000*, item 6-343 (a, 20.11.2026): Timidouin Mc-484 8100 +- 130 / Mc-483 6050 +- 100 - a fork; Oued Tamesnaguen Ly-3575 6940 +- 200 (10 km); hull + 35 km.",
-    "years": [
-      -6000
-    ],
-    "action": "add",
-    "shape": "m6-tefedest",
-    "properties": {
-      "NAME": "Central Saharan foragers and early herders",
-      "GROUP": "Central Saharan foragers and early herders",
-      "AREA": "Hoggar — Tefedest (Timidouin)",
-      "NOTE": "tefedest-6000",
-      "SOURCES": "https://doi.org/10.1017/S0021853700001286"
+      "AREA": "Hoggar (Amekni, Tiltekin, Timidouin)"
     }
   },
   {
@@ -2753,7 +2737,7 @@
   },
   {
     "id": "m6-tibesti",
-    "why": "Map 6000*, item 6-349 (a, 20.11.2026): Bardagué Hv-2775 7455 +- 180 (bones, with sheep), Hv-2779 6715 +- 220; Gabrong a fork; Ehi Kovmei 6860 +- 220 (Gabriel 1977; Posnansky 1976); the -8000 outline + Bardagué.",
+    "why": "Map 6000*, item 6-349 (a, 20.11.2026): Bardagué Hv-2775 7455 +- 180 (bones, with sheep), Hv-2779 6715 +- 220; Gabrong a fork; Ehi Kovmei 6860 +- 220 (Gabriel 1977; Posnansky 1976); the -8000 outline + Bardagué. 20.11.2026 (item 6-355 a): one convex hull of the mountains and the Serir Tibesti.",
     "years": [
       -6000
     ],
@@ -2769,7 +2753,7 @@
   },
   {
     "id": "m6-wau-en-namus",
-    "why": "Map 6000*, item 6-350 (a, 20.11.2026): stone hearth Hv-4802 7300 +- 130 (Gabriel 1977); 35 km circle.",
+    "why": "Map 6000*, item 6-350 (a, 20.11.2026): stone hearth Hv-4802 7300 +- 130 (Gabriel 1977); 35 km circle. 20.11.2026 (item 6-357 b): one area with Djebel Eghei (stone hearths of Enneri Tihai Hv-4803 6855 +- 185) - two 35 km circles.",
     "years": [
       -6000
     ],
@@ -2778,23 +2762,7 @@
     "properties": {
       "NAME": "Central Saharan foragers and early herders",
       "GROUP": "Central Saharan foragers and early herders",
-      "AREA": "Wau en Namus",
-      "NOTE": "sahara-hearths-6000",
-      "SOURCES": "https://doi.org/10.1017/S0021853700001286"
-    }
-  },
-  {
-    "id": "m6-eghei",
-    "why": "Map 6000*, item 6-350 (a, 20.11.2026): stone hearths of Enneri Tihai Hv-4803 6855 +- 185 (Gabriel 1977); 35 km circle.",
-    "years": [
-      -6000
-    ],
-    "action": "add",
-    "shape": "m6-eghei",
-    "properties": {
-      "NAME": "Central Saharan foragers and early herders",
-      "GROUP": "Central Saharan foragers and early herders",
-      "AREA": "Djebel Eghei (Enneri Tihai)",
+      "AREA": "Stone-hearth sites (Wau en Namus, Djebel Eghei)",
       "NOTE": "sahara-hearths-6000",
       "SOURCES": "https://doi.org/10.1017/S0021853700001286"
     }
@@ -2861,7 +2829,7 @@
   },
   {
     "id": "m6-early-khartoum",
-    "why": "Map 8000, item 3-41. Map 6000* (07.11): own copy of the outline (the -8000 outline was extended by items 3-279 / 3-282).",
+    "why": "Map 8000, item 3-41. Map 6000* (07.11): own copy of the outline (the -8000 outline was extended by items 3-279 / 3-282). 20.11.2026 (items 6-369 a, 6-370 a): extended up the White Nile to Shabona (SUA-298 7050 +- 120), into the Butana to Shaqadud (SMU-1186 6890 +- 130 - p3k14c has it as \"Shiekh MustafaI 16.25/33.30\") (Mohammed-Ali, Khabir 2003; Marks, Mohammed-Ali 1991) and down the Nile to the Atbara mouth as on map 8000 (Aneibis T-6384 7450 +- 100 / T-7481 6820 +- 170 - a fork; El Damer T-8631 7260 +- 110).",
     "years": [
       -6000
     ],
@@ -2870,17 +2838,32 @@
     "properties": {
       "NAME": "Early Khartoum tradition",
       "NOTE": "early-khartoum",
-      "SOURCES": "https://link.springer.com/journal/10437",
+      "SOURCES": "https://link.springer.com/journal/10437 | https://doi.org/10.1093/oxfordhb/9780199935413.013.56",
       "GROUP": "Nile Early Khartoum",
       "AREA": "Early Khartoum (central Sudan)"
     }
   },
   {
-    "id": "m8-khartoum-variant",
-    "why": "Map 8000, item 3-41.",
+    "id": "m6-laqiya",
+    "why": "Map 6000*, item 6-362 (a2, 20.11.2026): Laqiya - hunters and gatherers c. 8000-5000 calBC, Early Khartoum with dotted wavy line pottery, later its regional Laqiya-type variant (Lange 2006, p. 230, fig. 84); the oldest DWL sherd of Wadi Shaw 83/108 lies under the upper lake layer dated KN-3086 6960 +- 65 (shell); Burg et-Tuyur KN-3646 6840 +- 160; hull + 50 km.",
     "years": [
-      -8000,
       -6000
+    ],
+    "action": "add",
+    "shape": "m6-laqiya",
+    "properties": {
+      "NAME": "Early Khartoum tradition",
+      "GROUP": "Nile Early Khartoum",
+      "AREA": "Laqiya region (Wadi Shaw, Burg et-Tuyur)",
+      "NOTE": "laqiya-6000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-khartoum-variant",
+    "why": "Map 8000, item 3-41. 20.11.2026: map 6000* - own rule m6-khartoum-variant (item 6-368 a, new card).",
+    "years": [
+      -8000
     ],
     "action": "add",
     "shape": "m8-khartoum-variant",
@@ -2890,6 +2873,22 @@
       "SOURCES": "https://link.springer.com/journal/10437",
       "GROUP": "Nile Early Khartoum",
       "AREA": "Khartoum Variant (Nubia)"
+    }
+  },
+  {
+    "id": "m6-khartoum-variant",
+    "why": "Map 6000*, item 6-368 (a, 20.11.2026): the -8000 outline (Second Cataract - Sai); Sai 8-B-76 ISGS-A2308 7460 +- 30, Dibeira West 5 6540 +- 110 - a fork (D'Ercole 2017); Kerma basin inside: El Barga ETH-27208 7045 +- 70, ETH-27207 6960 +- 65 (Honegger 2004), Wadi el-Arab phases IV-V (Jakob, Honegger 2017); new card.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m8-khartoum-variant",
+    "properties": {
+      "NAME": "Early Khartoum tradition",
+      "GROUP": "Nile Early Khartoum",
+      "AREA": "Khartoum Variant (Nubia)",
+      "NOTE": "khartoum-variant-6000",
+      "SOURCES": "https://link.springer.com/journal/10437 | https://doi.org/10.1093/oxfordhb/9780199935413.013.56"
     }
   },
   {
@@ -6170,7 +6169,7 @@
   },
   {
     "id": "m6-west-maghreb",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-west-maghreb) with a new name or note. Sources checked for 6000 BC (04.11, owner: \"check and fix Sources\"). 07.11: own copy of the outline (the -8000 outline was extended by item 3-284). 20.11.2026 (item 6-327 a): third part - Ifri Ouberrid (Middle Atlas); card: Ifri Ouberrid, pottery and farming of the eastern Rif from c. 5650 BC (6-328), Upper Capsian at Columnata c. 5750 BC (6-326).",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-west-maghreb) with a new name or note. Sources checked for 6000 BC (04.11, owner: \"check and fix Sources\"). 07.11: own copy of the outline (the -8000 outline was extended by item 3-284). 20.11.2026 (item 6-327 a): third part - Ifri Ouberrid (Middle Atlas); card: Ifri Ouberrid, pottery and farming of the eastern Rif from c. 5650 BC (6-328), Upper Capsian at Columnata c. 5750 BC (6-326). 20.11.2026 (item 6-353 a): one convex hull of the three areas instead of three parts.",
     "years": [
       -6000
     ],
@@ -6184,7 +6183,7 @@
   },
   {
     "id": "m6-eastern-sahara",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-eastern-sahara) with a new name or note. 07.11: own copy of the outline (the -8000 outline was extended by item 3-276).",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-eastern-sahara) with a new name or note. 07.11: own copy of the outline (the -8000 outline was extended by item 3-276). 20.11.2026 (items 6-359 a, 6-360 a, 6-361 a, 6-365): extended to Kharga (Kharga B: KS121 7111 +- 54, KS179 6971 +- 54 - Dachy et al. 2018), Farafra (Hidden Valley Gd-10505 7130 +- 100, Gd-11279 7040 +- 90 - Hassan et al. 2001), Abu Minqar (KN-3710 7060 +- 100), Djara (KIA-15960 7040 +- 50; Djara A/B - Gehlen et al. 2002), Selima SOP 1024 (Poz-63698 7125 +- 35) and Gebel Kamil (KN-3175 7140 +- 160) (Jesse et al. 2018); the Laqiya area cut out (6-362 a2); new card.",
     "years": [
       -6000
     ],
@@ -6193,7 +6192,35 @@
     "properties": {
       "NAME": "Foragers and early herders of the Eastern Sahara",
       "NOTE": "eastern-sahara-6000",
-      "SOURCES": "https://doi.org/10.1126/science.1130989 | https://en.wikipedia.org/wiki/Nabta_Playa"
+      "SOURCES": "https://doi.org/10.1126/science.1130989 | https://en.wikipedia.org/wiki/Nabta_Playa | https://doi.org/10.1007/s10437-018-9306-2"
+    }
+  },
+  {
+    "id": "m6-sitra",
+    "why": "Map 6000*, item 6-363 (a, 20.11.2026): Sitra 85/05-2 charcoal KN-4334 7140 +- 80, KN-4328 6920 +- 85, KN-4335 6808 +- 56 (p3k14c, MedAfriCarbon); stone hearths of Sitra-Hatiyet KN-3555 6850 +- 70 ... KN-3785 6670 +- 65 (Cziesla 1993); El Araq a fork (Close 1980); hull + 35 km.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-sitra",
+    "properties": {
+      "NAME": "Foragers of the Sitra depression (Sitra-Hatiyet, El Araq)",
+      "NOTE": "sitra-6000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-sodmein",
+    "why": "Map 6000*, item 6-367 (a, 20.11.2026): Sodmein Cave, horizon C2 (charcoal) UtC-3312 7350 +- 80, IRPA-1372 7250 +- 40, Lv-2086 7090 +- 80, KIA-28778 6995 +- 35, Lv-2083 6940 +- 100; herders with goats c. 6200-5000 BC (Vermeersch et al. 2015); 50 km around the cave and Tree Shelter.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-sodmein",
+    "properties": {
+      "NAME": "Herders of the Red Sea Mountains (Sodmein Cave, Tree Shelter)",
+      "NOTE": "sodmein-6000",
+      "SOURCES": "https://doi.org/10.1007/s10437-015-9195-6"
     }
   },
   {
