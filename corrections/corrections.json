@@ -2613,10 +2613,9 @@
   },
   {
     "id": "m8-haua-fteah",
-    "why": "Map 8000, item 3-49.",
+    "why": "Map 8000, item 3-49. 20.11.2026: map 6000* - own rule m6-haua-fteah (item 6-329, new card).",
     "years": [
-      -8000,
-      -6000
+      -8000
     ],
     "action": "add",
     "shape": "haua-fteah",
@@ -2624,6 +2623,20 @@
       "NAME": "Libyco-Capsian (Haua Fteah)",
       "NOTE": "haua-fteah-8000",
       "SOURCES": "https://en.wikipedia.org/wiki/Haua_Fteah"
+    }
+  },
+  {
+    "id": "m6-haua-fteah",
+    "why": "Map 6000*, item 6-329 (20.11.2026, nothing to decide): the -8000 outline, new card (Douka et al. 2014: Libyco-Capsian to c. 7.9 ka cal BP).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "haua-fteah",
+    "properties": {
+      "NAME": "Libyco-Capsian (Haua Fteah)",
+      "NOTE": "haua-fteah-6000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Haua_Fteah | https://doi.org/10.1016/j.jhevol.2013.10.001"
     }
   },
   {
@@ -2644,17 +2657,17 @@
   },
   {
     "id": "m6-acacus",
-    "why": "Map 8000, items 3-12, 3-50; Acacus and Tassili merged into one outline (item 3-73 a, 22.10). Map 6000* (07.11): own copy of the outline (the -8000 outline was extended by items 3-279 / 3-282).",
+    "why": "Map 8000, items 3-12, 3-50; Acacus and Tassili merged into one outline (item 3-73 a, 22.10). Map 6000* (07.11): own copy of the outline (the -8000 outline was extended by items 3-279 / 3-282). 20.11.2026: group renamed (item 6-341 a - Early Pastoral EP1 at the date); outline extended to Ti-n Hanakaten (as on -8000) and Iherir (item 6-342 a); new card.",
     "years": [
       -6000
     ],
     "action": "add",
     "shape": "m6-acacus-tassili",
     "properties": {
-      "NAME": "Central Saharan foragers",
-      "NOTE": "acacus-tassili-8000",
-      "SOURCES": "https://en.wikipedia.org/wiki/Takarkori_rock_shelter | https://en.wikipedia.org/wiki/Tassili_n%27Ajjer",
-      "GROUP": "Central Saharan foragers",
+      "NAME": "Central Saharan foragers and early herders",
+      "NOTE": "acacus-tassili-6000",
+      "SOURCES": "https://doi.org/10.1371/journal.pone.0228588 | https://doi.org/10.1017/S0033822200048323 | https://en.wikipedia.org/wiki/Tassili_n%27Ajjer",
+      "GROUP": "Central Saharan foragers and early herders",
       "AREA": "Tadrart Acacus and Tassili n'Ajjer (Takarkori, Ti-n Hanakaten)"
     }
   },
@@ -2676,18 +2689,114 @@
   },
   {
     "id": "m6-amekni",
-    "why": "Map 8000, item 3-51. Map 6000* (07.11): own copy of the outline (the -8000 outline was extended by items 3-279 / 3-282).",
+    "why": "Map 8000, item 3-51. Map 6000* (07.11): own copy of the outline (the -8000 outline was extended by items 3-279 / 3-282). 20.11.2026: group renamed (item 6-341 a); outline - copy of the -8000 one, to Tiltekin (item 6-343 a).",
     "years": [
       -6000
     ],
     "action": "add",
     "shape": "m6-amekni",
     "properties": {
-      "NAME": "Central Saharan foragers",
+      "NAME": "Central Saharan foragers and early herders",
       "NOTE": "amekni",
-      "SOURCES": "https://journals.uair.arizona.edu/index.php/radiocarbon",
-      "GROUP": "Central Saharan foragers",
+      "SOURCES": "https://journals.uair.arizona.edu/index.php/radiocarbon | https://doi.org/10.1017/S0021853700001286",
+      "GROUP": "Central Saharan foragers and early herders",
       "AREA": "Hoggar (Amekni)"
+    }
+  },
+  {
+    "id": "m6-tefedest",
+    "why": "Map 6000*, item 6-343 (a, 20.11.2026): Timidouin Mc-484 8100 +- 130 / Mc-483 6050 +- 100 - a fork; Oued Tamesnaguen Ly-3575 6940 +- 200 (10 km); hull + 35 km.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-tefedest",
+    "properties": {
+      "NAME": "Central Saharan foragers and early herders",
+      "GROUP": "Central Saharan foragers and early herders",
+      "AREA": "Hoggar — Tefedest (Timidouin)",
+      "NOTE": "tefedest-6000",
+      "SOURCES": "https://doi.org/10.1017/S0021853700001286"
+    }
+  },
+  {
+    "id": "m6-termit",
+    "why": "Map 6000*, item 6-346 (a, 20.11.2026): Termit West T-28 7400 +- 110 / T-38 6340 +- 100 - a fork; early pottery 7160 ... 5000 BP (Quechon 2002); the -8000 circle.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-termit",
+    "properties": {
+      "NAME": "Central Saharan foragers and early herders",
+      "GROUP": "Central Saharan foragers and early herders",
+      "AREA": "Termit",
+      "NOTE": "termit-6000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-fachi",
+    "why": "Map 6000*, item 6-347 (a, 20.11.2026): Dogonboulo 6850 +- 250 (charcoal, hearth under diatomite; Maley et al. 1971, Roset 1974); 35 km circle.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-fachi",
+    "properties": {
+      "NAME": "Central Saharan foragers and early herders",
+      "GROUP": "Central Saharan foragers and early herders",
+      "AREA": "Ténéré — Fachi (Dogonboulo)",
+      "NOTE": "fachi-6000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-tibesti",
+    "why": "Map 6000*, item 6-349 (a, 20.11.2026): Bardagué Hv-2775 7455 +- 180 (bones, with sheep), Hv-2779 6715 +- 220; Gabrong a fork; Ehi Kovmei 6860 +- 220 (Gabriel 1977; Posnansky 1976); the -8000 outline + Bardagué.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-tibesti",
+    "properties": {
+      "NAME": "Central Saharan foragers and early herders",
+      "GROUP": "Central Saharan foragers and early herders",
+      "AREA": "Tibesti (Gabrong, Bardagué)",
+      "NOTE": "tibesti-6000",
+      "SOURCES": "https://doi.org/10.1017/S0021853700001286"
+    }
+  },
+  {
+    "id": "m6-wau-en-namus",
+    "why": "Map 6000*, item 6-350 (a, 20.11.2026): stone hearth Hv-4802 7300 +- 130 (Gabriel 1977); 35 km circle.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-wau-en-namus",
+    "properties": {
+      "NAME": "Central Saharan foragers and early herders",
+      "GROUP": "Central Saharan foragers and early herders",
+      "AREA": "Wau en Namus",
+      "NOTE": "sahara-hearths-6000",
+      "SOURCES": "https://doi.org/10.1017/S0021853700001286"
+    }
+  },
+  {
+    "id": "m6-eghei",
+    "why": "Map 6000*, item 6-350 (a, 20.11.2026): stone hearths of Enneri Tihai Hv-4803 6855 +- 185 (Gabriel 1977); 35 km circle.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-eghei",
+    "properties": {
+      "NAME": "Central Saharan foragers and early herders",
+      "GROUP": "Central Saharan foragers and early herders",
+      "AREA": "Djebel Eghei (Enneri Tihai)",
+      "NOTE": "sahara-hearths-6000",
+      "SOURCES": "https://doi.org/10.1017/S0021853700001286"
     }
   },
   {
@@ -5961,21 +6070,107 @@
   },
   {
     "id": "m6-capsian",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-capsian) with a new name or note.",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-capsian) with a new name or note. 20.11.2026 (items 6-324 a, 6-325 a, 6-331 b): own outline m6-capsian - extended to northern and eastern Tunisia, the Saharan Atlas (Ouled Djellal, Messaad) and Medenine; new card.",
     "years": [
       -6000
     ],
     "action": "add",
-    "shape": "m8-capsian",
+    "shape": "m6-capsian",
     "properties": {
       "NAME": "Upper Capsian",
       "NOTE": "capsian-6000",
-      "SOURCES": "https://en.wikipedia.org/wiki/Capsian_culture | https://link.springer.com/article/10.1007/s10437-024-09599-0"
+      "SOURCES": "https://en.wikipedia.org/wiki/Capsian_culture | https://link.springer.com/article/10.1007/s10437-024-09599-0 | https://doi.org/10.1016/j.quaint.2015.11.089 | https://doi.org/10.1038/s41586-025-08699-4 | https://www.persee.fr/doc/etaf_0768-2352_1986_mon_1_1"
+    }
+  },
+  {
+    "id": "m6-jefara",
+    "why": "Map 6000*, item 6-330 (a, 20.11.2026; name after Barich 2016): SJ-10-96 LTL-14412A 7163 +- 45, LTL-14413A 6926 +- 46 (charcoal) cover the date; hull + 35 km.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-jefara",
+    "properties": {
+      "NAME": "Early Neolithic of the Jefara (Phase A)",
+      "NOTE": "jefara-6000",
+      "SOURCES": "https://doi.org/10.1016/j.quaint.2015.11.138 | https://doi.org/10.1017/S0003598X00094047"
+    }
+  },
+  {
+    "id": "m6-ouargla",
+    "why": "Map 6000*, item 6-332 (a, 20.11.2026): Mellalian - El Hadjar Gif-880, Le Vieux Puits Gif-2650, El Hamraia Gif-3412, Les Burins Gif-2649 cover the date; Bordj Mellala I (pottery) Mc-810 7125 +- 120 (Aumassip 1986); hull + 50 km.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-ouargla",
+    "properties": {
+      "NAME": "Mellalian and early Neolithic of the Ouargla basin",
+      "NOTE": "mellalian-6000",
+      "SOURCES": "https://www.persee.fr/doc/etaf_0768-2352_1986_mon_1_1 | https://doi.org/10.4000/encyclopedieberbere.1710"
+    }
+  },
+  {
+    "id": "m6-el-bayed",
+    "why": "Map 6000*, item 6-333 (a, 20.11.2026): El Bayed Mc-152 7300 +- 200, Gif-1931 7250 +- 100; El Beida Gif-1821 7100 +- 180 (Aumassip 1986; Gif VIII); hull + 50 km.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-el-bayed",
+    "properties": {
+      "NAME": "El Bayed facies Neolithic",
+      "NOTE": "el-bayed-6000",
+      "SOURCES": "https://www.persee.fr/doc/etaf_0768-2352_1986_mon_1_1 | https://doi.org/10.1017/S0033822200001417"
+    }
+  },
+  {
+    "id": "m6-zmeilet",
+    "why": "Map 6000*, item 6-334 (a, 20.11.2026; neutral name - no pottery, Alimen et al. 1980 after Vernet c. 2013): Gif-1702 7200 +- 180 (ostrich eggshell) covers the date; 35 km circle.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-zmeilet",
+    "properties": {
+      "NAME": "Hunters of the Saoura (Zmeilet el Barka)",
+      "NOTE": "zmeilet-6000",
+      "SOURCES": "https://doi.org/10.1017/S0033822200001417"
+    }
+  },
+  {
+    "id": "m6-foum-arguin",
+    "why": "Map 6000*, item 6-336 (a, 20.11.2026): Foum Arguin culture (Vernet 2004, 2007) - Et Teyedché ostrich eggshell 7020 +- 75 on the date, Cansado a fork; hull + 50 km.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-foum-arguin",
+    "properties": {
+      "NAME": "Epipalaeolithic hunters of the Atlantic Sahara",
+      "GROUP": "Epipalaeolithic hunters of the Atlantic Sahara",
+      "AREA": "Foum Arguin culture (north-western Mauritania)",
+      "NOTE": "atlantic-sahara-6000"
+    }
+  },
+  {
+    "id": "m6-tarfaya",
+    "why": "Map 6000*, item 6-336 (a, 20.11.2026): Taoukeltian of the Tarfaya basin, related to Foum Arguin (Vernet 2007; Ballouche et al. 2012 - VI-V millennia BC); Izriten 10 430 ... 6100 BP; hull + 50 km.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-tarfaya",
+    "properties": {
+      "NAME": "Epipalaeolithic hunters of the Atlantic Sahara",
+      "GROUP": "Epipalaeolithic hunters of the Atlantic Sahara",
+      "AREA": "Taoukeltian (Tarfaya basin)",
+      "NOTE": "atlantic-sahara-6000"
     }
   },
   {
     "id": "m6-west-maghreb",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-west-maghreb) with a new name or note. Sources checked for 6000 BC (04.11, owner: \"check and fix Sources\"). 07.11: own copy of the outline (the -8000 outline was extended by item 3-284).",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-west-maghreb) with a new name or note. Sources checked for 6000 BC (04.11, owner: \"check and fix Sources\"). 07.11: own copy of the outline (the -8000 outline was extended by item 3-284). 20.11.2026 (item 6-327 a): third part - Ifri Ouberrid (Middle Atlas); card: Ifri Ouberrid, pottery and farming of the eastern Rif from c. 5650 BC (6-328), Upper Capsian at Columnata c. 5750 BC (6-326).",
     "years": [
       -6000
     ],
@@ -5984,7 +6179,7 @@
     "properties": {
       "NAME": "Epipalaeolithic foragers of the western Maghreb",
       "NOTE": "west-maghreb-6000",
-      "SOURCES": "https://crc806db.uni-koeln.de/publication/show/the-holocene-archaeological-sequence-and-site-formation-processes-at-ifri-oudadane-ne-mo1432804141/ | https://www.nature.com/articles/s41597-022-01118-7"
+      "SOURCES": "https://crc806db.uni-koeln.de/publication/show/the-holocene-archaeological-sequence-and-site-formation-processes-at-ifri-oudadane-ne-mo1432804141/ | https://www.nature.com/articles/s41597-022-01118-7 | https://doi.org/10.1038/s41586-023-06166-6 | https://doi.org/10.1016/j.quaint.2016.07.042"
     }
   },
   {
@@ -6013,6 +6208,34 @@
       "NAME": "Early pottery foragers of Ounjougou (Mali)",
       "NOTE": "ounjougou-6000",
       "SOURCES": "https://en.wikipedia.org/wiki/Ounjougou"
+    }
+  },
+  {
+    "id": "m6-hassi-el-abiod",
+    "why": "Map 6000*, item 6-337 (a, 20.11.2026): AR 7 Gif-5495 6970 +- 130 (fish bone), MK 40 Pa-1058 6795 +- 200 (human bone) (Raimbault 1994); hull + 50 km.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-hassi-el-abiod",
+    "properties": {
+      "NAME": "Hassi el Abiod facies Neolithic (Azawad)",
+      "NOTE": "hassi-el-abiod-6000",
+      "SOURCES": "https://theses.hal.science/tel-02289952v1"
+    }
+  },
+  {
+    "id": "m6-oumm-el-assel",
+    "why": "Map 6000*, item 6-338 (a, 20.11.2026): MF 15 Pa-1147 6930 +- 200 (pottery organics), MT 25 Gif-6198 6980 +- 320 (charcoal) (Raimbault 1994); hull + 50 km.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-oumm-el-assel",
+    "properties": {
+      "NAME": "Oumm el Assel facies Neolithic (Taoudenni basin)",
+      "NOTE": "oumm-el-assel-6000",
+      "SOURCES": "https://theses.hal.science/tel-02289952v1"
     }
   },
   {
