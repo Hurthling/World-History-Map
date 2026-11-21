@@ -2936,25 +2936,179 @@
   },
   {
     "id": "m8-shum-laka",
-    "why": "Map 8000, item 3-15.",
+    "why": "Map 8000, item 3-15. 20.11.2026: map 6000* - own rule m6-shum-laka. 20.11.2026 (item 3-329 a): joined with a 35 km circle around the Mbi crater - layer III from OxA-1139 9050 +- 100, burial OxA-930 7790 +- 80 (Asombang 1988 after Lavachery 1997; Clist et al. 2023).",
     "years": [
-      -8000,
-      -6000
+      -8000
     ],
     "action": "add",
     "shape": "m8-shum-laka",
     "properties": {
       "NAME": "Shum Laka foragers (Grassfields)",
       "NOTE": "shum-laka",
+      "SOURCES": "https://en.wikipedia.org/wiki/Shum_Laka | https://doi.org/10.1080/0067270X.2023.2215649"
+    }
+  },
+  {
+    "id": "m6-shum-laka",
+    "why": "Map 6000*, item 6-380 (20.11.2026): own card - Stone to Metal Age I from OxA-5203 7150 +- 70, first burials and pottery (Lavachery 1997); own outline m6-shum-laka (the outline before item 3-329; Mbi is not dated to 6000 BC).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-shum-laka",
+    "properties": {
+      "NAME": "Shum Laka foragers (Grassfields)",
+      "NOTE": "shum-laka-6000",
       "SOURCES": "https://en.wikipedia.org/wiki/Shum_Laka"
     }
   },
   {
-    "id": "m8-iwo-eleru",
-    "why": "Map 8000, item 3-36.",
+    "id": "m6-tshitolian",
+    "why": "Map 6000*, item 6-381 (a, 20.11.2026): late Tshitolian of Ntadi Yomba (hearth Gif-4392 7090 +- 140; Lanfranchi, Manima Moubouha 1989) and Brazzaville (Gif-5435 6890 +- 160; Clist et al. 2023); hull + 50 km.",
     "years": [
-      -8000,
       -6000
+    ],
+    "action": "add",
+    "shape": "m6-tshitolian",
+    "properties": {
+      "NAME": "Tshitolian",
+      "GROUP": "Tshitolian",
+      "AREA": "Niari valley and Malebo Pool (Ntadi Yomba, Brazzaville)",
+      "NOTE": "tshitolian-6000",
+      "SOURCES": "https://doi.org/10.1080/0067270X.2023.2215649"
+    }
+  },
+  {
+    "id": "m6-tshitolian-ngounie",
+    "why": "Map 6000*, item 6-381 (a, 20.11.2026): final Tshitolian of the Ngounie - Lac Noir de Ndende Beta-29774 7180 +- 220 (Oslisly 1994 after Angue Zogo et al. 2025), Tsona UtC-13257 7247 +- 44 (Clist et al. 2023); hull + 50 km.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-tshitolian-ngounie",
+    "properties": {
+      "NAME": "Tshitolian",
+      "GROUP": "Tshitolian",
+      "AREA": "Ngounié (Lac Noir de Ndendé, Tsona)",
+      "NOTE": "tshitolian-6000",
+      "SOURCES": "https://doi.org/10.1080/0067270X.2023.2215649 | https://doi.org/10.1371/journal.pone.0336405"
+    }
+  },
+  {
+    "id": "m6-lope",
+    "why": "Map 6000*, item 6-382 (a, 20.11.2026): Lope - Beta-16742 7670 +- 80 (quartz flakes and bladelets) and Gif-9864 6760 +- 120 - a fork (Clist et al. 2023, SM1; p3k14c); not attributed to the Tshitolian; 35 km circle.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-lope",
+    "properties": {
+      "NAME": "Later Stone Age foragers of the middle Ogooué (Lopé 2)",
+      "NOTE": "lope-6000",
+      "SOURCES": "https://doi.org/10.1080/0067270X.2023.2215649"
+    }
+  },
+  {
+    "id": "m6-abhe",
+    "why": "Map 6000*, item 6-387 (a, 20.11.2026): Lake Abhe, second settlement wave 8.1-7.4 ka cal BP - MS-01 Poz-105343 7290 +- 50, Det Bahari-01 UBA-34899 7031 +- 43, UBA-34900 6749 +- 40, SP-01 Poz-105340 6570 +- 40 (Khalidi et al. 2020); 40 km circle.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-abhe",
+    "properties": {
+      "NAME": "Fisher-hunters of Lake Abhe (Lower Awash)",
+      "NOTE": "abhe-6000",
+      "SOURCES": "https://doi.org/10.1016/j.quascirev.2020.106459"
+    }
+  },
+  {
+    "id": "m6-simbero",
+    "why": "Map 6000*, item 6-389 (a, 20.11.2026): Simbero rockshelter, mid-Holocene phase from Beta-490939 7290 +- 30, next Beta-552723 4580 +- 30 (Tekelemariam 2021); edge of the +-250 window; 35 km circle.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-simbero",
+    "properties": {
+      "NAME": "High-altitude foragers of the Bale Mountains (Simbero)",
+      "NOTE": "simbero-6000"
+    }
+  },
+  {
+    "id": "m6-buri",
+    "why": "Map 6000*, item 6-390 (a, 20.11.2026): Gelalo NW GX-32913 7900 +- 190, Misse East GX-32911 7330 +- 190, A0797 7345 +- 20, A0796 7145 +- 20 (marine shells, reservoir-corrected; Beyin 2011; Bar-Yosef Mayer, Beyin 2009); 35 km circle.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-buri",
+    "properties": {
+      "NAME": "Shell-midden foragers of the Eritrean coast (Buri Peninsula)",
+      "NOTE": "buri-6000",
+      "SOURCES": "https://doi.org/10.1080/0067270X.2011.580139 | https://doi.org/10.1080/15564890802662171"
+    }
+  },
+  {
+    "id": "m6-turkana",
+    "why": "Map 6000*, item 6-392 (a, 20.11.2026): Hildebrand et al. 2022 (SI table 2a) - Lowasera GX-4346-A 7435 +- 150 (fish bone apatite), Zu-6 N-813 7960 +- 140 (shell) before; Zu-10 N-812 6200 +- 125 (hearth charcoal) after - a fork; the -8000 outline.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m8-turkana",
+    "properties": {
+      "NAME": "Fisher-hunter-gatherers of Lake Turkana",
+      "NOTE": "turkana-6000",
+      "SOURCES": "https://doi.org/10.1177/09596836221121766"
+    }
+  },
+  {
+    "id": "m6-kansyore",
+    "why": "Map 6000*, item 6-393 (a, 20.11.2026): Namaboni B D-AMS 024208 7728 +- 36 / IT-C-4532 6775 +- 40 - a fork (Jones et al. 2025); Pondo c. 6000-5500 BC (Dale et al. 2004 after Schmidt et al. 2024); hull of Namaboni B, Pondo, Siror, Kanjera West + 35 km.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-kansyore",
+    "properties": {
+      "NAME": "Early Kansyore fisher-hunter-gatherers (northeastern Lake Victoria)",
+      "NOTE": "kansyore-6000",
+      "SOURCES": "https://doi.org/10.1080/0067270X.2025.2586371"
+    }
+  },
+  {
+    "id": "m6-lukenya",
+    "why": "Map 6000*, item 6-394 (a, 20.11.2026): GvJm-19 - GX-6756 6770 +- 225 (bone apatite), GX-6757 8010 +- 340, GX-6755 6040 +- 225 (Nelson, Kimengich 1984 after Robinson 2019); 35 km circle.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-lukenya",
+    "properties": {
+      "NAME": "Later Stone Age foragers of Lukenya Hill",
+      "NOTE": "lukenya-6000",
+      "SOURCES": "https://doi.org/10.1016/j.jasrep.2019.102016"
+    }
+  },
+  {
+    "id": "m6-nachikufan",
+    "why": "Map 6000*, item 6-397 (a, 20.11.2026): Mwela Rocks, 75-90 cm, Nachikufan IIA - Y-805 7200 +- 200 / 7320 +- 200 (one sample; Miller 1971, table I); 35 km circle.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "nachikufan-mwela",
+    "properties": {
+      "NAME": "Nachikufan IIA foragers (Mwela Rocks, northern Zambia)",
+      "NOTE": "nachikufan-6000"
+    }
+  },
+  {
+    "id": "m8-iwo-eleru",
+    "why": "Map 8000, item 3-36. 20.11.2026: map 6000* - own rule m6-iwo-eleru.",
+    "years": [
+      -8000
     ],
     "action": "add",
     "shape": "iwo-eleru",
@@ -2965,11 +3119,38 @@
     }
   },
   {
-    "id": "m8-bosumpra",
-    "why": "Map 8000, item 3-37.",
+    "id": "m6-iwo-eleru",
+    "why": "Map 6000*, item 6-377 (20.11.2026): own card - Hv-1509 7030 +- 85 at the top of the microlithic part, bifacial and ground tools appear (Lavachery 1997; Allsworth-Jones et al. 2010).",
     "years": [
-      -8000,
       -6000
+    ],
+    "action": "add",
+    "shape": "iwo-eleru",
+    "properties": {
+      "NAME": "Iwo Eleru foragers (Nigeria)",
+      "NOTE": "iwo-eleru-6000",
+      "SOURCES": "https://www.cell.com/iscience/home | https://en.wikipedia.org/wiki/Iwo_Eleru"
+    }
+  },
+  {
+    "id": "m6-dutsen-kongba",
+    "why": "Map 6000*, item 6-378 (a, 20.11.2026): Dutsen Kongba phases A-C, I-7372 6855 +- 170 ... I-7368 4730 +- 100 (York 1978 after Lavachery 1997; p3k14c); edge of the +-250 window; 35 km circle.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-dutsen-kongba",
+    "properties": {
+      "NAME": "Microlithic foragers of the Jos Plateau (Dutsen Kongba)",
+      "NOTE": "dutsen-kongba-6000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-bosumpra",
+    "why": "Map 8000, item 3-37. 20.11.2026: map 6000* - own rule m6-bosumpra.",
+    "years": [
+      -8000
     ],
     "action": "add",
     "shape": "bosumpra",
@@ -2977,6 +3158,20 @@
       "NAME": "Bosumpra Cave foragers (Ghana)",
       "NOTE": "bosumpra-8000",
       "SOURCES": "https://en.wikipedia.org/wiki/Bosumpra_Cave"
+    }
+  },
+  {
+    "id": "m6-bosumpra",
+    "why": "Map 6000*, item 6-376 (a, 20.11.2026): own card - no dates around 6000 BC, horizon 2 has 8410 +- 40 and 6300 +- 30 (Watson 2017, table 1); the zone stays with a remark.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "bosumpra",
+    "properties": {
+      "NAME": "Bosumpra Cave foragers (Ghana)",
+      "NOTE": "bosumpra-6000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Bosumpra_Cave | https://doi.org/10.1080/0067270X.2017.1393925"
     }
   },
   {
@@ -3005,6 +3200,19 @@
       "NAME": "Hora foragers (northern Malawi)",
       "NOTE": "hora-8000",
       "SOURCES": "https://www.science.org/journal/sciadv | https://www.nature.com/articles/s41586-022-04430-9"
+    }
+  },
+  {
+    "id": "m8-nachikufan",
+    "why": "Map 8000, item 3-331 (a2, 20.11.2026): Mwela Rocks, 90-105 cm, Nachikufan IIA - Y-625 8640 +- 240 (Miller 1971, table I); only Mwela Rocks (Nachikufu cave Y-620B 9720 +- 550 - too wide); 35 km circle.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "nachikufan-mwela",
+    "properties": {
+      "NAME": "Nachikufan IIA foragers (Mwela Rocks, northern Zambia)",
+      "NOTE": "nachikufan-8000"
     }
   },
   {
@@ -6225,7 +6433,7 @@
   },
   {
     "id": "m6-ounjougou",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-ounjougou) with a new name or note.",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-ounjougou) with a new name or note. 20.11.2026 (item 6-372 a): stays by the fork - phase 2 (HA4) 8100-6700 cal BC, end 2 sigma 7096-6173 (Huysecom et al. 2009, table 1); next dates at Ravin du Hibou Erl-11601 6670 +- 51, Erl-11599 6558 +- 51; new card.",
     "years": [
       -6000
     ],
@@ -6235,6 +6443,34 @@
       "NAME": "Early pottery foragers of Ounjougou (Mali)",
       "NOTE": "ounjougou-6000",
       "SOURCES": "https://en.wikipedia.org/wiki/Ounjougou"
+    }
+  },
+  {
+    "id": "m6-dufuna",
+    "why": "Map 6000*, item 6-373 (a, 20.11.2026): dugout canoe of Dufuna (Khaya wood, 8.4 m), KN-4683 7264 +- 55 and KI-3587 7670 +- 110 (Breunig, Neumann, Van Neer 1996); edge of the +-250 window; 35 km circle.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-dufuna",
+    "properties": {
+      "NAME": "Dufuna dugout canoe (Komadugu Gana)",
+      "NOTE": "dufuna-6000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Dufuna_canoe"
+    }
+  },
+  {
+    "id": "m6-pentenga",
+    "why": "Map 6000*, item 6-374 (a, 20.11.2026): Pentenga rockshelter, lower layer c. 6600-5450 cal BC (5 charcoal dates; Frank et al. 2001 after Gallagher 2010); UtC-1993 7480 +- 60, UtC-1992 7140 +- 60 (p3k14c); geometric microliths; 35 km circle.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-pentenga",
+    "properties": {
+      "NAME": "Microlithic foragers of the Gobnangou escarpment (Péntènga)",
+      "NOTE": "pentenga-6000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
     }
   },
   {
@@ -6267,7 +6503,7 @@
   },
   {
     "id": "m6-eburran",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-eburran) with a new name or note.",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-eburran) with a new name or note. 20.11.2026 (item 6-391): card corrected - 6000 BC is the boundary of phases 3 and 4 (Ambrose 1998; Wilshaw 2016; Frahm et al. 2018).",
     "years": [
       -6000
     ],
@@ -6276,21 +6512,7 @@
     "properties": {
       "NAME": "Eburran industry",
       "NOTE": "eburran-6000",
-      "SOURCES": "https://en.wikipedia.org/wiki/Eburran_industry"
-    }
-  },
-  {
-    "id": "m6-matupi",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-matupi) with a new name or note.",
-    "years": [
-      -6000
-    ],
-    "action": "add",
-    "shape": "matupi",
-    "properties": {
-      "NAME": "Matupi Cave foragers (Ituri)",
-      "NOTE": "matupi-6000",
-      "SOURCES": "https://en.wikipedia.org/wiki/Matupi_Cave"
+      "SOURCES": "https://en.wikipedia.org/wiki/Eburran_industry | https://doi.org/10.1007/s10437-016-9211-5"
     }
   },
   {
@@ -6309,16 +6531,16 @@
   },
   {
     "id": "m6-oakhurst",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-oakhurst) with a new name or note. Sources checked for 6000 BC (04.11, owner: \"check and fix Sources\").",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-oakhurst) with a new name or note. Sources checked for 6000 BC (04.11, owner: \"check and fix Sources\"). 20.11.2026 (item 6-400 b): own outline m6-wilton - hull of 19 sites dated to 6000 BC or by a fork (p3k14c; Lombard et al. 2012) and Daimane I + 50 km; Namaqualand, Bushmanland, the Kalahari, the Limpopo valley north of Heuningsneskrans and the Transkei coast are outside; new card.",
     "years": [
       -6000
     ],
     "action": "add",
-    "shape": "robberg-oakhurst",
+    "shape": "m6-wilton",
     "properties": {
       "NAME": "Wilton-type foragers of southern Africa",
       "NOTE": "wilton-6000",
-      "SOURCES": "https://en.wikipedia.org/wiki/Wilton_culture | https://www.nature.com/articles/s41597-022-01118-7",
+      "SOURCES": "https://en.wikipedia.org/wiki/Wilton_culture | https://www.nature.com/articles/s41597-022-01118-7 | https://www.nature.com/articles/s41597-022-01118-7",
       "GROUP": "Wilton-type foragers of southern Africa",
       "AREA": "Wilton industry (South Africa, Lesotho)"
     }
@@ -6353,6 +6575,50 @@
       "SOURCES": "https://doi.org/10.1007/s10437-026-09659-7",
       "GROUP": "Wilton-type foragers of southern Africa",
       "AREA": "Chessungalane (Save valley, Mozambique)"
+    }
+  },
+  {
+    "id": "m6-apollo11",
+    "why": "Map 6000*, item 6-401 (a2, 20.11.2026): Apollo 11, layer C - Pta-1020 7280 +- 80, KN-I-867 7200 +- 75 (charcoal), KN-I-609 6200 +- 65, KN-I-610 9430 +- 90 (Freundlich et al. 1980; p3k14c); Pockenbank KN-I.624 6910 +- 45 (a hearth, +-250 window); hull + 50 km.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-apollo11",
+    "properties": {
+      "NAME": "Microlithic foragers of southern Namibia (Apollo 11)",
+      "NOTE": "apollo11-6000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Apollo_11_Cave | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-mirabib",
+    "why": "Map 6000*, item 6-402 (a, 20.11.2026): Mirabib - Pta-1368 8410 +- 80, Pta-1013 8200 +- 80 / Pta-1536 6500 +- 80, Pta-1012 6470 +- 80 - a fork (p3k14c); typical Wilton, layers F-D (Marks 2025); 35 km circle.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-mirabib",
+    "properties": {
+      "NAME": "Wilton-type foragers of southern Africa",
+      "GROUP": "Wilton-type foragers of southern Africa",
+      "AREA": "Central Namib (Mirabib)",
+      "NOTE": "mirabib-6000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-tsodilo",
+    "why": "Map 6000*, item 6-403 (a, 20.11.2026): Depression rockshelter, 140-150 cm - Beta-22880 7100 +- 90 (charcoal, with mongongo nut shells; Brook, Robbins, Campbell 2003); one date; 35 km circle.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "m6-tsodilo",
+    "properties": {
+      "NAME": "Later Stone Age foragers of the Tsodilo Hills",
+      "NOTE": "tsodilo-6000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Tsodilo"
     }
   },
   {
@@ -10626,7 +10892,7 @@
   },
   {
     "id": "m8-tshitolian",
-    "why": "Item 3-285 (07.11, variant a); Pointe-Noire is a separate piece (gap > 100 km).",
+    "why": "Item 3-285 (07.11, variant a); Pointe-Noire is a separate piece (gap > 100 km). 20.11.2026 (item 3-330 a): the Pointe-Noire circle removed - Gif-2202 ... 2208 are drill cores (Delibrias et al. 1974), not a site.",
     "years": [
       -8000
     ],
