@@ -285,6 +285,20 @@
     }
   },
   {
+    "id": "m2-izriten",
+    "why": "Map 10 000, item 216 (a, 21.11.2026): Izriten - Gif-2910 10 430 +- 180 covers the date (human bone in p3k14c), Gif-2908 9450 +- 160 (charcoal, c. 770 years after) (Posnansky 1976; Vernet 2007; Ballouche et al. 2012); 35 km circle.",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "m2-izriten",
+    "properties": {
+      "NAME": "Epipalaeolithic foragers of the Tarfaya coast (Izriten)",
+      "NOTE": "izriten-10000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
     "id": "m2-agate-basin",
     "why": "Map 2, items 16 and 47 (Hell Gap added to the note). Plano group of one colour — item 94 (20.10). Item 166 (a) (applied 02.11): extended to MacHaffie.",
     "years": [
@@ -788,6 +802,19 @@
     }
   },
   {
+    "id": "m2-nachikufan-i",
+    "why": "Map 10 000, item 219 (a, 21.11.2026): Mwela Rocks, 135-210 cm, Nachikufan I - Y-808 10 820 +- 340 (Miller 1971, table I); Mwambachimo layer III Pta-2454 9830 +- 90 (Musonda 1984); the periods of both authors cover the date; the outline of maps 8000 and 6000*.",
+    "years": [
+      -10000
+    ],
+    "action": "add",
+    "shape": "nachikufan-mwela",
+    "properties": {
+      "NAME": "Nachikufan I foragers (Mwela Rocks, northern Zambia)",
+      "NOTE": "nachikufan-i-10000"
+    }
+  },
+  {
     "id": "m2c-kuumbi",
     "why": "Map 2, item 37.",
     "years": [
@@ -841,20 +868,6 @@
       "NAME": "Late Middle Stone Age of Senegal",
       "NOTE": "senegal-late-msa",
       "SOURCES": "https://link.springer.com/10.1038/s41598-020-79418-4 | https://www.mpg.de/16237767/pr-scerry-joung-middle-stone-age-0111-wisy-9347732-x"
-    }
-  },
-  {
-    "id": "m2c-matupi",
-    "why": "Map 2, item 42 (b), with a note.",
-    "years": [
-      -10000
-    ],
-    "action": "add",
-    "shape": "matupi",
-    "properties": {
-      "NAME": "Matupi Cave foragers (Ituri)",
-      "NOTE": "matupi",
-      "SOURCES": "https://en.wikipedia.org/wiki/Matupi_Cave | https://horizon.documentation.ird.fr/exl-doc/pleins_textes/2026-01/010096153.pdf"
     }
   },
   {
@@ -2585,7 +2598,7 @@
   },
   {
     "id": "m8-capsian",
-    "why": "Map 8000, item 3-1. Item 3-199 (28.10): extended west over the High Plains of Constantine to Sétif (Medjez II, Koudiat Kifene Lahda; Perrault 2025).",
+    "why": "Map 8000, item 3-1. Item 3-199 (28.10): extended west over the High Plains of Constantine to Sétif (Medjez II, Koudiat Kifene Lahda; Perrault 2025). 21.11.2026 (item 3-332 a): the zone becomes a group of two areas - this one and Ain Naga (m8-ouled-nail).",
     "years": [
       -8000
     ],
@@ -2594,7 +2607,9 @@
     "properties": {
       "NAME": "Capsian culture",
       "NOTE": "capsian-8000",
-      "SOURCES": "https://en.wikipedia.org/wiki/Capsian_culture | https://link.springer.com/article/10.1007/s10437-024-09599-0"
+      "SOURCES": "https://en.wikipedia.org/wiki/Capsian_culture | https://link.springer.com/article/10.1007/s10437-024-09599-0",
+      "GROUP": "Capsian culture",
+      "AREA": "Typical and early Capsian (Gafsa, Tébessa, Sétif)"
     }
   },
   {
@@ -2769,7 +2784,7 @@
   },
   {
     "id": "m8-eastern-sahara",
-    "why": "Map 8000, item 3-74 (accepted 23.10, variant a): one zone Nabta – Kiseiba – Gilf Kebir – Dakhla – Regenfeld instead of two El Adam areas (item 3-13). Item 3-276 (07.11, variant a): Kharga with Midauwara; Ain Dalla and the eastern edge of the Great Sand Sea.",
+    "why": "Map 8000, item 3-74 (accepted 23.10, variant a): one zone Nabta – Kiseiba – Gilf Kebir – Dakhla – Regenfeld instead of two El Adam areas (item 3-13). Item 3-276 (07.11, variant a): Kharga with Midauwara; Ain Dalla and the eastern edge of the Great Sand Sea. 21.11.2026 (item 3-335 a): extended to the Farafra depression - Ain el-Raml R-1983 9650 +- 190 (477 years before the date) and Bahr 2e R-1902 8080 +- 60 (687 years after) - a fork (Hassan et al. 2001); 50 km circles around Wadi el-Obeiyid and Qasr Farafra joined with the zone.",
     "years": [
       -8000
     ],
@@ -2918,20 +2933,6 @@
       "NAME": "Bardaale foragers (Buur Heybe)",
       "NOTE": "buur-heybe",
       "SOURCES": "https://en.wikipedia.org/wiki/Buur_Heybe"
-    }
-  },
-  {
-    "id": "m8-eburran",
-    "why": "Map 8000, item 3-5.",
-    "years": [
-      -8000
-    ],
-    "action": "add",
-    "shape": "eburran",
-    "properties": {
-      "NAME": "Eburran industry",
-      "NOTE": "eburran-8000",
-      "SOURCES": "https://en.wikipedia.org/wiki/Eburran_industry"
     }
   },
   {
@@ -3148,7 +3149,7 @@
   },
   {
     "id": "m8-bosumpra",
-    "why": "Map 8000, item 3-37. 20.11.2026: map 6000* - own rule m6-bosumpra.",
+    "why": "Map 8000, item 3-37. 20.11.2026: map 6000* - own rule m6-bosumpra. 21.11.2026 (item 3-336 a): stays; new card - horizon 2 has Ua-37247 9990 +- 85 and 8410 +- 40, no dates around 8000 BC (Watson 2017, table 1).",
     "years": [
       -8000
     ],
@@ -3157,7 +3158,7 @@
     "properties": {
       "NAME": "Bosumpra Cave foragers (Ghana)",
       "NOTE": "bosumpra-8000",
-      "SOURCES": "https://en.wikipedia.org/wiki/Bosumpra_Cave"
+      "SOURCES": "https://en.wikipedia.org/wiki/Bosumpra_Cave | https://doi.org/10.1080/0067270X.2017.1393925"
     }
   },
   {
@@ -3172,20 +3173,6 @@
       "NAME": "Bosumpra Cave foragers (Ghana)",
       "NOTE": "bosumpra-6000",
       "SOURCES": "https://en.wikipedia.org/wiki/Bosumpra_Cave | https://doi.org/10.1080/0067270X.2017.1393925"
-    }
-  },
-  {
-    "id": "m8-matupi",
-    "why": "Map 8000, item 3-38.",
-    "years": [
-      -8000
-    ],
-    "action": "add",
-    "shape": "matupi",
-    "properties": {
-      "NAME": "Matupi Cave foragers (Ituri)",
-      "NOTE": "matupi-8000",
-      "SOURCES": "https://en.wikipedia.org/wiki/Matupi_Cave"
     }
   },
   {
@@ -3229,6 +3216,20 @@
       "SOURCES": "https://scholarlypublications.universiteitleiden.nl | https://www.nature.com/natecolevol/",
       "GROUP": "Oakhurst-type foragers of southern Africa",
       "AREA": "Oakhurst industry (South Africa, Lesotho)"
+    }
+  },
+  {
+    "id": "m8-apollo11",
+    "why": "Map 8000, item 3-339 (a, 21.11.2026): Rosh Pinah Pta-3527 8970 +- 90 covers the date, Pta-3580 9750 +- 90; Apollo 11 KN-I-610 9430 +- 90 (347 years before) (Richter 1993, table 2; Sievers 1984; p3k14c); hull + 50 km.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "m8-apollo11",
+    "properties": {
+      "NAME": "Microlithic foragers of southern Namibia (Apollo 11, Rosh Pinah)",
+      "NOTE": "apollo11-8000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Apollo_11_Cave | https://www.nature.com/articles/s41597-022-01118-7"
     }
   },
   {
@@ -10811,22 +10812,6 @@
     }
   },
   {
-    "id": "m8-kawar",
-    "why": "Item 3-281 (07.11, variant a).",
-    "years": [
-      -8000
-    ],
-    "action": "add",
-    "shape": "m8-kawar",
-    "properties": {
-      "NAME": "Central Saharan foragers",
-      "NOTE": "kawar-8000",
-      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7",
-      "GROUP": "Central Saharan foragers",
-      "AREA": "Kawar (Bilma)"
-    }
-  },
-  {
     "id": "m8-termit",
     "why": "Item 3-281 (07.11, variant a).",
     "years": [
@@ -10844,50 +10829,46 @@
   },
   {
     "id": "m8-ouargla",
-    "why": "Item 3-283 (07.11, variant a).",
+    "why": "Item 3-283 (07.11, variant a). 21.11.2026 (item 3-333 a): own zone of the Mellalian culture - Hassi Mouillah Mc-150 8600 +- 150 covers the date (Aumassip 1986); Sebkha Mellala - a fork (Gif-1853 9550 / Gif-4633 8020); new card.",
     "years": [
       -8000
     ],
     "action": "add",
     "shape": "m8-ouargla",
     "properties": {
-      "NAME": "Epipalaeolithic foragers of the northern Algerian Sahara",
+      "NAME": "Mellalian (Ouargla basin)",
       "NOTE": "ouargla-8000",
-      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7",
-      "GROUP": "Epipalaeolithic foragers of the northern Algerian Sahara",
-      "AREA": "Ouargla basin (Sebkha Mellala, Hassi Mouillah)"
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
     }
   },
   {
     "id": "m8-tinrhert",
-    "why": "Item 3-283 (07.11, variant a).",
+    "why": "Item 3-283 (07.11, variant a). 21.11.2026 (item 3-333): the only area left of the group - an ordinary zone; outline and card unchanged.",
     "years": [
       -8000
     ],
     "action": "add",
     "shape": "m8-tinrhert",
     "properties": {
-      "NAME": "Epipalaeolithic foragers of the northern Algerian Sahara",
+      "NAME": "Epipalaeolithic foragers of the Tinrhert plateau (Izimane)",
       "NOTE": "tinrhert-8000",
-      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7",
-      "GROUP": "Epipalaeolithic foragers of the northern Algerian Sahara",
-      "AREA": "Tinrhert plateau (Izimane)"
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
     }
   },
   {
     "id": "m8-ouled-nail",
-    "why": "Item 3-283 (07.11, variant a).",
+    "why": "Item 3-283 (07.11, variant a). 21.11.2026 (item 3-332 a): Ain Naga moved to the Capsian zone - Gif-1220 9170 +- 200 covers the date; the layers are early Upper Capsian (Grébénart 1970; Perrault 2025); new card.",
     "years": [
       -8000
     ],
     "action": "add",
     "shape": "m8-ouled-nail",
     "properties": {
-      "NAME": "Epipalaeolithic foragers of the northern Algerian Sahara",
+      "NAME": "Capsian culture",
       "NOTE": "ouled-nail-8000",
-      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7",
-      "GROUP": "Epipalaeolithic foragers of the northern Algerian Sahara",
-      "AREA": "Ouled Naïl mountains (Aïn Naga)"
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7 | https://doi.org/10.1007/s10437-024-09599-0",
+      "GROUP": "Capsian culture",
+      "AREA": "Early Upper Capsian (Aïn Naga)"
     }
   },
   {

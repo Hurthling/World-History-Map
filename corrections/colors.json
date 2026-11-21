@@ -10,7 +10,6 @@
     "Late Middle Stone Age of Senegal": 4,
     "Bardaale foragers (Buur Heybe)": 5,
     "Capsian culture": 6,
-    "Matupi Cave foragers (Ituri)": 8,
     "Hora foragers (northern Malawi)": 9,
     "Bosumpra Cave foragers (Ghana)": 10,
     "Libyco-Capsian (Haua Fteah)": 11,
@@ -288,7 +287,6 @@
     "Mesolithic foragers of Pigeon Mountain (Ningxia)": 4,
     "Final Palaeolithic of the western Baikal shore (Sagan-Nuge)": 2,
     "Final Palaeolithic of the Altai (Denisova Cave)": 4,
-    "Epipalaeolithic foragers of the northern Algerian Sahara": 10,
     "Tshitolian (Malebo Pool and lower Congo)": 2,
     "Later Stone Age of the Sanaga estuary (Mouanko)": 4,
     "Later Stone Age of the Niassa plateau (Chicaza)": 7,
@@ -401,6 +399,11 @@
     "Later Stone Age foragers of Lukenya Hill": 15,
     "Nachikufan IIA foragers (Mwela Rocks, northern Zambia)": 14,
     "Microlithic foragers of southern Namibia (Apollo 11)": 1,
-    "Later Stone Age foragers of the Tsodilo Hills": 10
+    "Later Stone Age foragers of the Tsodilo Hills": 10,
+    "Mellalian (Ouargla basin)": 10,
+    "Epipalaeolithic foragers of the Tinrhert plateau (Izimane)": 16,
+    "Microlithic foragers of southern Namibia (Apollo 11, Rosh Pinah)": 1,
+    "Epipalaeolithic foragers of the Tarfaya coast (Izriten)": 7,
+    "Nachikufan I foragers (Mwela Rocks, northern Zambia)": 7
   }
 }
