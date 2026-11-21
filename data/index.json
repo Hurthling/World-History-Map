@@ -40,7 +40,10 @@
       "riversExt": "coast/rivers_ext_-6000.json",
       "vanishedLakes": "coast/lakes_-6000.json",
       "reviewed": true,
-      "coastNote": "seaLevelsApprox"
+      "coastNote": [
+        "seaLevelsApprox",
+        "seaInland6000"
+      ]
     },
     {
       "year": -5000,
@@ -49,10 +52,7 @@
       "land": "coast/land_-5000.json",
       "vanishedLakes": "coast/lakes_-5000.json",
       "reviewed": true,
-      "coastNote": [
-        "coastModern5000",
-        "seaInland5000"
-      ],
+      "coastNote": "coast5000",
       "draftNote": "draft5000"
     },
     {

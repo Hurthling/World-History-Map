@@ -13,11 +13,11 @@
     "-123000": "coastModernHigher",
     "-10000": "seaLevelsApprox",
     "-8000": "seaLevelsApprox",
-    "-6000": "seaLevelsApprox",
-    "-5000": [
-      "coastModern5000",
-      "seaInland5000"
-    ]
+    "-6000": [
+      "seaLevelsApprox",
+      "seaInland6000"
+    ],
+    "-5000": "coast5000"
   },
   "regions": {},
   "noSource": [

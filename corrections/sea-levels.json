@@ -1,5 +1,5 @@
 {
-  "_about": "Sea level (metres relative to today) used to draw the coastline of ancient maps. Only years listed here get an ancient coastline; all other maps use the modern coastline. Values are rounded global (eustatic) estimates; local uplift/subsidence of land under former ice sheets is ignored. See corrections/README.md. 'lakes': vanished lakes of that year (outlines in corrections/lakes/), cut out of the land like the sea; a year with lakes but no entry in 'levels' (map 5000: Lake Mega-Chad) keeps today's coastline. 'local': areas (lon/lat polygon) where the 10' grid is too shallow — inside them a cell is water if it is deeper than the local level (items 3-112, 113 of map 10 000). 'basins': closed seas cut off from the ocean (the Caspian, the Black Sea with the Sea of Azov) with their own water level — the sea is the cells connected to 'seed' that are deeper than 'level'; the rest of the area becomes land (items 3-186, 3-187 of map 8000, items 126, 127 of map 10 000).",
+  "_about": "Sea level (metres relative to today) used to draw the coastline of ancient maps. Only years listed here get an ancient coastline; all other maps use the modern coastline. Values are rounded global (eustatic) estimates; local uplift/subsidence of land under former ice sheets is ignored. See corrections/README.md. 'lakes': vanished lakes of that year (outlines in corrections/lakes/), cut out of the land like the sea; a year with lakes but no entry in 'levels' (map 5000: Lake Mega-Chad) keeps today's coastline. 'lakes' also holds the sea on today's land (sea-*-<year>: where the sea stood higher than today — the Gulf of Bothnia and Hudson Bay on maps 6000* and 5000, the head of the Persian Gulf on map 5000; items 5000bc-14 … 5000bc-16, outlines from tools/sea-inland.py). 'local': areas (lon/lat polygon) where the 10' grid is too shallow — inside them a cell is water if it is deeper than the local level (items 3-112, 113 of map 10 000). 'basins': closed seas cut off from the ocean (the Caspian, the Black Sea with the Sea of Azov) with their own water level — the sea is the cells connected to 'seed' that are deeper than 'level'; the rest of the area becomes land (items 3-186, 3-187 of map 8000, items 126, 127 of map 10 000).",
   "levels": {
     "-10000": -60,
     "-8000": -40,
@@ -11,10 +11,15 @@
       "mega-chad"
     ],
     "-6000": [
-      "mega-chad"
+      "mega-chad",
+      "sea-fennoscandia-6000",
+      "sea-hudson-6000"
     ],
     "-5000": [
-      "mega-chad"
+      "mega-chad",
+      "sea-fennoscandia-5000",
+      "sea-hudson-5000",
+      "sea-mesopotamia-5000"
     ]
   },
   "local": {

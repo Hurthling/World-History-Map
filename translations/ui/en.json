@@ -54,7 +54,7 @@
   "overlapSpecies": "Both species lived here",
   "overlapCultures": "both cultures occur here",
   "seaLevelsApprox": "Caspian, Black Sea and Baltic levels are approximate",
-  "coastModern5000": "Coastline and sea levels are today's (then they differed by a few metres)",
-  "seaInland5000": "Where the land has risen since the ice age (Gulf of Bothnia, Hudson Bay) and in the lower Tigris and Euphrates, the sea reached further inland than today",
+  "coast5000": "Today's coastline, except the Gulf of Bothnia, Hudson Bay and the lower Tigris and Euphrates — there the ancient one, approximate; the White Sea as today",
+  "seaInland6000": "Gulf of Bothnia and Hudson Bay — ancient coastline (approximate)",
   "draft5000": "Draft: no part of the world reviewed yet — zones carried over from the 6000* map and source zones are shown"
 }

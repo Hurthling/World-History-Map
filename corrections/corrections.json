@@ -10107,7 +10107,7 @@
   },
   {
     "id": "m6-uninhabited-laurentide",
-    "why": "Map 6000* (28.10): remnants of the Laurentide ice sheet c. 8 ka (approximate, after Dalton et al. 2020).",
+    "why": "Map 6000* (28.10): remnants of the Laurentide ice sheet c. 8 ka (approximate, after Dalton et al. 2020). Item 6-408 (a, 21.11.2026): redrawn from Dyke et al. 2003 (GSC Open File 1574), slice 7.2 ka 14C (c. 8.0 cal ka) — the Labrador dome and the Keewatin–Foxe ice (tools/sea-inland.py).",
     "years": [
       -6000
     ],
@@ -10116,22 +10116,22 @@
     "properties": {
       "NAME": "Uninhabited — Laurentide ice sheet",
       "NOTE": "uninhabited-ice-6000",
-      "SOURCES": "https://en.wikipedia.org/wiki/Laurentide_ice_sheet | https://doi.org/10.1016/j.quascirev.2020.106223",
+      "SOURCES": "https://en.wikipedia.org/wiki/Laurentide_ice_sheet | https://doi.org/10.4095/214399 | https://doi.org/10.1016/j.quascirev.2020.106223",
       "KIND": "uninhabited"
     }
   },
   {
     "id": "m5-uninhabited-labrador-ice",
-    "why": "Map 5000, item 5000bc-6 (a, 21.11.2026): the last remnant of the Laurentide ice sheet, the Labrador dome (approximate outline; ice area after Dalton et al. 2020, table 1, 6 ka 14C isochrone; gone by 6.7 +- 0.4 ka, Ullman et al. 2016). To be redrawn from shapefiles at the \"sea inland\" stage (5000bc-4).",
+    "why": "Map 5000, item 5000bc-6 (a, 21.11.2026): the last remnant of the Laurentide ice sheet (gone by 6.7 +- 0.4 ka, Ullman et al. 2016). Item 5000bc-17 (b, 21.11.2026): redrawn from Dyke et al. 2003 (GSC Open File 1574), slice 6 ka 14C (c. 6.85 cal ka) — the Labrador dome over northern Quebec and the ice on the Melville Peninsula (tools/sea-inland.py); renamed.",
     "years": [
       -5000
     ],
     "action": "add",
-    "shape": "m5-labrador-ice",
+    "shape": "m5-laurentide-ice",
     "properties": {
-      "NAME": "Uninhabited — Labrador ice dome",
+      "NAME": "Uninhabited — remnants of the Laurentide ice sheet",
       "NOTE": "uninhabited-ice-5000",
-      "SOURCES": "https://doi.org/10.1016/j.quascirev.2020.106223 | https://doi.org/10.1016/j.quascirev.2016.09.014",
+      "SOURCES": "https://doi.org/10.4095/214399 | https://doi.org/10.1016/j.quascirev.2016.09.014",
       "KIND": "uninhabited"
     }
   },
