@@ -222,7 +222,10 @@ async function buildBorders(coasts, land, riversExt) {
     console.log(`${String(year).padStart(8)}  ${String(geoms.length).padStart(4)} shapes  ${String(kb).padStart(5)} KB`);
     for (const line of report) console.log(`          fix ${line}`);
     const entry = { year, file: `borders/${outName}`, count: names.length };
-    if (coasts[year]) { entry.land = coasts[year].file; entry.seaLevel = coasts[year].level; }
+    if (coasts[year]) {
+      entry.land = coasts[year].file;
+      if (coasts[year].level != null) entry.seaLevel = coasts[year].level;
+    }
     if (riversExt[year]) entry.riversExt = riversExt[year];
     // Vanished lakes of this year (cut out of the land): the page draws them over today's rivers (item 3-205)
     const lakeNames = (seaLevels.lakes || {})[year] || [];
@@ -239,6 +242,8 @@ async function buildBorders(coasts, land, riversExt) {
     if (reviewedAreas[year]) { entry.reviewedArea = reviewedAreas[year].file; entry.reviewedNote = reviewedAreas[year].note; }
     if (probabilityYears.includes(year)) entry.mode = 'probability';
     if (coastNotes[year]) entry.coastNote = coastNotes[year];
+    // A map still being reviewed (from map 5000): "Draft: reviewed …" under the year (item 5000bc-1)
+    if (draftNotes[year]) entry.draftNote = draftNotes[year];
     years.push(entry);
     // Neighbouring zones of similar colour, repeated colours (reviewed maps only)
     if (reviewedYears.includes(year)) {
@@ -283,11 +288,13 @@ ensureSource();
 const land = await modernLand();
 // reviewed.json: "years" — maps drawn from dated finds ("No data" hatching);
 // "probability" — maps coloured where a species' presence is more likely than 50 % (map 1);
-// "coastNotes" — key of a note under the year (translations/ui), e.g. "the coastline is today's"
+// "coastNotes" — key of a note under the year (translations/ui), e.g. "the coastline is today's";
+// "draftNotes" — key of the "Draft: reviewed …" line under the year (map 5000 and later)
 const reviewed = fs.existsSync(REVIEWED) ? JSON.parse(fs.readFileSync(REVIEWED, 'utf8')) : {};
 const reviewedYears = reviewed.years || [];
 const probabilityYears = reviewed.probability || [];
-const coastNotes = reviewed.coastNotes || {};
+const coastNotes = reviewed.coastNotes || {};   // one key or a list of keys (one line each)
+const draftNotes = reviewed.draftNotes || {};
 const seaLevels = fs.existsSync(SEA_LEVELS) ? JSON.parse(fs.readFileSync(SEA_LEVELS, 'utf8')) : {};
 const levels = seaLevels.levels || {};
 fs.rmSync(COAST_DIR, { recursive: true, force: true });

@@ -126,9 +126,15 @@ export function mapMode(year) {
   return entry?.mode || (entry?.reviewed ? 'finds' : null);
 }
 
-// Key of a note under the year about the coastline (translations/ui), or null
+// Key (or list of keys, one line each) of a note under the year about the coastline
+// (translations/ui), or null
 export function coastNoteFor(year) {
   return index.years.find(y => y.year === year)?.coastNote ?? null;
+}
+
+// Key of the "Draft: reviewed …" note under the year (index.json: "draftNote"), or null
+export function draftNoteFor(year) {
+  return index.years.find(y => y.year === year)?.draftNote ?? null;
 }
 
 export function seaLevelFor(year) {

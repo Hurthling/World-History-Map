@@ -34,17 +34,26 @@
     {
       "year": -6000,
       "file": "borders/world_-6000.json",
-      "count": 248,
+      "count": 249,
       "land": "coast/land_-6000.json",
       "seaLevel": -20,
       "riversExt": "coast/rivers_ext_-6000.json",
+      "vanishedLakes": "coast/lakes_-6000.json",
       "reviewed": true,
       "coastNote": "seaLevelsApprox"
     },
     {
       "year": -5000,
       "file": "borders/world_-5000.json",
-      "count": 29
+      "count": 131,
+      "land": "coast/land_-5000.json",
+      "vanishedLakes": "coast/lakes_-5000.json",
+      "reviewed": true,
+      "coastNote": [
+        "coastModern5000",
+        "seaInland5000"
+      ],
+      "draftNote": "draft5000"
     },
     {
       "year": -4000,

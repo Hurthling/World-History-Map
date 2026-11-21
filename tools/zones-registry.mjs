@@ -35,7 +35,7 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const CORR = path.join(ROOT, 'corrections');
 export const ZONES_FILE = path.join(CORR, 'zones.tsv');
 export const MAPS_FILE = path.join(CORR, 'zone-maps.tsv');
-export const REGISTRY_YEARS = [-123000, -10000, -8000, -6000];
+export const REGISTRY_YEARS = [-123000, -10000, -8000, -6000, -5000];
 
 export const ZONE_COLS = ['key', 'Название', 'Русское', 'Тип', 'Начало', 'Начало — надёжность', 'Конец', 'Конец — надёжность',
   'Источник дат', 'Предшественник', 'Преемник', 'Статус', 'Карты', 'Пункты', 'Примечание'];

@@ -392,6 +392,7 @@ body.is-loading .timeline::before { opacity: 1; animation: loading 900ms ease-in
 
 .year {
   display: flex; flex-direction: column; min-width: 9.5ch;
+  max-width: 380px;   /* long notes under the year wrap instead of squeezing the ruler */
 }
 #year-readout {
   font-family: var(--font-display);
@@ -406,6 +407,8 @@ body.is-loading .timeline::before { opacity: 1; animation: loading 900ms ease-in
   letter-spacing: 0.04em;
 }
 #coast-note { font-size: 0.68rem; letter-spacing: 0.02em; }
+#coast-note .note-line { display: block; }
+#coast-note .note-line.draft { color: var(--ink-muted); font-style: italic; }
 #rivers-note {
   font-size: 0.68rem; color: var(--ink-muted);
   letter-spacing: 0.02em;

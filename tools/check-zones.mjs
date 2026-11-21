@@ -7,7 +7,7 @@
 // stops the build. Called by build-data.mjs; can also be run alone:
 //   node tools/check-zones.mjs
 // Checks:
-//   - every add-rule on maps -123000 … -6000 has a "zone × map" row
+//   - every add-rule on maps -123000 … -5000 (REGISTRY_YEARS) has a "zone × map" row
 //     (id, map year), and NAME, AREA, GROUP, outline file and card match the rule;
 //   - the outline file exists; no row points to a missing rule or year;
 //   - every key of zone-maps.tsv is in zones.tsv, keys are unique;

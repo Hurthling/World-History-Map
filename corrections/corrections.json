@@ -562,11 +562,12 @@
   },
   {
     "id": "m2b-uninhabited-antarctica",
-    "why": "Map 2, item 26: land nobody had reached yet (own colour). Map 8000: added 27.10 together with item 3-186 (the whole map is hatched as 'No data' now, Antarctica must not be).",
+    "why": "Map 2, item 26: land nobody had reached yet (own colour). Map 8000: added 27.10 together with item 3-186 (the whole map is hatched as 'No data' now, Antarctica must not be). Map 5000, item 5000bc-9 (21.11.2026): as on 6000*.",
     "years": [
       -10000,
       -8000,
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "uninhabited-antarctica",
@@ -579,11 +580,12 @@
   },
   {
     "id": "m2b-uninhabited-greenland",
-    "why": "Map 2, item 26: land nobody had reached yet (own colour). Also map 8000, item 3-57.",
+    "why": "Map 2, item 26: land nobody had reached yet (own colour). Also map 8000, item 3-57. Map 5000, item 5000bc-9 (21.11.2026): as on 6000*.",
     "years": [
       -10000,
       -8000,
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "uninhabited-greenland",
@@ -596,11 +598,12 @@
   },
   {
     "id": "m2b-uninhabited-north-atlantic",
-    "why": "Map 2, item 26: land nobody had reached yet (own colour).",
+    "why": "Map 2, item 26: land nobody had reached yet (own colour). Map 5000, item 5000bc-9 (21.11.2026): as on 6000*.",
     "years": [
       -8000,
       -10000,
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "uninhabited-north-atlantic",
@@ -613,11 +616,12 @@
   },
   {
     "id": "m2b-uninhabited-caribbean",
-    "why": "Map 2, item 26: land nobody had reached yet (own colour). Also map 8000, item 3-57.",
+    "why": "Map 2, item 26: land nobody had reached yet (own colour). Also map 8000, item 3-57. Map 5000, item 5000bc-9 (21.11.2026): as on 6000*.",
     "years": [
       -10000,
       -8000,
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "uninhabited-caribbean",
@@ -630,11 +634,12 @@
   },
   {
     "id": "m2b-uninhabited-remote-oceania",
-    "why": "Map 2, item 26: land nobody had reached yet (own colour). Map 8000, item 3-116: the same zone; outline extended (Lord Howe, Kermadec, Santa Cruz, Nauru, Gilbert and Line atolls, NW Hawaii, Auckland and Snares shelf; Coral Sea banks).",
+    "why": "Map 2, item 26: land nobody had reached yet (own colour). Map 8000, item 3-116: the same zone; outline extended (Lord Howe, Kermadec, Santa Cruz, Nauru, Gilbert and Line atolls, NW Hawaii, Auckland and Snares shelf; Coral Sea banks). Map 5000, item 5000bc-9 (21.11.2026): as on 6000*.",
     "years": [
       -10000,
       -8000,
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "uninhabited-remote-oceania",
@@ -647,11 +652,12 @@
   },
   {
     "id": "m2b-uninhabited-atlantic-islands",
-    "why": "Map 2, item 26: land nobody had reached yet (own colour). Extended to the other empty Atlantic islands (item 77). Also map 8000, item 3-48.",
+    "why": "Map 2, item 26: land nobody had reached yet (own colour). Extended to the other empty Atlantic islands (item 77). Also map 8000, item 3-48. Map 5000, item 5000bc-9 (21.11.2026): as on 6000*.",
     "years": [
       -10000,
       -8000,
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "uninhabited-atlantic-islands",
@@ -664,11 +670,12 @@
   },
   {
     "id": "m2b-uninhabited-indian-ocean",
-    "why": "Map 2, item 26: land nobody had reached yet (own colour). Extended by item 72: shoals above water at -60 m. Also map 8000, item 3-48.",
+    "why": "Map 2, item 26: land nobody had reached yet (own colour). Extended by item 72: shoals above water at -60 m. Also map 8000, item 3-48. Map 5000, item 5000bc-9 (21.11.2026): as on 6000*.",
     "years": [
       -10000,
       -8000,
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "uninhabited-indian-ocean",
@@ -681,11 +688,12 @@
   },
   {
     "id": "m2b-uninhabited-galapagos",
-    "why": "Map 2, item 26: land nobody had reached yet (own colour). Also map 8000, item 3-84.",
+    "why": "Map 2, item 26: land nobody had reached yet (own colour). Also map 8000, item 3-84. Map 5000, item 5000bc-9 (21.11.2026): as on 6000*.",
     "years": [
       -10000,
       -8000,
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "uninhabited-galapagos",
@@ -698,19 +706,48 @@
   },
   {
     "id": "m2b-uninhabited-mediterranean",
-    "why": "Map 2, item 26: Balearic Islands and Malta, settled only c. 2300 BC and c. 5900 BC.",
+    "why": "Map 2, item 26: Balearic Islands and Malta, settled only c. 2300 BC and c. 5900 BC. Map 6000*, item 6-405 (a, 21.11.2026): Malta was settled by hunter-gatherers c. 6500 BC (Latnija cave, Scerri et al. 2025) — from 6000* on, only the Balearics (rule m6-uninhabited-balearics).",
     "years": [
       -8000,
-      -10000,
-      -6000
+      -10000
     ],
     "action": "add",
     "shape": "uninhabited-mediterranean",
     "properties": {
       "NAME": "Uninhabited — Balearic Islands and Malta",
       "NOTE": "uninhabited-mediterranean",
-      "SOURCES": "https://en.wikipedia.org/wiki/Prehistory_of_the_Balearic_Islands | https://en.wikipedia.org/wiki/Prehistory_of_Malta",
+      "SOURCES": "https://en.wikipedia.org/wiki/Prehistory_of_the_Balearic_Islands | https://en.wikipedia.org/wiki/Prehistory_of_Malta | https://doi.org/10.1038/s41586-025-08780-y",
       "KIND": "uninhabited"
+    }
+  },
+  {
+    "id": "m6-uninhabited-balearics",
+    "why": "Map 6000*, item 6-405 (a), and map 5000, item 5000bc-9 (21.11.2026): the Balearic Islands, settled only c. 2300 BC; Malta is no longer uninhabited (Latnija, 6-405).",
+    "years": [
+      -6000,
+      -5000
+    ],
+    "action": "add",
+    "shape": "uninhabited-balearics",
+    "properties": {
+      "NAME": "Uninhabited — Balearic Islands",
+      "NOTE": "uninhabited-balearics",
+      "SOURCES": "https://en.wikipedia.org/wiki/Prehistory_of_the_Balearic_Islands",
+      "KIND": "uninhabited"
+    }
+  },
+  {
+    "id": "m6-latnija",
+    "why": "Map 6000*, item 6-405 (a, 21.11.2026): hunter-gatherers of Latnija cave, Malta, c. 8.5-7.5 ka (Scerri et al. 2025, Nature 641: 137-143) — the whole archipelago (Malta, Gozo, Comino).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "latnija",
+    "properties": {
+      "NAME": "Mesolithic foragers of Malta (Latnija)",
+      "NOTE": "latnija-6000",
+      "SOURCES": "https://doi.org/10.1038/s41586-025-08780-y"
     }
   },
   {
@@ -1257,10 +1294,11 @@
   },
   {
     "id": "m2e-remove-aboriginal-tribes",
-    "why": "Map 2, item 62: one zone over the whole continent without finds; 'tribes' is an anachronism. Replaced by zones at dated sites. Map 8000, item 3-113: removed there too.",
+    "why": "Map 2, item 62: one zone over the whole continent without finds; 'tribes' is an anachronism. Replaced by zones at dated sites. Map 8000, item 3-113: removed there too. Map 5000, item 5000bc-12 (a, 21.11.2026): one zone for the whole continent, anachronism, as on 10 000 and 8000.",
     "years": [
       -10000,
-      -8000
+      -8000,
+      -5000
     ],
     "action": "remove",
     "where": {
@@ -1269,10 +1307,11 @@
   },
   {
     "id": "m2e-remove-aboriginal-tasmanians",
-    "why": "Map 2, item 62: replaced by a zone at dated sites in north-central Tasmania. Map 8000, item 3-113: removed there too.",
+    "why": "Map 2, item 62: replaced by a zone at dated sites in north-central Tasmania. Map 8000, item 3-113: removed there too. Map 5000, item 5000bc-12 (a, 21.11.2026): under our zone tasmania, as on 10 000 and 8000.",
     "years": [
       -10000,
-      -8000
+      -8000,
+      -5000
     ],
     "action": "remove",
     "where": {
@@ -2535,11 +2574,12 @@
   },
   {
     "id": "m2h-panga-ya-saidi",
-    "why": "Map 10 000, item 89 (and map 8000, item 3-34): zone with a note.",
+    "why": "Map 10 000, item 89 (and map 8000, item 3-34): zone with a note. Map 5000, item 5000bc-8 (a) (21.11.2026): carried over by the zone registry.",
     "years": [
       -10000,
       -8000,
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "panga-ya-saidi",
@@ -2565,9 +2605,10 @@
   },
   {
     "id": "m8-remove-bantu",
-    "why": "Map 8000, item 3-7: anachronism (Bantu languages c. 5,000–4,000 years ago).",
+    "why": "Map 8000, item 3-7: anachronism (Bantu languages c. 5,000–4,000 years ago). Map 5000, item 5000bc-12 (a, 21.11.2026): anachronism (Bantu languages c. 5-4 ka), as on 8000.",
     "years": [
-      -8000
+      -8000,
+      -5000
     ],
     "action": "remove",
     "where": {
@@ -2576,9 +2617,10 @@
   },
   {
     "id": "m8-remove-khoisan",
-    "why": "Map 8000, item 3-29: modern collective name, zone not drawn from finds.",
+    "why": "Map 8000, item 3-29: modern collective name, zone not drawn from finds. Map 5000, item 5000bc-12 (a, 21.11.2026): a modern collective name, not from finds, as on 10 000 and 8000.",
     "years": [
-      -8000
+      -8000,
+      -5000
     ],
     "action": "remove",
     "where": {
@@ -2720,9 +2762,10 @@
   },
   {
     "id": "m6-termit",
-    "why": "Map 6000*, item 6-346 (a, 20.11.2026): Termit West T-28 7400 +- 110 / T-38 6340 +- 100 - a fork; early pottery 7160 ... 5000 BP (Quechon 2002); the -8000 circle.",
+    "why": "Map 6000*, item 6-346 (a, 20.11.2026): Termit West T-28 7400 +- 110 / T-38 6340 +- 100 - a fork; early pottery 7160 ... 5000 BP (Quechon 2002); the -8000 circle. Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "m6-termit",
@@ -2768,9 +2811,10 @@
   },
   {
     "id": "m6-wau-en-namus",
-    "why": "Map 6000*, item 6-350 (a, 20.11.2026): stone hearth Hv-4802 7300 +- 130 (Gabriel 1977); 35 km circle. 20.11.2026 (item 6-357 b): one area with Djebel Eghei (stone hearths of Enneri Tihai Hv-4803 6855 +- 185) - two 35 km circles.",
+    "why": "Map 6000*, item 6-350 (a, 20.11.2026): stone hearth Hv-4802 7300 +- 130 (Gabriel 1977); 35 km circle. 20.11.2026 (item 6-357 b): one area with Djebel Eghei (stone hearths of Enneri Tihai Hv-4803 6855 +- 185) - two 35 km circles. Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "m6-wau-en-namus",
@@ -2860,9 +2904,10 @@
   },
   {
     "id": "m6-laqiya",
-    "why": "Map 6000*, item 6-362 (a2, 20.11.2026): Laqiya - hunters and gatherers c. 8000-5000 calBC, Early Khartoum with dotted wavy line pottery, later its regional Laqiya-type variant (Lange 2006, p. 230, fig. 84); the oldest DWL sherd of Wadi Shaw 83/108 lies under the upper lake layer dated KN-3086 6960 +- 65 (shell); Burg et-Tuyur KN-3646 6840 +- 160; hull + 50 km.",
+    "why": "Map 6000*, item 6-362 (a2, 20.11.2026): Laqiya - hunters and gatherers c. 8000-5000 calBC, Early Khartoum with dotted wavy line pottery, later its regional Laqiya-type variant (Lange 2006, p. 230, fig. 84); the oldest DWL sherd of Wadi Shaw 83/108 lies under the upper lake layer dated KN-3086 6960 +- 65 (shell); Burg et-Tuyur KN-3646 6840 +- 160; hull + 50 km. Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "m6-laqiya",
@@ -2951,9 +2996,10 @@
   },
   {
     "id": "m6-shum-laka",
-    "why": "Map 6000*, item 6-380 (20.11.2026): own card - Stone to Metal Age I from OxA-5203 7150 +- 70, first burials and pottery (Lavachery 1997); own outline m6-shum-laka (the outline before item 3-329; Mbi is not dated to 6000 BC).",
+    "why": "Map 6000*, item 6-380 (20.11.2026): own card - Stone to Metal Age I from OxA-5203 7150 +- 70, first burials and pottery (Lavachery 1997); own outline m6-shum-laka (the outline before item 3-329; Mbi is not dated to 6000 BC). Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "m6-shum-laka",
@@ -2965,9 +3011,10 @@
   },
   {
     "id": "m6-tshitolian",
-    "why": "Map 6000*, item 6-381 (a, 20.11.2026): late Tshitolian of Ntadi Yomba (hearth Gif-4392 7090 +- 140; Lanfranchi, Manima Moubouha 1989) and Brazzaville (Gif-5435 6890 +- 160; Clist et al. 2023); hull + 50 km.",
+    "why": "Map 6000*, item 6-381 (a, 20.11.2026): late Tshitolian of Ntadi Yomba (hearth Gif-4392 7090 +- 140; Lanfranchi, Manima Moubouha 1989) and Brazzaville (Gif-5435 6890 +- 160; Clist et al. 2023); hull + 50 km. Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "m6-tshitolian",
@@ -2981,9 +3028,10 @@
   },
   {
     "id": "m6-tshitolian-ngounie",
-    "why": "Map 6000*, item 6-381 (a, 20.11.2026): final Tshitolian of the Ngounie - Lac Noir de Ndende Beta-29774 7180 +- 220 (Oslisly 1994 after Angue Zogo et al. 2025), Tsona UtC-13257 7247 +- 44 (Clist et al. 2023); hull + 50 km.",
+    "why": "Map 6000*, item 6-381 (a, 20.11.2026): final Tshitolian of the Ngounie - Lac Noir de Ndende Beta-29774 7180 +- 220 (Oslisly 1994 after Angue Zogo et al. 2025), Tsona UtC-13257 7247 +- 44 (Clist et al. 2023); hull + 50 km. Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "m6-tshitolian-ngounie",
@@ -3025,9 +3073,10 @@
   },
   {
     "id": "m6-simbero",
-    "why": "Map 6000*, item 6-389 (a, 20.11.2026): Simbero rockshelter, mid-Holocene phase from Beta-490939 7290 +- 30, next Beta-552723 4580 +- 30 (Tekelemariam 2021); edge of the +-250 window; 35 km circle.",
+    "why": "Map 6000*, item 6-389 (a, 20.11.2026): Simbero rockshelter, mid-Holocene phase from Beta-490939 7290 +- 30, next Beta-552723 4580 +- 30 (Tekelemariam 2021); edge of the +-250 window; 35 km circle. Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "m6-simbero",
@@ -3052,9 +3101,10 @@
   },
   {
     "id": "m6-turkana",
-    "why": "Map 6000*, item 6-392 (a, 20.11.2026): Hildebrand et al. 2022 (SI table 2a) - Lowasera GX-4346-A 7435 +- 150 (fish bone apatite), Zu-6 N-813 7960 +- 140 (shell) before; Zu-10 N-812 6200 +- 125 (hearth charcoal) after - a fork; the -8000 outline.",
+    "why": "Map 6000*, item 6-392 (a, 20.11.2026): Hildebrand et al. 2022 (SI table 2a) - Lowasera GX-4346-A 7435 +- 150 (fish bone apatite), Zu-6 N-813 7960 +- 140 (shell) before; Zu-10 N-812 6200 +- 125 (hearth charcoal) after - a fork; the -8000 outline. Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "m8-turkana",
@@ -3066,9 +3116,10 @@
   },
   {
     "id": "m6-kansyore",
-    "why": "Map 6000*, item 6-393 (a, 20.11.2026): Namaboni B D-AMS 024208 7728 +- 36 / IT-C-4532 6775 +- 40 - a fork (Jones et al. 2025); Pondo c. 6000-5500 BC (Dale et al. 2004 after Schmidt et al. 2024); hull of Namaboni B, Pondo, Siror, Kanjera West + 35 km.",
+    "why": "Map 6000*, item 6-393 (a, 20.11.2026): Namaboni B D-AMS 024208 7728 +- 36 / IT-C-4532 6775 +- 40 - a fork (Jones et al. 2025); Pondo c. 6000-5500 BC (Dale et al. 2004 after Schmidt et al. 2024); hull of Namaboni B, Pondo, Siror, Kanjera West + 35 km. Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "m6-kansyore",
@@ -3080,9 +3131,10 @@
   },
   {
     "id": "m6-lukenya",
-    "why": "Map 6000*, item 6-394 (a, 20.11.2026): GvJm-19 - GX-6756 6770 +- 225 (bone apatite), GX-6757 8010 +- 340, GX-6755 6040 +- 225 (Nelson, Kimengich 1984 after Robinson 2019); 35 km circle.",
+    "why": "Map 6000*, item 6-394 (a, 20.11.2026): GvJm-19 - GX-6756 6770 +- 225 (bone apatite), GX-6757 8010 +- 340, GX-6755 6040 +- 225 (Nelson, Kimengich 1984 after Robinson 2019); 35 km circle. Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "m6-lukenya",
@@ -3121,9 +3173,10 @@
   },
   {
     "id": "m6-iwo-eleru",
-    "why": "Map 6000*, item 6-377 (20.11.2026): own card - Hv-1509 7030 +- 85 at the top of the microlithic part, bifacial and ground tools appear (Lavachery 1997; Allsworth-Jones et al. 2010).",
+    "why": "Map 6000*, item 6-377 (20.11.2026): own card - Hv-1509 7030 +- 85 at the top of the microlithic part, bifacial and ground tools appear (Lavachery 1997; Allsworth-Jones et al. 2010). Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "iwo-eleru",
@@ -3135,9 +3188,10 @@
   },
   {
     "id": "m6-dutsen-kongba",
-    "why": "Map 6000*, item 6-378 (a, 20.11.2026): Dutsen Kongba phases A-C, I-7372 6855 +- 170 ... I-7368 4730 +- 100 (York 1978 after Lavachery 1997; p3k14c); edge of the +-250 window; 35 km circle.",
+    "why": "Map 6000*, item 6-378 (a, 20.11.2026): Dutsen Kongba phases A-C, I-7372 6855 +- 170 ... I-7368 4730 +- 100 (York 1978 after Lavachery 1997; p3k14c); edge of the +-250 window; 35 km circle. Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "m6-dutsen-kongba",
@@ -3172,6 +3226,20 @@
     "properties": {
       "NAME": "Bosumpra Cave foragers (Ghana)",
       "NOTE": "bosumpra-6000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Bosumpra_Cave | https://doi.org/10.1080/0067270X.2017.1393925"
+    }
+  },
+  {
+    "id": "m5-bosumpra",
+    "why": "Map 5000, item 5000bc-7 (21.11.2026): carried over from map 6000* (m6-bosumpra) by the zone registry — same outline, name and colour; own card bosumpra-5000 (the 6000* card speaks of 6000 BC).",
+    "years": [
+      -5000
+    ],
+    "action": "add",
+    "shape": "bosumpra",
+    "properties": {
+      "NAME": "Bosumpra Cave foragers (Ghana)",
+      "NOTE": "bosumpra-5000",
       "SOURCES": "https://en.wikipedia.org/wiki/Bosumpra_Cave | https://doi.org/10.1080/0067270X.2017.1393925"
     }
   },
@@ -3283,10 +3351,11 @@
   },
   {
     "id": "m8-uninhabited-arctic-archipelago",
-    "why": "Map 8000, item 3-57.",
+    "why": "Map 8000, item 3-57. Map 5000, item 5000bc-9 (21.11.2026): as on 6000*.",
     "years": [
       -8000,
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "m8-arctic-archipelago",
@@ -3587,10 +3656,11 @@
   },
   {
     "id": "m8-belize",
-    "why": "Map 8000, item 3-68. Map 6000*, item 6-22 (29.10): kept on 6000*.",
+    "why": "Map 8000, item 3-68. Map 6000*, item 6-22 (29.10): kept on 6000*. Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
       -8000,
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "belize-rockshelters",
@@ -3899,10 +3969,11 @@
   },
   {
     "id": "m8-abriense",
-    "why": "Map 8000, item 3-75 (a), variant (2) — with a note (queue-map8000.md; accepted 21.10, applied 22.10).",
+    "why": "Map 8000, item 3-75 (a), variant (2) — with a note (queue-map8000.md; accepted 21.10, applied 22.10). Map 5000, item 5000bc-8 (a) (21.11.2026): carried over by the zone registry.",
     "years": [
       -8000,
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "bogota",
@@ -4055,9 +4126,10 @@
   },
   {
     "id": "m6-south-central-andes",
-    "why": "Map 6000*: the zone of map 8000 (m8-south-central-andes, carried 28.10 unchanged) with its own outline and card. Item 6-82 (a) (owner 02.11, applied 04.11): Patapatane (item 6-74) joined to the zone; rule m6-patapatane removed. Item 6-254 (17.11): name and card of the Middle Archaic.",
+    "why": "Map 6000*: the zone of map 8000 (m8-south-central-andes, carried 28.10 unchanged) with its own outline and card. Item 6-82 (a) (owner 02.11, applied 04.11): Patapatane (item 6-74) joined to the zone; rule m6-patapatane removed. Item 6-254 (17.11): name and card of the Middle Archaic. Map 5000, item 5000bc-8 (a) (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "south-central-andes-6000",
@@ -4267,9 +4339,10 @@
   },
   {
     "id": "m6-moxos",
-    "why": "Map 6000*: carried from map 8000 (m8-moxos). Item 6-70 (queue-map6000.md; owner 02.11, applied 02.11): extended to Isla 433. Item 6-84 (a) (owner 02.11, applied 04.11): Monte Castelo joined, renamed; rule m6-monte-castelo removed. Sources checked for 6000 BC (04.11, owner: \"check and fix Sources\").",
+    "why": "Map 6000*: carried from map 8000 (m8-moxos). Item 6-70 (queue-map6000.md; owner 02.11, applied 02.11): extended to Isla 433. Item 6-84 (a) (owner 02.11, applied 04.11): Monte Castelo joined, renamed; rule m6-monte-castelo removed. Sources checked for 6000 BC (04.11, owner: \"check and fix Sources\"). Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "moxos-6000",
@@ -5354,9 +5427,10 @@
   },
   {
     "id": "m8-remove-jomon-source",
-    "why": "Map 8000, item 3-185 (accepted 27.10): generic or anachronistic source zone of Asia, replaced by zones drawn from dated finds. Jōmon: replaced by our zone (3-177).",
+    "why": "Map 8000, item 3-185 (accepted 27.10): generic or anachronistic source zone of Asia, replaced by zones drawn from dated finds. Jōmon: replaced by our zone (3-177). Map 5000, item 5000bc-12 (a, 21.11.2026): under our zone jomon, as on 10 000 and 8000.",
     "years": [
-      -8000
+      -8000,
+      -5000
     ],
     "action": "remove",
     "where": {
@@ -5376,9 +5450,10 @@
   },
   {
     "id": "m8-remove-austronesians",
-    "why": "Map 8000, item 3-185 (accepted 27.10): generic or anachronistic source zone of Asia, replaced by zones drawn from dated finds. Austronesians in Island Southeast Asia: from c. 4,000 years ago.",
+    "why": "Map 8000, item 3-185 (accepted 27.10): generic or anachronistic source zone of Asia, replaced by zones drawn from dated finds. Austronesians in Island Southeast Asia: from c. 4,000 years ago. Map 5000, item 5000bc-12 (a, 21.11.2026): anachronism, as on 10 000 and 8000.",
     "years": [
-      -8000
+      -8000,
+      -5000
     ],
     "action": "remove",
     "where": {
@@ -5877,9 +5952,10 @@
   },
   {
     "id": "m6-hoabinhian",
-    "why": "Map 6000*: carried from map 8000 (m8-hoabinhian, shared outline); items 6-312, 6-313, 6-318 (a, 19.11): a group with areas, own card.",
+    "why": "Map 6000*: carried from map 8000 (m8-hoabinhian, shared outline); items 6-312, 6-313, 6-318 (a, 19.11): a group with areas, own card. Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "hoabinhian",
@@ -5972,10 +6048,11 @@
   },
   {
     "id": "m8-gunung-sewu",
-    "why": "Map 8000, item 3-180 (accepted 27.10): same outline as map 10 000; Gua Mandung and Seropan in the card.",
+    "why": "Map 8000, item 3-180 (accepted 27.10): same outline as map 10 000; Gua Mandung and Seropan in the card. Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
       -8000,
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "gunung-sewu",
@@ -5987,9 +6064,10 @@
   },
   {
     "id": "m6-pawon",
-    "why": "Map 6000*, item 6-315 (a, 19.11): 35 km circle.",
+    "why": "Map 6000*, item 6-315 (a, 19.11): 35 km circle. Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "m6-pawon",
@@ -6001,9 +6079,10 @@
   },
   {
     "id": "m6-toalean",
-    "why": "Map 6000*, item 6-317 (a, 19.11): hull + 50 km.",
+    "why": "Map 6000*, item 6-317 (a, 19.11): hull + 50 km. Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "m6-toalean",
@@ -6305,6 +6384,20 @@
     }
   },
   {
+    "id": "m5-jefara",
+    "why": "Map 5000, item 5000bc-7 (21.11.2026): carried over from map 6000* (m6-jefara) by the zone registry — same outline, name and colour; own card jefara-5000 (the 6000* card speaks of 6000 BC).",
+    "years": [
+      -5000
+    ],
+    "action": "add",
+    "shape": "m6-jefara",
+    "properties": {
+      "NAME": "Early Neolithic of the Jefara (Phase A)",
+      "NOTE": "jefara-5000",
+      "SOURCES": "https://doi.org/10.1016/j.quaint.2015.11.138 | https://doi.org/10.1017/S0003598X00094047"
+    }
+  },
+  {
     "id": "m6-ouargla",
     "why": "Map 6000*, item 6-332 (a, 20.11.2026): Mellalian - El Hadjar Gif-880, Le Vieux Puits Gif-2650, El Hamraia Gif-3412, Les Burins Gif-2649 cover the date; Bordj Mellala I (pottery) Mc-810 7125 +- 120 (Aumassip 1986); hull + 50 km.",
     "years": [
@@ -6320,9 +6413,10 @@
   },
   {
     "id": "m6-el-bayed",
-    "why": "Map 6000*, item 6-333 (a, 20.11.2026): El Bayed Mc-152 7300 +- 200, Gif-1931 7250 +- 100; El Beida Gif-1821 7100 +- 180 (Aumassip 1986; Gif VIII); hull + 50 km.",
+    "why": "Map 6000*, item 6-333 (a, 20.11.2026): El Bayed Mc-152 7300 +- 200, Gif-1931 7250 +- 100; El Beida Gif-1821 7100 +- 180 (Aumassip 1986; Gif VIII); hull + 50 km. Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "m6-el-bayed",
@@ -6348,9 +6442,10 @@
   },
   {
     "id": "m6-foum-arguin",
-    "why": "Map 6000*, item 6-336 (a, 20.11.2026): Foum Arguin culture (Vernet 2004, 2007) - Et Teyedché ostrich eggshell 7020 +- 75 on the date, Cansado a fork; hull + 50 km.",
+    "why": "Map 6000*, item 6-336 (a, 20.11.2026): Foum Arguin culture (Vernet 2004, 2007) - Et Teyedché ostrich eggshell 7020 +- 75 on the date, Cansado a fork; hull + 50 km. Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "m6-foum-arguin",
@@ -6363,9 +6458,10 @@
   },
   {
     "id": "m6-tarfaya",
-    "why": "Map 6000*, item 6-336 (a, 20.11.2026): Taoukeltian of the Tarfaya basin, related to Foum Arguin (Vernet 2007; Ballouche et al. 2012 - VI-V millennia BC); Izriten 10 430 ... 6100 BP; hull + 50 km.",
+    "why": "Map 6000*, item 6-336 (a, 20.11.2026): Taoukeltian of the Tarfaya basin, related to Foum Arguin (Vernet 2007; Ballouche et al. 2012 - VI-V millennia BC); Izriten 10 430 ... 6100 BP; hull + 50 km. Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "m6-tarfaya",
@@ -6405,10 +6501,25 @@
     }
   },
   {
-    "id": "m6-sitra",
-    "why": "Map 6000*, item 6-363 (a, 20.11.2026): Sitra 85/05-2 charcoal KN-4334 7140 +- 80, KN-4328 6920 +- 85, KN-4335 6808 +- 56 (p3k14c, MedAfriCarbon); stone hearths of Sitra-Hatiyet KN-3555 6850 +- 70 ... KN-3785 6670 +- 65 (Cziesla 1993); El Araq a fork (Close 1980); hull + 35 km.",
+    "id": "m5-eastern-sahara",
+    "why": "Map 5000, item 5000bc-8 (a) (21.11.2026): carried over from map 6000* (m6-eastern-sahara) by the zone registry — same outline, name and colour; own card eastern-sahara-5000 (the 6000* card speaks of 6000 BC).",
     "years": [
-      -6000
+      -5000
+    ],
+    "action": "add",
+    "shape": "m6-eastern-sahara",
+    "properties": {
+      "NAME": "Foragers and early herders of the Eastern Sahara",
+      "NOTE": "eastern-sahara-5000",
+      "SOURCES": "https://doi.org/10.1126/science.1130989 | https://en.wikipedia.org/wiki/Nabta_Playa | https://doi.org/10.1007/s10437-018-9306-2"
+    }
+  },
+  {
+    "id": "m6-sitra",
+    "why": "Map 6000*, item 6-363 (a, 20.11.2026): Sitra 85/05-2 charcoal KN-4334 7140 +- 80, KN-4328 6920 +- 85, KN-4335 6808 +- 56 (p3k14c, MedAfriCarbon); stone hearths of Sitra-Hatiyet KN-3555 6850 +- 70 ... KN-3785 6670 +- 65 (Cziesla 1993); El Araq a fork (Close 1980); hull + 35 km. Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
+    "years": [
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "m6-sitra",
@@ -6420,9 +6531,10 @@
   },
   {
     "id": "m6-sodmein",
-    "why": "Map 6000*, item 6-367 (a, 20.11.2026): Sodmein Cave, horizon C2 (charcoal) UtC-3312 7350 +- 80, IRPA-1372 7250 +- 40, Lv-2086 7090 +- 80, KIA-28778 6995 +- 35, Lv-2083 6940 +- 100; herders with goats c. 6200-5000 BC (Vermeersch et al. 2015); 50 km around the cave and Tree Shelter.",
+    "why": "Map 6000*, item 6-367 (a, 20.11.2026): Sodmein Cave, horizon C2 (charcoal) UtC-3312 7350 +- 80, IRPA-1372 7250 +- 40, Lv-2086 7090 +- 80, KIA-28778 6995 +- 35, Lv-2083 6940 +- 100; herders with goats c. 6200-5000 BC (Vermeersch et al. 2015); 50 km around the cave and Tree Shelter. Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "m6-sodmein",
@@ -6476,9 +6588,10 @@
   },
   {
     "id": "m6-hassi-el-abiod",
-    "why": "Map 6000*, item 6-337 (a, 20.11.2026): AR 7 Gif-5495 6970 +- 130 (fish bone), MK 40 Pa-1058 6795 +- 200 (human bone) (Raimbault 1994); hull + 50 km.",
+    "why": "Map 6000*, item 6-337 (a, 20.11.2026): AR 7 Gif-5495 6970 +- 130 (fish bone), MK 40 Pa-1058 6795 +- 200 (human bone) (Raimbault 1994); hull + 50 km. Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "m6-hassi-el-abiod",
@@ -6490,9 +6603,10 @@
   },
   {
     "id": "m6-oumm-el-assel",
-    "why": "Map 6000*, item 6-338 (a, 20.11.2026): MF 15 Pa-1147 6930 +- 200 (pottery organics), MT 25 Gif-6198 6980 +- 320 (charcoal) (Raimbault 1994); hull + 50 km.",
+    "why": "Map 6000*, item 6-338 (a, 20.11.2026): MF 15 Pa-1147 6930 +- 200 (pottery organics), MT 25 Gif-6198 6980 +- 320 (charcoal) (Raimbault 1994); hull + 50 km. Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "m6-oumm-el-assel",
@@ -6504,9 +6618,10 @@
   },
   {
     "id": "m6-eburran",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-eburran) with a new name or note. 20.11.2026 (item 6-391): card corrected - 6000 BC is the boundary of phases 3 and 4 (Ambrose 1998; Wilshaw 2016; Frahm et al. 2018).",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-eburran) with a new name or note. 20.11.2026 (item 6-391): card corrected - 6000 BC is the boundary of phases 3 and 4 (Ambrose 1998; Wilshaw 2016; Frahm et al. 2018). Map 5000, item 5000bc-8 (a) (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "eburran",
@@ -6547,6 +6662,22 @@
     }
   },
   {
+    "id": "m5-oakhurst",
+    "why": "Map 5000, item 5000bc-7 (21.11.2026): carried over from map 6000* (m6-oakhurst) by the zone registry — same outline, name and colour; own card wilton-5000 (the 6000* card speaks of 6000 BC).",
+    "years": [
+      -5000
+    ],
+    "action": "add",
+    "shape": "m6-wilton",
+    "properties": {
+      "NAME": "Wilton-type foragers of southern Africa",
+      "NOTE": "wilton-5000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Wilton_culture | https://www.nature.com/articles/s41597-022-01118-7 | https://www.nature.com/articles/s41597-022-01118-7",
+      "GROUP": "Wilton-type foragers of southern Africa",
+      "AREA": "Wilton industry (South Africa, Lesotho)"
+    }
+  },
+  {
     "id": "m6-pomongwan",
     "why": "Map 6000* (28.10): carried from map 8000 (m8-pomongwan) with a new name or note. Sources checked for 6000 BC (04.11, owner: \"check and fix Sources\").",
     "years": [
@@ -6564,9 +6695,10 @@
   },
   {
     "id": "m6-chessungalane",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-chessungalane) with a new name or note.",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-chessungalane) with a new name or note. Map 5000, item 5000bc-8 (a) (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "m8-chessungalane",
@@ -6594,9 +6726,10 @@
   },
   {
     "id": "m6-mirabib",
-    "why": "Map 6000*, item 6-402 (a, 20.11.2026): Mirabib - Pta-1368 8410 +- 80, Pta-1013 8200 +- 80 / Pta-1536 6500 +- 80, Pta-1012 6470 +- 80 - a fork (p3k14c); typical Wilton, layers F-D (Marks 2025); 35 km circle.",
+    "why": "Map 6000*, item 6-402 (a, 20.11.2026): Mirabib - Pta-1368 8410 +- 80, Pta-1013 8200 +- 80 / Pta-1536 6500 +- 80, Pta-1012 6470 +- 80 - a fork (p3k14c); typical Wilton, layers F-D (Marks 2025); 35 km circle. Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "m6-mirabib",
@@ -6637,6 +6770,20 @@
     }
   },
   {
+    "id": "m5-paleo-arctic",
+    "why": "Map 5000, item 5000bc-7 (21.11.2026): carried over from map 6000* (m6-paleo-arctic) by the zone registry — same outline, name and colour; own card paleo-arctic-5000 (the 6000* card speaks of 6000 BC).",
+    "years": [
+      -5000
+    ],
+    "action": "add",
+    "shape": "m6-paleo-arctic",
+    "properties": {
+      "NAME": "Late Denali complex (American Paleo-Arctic tradition)",
+      "NOTE": "paleo-arctic-5000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Paleo-Arctic_tradition | https://dnr.alaska.gov/parks/oha/projects/brokenmammoth.htm | https://ynlc.ca/wp-content/uploads/dakeyi/07junction/02canyon/canyondyk.html | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
     "id": "m6-western-stemmed",
     "why": "Map 6000*, North America package, item 6-5 (b), 6-24 (29.10): Great Basin area of the group; plateau to the Old Cordilleran. Sources checked for 6000 BC (04.11, owner: \"check and fix Sources\").",
     "years": [
@@ -6654,9 +6801,10 @@
   },
   {
     "id": "m6-san-dieguito",
-    "why": "Map 6000*, North America package, item 6-6 (29.10): La Jolla — area of the Millingstone Horizon group. Sources checked for 6000 BC (04.11, owner: \"check and fix Sources\").",
+    "why": "Map 6000*, North America package, item 6-6 (29.10): La Jolla — area of the Millingstone Horizon group. Sources checked for 6000 BC (04.11, owner: \"check and fix Sources\"). Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "m8-san-dieguito",
@@ -6684,9 +6832,10 @@
   },
   {
     "id": "m6-el-gigante",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-el-gigante) with a new name or note.",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-el-gigante) with a new name or note. Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "m8-el-gigante",
@@ -6712,9 +6861,10 @@
   },
   {
     "id": "m6-lindosa",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-lindosa) with a new name or note.",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-lindosa) with a new name or note. Map 5000, item 5000bc-8 (a) (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "lindosa",
@@ -6726,9 +6876,10 @@
   },
   {
     "id": "m6-atures",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-atures) with a new name or note.",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-atures) with a new name or note. Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "atures",
@@ -6755,9 +6906,10 @@
   },
   {
     "id": "m6-acha",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-acha) with a new name or note. Item 6-47 (c) (applied 02.11): renamed Chinchorro culture, coast from Ilo to Camarones. Item 6-74 (applied 02.11): extended south to Quebrada Tiliviche.",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-acha) with a new name or note. Item 6-47 (c) (applied 02.11): renamed Chinchorro culture, coast from Ilo to Camarones. Item 6-74 (applied 02.11): extended south to Quebrada Tiliviche. Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "chinchorro-6000",
@@ -6769,9 +6921,10 @@
   },
   {
     "id": "m6-piuquenes",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-piuquenes) with a new name or note. Item 6-50 (c) (applied 02.11): extended to the Maipo and Tagua Tagua, renamed. Item 6-77 (applied 02.11): + Paso de las Conchas (Bucalemu) as a separate part. Item 6-81 (applied 04.11): Bucalemu joined to the main part (one outline).",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-piuquenes) with a new name or note. Item 6-50 (c) (applied 02.11): extended to the Maipo and Tagua Tagua, renamed. Item 6-77 (applied 02.11): + Paso de las Conchas (Bucalemu) as a separate part. Item 6-81 (applied 04.11): Bucalemu joined to the main part (one outline). Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "central-chile-6000",
@@ -6813,9 +6966,10 @@
   },
   {
     "id": "m6-komsa",
-    "why": "Map 6000*, package \"Europe\" (owner decisions 06.11, applied 06.11): item 6-91 (a): the Finnmark zone extended to Troms (Harstad, Tromsø, Målselv, Solli) and inner Finnmark (Kautokeino), renamed.",
+    "why": "Map 6000*, package \"Europe\" (owner decisions 06.11, applied 06.11): item 6-91 (a): the Finnmark zone extended to Troms (Harstad, Tromsø, Målselv, Solli) and inner Finnmark (Kautokeino), renamed. Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "m6-north-norway",
@@ -6840,10 +6994,25 @@
     }
   },
   {
-    "id": "m6-west-norway",
-    "why": "Map 6000*, package \"Europe\" (owner decisions 06.11, applied 06.11): items 6-89 (b), 6-90: coast and fjords from Lista to Lofoten, Hardanger fjord to Sævarhelleren.",
+    "id": "m5-nostvet-lihult",
+    "why": "Map 5000, item 5000bc-7 (21.11.2026): carried over from map 6000* (m6-nostvet-lihult) by the zone registry — same outline, name and colour; own card nostvet-lihult-5000 (the 6000* card speaks of 6000 BC).",
     "years": [
-      -6000
+      -5000
+    ],
+    "action": "add",
+    "shape": "m6-nostvet-lihult",
+    "properties": {
+      "NAME": "Nøstvet–Lihult culture",
+      "NOTE": "nostvet-lihult-5000",
+      "SOURCES": "https://en.wikipedia.org/wiki/N%C3%B8stvet_and_Lihult_cultures | https://www.cambridge.org/core/product/E0AA194DEB909AE5F8C3131D57D8FF46 | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-west-norway",
+    "why": "Map 6000*, package \"Europe\" (owner decisions 06.11, applied 06.11): items 6-89 (b), 6-90: coast and fjords from Lista to Lofoten, Hardanger fjord to Sævarhelleren. Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
+    "years": [
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "m6-west-norway",
@@ -6883,9 +7052,10 @@
   },
   {
     "id": "m6-motala",
-    "why": "Map 6000*, package \"Europe\" (owner decisions 06.11, applied 06.11): item 6-93 (a).",
+    "why": "Map 6000*, package \"Europe\" (owner decisions 06.11, applied 06.11): item 6-93 (a). Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "m6-motala",
@@ -6911,9 +7081,10 @@
   },
   {
     "id": "m6-kalmar-strait",
-    "why": "Map 6000*, package \"Europe\" (owner decisions 06.11, applied 06.11): item 6-95 (a).",
+    "why": "Map 6000*, package \"Europe\" (owner decisions 06.11, applied 06.11): item 6-95 (a). Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "m6-kalmar-strait",
@@ -6925,9 +7096,10 @@
   },
   {
     "id": "m6-kunda",
-    "why": "Map 6000*, package \"Europe\" (owner decisions 06.11, applied 06.11): item 6-96 (a, b; Saaremaa — decision (a) 06.11): northern coast of Estonia, western Latvia to Sise, north-western Saaremaa; the Serteya zone cut out (6-134). Until 06.11 the 6000* map used m8-kunda.",
+    "why": "Map 6000*, package \"Europe\" (owner decisions 06.11, applied 06.11): item 6-96 (a, b; Saaremaa — decision (a) 06.11): northern coast of Estonia, western Latvia to Sise, north-western Saaremaa; the Serteya zone cut out (6-134). Until 06.11 the 6000* map used m8-kunda. Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "m6-kunda",
@@ -6980,10 +7152,25 @@
     }
   },
   {
-    "id": "m6-ireland",
-    "why": "Map 6000*, package \"Europe\" (owner decisions 06.11, applied 06.11): item 6-105 (name by the owner; Isle of Man — decision (a) 06.11).",
+    "id": "m5-britain",
+    "why": "Map 5000, item 5000bc-7 (21.11.2026): carried over from map 6000* (m6-britain) by the zone registry — same outline, name and colour; own card britain-5000 (the 6000* card speaks of 6000 BC).",
     "years": [
-      -6000
+      -5000
+    ],
+    "action": "add",
+    "shape": "m6-britain",
+    "properties": {
+      "NAME": "Late Mesolithic of Britain",
+      "NOTE": "britain-5000",
+      "SOURCES": "https://www.cambridge.org/core/product/0AD03AE18BCD46BB2F3505DB043F8652 | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-ireland",
+    "why": "Map 6000*, package \"Europe\" (owner decisions 06.11, applied 06.11): item 6-105 (name by the owner; Isle of Man — decision (a) 06.11). Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
+    "years": [
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "m6-ireland",
@@ -6995,9 +7182,10 @@
   },
   {
     "id": "m6-teviec",
-    "why": "Map 6000*, package \"Europe\" (owner decisions 06.11, applied 06.11): item 6-106 (name by the owner).",
+    "why": "Map 6000*, package \"Europe\" (owner decisions 06.11, applied 06.11): item 6-106 (name by the owner). Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "m6-teviec",
@@ -7023,9 +7211,10 @@
   },
   {
     "id": "m6-janislawice",
-    "why": "Map 6000*, package \"Europe\" (owner decisions 06.11, applied 06.11): item 6-110 (a).",
+    "why": "Map 6000*, package \"Europe\" (owner decisions 06.11, applied 06.11): item 6-110 (a). Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "m6-janislawice",
@@ -7046,6 +7235,20 @@
     "properties": {
       "NAME": "Second Mesolithic of western and central France",
       "NOTE": "central-france-6000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7 | https://hls-dhs-dss.ch/fr/articles/008011/2019-10-29/"
+    }
+  },
+  {
+    "id": "m5-central-france",
+    "why": "Map 5000, item 5000bc-7 (21.11.2026): carried over from map 6000* (m6-central-france) by the zone registry — same outline, name and colour; own card central-france-5000 (the 6000* card speaks of 6000 BC).",
+    "years": [
+      -5000
+    ],
+    "action": "add",
+    "shape": "m6-central-france",
+    "properties": {
+      "NAME": "Second Mesolithic of western and central France",
+      "NOTE": "central-france-5000",
       "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7 | https://hls-dhs-dss.ch/fr/articles/008011/2019-10-29/"
     }
   },
@@ -7127,9 +7330,10 @@
   },
   {
     "id": "m6-sado-mira",
-    "why": "Map 6000*, package \"Europe\" (owner decisions 06.11, applied 06.11): item 6-113 (a).",
+    "why": "Map 6000*, package \"Europe\" (owner decisions 06.11, applied 06.11): item 6-113 (a). Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "m6-sado-mira",
@@ -7353,9 +7557,10 @@
   },
   {
     "id": "m6-knossos",
-    "why": "Map 6000*, package \"Europe\" (owner decisions 06.11, applied 06.11): item 6-124.",
+    "why": "Map 6000*, package \"Europe\" (owner decisions 06.11, applied 06.11): item 6-124. Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "m6-knossos",
@@ -7422,6 +7627,20 @@
     }
   },
   {
+    "id": "m5-dniester-bug",
+    "why": "Map 5000, item 5000bc-7 (21.11.2026): carried over from map 6000* (m6-dniester-bug) by the zone registry — same outline, name and colour; own card dniester-bug-5000 (the 6000* card speaks of 6000 BC).",
+    "years": [
+      -5000
+    ],
+    "action": "add",
+    "shape": "m6-dniester-bug",
+    "properties": {
+      "NAME": "Late Mesolithic of the Dniester and Southern Bug (Grebeniki; early Buh-Dniester)",
+      "NOTE": "dniester-bug-5000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Bug%E2%80%93Dniester_culture | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
     "id": "m6-rakushechny-yar",
     "why": "Map 6000*, package \"Europe\" (owner decisions 06.11, applied 06.11): item 6-130. 17.11 (item 6-247 c): boundary with the lower Seversky Donets - midline between the nearest finds.",
     "years": [
@@ -7469,9 +7688,10 @@
   },
   {
     "id": "m6-middle-don",
-    "why": "Map 6000*, package \"Europe\" (owner decisions 06.11, applied 06.11): item 6-132 (a).",
+    "why": "Map 6000*, package \"Europe\" (owner decisions 06.11, applied 06.11): item 6-132 (a). Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "m6-middle-don",
@@ -7509,9 +7729,10 @@
   },
   {
     "id": "m6-vozhe",
-    "why": "Map 6000*, package \"Europe\" (owner decisions 06.11, applied 06.11): item 6-137.",
+    "why": "Map 6000*, package \"Europe\" (owner decisions 06.11, applied 06.11): item 6-137. Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "m6-vozhe",
@@ -7522,9 +7743,10 @@
   },
   {
     "id": "m6-orlovka",
-    "why": "Map 6000*, package \"Europe\" (owner decisions 06.11, applied 06.11): item 6-138 (two separate zones).",
+    "why": "Map 6000*, package \"Europe\" (owner decisions 06.11, applied 06.11): item 6-138 (two separate zones). Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "m6-orlovka",
@@ -7605,9 +7827,10 @@
   },
   {
     "id": "m6-se-australia",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-se-australia) with a new name or note. 07.11: own copy of the outline (the -8000 outline was extended by item 3-295). Item 6-151: extended to Moffats Swamp.",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-se-australia) with a new name or note. 07.11: own copy of the outline (the -8000 outline was extended by item 3-295). Item 6-151: extended to Moffats Swamp. Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "m6-se-australia",
@@ -7621,9 +7844,10 @@
   },
   {
     "id": "m6-se-queensland",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-se-queensland) with a new name or note. 07.11, item 6-151: own outline, extended to Wallen Wallen Creek.",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-se-queensland) with a new name or note. 07.11, item 6-151: own outline, extended to Wallen Wallen Creek. Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "m6-se-queensland",
@@ -7653,9 +7877,10 @@
   },
   {
     "id": "m6-laura",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-laura) with a new name or note.",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-laura) with a new name or note. Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "laura",
@@ -7669,9 +7894,10 @@
   },
   {
     "id": "m6-arnhem",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-arnhem) with a new name or note.",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-arnhem) with a new name or note. Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "m8-arnhem-victoria",
@@ -7701,9 +7927,10 @@
   },
   {
     "id": "m6-sw-australia",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-sw-australia) with a new name or note.",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-sw-australia) with a new name or note. Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "sw-australia",
@@ -7717,9 +7944,10 @@
   },
   {
     "id": "m6-pilbara",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-pilbara) with a new name or note.",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-pilbara) with a new name or note. Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "pilbara",
@@ -7733,9 +7961,10 @@
   },
   {
     "id": "m6-central-ranges",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-central-ranges) with a new name or note.",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-central-ranges) with a new name or note. Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "m8-central-ranges",
@@ -7765,9 +7994,10 @@
   },
   {
     "id": "m6-tasmania",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-tasmania) with a new name or note. 07.11, item 6-152: own outline, extended to Cave Bay Cave (Hunter Island) and Apollo Bay (Bruny).",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-tasmania) with a new name or note. 07.11, item 6-152: own outline, extended to Cave Bay Cave (Hunter Island) and Apollo Bay (Bruny). Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "m6-tasmania",
@@ -7811,10 +8041,27 @@
     }
   },
   {
-    "id": "m6-ayamaru",
-    "why": "Item 6-160 (07.11, variant a).",
+    "id": "m5-new-ireland",
+    "why": "Map 5000, item 5000bc-7 (21.11.2026): carried over from map 6000* (m6-new-ireland) by the zone registry — same outline, name and colour; own card new-ireland-5000 (the 6000* card speaks of 6000 BC).",
     "years": [
-      -6000
+      -5000
+    ],
+    "action": "add",
+    "shape": "m6-new-ireland",
+    "properties": {
+      "NAME": "Foragers of New Guinea and nearby islands",
+      "NOTE": "new-ireland-5000",
+      "SOURCES": "https://doi.org/10.1002/oa.70108 | https://pmc.ncbi.nlm.nih.gov/articles/PMC26825 | https://pmc.ncbi.nlm.nih.gov/articles/PMC8899615",
+      "GROUP": "Sahul — New Guinea",
+      "AREA": "Foragers of New Ireland"
+    }
+  },
+  {
+    "id": "m6-ayamaru",
+    "why": "Item 6-160 (07.11, variant a). Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
+    "years": [
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "ayamaru",
@@ -7892,9 +8139,10 @@
   },
   {
     "id": "m6-youlain",
-    "why": "Map 6000*, item 6-151 (07.11): Youlain Springs; place from p3k14c (rounded). Item 6-163 (07.11): circle moved to the site (Robins 1998).",
+    "why": "Map 6000*, item 6-151 (07.11): Youlain Springs; place from p3k14c (rounded). Item 6-163 (07.11): circle moved to the site (Robins 1998). Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "m6-youlain",
@@ -7924,9 +8172,10 @@
   },
   {
     "id": "m6-puntutjarpa",
-    "why": "Item 6-162 (07.11, Puntutjarpa - variant a; Karnatukul - not shown).",
+    "why": "Item 6-162 (07.11, Puntutjarpa - variant a; Karnatukul - not shown). Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "puntutjarpa",
@@ -7970,9 +8219,10 @@
   },
   {
     "id": "m6-trans-urals",
-    "why": "Map 6000*, item 6-166 (12.11, variant a): replaces the Late Mesolithic zone of the Gorbunovo bog (m6-shigir); Mergen 6 placed by item 6-181.",
+    "why": "Map 6000*, item 6-166 (12.11, variant a): replaces the Late Mesolithic zone of the Gorbunovo bog (m6-shigir); Mergen 6 placed by item 6-181. Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "m6-trans-urals",
@@ -8092,9 +8342,10 @@
   },
   {
     "id": "m6-upper-angara",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-upper-angara) with a new name or note. Items 6-182 ... 6-185 (12.11): new card; own outline with the western Baikal shore, Tunka (Elovka-Nugan I) and the northern Angara (Ust-Yodarma II).",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-upper-angara) with a new name or note. Items 6-182 ... 6-185 (12.11): new card; own outline with the western Baikal shore, Tunka (Elovka-Nugan I) and the northern Angara (Ust-Yodarma II). Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "m6-cis-baikal",
@@ -8134,9 +8385,10 @@
   },
   {
     "id": "m6-sakhalin",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-sakhalin) with a new name or note. Item 6-201 (12.11, variant a): whole island except the far north, new name and card.",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-sakhalin) with a new name or note. Item 6-201 (12.11, variant a): whole island except the far north, new name and card. Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "m6-sakhalin",
@@ -8161,10 +8413,25 @@
     }
   },
   {
-    "id": "m6-rudnaya",
-    "why": "Item 6-202 (12.11, accepted).",
+    "id": "m5-lower-amur",
+    "why": "Map 5000, item 5000bc-7 (21.11.2026): carried over from map 6000* (m6-lower-amur) by the zone registry — same outline, name and colour; own card lower-amur-5000 (the 6000* card speaks of 6000 BC).",
     "years": [
-      -6000
+      -5000
+    ],
+    "action": "add",
+    "shape": "m6-lower-amur",
+    "properties": {
+      "NAME": "Middle Neolithic of the Lower Amur",
+      "NOTE": "lower-amur-5000",
+      "SOURCES": "https://lib.kunstkamera.ru/files/lib/978-5-88431-190-9/978-5-88431-190-9_05.pdf"
+    }
+  },
+  {
+    "id": "m6-rudnaya",
+    "why": "Item 6-202 (12.11, accepted). Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
+    "years": [
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "m6-rudnaya",
@@ -8218,9 +8485,10 @@
   },
   {
     "id": "m6-black-desert",
-    "why": "Map 6000*, item 6-234 (a, 14.11; revises 6-211).",
+    "why": "Map 6000*, item 6-234 (a, 14.11; revises 6-211). Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "m6-black-desert",
@@ -8232,9 +8500,10 @@
   },
   {
     "id": "m6-timnian",
-    "why": "Map 6000*, item 6-235 (a, 14.11; revises 6-211).",
+    "why": "Map 6000*, item 6-235 (a, 14.11; revises 6-211). Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "m6-timnian",
@@ -8454,6 +8723,22 @@
     }
   },
   {
+    "id": "m5-jeitun-akhal",
+    "why": "Map 5000, item 5000bc-7 (21.11.2026): carried over from map 6000* (m6-jeitun-akhal) by the zone registry — same outline, name and colour; own card jeitun-5000 (the 6000* card speaks of 6000 BC).",
+    "years": [
+      -5000
+    ],
+    "action": "add",
+    "shape": "m6-jeitun-akhal",
+    "properties": {
+      "NAME": "Jeitun culture",
+      "AREA": "Akhal (Jeitun, Chopan, Togolok)",
+      "GROUP": "Jeitun culture",
+      "NOTE": "jeitun-5000",
+      "SOURCES": "https://doi.org/10.3406/paleo.2002.4744 | https://en.wikipedia.org/wiki/Jeitun | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
     "id": "m6-jeitun-etek",
     "why": "Map 6000*, item 6-271 (b, 18.11): area of the group \"Jeitun culture\".",
     "years": [
@@ -8466,6 +8751,22 @@
       "AREA": "Etek (Monjukli, Chagylly)",
       "GROUP": "Jeitun culture",
       "NOTE": "jeitun-6000",
+      "SOURCES": "https://www.sidestone.com/books/looking-closely | https://doi.org/10.3406/paleo.2002.4744 | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m5-jeitun-etek",
+    "why": "Map 5000, item 5000bc-7 (21.11.2026): carried over from map 6000* (m6-jeitun-etek) by the zone registry — same outline, name and colour; own card jeitun-5000 (the 6000* card speaks of 6000 BC).",
+    "years": [
+      -5000
+    ],
+    "action": "add",
+    "shape": "m6-jeitun-etek",
+    "properties": {
+      "NAME": "Jeitun culture",
+      "AREA": "Etek (Monjukli, Chagylly)",
+      "GROUP": "Jeitun culture",
+      "NOTE": "jeitun-5000",
       "SOURCES": "https://www.sidestone.com/books/looking-closely | https://doi.org/10.3406/paleo.2002.4744 | https://www.nature.com/articles/s41597-022-01118-7"
     }
   },
@@ -8485,9 +8786,10 @@
   },
   {
     "id": "m6-tutkaul",
-    "why": "Map 6000*, item 6-273 (a, 18.11): 35 km circle.",
+    "why": "Map 6000*, item 6-273 (a, 18.11): 35 km circle. Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "m6-tutkaul",
@@ -8545,9 +8847,10 @@
   },
   {
     "id": "m6-loteshwar",
-    "why": "Map 6000*, item 6-277 (a, 18.11): 35 km circle.",
+    "why": "Map 6000*, item 6-277 (a, 18.11): 35 km circle. Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "m6-loteshwar",
@@ -8573,9 +8876,10 @@
   },
   {
     "id": "m6-lahuradewa",
-    "why": "Map 6000*, item 6-279 (a, 18.11): 35 km circle.",
+    "why": "Map 6000*, item 6-279 (a, 18.11): 35 km circle. Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "m6-lahuradewa",
@@ -8587,9 +8891,10 @@
   },
   {
     "id": "m6-belan",
-    "why": "Map 6000*, item 6-279 (a, 18.11): hull + 35 km; the overlap with the Middle Ganga zone is divided by the midline between the nearest finds.",
+    "why": "Map 6000*, item 6-279 (a, 18.11): hull + 35 km; the overlap with the Middle Ganga zone is divided by the midline between the nearest finds. Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "m6-belan",
@@ -8729,10 +9034,27 @@
     }
   },
   {
-    "id": "m6-dhofar",
-    "why": "Map 6000*, item 6-265 (a2, 17-18.11): area 2 of the group, instead of the Nejd Leptolithic. Item 6-322 (a, 19.11): extended west to Habarut 1 (Mahra).",
+    "id": "m5-hadramawt",
+    "why": "Map 5000, item 5000bc-7 (21.11.2026): carried over from map 6000* (m6-hadramawt) by the zone registry — same outline, name and colour; own card hadramawt-5000 (the 6000* card speaks of 6000 BC).",
     "years": [
-      -6000
+      -5000
+    ],
+    "action": "add",
+    "shape": "m6-hadramawt",
+    "properties": {
+      "NAME": "Neolithic of southern and eastern Arabia with trihedral points",
+      "AREA": "Hadramawt (Manayzah, Wadi Wa'shah)",
+      "GROUP": "Neolithic of southern and eastern Arabia with trihedral points",
+      "NOTE": "hadramawt-5000",
+      "SOURCES": "https://doi.org/10.1016/j.crte.2009.05.003 | https://doi.org/10.1371/journal.pone.0236314"
+    }
+  },
+  {
+    "id": "m6-dhofar",
+    "why": "Map 6000*, item 6-265 (a2, 17-18.11): area 2 of the group, instead of the Nejd Leptolithic. Item 6-322 (a, 19.11): extended west to Habarut 1 (Mahra). Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
+    "years": [
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "m6-dhofar",
@@ -8789,10 +9111,25 @@
     }
   },
   {
-    "id": "m6-lijiagou",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-lijiagou) with a new name or note. Sources checked for 6000 BC (04.11, owner: \"check and fix Sources\"). Item 6-225 (a, 13.11): own outline extended to Tieshenggou, Shigu, Zhongshanzhai, Shuiquan; area of the group with Jiahu. Item 6-293 (a, 18.11): area \"Central Henan\" extended to the west to Bancun (Mianchi); Baligang not placed.",
+    "id": "m5-balangoda",
+    "why": "Map 5000, item 5000bc-8 (a) (21.11.2026): carried over from map 6000* (m6-balangoda) by the zone registry — same outline, name and colour; own card balangoda-5000 (the 6000* card speaks of 6000 BC).",
     "years": [
-      -6000
+      -5000
+    ],
+    "action": "add",
+    "shape": "m6-balangoda",
+    "properties": {
+      "NAME": "Balangoda culture",
+      "NOTE": "balangoda-5000",
+      "SOURCES": "https://doi.org/10.1371/journal.pone.0222606 | https://doi.org/10.29173/anlk637 | https://doi.org/10.1038/s41598-024-77504-5"
+    }
+  },
+  {
+    "id": "m6-lijiagou",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-lijiagou) with a new name or note. Sources checked for 6000 BC (04.11, owner: \"check and fix Sources\"). Item 6-225 (a, 13.11): own outline extended to Tieshenggou, Shigu, Zhongshanzhai, Shuiquan; area of the group with Jiahu. Item 6-293 (a, 18.11): area \"Central Henan\" extended to the west to Bancun (Mianchi); Baligang not placed. Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
+    "years": [
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "m6-peiligang",
@@ -8850,9 +9187,10 @@
   },
   {
     "id": "m6-cishan",
-    "why": "Map 6000*, item 6-225 (13.11).",
+    "why": "Map 6000*, item 6-225 (13.11). Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "m6-cishan",
@@ -8934,9 +9272,10 @@
   },
   {
     "id": "m6-zaraa-uul",
-    "why": "Map 6000*, item 6-288 (a, 18.11): 35 km circle, a separate zone (seasonal camps of the Gobi oases).",
+    "why": "Map 6000*, item 6-288 (a, 18.11): 35 km circle, a separate zone (seasonal camps of the Gobi oases). Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "m6-zaraa-uul",
@@ -8990,9 +9329,10 @@
   },
   {
     "id": "m6-kuahuqiao",
-    "why": "Map 6000*, item 6-226 (a, 13.11). Item 6-300 (a, 18.11): + Jingtoushan (Yuyao), new hull + 50 km.",
+    "why": "Map 6000*, item 6-226 (a, 13.11). Item 6-300 (a, 18.11): + Jingtoushan (Yuyao), new hull + 50 km. Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "m6-kuahuqiao",
@@ -9018,9 +9358,10 @@
   },
   {
     "id": "m6-qinghai-ne",
-    "why": "Map 6000*, items 6-305 (a, 18.11) and 6-308 (a, 18.11): area of the group; hull + 50 km minus Qinghai Lake.",
+    "why": "Map 6000*, items 6-305 (a, 18.11) and 6-308 (a, 18.11): area of the group; hull + 50 km minus Qinghai Lake. Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "m6-qinghai-ne",
@@ -9034,9 +9375,10 @@
   },
   {
     "id": "m6-qinghai-ne-qilian",
-    "why": "Map 6000*, item 6-308 (a, 18.11): second area of the group, 35 km circle.",
+    "why": "Map 6000*, item 6-308 (a, 18.11): second area of the group, 35 km circle. Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "m6-qinghai-ne-qilian",
@@ -9064,9 +9406,10 @@
   },
   {
     "id": "m6-pengtoushan",
-    "why": "Map 6000*, item 6-226 (a, 13.11).",
+    "why": "Map 6000*, item 6-226 (a, 13.11). Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "m6-pengtoushan",
@@ -9078,9 +9421,10 @@
   },
   {
     "id": "m6-chengbeixi",
-    "why": "Map 6000*, item 6-299 (a, 18.11): hull + 50 km minus the Pengtoushan zone.",
+    "why": "Map 6000*, item 6-299 (a, 18.11): hull + 50 km minus the Pengtoushan zone. Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "m6-chengbeixi",
@@ -9092,9 +9436,10 @@
   },
   {
     "id": "m6-jomon",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-jomon) with a new name or note.",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-jomon) with a new name or note. Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "jomon",
@@ -9106,9 +9451,10 @@
   },
   {
     "id": "m6-osanri",
-    "why": "Map 6000*, item 6-309 (a, 19.11): hull + 50 km.",
+    "why": "Map 6000*, item 6-309 (a, 19.11): hull + 50 km. Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "m6-osanri",
@@ -9148,9 +9494,10 @@
   },
   {
     "id": "m6-laili",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-laili) with a new name or note.",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-laili) with a new name or note. Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "laili",
@@ -9185,6 +9532,20 @@
     "properties": {
       "NAME": "Middle Archaic of southern New England (Neville, Stark)",
       "NOTE": "southern-new-england-6000",
+      "SOURCES": "https://core.tdar.org/document/404177/sandy-hill-a-preliminary-reanalysis | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m5-southern-new-england",
+    "why": "Map 5000, item 5000bc-7 (21.11.2026): carried over from map 6000* (m6-southern-new-england) by the zone registry — same outline, name and colour; own card southern-new-england-5000 (the 6000* card speaks of 6000 BC).",
+    "years": [
+      -5000
+    ],
+    "action": "add",
+    "shape": "m6-southern-new-england",
+    "properties": {
+      "NAME": "Middle Archaic of southern New England (Neville, Stark)",
+      "NOTE": "southern-new-england-5000",
       "SOURCES": "https://core.tdar.org/document/404177/sandy-hill-a-preliminary-reanalysis | https://www.nature.com/articles/s41597-022-01118-7"
     }
   },
@@ -9343,9 +9704,10 @@
   },
   {
     "id": "m6-anangula",
-    "why": "Map 6000*, North America package, item 6-3 (29.10).",
+    "why": "Map 6000*, North America package, item 6-3 (29.10). Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "m6-anangula",
@@ -9357,9 +9719,10 @@
   },
   {
     "id": "m6-kodiak",
-    "why": "Map 6000*, North America package, item 6-4 (29.10): Kodiak by the ±250 window, with a note.",
+    "why": "Map 6000*, North America package, item 6-4 (29.10): Kodiak by the ±250 window, with a note. Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "m6-kodiak",
@@ -9371,9 +9734,10 @@
   },
   {
     "id": "m6-old-cordilleran",
-    "why": "Map 6000*, North America package, item 6-5 (a), 6-30 (b) (29.10): with the Columbia Plateau and south-west Oregon.",
+    "why": "Map 6000*, North America package, item 6-5 (a), 6-30 (b) (29.10): with the Columbia Plateau and south-west Oregon. Map 5000, item 5000bc-8 (a) (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "m6-old-cordilleran",
@@ -9430,9 +9794,10 @@
   },
   {
     "id": "m6-millingstone",
-    "why": "Map 6000*, North America package, item 6-6 (a), 6-29 (b) (29.10): central and southern California coast.",
+    "why": "Map 6000*, North America package, item 6-6 (a), 6-29 (b) (29.10): central and southern California coast. Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "m6-millingstone",
@@ -9446,9 +9811,10 @@
   },
   {
     "id": "m6-channel-islands",
-    "why": "Map 6000*, North America package, item 6-6 (29.10): Santarosae, Busted Balls in the card.",
+    "why": "Map 6000*, North America package, item 6-6 (29.10): Santarosae, Busted Balls in the card. Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "channel-islands",
@@ -9462,9 +9828,10 @@
   },
   {
     "id": "m6-southern-channel-islands",
-    "why": "Map 6000*, North America package, item 6-6 (c) (29.10).",
+    "why": "Map 6000*, North America package, item 6-6 (c) (29.10). Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "m6-southern-channel-islands",
@@ -9478,9 +9845,10 @@
   },
   {
     "id": "m6-cape-region",
-    "why": "Map 6000*, North America package, item 6-7 (29.10): Cape region, area of the Paleocoastal group.",
+    "why": "Map 6000*, North America package, item 6-7 (29.10): Cape region, area of the Paleocoastal group. Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "cape-region",
@@ -9494,9 +9862,10 @@
   },
   {
     "id": "m6-clear-lake",
-    "why": "Map 6000*, North America package, item 6-8 (29.10).",
+    "why": "Map 6000*, North America package, item 6-8 (29.10). Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "clear-lake",
@@ -9510,9 +9879,10 @@
   },
   {
     "id": "m6-north-coast-ranges",
-    "why": "Map 6000*, North America package, item 6-30 (a) (29.10).",
+    "why": "Map 6000*, North America package, item 6-30 (a) (29.10). Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "m6-north-coast-ranges",
@@ -9526,9 +9896,10 @@
   },
   {
     "id": "m6-oshara",
-    "why": "Map 6000*, North America package, item 6-10, 6-25 (29.10). Item 3-260 (applied 02.11): GROUP \"Early Archaic of the Colorado Plateau\" — one colour with the zone of map 8000.",
+    "why": "Map 6000*, North America package, item 6-10, 6-25 (29.10). Item 3-260 (applied 02.11): GROUP \"Early Archaic of the Colorado Plateau\" — one colour with the zone of map 8000. Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "m6-oshara",
@@ -9541,9 +9912,10 @@
   },
   {
     "id": "m6-mountain-tradition",
-    "why": "Map 6000*, North America package, item 6-25 (29.10).",
+    "why": "Map 6000*, North America package, item 6-25 (29.10). Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "m6-mountain-tradition",
@@ -9584,9 +9956,10 @@
   },
   {
     "id": "m6-gulf-of-maine",
-    "why": "Map 6000*, North America package, item 6-14 (29.10).",
+    "why": "Map 6000*, North America package, item 6-14 (29.10). Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "m6-gulf-of-maine",
@@ -9598,9 +9971,10 @@
   },
   {
     "id": "m6-belle-isle",
-    "why": "Map 6000*, North America package, item 6-15 (29.10).",
+    "why": "Map 6000*, North America package, item 6-15 (29.10). Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "m6-belle-isle",
@@ -9642,9 +10016,10 @@
   },
   {
     "id": "m6-el-riego",
-    "why": "Map 6000*, North America package, item 6-17 (29.10): AMS dates of Coxcatlán in the card. Item 6-60 (applied 02.11): area of the group \"Highland Archaic of central and southern Mexico\".",
+    "why": "Map 6000*, North America package, item 6-17 (29.10): AMS dates of Coxcatlán in the card. Item 6-60 (applied 02.11): area of the group \"Highland Archaic of central and southern Mexico\". Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "m8-el-riego",
@@ -9671,10 +10046,26 @@
     }
   },
   {
-    "id": "m6-basin-mexico",
-    "why": "Map 6000*, North America package, item 6-19 (29.10): by the ±250 window, with a note.",
+    "id": "m5-oaxaca",
+    "why": "Map 5000, item 5000bc-7 (21.11.2026): carried over from map 6000* (m6-oaxaca) by the zone registry — same outline, name and colour; own card oaxaca-5000 (the 6000* card speaks of 6000 BC).",
     "years": [
-      -6000
+      -5000
+    ],
+    "action": "add",
+    "shape": "m8-guila-naquitz",
+    "properties": {
+      "NAME": "Highland Archaic of central and southern Mexico",
+      "NOTE": "oaxaca-5000",
+      "SOURCES": "https://sites.lsa.umich.edu/oaxaca-archaeology/origins-of-agriculture | https://en.wikipedia.org/wiki/Gheo-Shih",
+      "AREA": "Valley of Oaxaca (Naquitz and Jícaras phases)"
+    }
+  },
+  {
+    "id": "m6-basin-mexico",
+    "why": "Map 6000*, North America package, item 6-19 (29.10): by the ±250 window, with a note. Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
+    "years": [
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "m6-basin-mexico",
@@ -9686,9 +10077,10 @@
   },
   {
     "id": "m6-santa-marta",
-    "why": "Map 6000*, North America package, item 6-20 (29.10).",
+    "why": "Map 6000*, North America package, item 6-20 (29.10). Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "santa-marta",
@@ -9725,6 +10117,21 @@
       "NAME": "Uninhabited — Laurentide ice sheet",
       "NOTE": "uninhabited-ice-6000",
       "SOURCES": "https://en.wikipedia.org/wiki/Laurentide_ice_sheet | https://doi.org/10.1016/j.quascirev.2020.106223",
+      "KIND": "uninhabited"
+    }
+  },
+  {
+    "id": "m5-uninhabited-labrador-ice",
+    "why": "Map 5000, item 5000bc-6 (a, 21.11.2026): the last remnant of the Laurentide ice sheet, the Labrador dome (approximate outline; ice area after Dalton et al. 2020, table 1, 6 ka 14C isochrone; gone by 6.7 +- 0.4 ka, Ullman et al. 2016). To be redrawn from shapefiles at the \"sea inland\" stage (5000bc-4).",
+    "years": [
+      -5000
+    ],
+    "action": "add",
+    "shape": "m5-labrador-ice",
+    "properties": {
+      "NAME": "Uninhabited — Labrador ice dome",
+      "NOTE": "uninhabited-ice-5000",
+      "SOURCES": "https://doi.org/10.1016/j.quascirev.2020.106223 | https://doi.org/10.1016/j.quascirev.2016.09.014",
       "KIND": "uninhabited"
     }
   },
@@ -9771,10 +10178,25 @@
     }
   },
   {
-    "id": "m6-banwari-trace",
-    "why": "Map 6000*, South America package, item 6-42 (d) (owner 01–02.11; applied 02.11).",
+    "id": "m5-el-prodigio",
+    "why": "Map 5000, item 5000bc-7 (21.11.2026): carried over from map 6000* (m6-el-prodigio) by the zone registry — same outline, name and colour; own card el-prodigio-5000 (the 6000* card speaks of 6000 BC).",
     "years": [
-      -6000
+      -5000
+    ],
+    "action": "add",
+    "shape": "m6-el-prodigio",
+    "properties": {
+      "NAME": "Preceramic foragers of southern Tolima (El Prodigio)",
+      "NOTE": "el-prodigio-5000",
+      "SOURCES": "https://publicaciones.banrepcultural.org/index.php/fian/article/download/5161/5409/10568"
+    }
+  },
+  {
+    "id": "m6-banwari-trace",
+    "why": "Map 6000*, South America package, item 6-42 (d) (owner 01–02.11; applied 02.11). Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
+    "years": [
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "banwari-trace",
@@ -9786,9 +10208,10 @@
   },
   {
     "id": "m6-alaka",
-    "why": "Map 6000*, South America package, item 6-43 (a) (owner 01–02.11; applied 02.11).",
+    "why": "Map 6000*, South America package, item 6-43 (a) (owner 01–02.11; applied 02.11). Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "alaka",
@@ -9800,9 +10223,10 @@
   },
   {
     "id": "m6-zana-nanchoc",
-    "why": "Map 6000*, South America package, item 6-45 (a) (owner 01–02.11; applied 02.11). Item 6-62 (applied 02.11): one outline and one card with the Chicama coast (rule m6-chicama removed).",
+    "why": "Map 6000*, South America package, item 6-45 (a) (owner 01–02.11; applied 02.11). Item 6-62 (applied 02.11): one outline and one card with the Chicama coast (rule m6-chicama removed). Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "north-coast-peru-6000",
@@ -9814,10 +10238,11 @@
   },
   {
     "id": "m8-amotape-siches",
-    "why": "Map 8000 and 6000*, South America package, item 3-216, 6-45 (c) (owner 01–02.11; applied 02.11).",
+    "why": "Map 8000 and 6000*, South America package, item 3-216, 6-45 (c) (owner 01–02.11; applied 02.11). Map 5000, item 5000bc-8 (a) (21.11.2026): carried over by the zone registry.",
     "years": [
       -8000,
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "amotape-siches",
@@ -9902,6 +10327,21 @@
     }
   },
   {
+    "id": "m5-puna-jujuy",
+    "why": "Map 5000, item 5000bc-7 (21.11.2026): carried over from map 6000* (m6-puna-jujuy) by the zone registry — same outline, name and colour; own card puna-jujuy-5000 (the 6000* card speaks of 6000 BC).",
+    "years": [
+      -5000
+    ],
+    "action": "add",
+    "shape": "puna-jujuy-6000",
+    "properties": {
+      "NAME": "Middle Archaic hunters of the Argentine Puna",
+      "AREA": "Puna of Jujuy (Hornillos 2)",
+      "NOTE": "puna-jujuy-5000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
     "id": "m8-antofagasta",
     "why": "Map 8000, South America package, item 3-220 (owner 01–02.11; applied 02.11).",
     "years": [
@@ -9917,9 +10357,10 @@
   },
   {
     "id": "m6-antofagasta",
-    "why": "Map 6000*, South America package, item 6-49 (e) (owner 01–02.11; applied 02.11). Item 6-86 (a) (owner 02.11, applied 04.11): an area of the group \"Middle Archaic hunters of the Argentine Puna\".",
+    "why": "Map 6000*, South America package, item 6-49 (e) (owner 01–02.11; applied 02.11). Item 6-86 (a) (owner 02.11, applied 04.11): an area of the group \"Middle Archaic hunters of the Argentine Puna\". Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "antofagasta-6000",
@@ -9977,9 +10418,10 @@
   },
   {
     "id": "m6-north-patagonia",
-    "why": "Map 6000*, South America package, item 6-53 (a) (owner 01–02.11; applied 02.11). Item 6-75 (applied 02.11): extended west to Loconaco 2.",
+    "why": "Map 6000*, South America package, item 6-53 (a) (owner 01–02.11; applied 02.11). Item 6-75 (applied 02.11): extended west to Loconaco 2. Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "north-patagonia-6000",
@@ -9992,9 +10434,10 @@
   },
   {
     "id": "m6-fell",
-    "why": "Map 6000*, South America package, item 6-54 (owner 01–02.11; applied 02.11).",
+    "why": "Map 6000*, South America package, item 6-54 (owner 01–02.11; applied 02.11). Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "fell-6000",
@@ -10007,9 +10450,10 @@
   },
   {
     "id": "m6-canoe",
-    "why": "Map 6000*, South America package, item 6-54 (owner 01–02.11; applied 02.11).",
+    "why": "Map 6000*, South America package, item 6-54 (owner 01–02.11; applied 02.11). Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "canoe-6000",
@@ -10049,9 +10493,10 @@
   },
   {
     "id": "m6-nuagapua",
-    "why": "Map 6000*, South America package, item 6-56 (a) (owner 01–02.11; applied 02.11).",
+    "why": "Map 6000*, South America package, item 6-56 (a) (owner 01–02.11; applied 02.11). Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "nuagapua",
@@ -10063,9 +10508,10 @@
   },
   {
     "id": "m6-lower-amazon",
-    "why": "Map 6000*, South America package, item 6-57 (a, b) (owner 01–02.11; applied 02.11).",
+    "why": "Map 6000*, South America package, item 6-57 (a, b) (owner 01–02.11; applied 02.11). Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "lower-amazon-6000",
@@ -10077,9 +10523,10 @@
   },
   {
     "id": "m6-upper-madeira",
-    "why": "Map 6000*, South America package, item 6-57 (c) (owner 01–02.11; applied 02.11).",
+    "why": "Map 6000*, South America package, item 6-57 (c) (owner 01–02.11; applied 02.11). Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "upper-madeira",
@@ -10091,9 +10538,10 @@
   },
   {
     "id": "m6-abrigo-do-sol",
-    "why": "Map 6000*, South America package, item 6-57 (Abrigo do Sol) (owner 01–02.11; applied 02.11).",
+    "why": "Map 6000*, South America package, item 6-57 (Abrigo do Sol) (owner 01–02.11; applied 02.11). Map 5000, item 5000bc-8 (a) (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "abrigo-do-sol",
@@ -10189,9 +10637,10 @@
   },
   {
     "id": "m6-central-coast-peru",
-    "why": "Map 6000*, item 6-63 (queue-map6000.md; owner 02.11, applied 02.11).",
+    "why": "Map 6000*, item 6-63 (queue-map6000.md; owner 02.11, applied 02.11). Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "central-coast-peru-6000",
@@ -10330,9 +10779,10 @@
   },
   {
     "id": "m6-el-penoncito",
-    "why": "Map 6000*, item 6-72 (a) (queue-map6000.md; owner 02.11, applied 02.11).",
+    "why": "Map 6000*, item 6-72 (a) (queue-map6000.md; owner 02.11, applied 02.11). Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "el-penoncito",
@@ -10344,9 +10794,10 @@
   },
   {
     "id": "m6-los-morrillos",
-    "why": "Map 6000*, item 6-72 (a) (queue-map6000.md; owner 02.11, applied 02.11). Item 6-88 (a) (owner 02.11, applied 04.11): an area of the group \"Los Morrillos tradition\".",
+    "why": "Map 6000*, item 6-72 (a) (queue-map6000.md; owner 02.11, applied 02.11). Item 6-88 (a) (owner 02.11, applied 04.11): an area of the group \"Los Morrillos tradition\". Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "los-morrillos",
@@ -11031,6 +11482,251 @@
       "NAME": "Initial Neolithic of Kamchatka (Ushki, Anavgai)",
       "NOTE": "kamchatka-8000",
       "SOURCES": "https://journal.archaeology.nsc.ru/jour/article/download/892/698"
+    }
+  },
+  {
+    "id": "m5-remove-kelteminar",
+    "why": "Map 5000, item 5000bc-12 (a, 21.11.2026): a copy of Kelteminar on the North Island of New Zealand (source error, inside Uninhabited — Remote Oceania).",
+    "years": [
+      -5000
+    ],
+    "action": "remove",
+    "where": {
+      "NAME": "Kelteminar"
+    }
+  },
+  {
+    "id": "m5-remove-ainu",
+    "why": "Map 5000, item 5000bc-12 (a, 21.11.2026): anachronistic name (the Ainu — 2nd millennium AD); mostly under our zone jomon.",
+    "years": [
+      -5000
+    ],
+    "action": "remove",
+    "where": {
+      "NAME": "Ainu"
+    }
+  },
+  {
+    "id": "m5-remove-dravidians",
+    "why": "Map 5000, item 5000bc-12 (a, 21.11.2026): a language family without finds (like Khoisan).",
+    "years": [
+      -5000
+    ],
+    "action": "remove",
+    "where": {
+      "NAME": "Dravidians"
+    }
+  },
+  {
+    "id": "m5-remove-hurrian-kingdoms",
+    "why": "Map 5000, item 5000bc-12 (a, 21.11.2026): anachronism (the Hurrians — 3rd-2nd millennium BC).",
+    "years": [
+      -5000
+    ],
+    "action": "remove",
+    "where": {
+      "NAME": "Hurrian Kingdoms"
+    }
+  },
+  {
+    "id": "m5-remove-elam",
+    "why": "Map 5000, item 5000bc-12 (a, 21.11.2026): anachronism (a state from c. 3200 BC); for 5000 BC — Susiana (registry: susiana).",
+    "years": [
+      -5000
+    ],
+    "action": "remove",
+    "where": {
+      "NAME": "Elam"
+    }
+  },
+  {
+    "id": "m5-remove-naquada-i",
+    "why": "Map 5000, item 5000bc-12 (a, 21.11.2026): anachronism (c. 3900-3500 BC).",
+    "years": [
+      -5000
+    ],
+    "action": "remove",
+    "where": {
+      "NAME": "Naquada I"
+    }
+  },
+  {
+    "id": "m5-remove-norte-chico",
+    "why": "Map 5000, item 5000bc-12 (a, 21.11.2026): anachronism (c. 3000-1800 BC).",
+    "years": [
+      -5000
+    ],
+    "action": "remove",
+    "where": {
+      "NAME": "Norte Chico"
+    }
+  },
+  {
+    "id": "m5-remove-valdivia",
+    "why": "Map 5000, item 5000bc-12 (a, 21.11.2026): anachronism (from c. 3800 BC, at the earliest c. 4400 BC).",
+    "years": [
+      -5000
+    ],
+    "action": "remove",
+    "where": {
+      "NAME": "Valdivia"
+    }
+  },
+  {
+    "id": "m5-remove-ghassul",
+    "why": "Map 5000, item 5000bc-12 (a, 21.11.2026): anachronism (Ghassulian c. 4500-3800 BC); for 5000 BC — Wadi Rabah, Qatifian (registry).",
+    "years": [
+      -5000
+    ],
+    "action": "remove",
+    "where": {
+      "NAME": "Ghassul"
+    }
+  },
+  {
+    "id": "m5-remove-funnel-beaker",
+    "why": "Map 5000, item 5000bc-12 (a, 21.11.2026): anachronism (Funnel Beaker culture from c. 4300-4100 BC).",
+    "years": [
+      -5000
+    ],
+    "action": "remove",
+    "where": {
+      "NAME": "Funnel-Beaker"
+    }
+  },
+  {
+    "id": "m5-remove-narva",
+    "why": "Map 5000, item 5000bc-12 (a, 21.11.2026): candidate, but mostly (58 %) under our zone kunda — removed until the review of Europe and Russia.",
+    "years": [
+      -5000
+    ],
+    "action": "remove",
+    "where": {
+      "NAME": "Narva"
+    }
+  },
+  {
+    "id": "m5-remove-nemay",
+    "why": "Map 5000, item 5000bc-12 (a, 21.11.2026): candidate (Neman culture), but mostly (88 %) under our zone janislawice — removed until the review of Europe.",
+    "years": [
+      -5000
+    ],
+    "action": "remove",
+    "where": {
+      "NAME": "Nemay"
+    }
+  },
+  {
+    "id": "m5-cardial-drop-madagascar",
+    "why": "Map 5000, item 5000bc-12 (a, 21.11.2026): the source outline of the Cardial Ware culture (blank NAME) also covers Madagascar — a source error; that part is removed, the European parts stay (candidate shown until the review of Europe).",
+    "years": [
+      -5000
+    ],
+    "action": "remove",
+    "where": {
+      "NAME": "      ",
+      "containsPoint": [
+        46.8,
+        -19.5
+      ]
+    },
+    "dropParts": [
+      [
+        46.8,
+        -19.5
+      ]
+    ]
+  },
+  {
+    "id": "m5-name-cardial",
+    "why": "Map 5000, item 5000bc-12 (a, 21.11.2026): the source outline of the Cardial Ware culture has a blank NAME ('      '); candidate shown until the review of Europe. Colour set by hand (no same colour closer than 2000 km; 5000bc-13).",
+    "years": [
+      -5000
+    ],
+    "action": "set",
+    "where": {
+      "NAME": "      ",
+      "containsPoint": [
+        7.4,
+        44.4
+      ]
+    },
+    "set": {
+      "NAME": "Cardial Ware culture",
+      "COLOR": 8
+    }
+  },
+  {
+    "id": "m5-name-dapenkeng",
+    "why": "Map 5000, item 5000bc-12 (a, 21.11.2026): SUBJECTO / PARTOF 'Dakapeng culture' (misspelt) -> the zone's own name, so the card does not say 'ruled by'. Colour set by hand (no same colour closer than 2000 km; 5000bc-13).",
+    "years": [
+      -5000
+    ],
+    "action": "set",
+    "where": {
+      "NAME": "Dapenkeng culture"
+    },
+    "set": {
+      "SUBJECTO": "Dapenkeng culture",
+      "PARTOF": "Dapenkeng culture",
+      "COLOR": 6
+    }
+  },
+  {
+    "id": "m5-name-kelteminar",
+    "why": "Map 5000, item 5000bc-12 (a, 21.11.2026): SUBJECTO / PARTOF ' Kelteminar culture' (leading space) -> the zone's own name.",
+    "years": [
+      -5000
+    ],
+    "action": "set",
+    "where": {
+      "NAME": "Kelteminar culture"
+    },
+    "set": {
+      "SUBJECTO": "Kelteminar culture",
+      "PARTOF": "Kelteminar culture"
+    }
+  },
+  {
+    "id": "m5-color-ubaid",
+    "why": "Map 5000, step 5 (5000bc-13, 21.11.2026): source candidate shown until the review of its part of the world; colour 15 so that no zone of the same colour is closer than 2000 km.",
+    "years": [
+      -5000
+    ],
+    "action": "set",
+    "where": {
+      "NAME": "Ubaid"
+    },
+    "set": {
+      "COLOR": 15
+    }
+  },
+  {
+    "id": "m5-color-dimini",
+    "why": "Map 5000, step 5 (5000bc-13, 21.11.2026): source candidate shown until the review of its part of the world; colour 7 so that no zone of the same colour is closer than 2000 km.",
+    "years": [
+      -5000
+    ],
+    "action": "set",
+    "where": {
+      "NAME": "Dimini"
+    },
+    "set": {
+      "COLOR": 7
+    }
+  },
+  {
+    "id": "m5-color-early-combware",
+    "why": "Map 5000, step 5 (5000bc-13, 21.11.2026): source candidate shown until the review of its part of the world; colour 16 so that no zone of the same colour is closer than 2000 km.",
+    "years": [
+      -5000
+    ],
+    "action": "set",
+    "where": {
+      "NAME": "Early combware"
+    },
+    "set": {
+      "COLOR": 16
     }
   }
 ]

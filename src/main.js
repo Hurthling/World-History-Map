@@ -178,19 +178,28 @@ function markActiveLanguage(code) {
 }
 
 // Small note under the year: the ancient coastline's sea level, or a note
-// about the coastline (e.g. map 1: "the coastline is today's")
+// about the coastline (e.g. map 1: "the coastline is today's"). Further notes go on
+// lines of their own: more coastline notes (a list of keys in index.json) and, on a
+// map still being reviewed, "Draft: reviewed …" (item 5000bc-1)
 function showSeaLevel(year) {
   const el = $('#sea-level');
-  const level = data.seaLevelFor(year);
-  const note = data.coastNoteFor(year);
-  if (level == null && !note) { el.hidden = true; $('#coast-note').hidden = true; return; }
-  el.textContent = level != null ? i18n.t('seaLevel', { m: Math.abs(level) }) : i18n.t(note);
-  el.hidden = false;
-  // Both (maps 10 000 and 8000): the note goes on its own line under the sea level
-  // ("levels of the Caspian, Black Sea and Baltic are approximate")
   const extra = $('#coast-note');
-  extra.hidden = !(level != null && note);
-  extra.textContent = extra.hidden ? '' : i18n.t(note);
+  const level = data.seaLevelFor(year);
+  const notes = [].concat(data.coastNoteFor(year) || []);
+  const draft = data.draftNoteFor(year);
+  if (level == null && !notes.length && !draft) { el.hidden = true; extra.hidden = true; return; }
+  const lines = notes.map(k => i18n.t(k));
+  const first = level != null ? i18n.t('seaLevel', { m: Math.abs(level) }) : lines.shift();
+  el.textContent = first ?? '';
+  el.hidden = first == null;
+  extra.replaceChildren(...lines.map(text => line(text)), ...(draft ? [line(i18n.t(draft), 'draft')] : []));
+  extra.hidden = !extra.childElementCount;
+}
+function line(text, cls) {
+  const s = document.createElement('span');
+  s.className = 'note-line' + (cls ? ' ' + cls : '');
+  s.textContent = text;
+  return s;
 }
 
 // Legend: one for maps drawn from finds (map 2), another for map 1 (species).

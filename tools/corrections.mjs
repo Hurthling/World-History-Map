@@ -19,6 +19,8 @@
 //     "clipToLand": true                  cut the zone to the land of that year (default true)
 //     "simplify": "15%"                   simplify the zone after cutting it to the land (share of
 //                                         points to keep; for big zones along a detailed coast)
+//     "dropParts": [[lon, lat], ...]      (action "remove") remove only the parts (polygons) of the
+//                                         matched shapes that cover these points, keep the rest
 //   }
 //
 // Conditions in "where" (all must be true):
@@ -57,6 +59,19 @@ export function applyEdits(geojson, year, rules) {
     const matches = geojson.features.filter(f => matchesWhere(f, rule.where));
     if (rule.action === 'set') {
       for (const f of matches) Object.assign(f.properties, rule.set);
+    } else if (rule.dropParts) {
+      // Remove only the parts (polygons) of a shape that cover the given points, e.g. a
+      // stray piece of a source zone on another continent (item 5000bc-12: Madagascar
+      // inside the Cardial Ware culture of map 5000)
+      let dropped = 0;
+      for (const f of matches) {
+        const keep = polygonsOf(f.geometry).filter(rings => !rule.dropParts.some(([x, y]) => pointInPolygon(x, y, rings)));
+        dropped += polygonsOf(f.geometry).length - keep.length;
+        f.geometry = keep.length ? { type: 'MultiPolygon', coordinates: keep } : null;
+      }
+      geojson.features = geojson.features.filter(f => f.geometry);
+      report.push(`${rule.id}: ${dropped} part(s) removed` + (dropped ? '' : '   <-- NOTHING MATCHED, check the rule'));
+      continue;
     } else {
       geojson.features = geojson.features.filter(f => !matches.includes(f));
     }

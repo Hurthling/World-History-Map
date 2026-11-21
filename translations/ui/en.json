@@ -53,5 +53,8 @@
   "legendProbability": "Coloured where the species' presence is more likely than 50 % (from finds; genetics as support). Uncoloured land: probability below 50 %. Borders are approximate.",
   "overlapSpecies": "Both species lived here",
   "overlapCultures": "both cultures occur here",
-  "seaLevelsApprox": "Caspian, Black Sea and Baltic levels are approximate"
+  "seaLevelsApprox": "Caspian, Black Sea and Baltic levels are approximate",
+  "coastModern5000": "Coastline and sea levels are today's (then they differed by a few metres)",
+  "seaInland5000": "Where the land has risen since the ice age (Gulf of Bothnia, Hudson Bay) and in the lower Tigris and Euphrates, the sea reached further inland than today",
+  "draft5000": "Draft: no part of the world reviewed yet — zones carried over from the 6000* map and source zones are shown"
 }

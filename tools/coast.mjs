@@ -16,8 +16,10 @@
 //      and saved as data/coast/land_<year>.json (TopoJSON, object "land").
 //
 // Sea levels per year: corrections/sea-levels.json
-// Vanished lakes (e.g. glacial Lake Agassiz on map 8000): "lakes" in the same file,
-// outlines in corrections/lakes/ — they are cut out of that year's land like the sea.
+// Vanished lakes (e.g. glacial Lake Agassiz on map 8000, Lake Mega-Chad on maps 8000,
+// 6000* and 5000): "lakes" in the same file, outlines in corrections/lakes/ — they are
+// cut out of that year's land like the sea. A year with lakes but no sea level of its
+// own keeps today's coastline (lakesOnlyLand below).
 // Local sea levels ("local" in the same file, items 3-112 and 113 of map 10 000): the
 // 10' grid makes some shallow seas too shallow (Bass Strait, Gulf of Carpentaria), so
 // inside a given area (lon/lat polygon) a cell is water if it is deeper than the local
@@ -207,13 +209,38 @@ export function basinCells(grid, ocean, basins, globalLevel) {
   return { isSea, shift, dry, report };
 }
 
+// A year with vanished lakes but today's coastline (no entry in "levels", e.g. Lake
+// Mega-Chad on map 5000, item 5000bc-5): today's land with the lakes cut out, no grid.
+// Its level is null — the page then shows no sea level under the year.
+async function lakesOnlyLand({ root, year, lakes, landGeoJson, outDir }) {
+  const tmpModern = path.join(outDir, `_modern_${year}.geojson`);
+  fs.writeFileSync(tmpModern, JSON.stringify(landGeoJson));
+  const outFile = path.join(outDir, `land_${year}.json`);
+  await mapshaper.runCommands([
+    `-i "${tmpModern}" name=land`,
+    ...lakes.map(name => `-erase "${path.join(root, 'corrections', 'lakes', name + '.geojson')}"`),
+    `-explode`,
+    `-o "${outFile}" format=topojson quantization=100000`,
+  ].join(' '));
+  fs.rmSync(tmpModern);
+  const topo = JSON.parse(fs.readFileSync(outFile, 'utf8'));
+  const kb = Math.round(fs.statSync(outFile).size / 1024);
+  console.log(`  coast ${year}: today's coast, vanished lakes ${lakes.join(', ')} → ${kb} KB`);
+  return { file: `coast/land_${year}.json`, geojson: topojson.feature(topo, topo.objects.land), level: null };
+}
+
 export async function buildCoasts({ root, levels, lakes = {}, local = {}, basins = {}, landGeoJson, outDir }) {
   const years = Object.keys(levels).map(Number);
-  if (!years.length) return {};
-  const grid = await loadGrid(path.join(root, 'tools', '.cache', 'etopo'));
-  const ocean = oceanMask(grid);
+  const lakeYears = Object.keys(lakes).map(Number).filter(y => !(String(y) in levels) && lakes[y].length);
+  if (!years.length && !lakeYears.length) return {};
   fs.mkdirSync(outDir, { recursive: true });
   const result = {};
+  for (const year of lakeYears) {
+    result[year] = await lakesOnlyLand({ root, year, lakes: lakes[year], landGeoJson, outDir });
+  }
+  if (!years.length) return result;
+  const grid = await loadGrid(path.join(root, 'tools', '.cache', 'etopo'));
+  const ocean = oceanMask(grid);
 
   for (const year of years) {
     const level = levels[String(year)];
