@@ -4054,6 +4054,34 @@
     }
   },
   {
+    "id": "m5-las-vegas",
+    "why": "Map 5000, item 5000bc-28 (a) (owner 23.11, applied 23.11.2026): Late Las Vegas by the fork across the \"hiatus\" (Stahl, Stothert 2020; Popov, Tabarev 2023) — core of the peninsula, outline of 10 000 and 8000 (without El Muerto).",
+    "years": [
+      -5000
+    ],
+    "action": "add",
+    "shape": "las-vegas",
+    "properties": {
+      "NAME": "Las Vegas culture",
+      "NOTE": "las-vegas-5000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Las_Vegas_culture"
+    }
+  },
+  {
+    "id": "m5-las-mercedes",
+    "why": "Map 5000, item 5000bc-29 (23.11, nothing to decide; applied 23.11.2026): Las Mercedes and Los Naranjos, layer III under volcanic ash, ten charcoal dates c. 5460–4330 BC (Constantine 2017).",
+    "years": [
+      -5000
+    ],
+    "action": "add",
+    "shape": "las-mercedes",
+    "properties": {
+      "NAME": "Early foragers of the western Andean foothills of Ecuador (Las Mercedes, Los Naranjos)",
+      "NOTE": "las-mercedes-5000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
     "id": "m8-cubilan-chobshi",
     "why": "Map 8000, item 3-77 (c) (queue-map8000.md; accepted 21.10, applied 22.10).",
     "years": [
@@ -4066,6 +4094,20 @@
       "NAME": "Preceramic foragers of the southern Ecuadorian highlands",
       "NOTE": "cubilan-chobshi",
       "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m5-cubilan",
+    "why": "Map 5000, item 5000bc-25 (a) (owner 23.11, applied 23.11.2026): Cubilán, stage II, last occupation c. 4900 BC (Pagán-Jiménez et al. 2021) — circle at Oña (Chobshi ends c. 6400 BC).",
+    "years": [
+      -5000
+    ],
+    "action": "add",
+    "shape": "cubilan-5000",
+    "properties": {
+      "NAME": "Preceramic foragers of the southern Ecuadorian highlands",
+      "NOTE": "cubilan-5000",
+      "SOURCES": "https://doi.org/10.1016/j.quaint.2020.04.035"
     }
   },
   {
@@ -4126,16 +4168,29 @@
   },
   {
     "id": "m6-south-central-andes",
-    "why": "Map 6000*: the zone of map 8000 (m8-south-central-andes, carried 28.10 unchanged) with its own outline and card. Item 6-82 (a) (owner 02.11, applied 04.11): Patapatane (item 6-74) joined to the zone; rule m6-patapatane removed. Item 6-254 (17.11): name and card of the Middle Archaic. Map 5000, item 5000bc-8 (a) (21.11.2026): carried over by the zone registry.",
+    "why": "Map 6000*: the zone of map 8000 (m8-south-central-andes, carried 28.10 unchanged) with its own outline and card. Item 6-82 (a) (owner 02.11, applied 04.11): Patapatane (item 6-74) joined to the zone; rule m6-patapatane removed. Item 6-254 (17.11): name and card of the Middle Archaic. Map 5000, item 5000bc-8 (a) (21.11.2026): carried over by the zone registry. Map 5000 moved to rule m5-south-central-andes (item 5000bc-40, applied 23.11.2026).",
     "years": [
-      -6000,
-      -5000
+      -6000
     ],
     "action": "add",
     "shape": "south-central-andes-6000",
     "properties": {
       "NAME": "Middle Archaic foragers of the south-central Andes",
       "NOTE": "south-central-andes-6000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Wilamaya_Patjxa | https://en.wikipedia.org/wiki/Toquepala_Caves | https://www.science.org/doi/10.1126/sciadv.abd0310 | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m5-south-central-andes",
+    "why": "Map 5000, item 5000bc-40 (23.11, nothing to decide; applied 23.11.2026): the zone of 6000* (m6-south-central-andes, carried by the registry, 5000bc-8) extended to Jaquenasa cave (Beta-219700 6200 ± 80, Osorio et al. 2017) — own outline and card.",
+    "years": [
+      -5000
+    ],
+    "action": "add",
+    "shape": "south-central-andes-5000",
+    "properties": {
+      "NAME": "Middle Archaic foragers of the south-central Andes",
+      "NOTE": "south-central-andes-5000",
       "SOURCES": "https://en.wikipedia.org/wiki/Wilamaya_Patjxa | https://en.wikipedia.org/wiki/Toquepala_Caves | https://www.science.org/doi/10.1126/sciadv.abd0310 | https://www.nature.com/articles/s41597-022-01118-7"
     }
   },
@@ -6905,6 +6960,21 @@
     }
   },
   {
+    "id": "m5-puna-junin",
+    "why": "Map 5000, item 5000bc-36 (23.11, nothing to decide; applied 23.11.2026): carried from 6000* (m6-puna-junin) — same outline, name and colour; own card puna-junin-5000 (Salcedo 2020).",
+    "years": [
+      -5000
+    ],
+    "action": "add",
+    "shape": "puna-junin",
+    "properties": {
+      "NAME": "Archaic hunters of the central Peruvian Andes",
+      "AREA": "Lauricocha and Junín puna",
+      "NOTE": "puna-junin-5000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
     "id": "m6-acha",
     "why": "Map 6000* (28.10): carried from map 8000 (m8-acha) with a new name or note. Item 6-47 (c) (applied 02.11): renamed Chinchorro culture, coast from Ilo to Camarones. Item 6-74 (applied 02.11): extended south to Quebrada Tiliviche. Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
@@ -6921,16 +6991,30 @@
   },
   {
     "id": "m6-piuquenes",
-    "why": "Map 6000* (28.10): carried from map 8000 (m8-piuquenes) with a new name or note. Item 6-50 (c) (applied 02.11): extended to the Maipo and Tagua Tagua, renamed. Item 6-77 (applied 02.11): + Paso de las Conchas (Bucalemu) as a separate part. Item 6-81 (applied 04.11): Bucalemu joined to the main part (one outline). Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
+    "why": "Map 6000* (28.10): carried from map 8000 (m8-piuquenes) with a new name or note. Item 6-50 (c) (applied 02.11): extended to the Maipo and Tagua Tagua, renamed. Item 6-77 (applied 02.11): + Paso de las Conchas (Bucalemu) as a separate part. Item 6-81 (applied 04.11): Bucalemu joined to the main part (one outline). Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry. Map 5000 moved to rule m5-piuquenes (item 5000bc-18, applied 23.11.2026).",
     "years": [
-      -6000,
-      -5000
+      -6000
     ],
     "action": "add",
     "shape": "central-chile-6000",
     "properties": {
       "NAME": "Middle Archaic of central Chile (Los Piuquenes, El Manzano, Cuchipuy)",
       "NOTE": "central-chile-6000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7",
+      "GROUP": "Archaic of the central Chilean Andes"
+    }
+  },
+  {
+    "id": "m5-piuquenes",
+    "why": "Map 5000, item 5000bc-18 (owner 22.11, applied 23.11.2026): the zone of 6000* (m6-piuquenes) extended south to the Tutuquén cemetery (Curicó; Correa, Carrasco 2017) — own outline and card.",
+    "years": [
+      -5000
+    ],
+    "action": "add",
+    "shape": "central-chile-5000",
+    "properties": {
+      "NAME": "Middle Archaic of central Chile (Los Piuquenes, El Manzano, Cuchipuy)",
+      "NOTE": "central-chile-5000",
       "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7",
       "GROUP": "Archaic of the central Chilean Andes"
     }
@@ -10164,6 +10248,34 @@
     }
   },
   {
+    "id": "m5-middle-cauca",
+    "why": "Map 5000, item 5000bc-26 (23.11, nothing to decide; applied 23.11.2026): carried from 6000* (m6-middle-cauca; fork 3-86, 6-41) and extended west to La Querida (Agudelo et al. 1999).",
+    "years": [
+      -5000
+    ],
+    "action": "add",
+    "shape": "middle-cauca-5000",
+    "properties": {
+      "NAME": "Preceramic foragers of the Cauca basin (Middle Cauca, Calima)",
+      "NOTE": "middle-cauca-5000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m5-penones",
+    "why": "Map 5000, item 5000bc-27 (a) (owner 23.11, applied 23.11.2026): Peñones de Bogotá, Puerto Berrío — Beta-57724 5980 ± 90 on the date (López, Botero 1993).",
+    "years": [
+      -5000
+    ],
+    "action": "add",
+    "shape": "penones-de-bogota",
+    "properties": {
+      "NAME": "Preceramic foragers of the Middle Magdalena (Peñones de Bogotá)",
+      "NOTE": "penones-5000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
     "id": "m6-el-prodigio",
     "why": "Map 6000*, item 6-255 (a, 17.11): 35 km circle, one date of this time.",
     "years": [
@@ -10218,6 +10330,20 @@
     "properties": {
       "NAME": "Alaka phase (shell mounds of northwestern Guyana)",
       "NOTE": "alaka",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m5-plateau-des-mines",
+    "why": "Map 5000, item 5000bc-21 (owner 22.11, applied 23.11.2026): Archaic of French Guiana — Plateau des Mines (Crique Ananas), four charcoal dates 7254–6854 cal BP (p3k14c; Brancier 2016).",
+    "years": [
+      -5000
+    ],
+    "action": "add",
+    "shape": "plateau-des-mines",
+    "properties": {
+      "NAME": "Archaic foragers of French Guiana (Plateau des Mines)",
+      "NOTE": "plateau-des-mines-5000",
       "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
     }
   },
@@ -10298,6 +10424,21 @@
     }
   },
   {
+    "id": "m5-ayacucho",
+    "why": "Map 5000, item 5000bc-37 (23.11, nothing to decide; applied 23.11.2026): carried from 6000* (m6-ayacucho) — same outline, name and colour; own card ayacucho-5000 (Salcedo 2020).",
+    "years": [
+      -5000
+    ],
+    "action": "add",
+    "shape": "ayacucho",
+    "properties": {
+      "NAME": "Archaic hunters of the central Peruvian Andes",
+      "AREA": "Ayacucho Basin (Jaywamachay, Puente)",
+      "NOTE": "ayacucho-5000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
     "id": "m6-morro-colorado",
     "why": "Map 6000*, South America package, item 6-48 (a) (owner 01–02.11; applied 02.11).",
     "years": [
@@ -10309,6 +10450,59 @@
       "NAME": "Early fishers of Taltal (Morro Colorado)",
       "NOTE": "morro-colorado",
       "SOURCES": "https://www.scielo.cl/scielo.php?pid=S0718-10432015000100002&script=sci_arttext"
+    }
+  },
+  {
+    "id": "m5-taltal",
+    "why": "Map 5000, item 5000bc-19 (owner 22.11, applied 23.11.2026): Archaic III of Taltal, coast from Los Bronces to Zapatero (Salazar et al. 2015) — wider than the 6000* circle (m6-morro-colorado, Archaic II).",
+    "years": [
+      -5000
+    ],
+    "action": "add",
+    "shape": "taltal-5000",
+    "properties": {
+      "NAME": "Fishers of Taltal — shell fish-hook culture (Zapatero, Morro Colorado)",
+      "NOTE": "taltal-5000",
+      "SOURCES": "https://www.scielo.cl/scielo.php?pid=S0718-10432015000100002&script=sci_arttext"
+    }
+  },
+  {
+    "id": "m5-copaca",
+    "why": "Map 5000, item 5000bc-42 (a) (owner 23.11, applied 23.11.2026): Copaca 1 shell midden, Tocopilla coast (Castro et al. 2016, Chungara 48(4)) — by the ±1000-year fork; own colour.",
+    "years": [
+      -5000
+    ],
+    "action": "add",
+    "shape": "copaca",
+    "properties": {
+      "NAME": "Coastal fishers of Tocopilla (Copaca 1)",
+      "NOTE": "copaca-5000"
+    }
+  },
+  {
+    "id": "m6-upper-loa",
+    "why": "Map 6000*, item 6-410 (a) (owner 23.11, applied 23.11.2026): Middle Archaic of the upper Loa — Chulqui rockshelter, BETA-7324 7180 ± 80 on the date (De Souza 2004), with Huiculunche.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "upper-loa-6000",
+    "properties": {
+      "NAME": "Middle Archaic foragers of the upper Loa (Huiculunche, Punta Brava)",
+      "NOTE": "upper-loa-6000"
+    }
+  },
+  {
+    "id": "m5-upper-loa",
+    "why": "Map 5000, item 5000bc-41 (a) (owner 23.11, applied 23.11.2026): Middle Archaic of the upper Loa — Huiculunche and Punta Brava on the date (De Souza 2004).",
+    "years": [
+      -5000
+    ],
+    "action": "add",
+    "shape": "upper-loa-5000",
+    "properties": {
+      "NAME": "Middle Archaic foragers of the upper Loa (Huiculunche, Punta Brava)",
+      "NOTE": "upper-loa-5000"
     }
   },
   {
@@ -10338,6 +10532,21 @@
       "NAME": "Middle Archaic hunters of the Argentine Puna",
       "AREA": "Puna of Jujuy (Hornillos 2)",
       "NOTE": "puna-jujuy-5000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m5-pozo-cavado",
+    "why": "Map 5000, item 5000bc-43 (a) (owner 23.11, applied 23.11.2026): Abrigo Pozo Cavado, Salar de Pocitos — LP-2631 6280 ± 90 on the date, fork 227 / c. 300 years (Orsi, López 2019); an area of the group \"Middle Archaic hunters of the Argentine Puna\".",
+    "years": [
+      -5000
+    ],
+    "action": "add",
+    "shape": "pozo-cavado",
+    "properties": {
+      "NAME": "Middle Archaic hunters of the Argentine Puna",
+      "AREA": "Puna of Salta (Abrigo Pozo Cavado)",
+      "NOTE": "pozo-cavado-5000",
       "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
     }
   },
@@ -10651,6 +10860,20 @@
     }
   },
   {
+    "id": "m5-mongoncillo",
+    "why": "Map 5000, item 5000bc-39 (a) (owner 23.11, applied 23.11.2026): Mongoncillo complex, Casma and Huarmey coast — PV35-106 GX-5081, El Calvario and Cerro Negro Gif-6772, 6773 on the date (Bonavia et al. 2001; Salcedo 2020).",
+    "years": [
+      -5000
+    ],
+    "action": "add",
+    "shape": "mongoncillo",
+    "properties": {
+      "NAME": "Mongoncillo complex (Casma and Huarmey coast)",
+      "NOTE": "mongoncillo-5000",
+      "SOURCES": "https://journals.openedition.org/bifea/7096"
+    }
+  },
+  {
     "id": "m6-guitarrero",
     "why": "Map 6000*, item 6-64 (queue-map6000.md; owner 02.11, applied 02.11). Item 6-87 (a) (owner 02.11, applied 04.11): an area of the group \"Archaic hunters of the central Peruvian Andes\".",
     "years": [
@@ -10961,6 +11184,34 @@
       "NAME": "Early foragers of the Porce valley",
       "NOTE": "porce",
       "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-porce",
+    "why": "Map 6000*, item 6-409 (23.11, nothing to decide; applied 23.11.2026): middle Porce (Porce II) — Beta-118092 7040 ± 60 and Beta-114681 7080 ± 130 on the date (Castillo, Aceituno 2000).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "porce-middle",
+    "properties": {
+      "NAME": "Early foragers of the Porce valley",
+      "NOTE": "porce-6000",
+      "SOURCES": "https://webs.ucm.es/info/arqueoweb/pdf/2-2/aceituno.pdf"
+    }
+  },
+  {
+    "id": "m5-porce",
+    "why": "Map 5000, item 5000bc-33 (23.11, nothing to decide; applied 23.11.2026): middle Porce — continuous preceramic occupation c. 7000–5500 BP, fork 768 / 323 years (Castillo, Aceituno 2000).",
+    "years": [
+      -5000
+    ],
+    "action": "add",
+    "shape": "porce-middle",
+    "properties": {
+      "NAME": "Early foragers of the Porce valley",
+      "NOTE": "porce-5000",
+      "SOURCES": "https://webs.ucm.es/info/arqueoweb/pdf/2-2/aceituno.pdf"
     }
   },
   {
