@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-23",
+  "generated": "2026-11-24",
   "source": "historical-basemaps by A. Ourednik (GPL-3.0)",
   "simplify": "8%",
   "years": [
@@ -48,7 +48,7 @@
     {
       "year": -5000,
       "file": "borders/world_-5000.json",
-      "count": 143,
+      "count": 148,
       "land": "coast/land_-5000.json",
       "vanishedLakes": "coast/lakes_-5000.json",
       "reviewed": true,

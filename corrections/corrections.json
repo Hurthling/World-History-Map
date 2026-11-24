@@ -7020,6 +7020,20 @@
     }
   },
   {
+    "id": "m5-papudo",
+    "why": "Map 5000, item 5000bc-46 (a) (owner 23.11, applied 24.11.2026): Papudo complex on the Los Vilos coast — Agua Amarilla, Punta Chungo and Los Rieles on the date with a rough marine reservoir correction (Belmar, Jackson 1998; p3k14c).",
+    "years": [
+      -5000
+    ],
+    "action": "add",
+    "shape": "papudo-5000",
+    "properties": {
+      "NAME": "Papudo complex (Los Vilos coast: Los Rieles, Agua Amarilla)",
+      "NOTE": "papudo-5000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
     "id": "m6-patagonia",
     "why": "Map 6000* (28.10): carried from map 8000 (m8-patagonia) with a new name or note. Items 6-53, 6-54 (applied 02.11): a group of three areas; extended east to Gruta Molina. Item 6-75 (applied 02.11): extended to Cueva del Paisano Desconocido.",
     "years": [
@@ -7032,6 +7046,36 @@
       "NOTE": "patagonia-6000",
       "SOURCES": "https://en.wikipedia.org/wiki/Cueva_de_las_Manos | https://www.nature.com/articles/s41597-022-01118-7",
       "AREA": "Santa Cruz and Aysén"
+    }
+  },
+  {
+    "id": "m5-patagonia",
+    "why": "Map 5000, item 5000bc-55 (a) (owner 24.11, applied 24.11.2026): Andean foothills of Santa Cruz — Arroyo Feo, Cerro Casa de Piedra 5 and 7, Chorrillo Malo 2 on the date; the Deseado Massif left out (gap 7828–6434 cal BP, Mosquera 2018). An area of the group \"Hunters of Patagonia\".",
+    "years": [
+      -5000
+    ],
+    "action": "add",
+    "shape": "patagonia-santa-cruz-5000",
+    "properties": {
+      "NAME": "Hunters of Patagonia",
+      "AREA": "Andean foothills of Santa Cruz (Río Pinturas, Cerro Casa de Piedra, Chorrillo Malo)",
+      "NOTE": "patagonia-5000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Cueva_de_las_Manos | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m5-santa-cruz-north-coast",
+    "why": "Map 5000, item 5000bc-56 (a) (owner 24.11, applied 24.11.2026): north coast of Santa Cruz — Cabo Tres Puntas 1 and Médano 1 on the date (charcoal), Alero El Oriental by the fork (Castro et al. 2007; Ambrústolo, Zubimendi 2015). An area of the group \"Hunters of Patagonia\".",
+    "years": [
+      -5000
+    ],
+    "action": "add",
+    "shape": "santa-cruz-north-coast",
+    "properties": {
+      "NAME": "Hunters of Patagonia",
+      "AREA": "North coast of Santa Cruz (Cabo Tres Puntas, Punta Medanosa)",
+      "NOTE": "santa-cruz-north-coast-5000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
     }
   },
   {
@@ -9606,6 +9650,33 @@
     }
   },
   {
+    "id": "m5-pampas",
+    "why": "Map 5000, item 5000bc-50 (a) (owner 24.11, applied 24.11.2026): carried from 6000* (m6-pampas) with the whole outline — Fortín Necochea, Arroyo del Moro, Cueva El Abra on the date, Arroyo Seco 2 by the fork; own card with the dispute on the later gap (Barrientos, Pérez 2005; Martínez et al. 2024).",
+    "years": [
+      -5000
+    ],
+    "action": "add",
+    "shape": "pampas-6000",
+    "properties": {
+      "NAME": "Hunter-gatherers of the Pampas",
+      "NOTE": "pampas-5000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m5-lower-colorado",
+    "why": "Map 5000, item 5000bc-51 (b) (owner 24.11, applied 24.11.2026): lower Colorado River — Loma de los Morteros 6364 ± 38 and La Modesta 5904–5641, fork 212 / 159 years (Martínez et al. 2024, table 1); own zone, own colour.",
+    "years": [
+      -5000
+    ],
+    "action": "add",
+    "shape": "lower-colorado",
+    "properties": {
+      "NAME": "Hunter-gatherers of the lower Colorado River (La Modesta)",
+      "NOTE": "lower-colorado-5000"
+    }
+  },
+  {
     "id": "m6-southern-new-england",
     "why": "Map 6000* (28.10): carried from map 8000 (m8-southern-new-england) with a new name or note. 6-14 (29.10): Merrimack valley added.",
     "years": [
@@ -10521,32 +10592,16 @@
     }
   },
   {
-    "id": "m5-puna-jujuy",
-    "why": "Map 5000, item 5000bc-7 (21.11.2026): carried over from map 6000* (m6-puna-jujuy) by the zone registry — same outline, name and colour; own card puna-jujuy-5000 (the 6000* card speaks of 6000 BC).",
+    "id": "m5-argentine-puna",
+    "why": "Map 5000, item 5000bc-57 (a) (owner 24.11, applied 24.11.2026): the three areas of the group (Puna of Jujuy — m5-puna-jujuy, Pozo Cavado — m5-pozo-cavado, Antofagasta de la Sierra — m6-antofagasta on 5000) joined into one zone: hull of their outlines cut to the plateau above c. 3300 m (ETOPO 10′); 6000* unchanged.",
     "years": [
       -5000
     ],
     "action": "add",
-    "shape": "puna-jujuy-6000",
+    "shape": "argentine-puna-5000",
     "properties": {
       "NAME": "Middle Archaic hunters of the Argentine Puna",
-      "AREA": "Puna of Jujuy (Hornillos 2)",
-      "NOTE": "puna-jujuy-5000",
-      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
-    }
-  },
-  {
-    "id": "m5-pozo-cavado",
-    "why": "Map 5000, item 5000bc-43 (a) (owner 23.11, applied 23.11.2026): Abrigo Pozo Cavado, Salar de Pocitos — LP-2631 6280 ± 90 on the date, fork 227 / c. 300 years (Orsi, López 2019); an area of the group \"Middle Archaic hunters of the Argentine Puna\".",
-    "years": [
-      -5000
-    ],
-    "action": "add",
-    "shape": "pozo-cavado",
-    "properties": {
-      "NAME": "Middle Archaic hunters of the Argentine Puna",
-      "AREA": "Puna of Salta (Abrigo Pozo Cavado)",
-      "NOTE": "pozo-cavado-5000",
+      "NOTE": "argentine-puna-5000",
       "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
     }
   },
@@ -10566,10 +10621,9 @@
   },
   {
     "id": "m6-antofagasta",
-    "why": "Map 6000*, South America package, item 6-49 (e) (owner 01–02.11; applied 02.11). Item 6-86 (a) (owner 02.11, applied 04.11): an area of the group \"Middle Archaic hunters of the Argentine Puna\". Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
+    "why": "Map 6000*, South America package, item 6-49 (e) (owner 01–02.11; applied 02.11). Item 6-86 (a) (owner 02.11, applied 04.11): an area of the group \"Middle Archaic hunters of the Argentine Puna\". Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry. Map 5000 moved to rule m5-argentine-puna (item 5000bc-57, applied 24.11.2026).",
     "years": [
-      -6000,
-      -5000
+      -6000
     ],
     "action": "add",
     "shape": "antofagasta-6000",
@@ -10611,11 +10665,27 @@
     }
   },
   {
+    "id": "m5-south-mendoza",
+    "why": "Map 5000, item 5000bc-48 (a) (owner 23.11, applied 24.11.2026): Arroyo El Desecho 4 by the fork — AA73225 6283 ± 42 (52 years before) and AA73223 5695 ± 40 (393 years after) (Gil et al. 2008 in p3k14c); the \"hiatus\" dispute of Neme, Gil 2009 in the card; plains of 6000* not carried.",
+    "years": [
+      -5000
+    ],
+    "action": "add",
+    "shape": "south-mendoza-5000",
+    "properties": {
+      "NAME": "Hunter-gatherers of southern Mendoza (Arroyo El Desecho)",
+      "NOTE": "south-mendoza-5000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7",
+      "GROUP": "Hunter-gatherers of the Atuel valley"
+    }
+  },
+  {
     "id": "m8-casa-de-piedra",
-    "why": "Map 8000 and 6000*, South America package, item 3-222, 6-51 (d) (owner 01–02.11; applied 02.11).",
+    "why": "Map 8000 and 6000*, South America package, item 3-222, 6-51 (d) (owner 01–02.11; applied 02.11). Map 5000, item 5000bc-52 (a) (owner 24.11, applied 24.11.2026): carried with the same circle — I-12065 6080 ± 120 on charcoal on the date (Berón et al. 2022).",
     "years": [
       -8000,
-      -6000
+      -6000,
+      -5000
     ],
     "action": "add",
     "shape": "casa-de-piedra",
@@ -10659,16 +10729,29 @@
   },
   {
     "id": "m6-canoe",
-    "why": "Map 6000*, South America package, item 6-54 (owner 01–02.11; applied 02.11). Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
+    "why": "Map 6000*, South America package, item 6-54 (owner 01–02.11; applied 02.11). Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry. Map 5000 moved to rule m5-canoe (item 5000bc-54, applied 24.11.2026).",
     "years": [
-      -6000,
-      -5000
+      -6000
     ],
     "action": "add",
     "shape": "canoe-6000",
     "properties": {
       "NAME": "Early canoe hunter-gatherers of the Magellan and Beagle channels (Ponsonby, Imiwaia)",
       "NOTE": "canoe-6000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m5-canoe",
+    "why": "Map 5000, item 5000bc-54 (a) (owner 24.11, applied 24.11.2026): the zone of 6000* (m6-canoe, carried by the registry, 5000bc-7) extended to the Englefield tradition — Otway Sound, southern Riesco, SE Brunswick (San Román et al. 2016) — and to Seno Grandi on Navarino (p3k14c); own outline and card.",
+    "years": [
+      -5000
+    ],
+    "action": "add",
+    "shape": "canoe-5000",
+    "properties": {
+      "NAME": "Early canoe hunter-gatherers of the Magellan and Beagle channels (Ponsonby, Imiwaia)",
+      "NOTE": "canoe-5000",
       "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
     }
   },
@@ -11002,10 +11085,9 @@
   },
   {
     "id": "m6-el-penoncito",
-    "why": "Map 6000*, item 6-72 (a) (queue-map6000.md; owner 02.11, applied 02.11). Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
+    "why": "Map 6000*, item 6-72 (a) (queue-map6000.md; owner 02.11, applied 02.11). Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry. Map 5000 removed (item 5000bc-44, applied 24.11.2026): last preceramic date CSIC-463 7080 ± 60 (−6026 … −5757), the next c. 2900 years later.",
     "years": [
-      -6000,
-      -5000
+      -6000
     ],
     "action": "add",
     "shape": "el-penoncito",
@@ -11028,6 +11110,20 @@
       "NAME": "Los Morrillos tradition",
       "AREA": "Ansilta range (Los Morrillos)",
       "NOTE": "los-morrillos",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m5-paramillos",
+    "why": "Map 5000, item 5000bc-47 (a) (owner 23.11, applied 24.11.2026): Paso de los Paramillos I, Uspallata range — Beta-27893 6080 ± 90 on the date, UZ-2528 5875 ± 70 (García 2005, table 2).",
+    "years": [
+      -5000
+    ],
+    "action": "add",
+    "shape": "paramillos",
+    "properties": {
+      "NAME": "Hunter-gatherers of the Uspallata range (Paso de los Paramillos)",
+      "NOTE": "paramillos-5000",
       "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
     }
   },
