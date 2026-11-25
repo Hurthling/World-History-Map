@@ -137,7 +137,7 @@ async function buildBorders(coasts, land, riversExt) {
   const files = fs.readdirSync(SOURCE_DIR)
     .map(f => ({ file: f, year: yearFromFilename(f) }))
     .filter(x => x.year !== null);
-  // Years without a source map (reviewed.json → "noSource", e.g. map 6000*):
+  // Years without a source map (reviewed.json → "noSource", e.g. map 6000):
   // built from our zones only, starting from empty land
   for (const year of reviewed.noSource || []) {
     if (!files.some(x => x.year === year)) files.push({ file: null, year });
@@ -184,7 +184,7 @@ async function buildBorders(coasts, land, riversExt) {
 
     // Source map is simplified; our zones are added afterwards unchanged
     // (drawn on top, in the order of corrections.json)
-    // A year without a source map (map 6000*): our zones are the whole map
+    // A year without a source map (map 6000): our zones are the whole map
     const cmd = !raw.features.length ? [
       `-i "${zonesPath}" name=borders`,
       `-filter-fields ${KEEP_FIELDS.join(',')}`,

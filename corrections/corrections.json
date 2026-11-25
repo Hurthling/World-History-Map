@@ -4321,6 +4321,53 @@
     }
   },
   {
+    "id": "m5-serra-talhada",
+    "why": "Map 5000, item 5000bc-63 (a) (owner 24.11, applied 25.11.2026): carried with the 6000 outline — top of ST2 at Pedra Furada GIF-8108 6150 ± 60 and GIF-5863 6160 ± 130 on the date (Mota, Scheel-Ybert 2019, table 1), Toca da Janela da Barra do Antonião GIF-7374 6270 ± 140 (p3k14c).",
+    "years": [
+      -5000
+    ],
+    "action": "add",
+    "shape": "serra-talhada-6000",
+    "properties": {
+      "NAME": "Serra Talhada phase (Serra da Capivara)",
+      "NOTE": "serra-talhada-5000",
+      "SOURCES": [
+        "https://doi.org/10.24885/sab.v32i2.698",
+        "https://www.nature.com/articles/s41597-022-01118-7"
+      ]
+    }
+  },
+  {
+    "id": "m5-toca-da-esperanca",
+    "why": "Map 5000, item 5000bc-64 (a) (owner 24.11, applied 25.11.2026): Toca da Esperança rockshelter, Central, Bahia — GIF-7556 and GIF-7578 6030 ± 80 on the date, an unbroken Holocene series (van Havre 2015, table 3; p3k14c); an exception to the \"Archaic gap\" (Araujo et al. 2005).",
+    "years": [
+      -5000
+    ],
+    "action": "add",
+    "shape": "toca-da-esperanca",
+    "properties": {
+      "NAME": "Foragers of Toca da Esperança (Central, Bahia)",
+      "NOTE": "toca-da-esperanca",
+      "SOURCES": [
+        "https://www.nature.com/articles/s41597-022-01118-7",
+        "https://doi.org/10.1016/j.yqres.2005.08.002"
+      ]
+    }
+  },
+  {
+    "id": "m5-pedra-do-alexandre",
+    "why": "Map 5000, item 5000bc-65 (a) (owner 24.11, applied 25.11.2026): Pedra do Alexandre burial rockshelter, Seridó — CSIC-1052 6010 ± 60 on the date (edge), then CSIC-1060 5790 ± 60, CSIC-943 4710 ± 25 (Mafra 2020, tables 1-2).",
+    "years": [
+      -5000
+    ],
+    "action": "add",
+    "shape": "pedra-do-alexandre",
+    "properties": {
+      "NAME": "Hunter-gatherers of Seridó (Pedra do Alexandre)",
+      "NOTE": "pedra-do-alexandre"
+    }
+  },
+  {
     "id": "m8-central-brazil",
     "why": "Map 8000, item 3-83 (b) (queue-map8000.md; accepted 21.10, applied 22.10). Item 3-234 (applied 02.11): extended north to the Peruaçu valley, Boqueirão Soberbo and Barreirinho.",
     "years": [
@@ -4365,6 +4412,23 @@
     }
   },
   {
+    "id": "m5-santa-elina",
+    "why": "Map 5000, item 5000bc-62 (b) (owner 24.11, applied 25.11.2026): carried with the same circle — GIF-7084 6040 ± 70, GIF-7882 5980 ± 70 and others on the date (Oliveira, Viana 2000, table 2; p3k14c); an exception to the \"Archaic gap\" (Araujo et al. 2005).",
+    "years": [
+      -5000
+    ],
+    "action": "add",
+    "shape": "santa-elina",
+    "properties": {
+      "NAME": "Foragers of Santa Elina rockshelter",
+      "NOTE": "santa-elina-5000",
+      "SOURCES": [
+        "https://www.nature.com/articles/s41597-022-01118-7",
+        "https://doi.org/10.1016/j.yqres.2005.08.002"
+      ]
+    }
+  },
+  {
     "id": "m8-umbu",
     "why": "Map 8000, item 3-83 (d) (queue-map8000.md; accepted 21.10, applied 22.10).",
     "years": [
@@ -4394,16 +4458,29 @@
   },
   {
     "id": "m6-moxos",
-    "why": "Map 6000*: carried from map 8000 (m8-moxos). Item 6-70 (queue-map6000.md; owner 02.11, applied 02.11): extended to Isla 433. Item 6-84 (a) (owner 02.11, applied 04.11): Monte Castelo joined, renamed; rule m6-monte-castelo removed. Sources checked for 6000 BC (04.11, owner: \"check and fix Sources\"). Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
+    "why": "Map 6000*: carried from map 8000 (m8-moxos). Item 6-70 (queue-map6000.md; owner 02.11, applied 02.11): extended to Isla 433. Item 6-84 (a) (owner 02.11, applied 04.11): Monte Castelo joined, renamed; rule m6-monte-castelo removed. Sources checked for 6000 BC (04.11, owner: \"check and fix Sources\"). Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry. Map 5000 moved to rule m5-moxos (own card, item 5000bc-59, applied 25.11.2026).",
     "years": [
-      -6000,
-      -5000
+      -6000
     ],
     "action": "add",
     "shape": "moxos-6000",
     "properties": {
       "NAME": "Shell-mound foragers of the Llanos de Moxos and the Guaporé (forest islands, Monte Castelo)",
       "NOTE": "moxos-6000",
+      "SOURCES": "https://www.nature.com/articles/s41586-020-2162-7 | https://doi.org/10.1371/journal.pone.0072746 | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m5-moxos",
+    "why": "Map 5000, item 5000bc-59 (nothing to decide, 24.11; applied 25.11.2026): the edge is kept, outline as on 6000; own card moxos-5000.",
+    "years": [
+      -5000
+    ],
+    "action": "add",
+    "shape": "moxos-6000",
+    "properties": {
+      "NAME": "Shell-mound foragers of the Llanos de Moxos and the Guaporé (forest islands, Monte Castelo)",
+      "NOTE": "moxos-5000",
       "SOURCES": "https://www.nature.com/articles/s41586-020-2162-7 | https://doi.org/10.1371/journal.pone.0072746 | https://www.nature.com/articles/s41597-022-01118-7"
     }
   },
@@ -7089,6 +7166,91 @@
     "properties": {
       "NAME": "Umbu tradition",
       "NOTE": "umbu-6000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m5-umbu",
+    "why": "Map 5000, item 5000bc-70 (b) (owner 24.11, applied 25.11.2026): carried and extended west to the lower Iguaçu — PR-FI-21 SI-4992 6265 ± 80 and Toninho da Recapadora ANU-192-18 6240 ± 250 on the date (Parellada 2008, table 1); inside — RS-C-61 Pilger 6180 ± 50, Itá SC-VP-38 5930 ± 140, José Vieira 6683 ± 355 (p3k14c). The Umbu / Humaitá dispute in the card.",
+    "years": [
+      -5000
+    ],
+    "action": "add",
+    "shape": "umbu-5000",
+    "properties": {
+      "NAME": "Umbu tradition",
+      "NOTE": "umbu-5000",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m5-sambaqui-suruaca",
+    "why": "Map 5000, item 5000bc-68 (a) (owner 24.11, applied 25.11.2026): Suruacá 20, the oldest sambaqui of this coast — LACUFF-160268 6092 ± 26 on charcoal on the date (Villagran et al. 2018, table 3).",
+    "years": [
+      -5000
+    ],
+    "action": "add",
+    "shape": "sambaqui-suruaca",
+    "properties": {
+      "NAME": "Sambaqui shell-mound builders",
+      "AREA": "North of Espírito Santo (Suruacá)",
+      "NOTE": "sambaqui-5000",
+      "SOURCES": [
+        "https://doi.org/10.24885/sab.v36i2.1105",
+        "https://doi.org/10.1590/1981.81222018000300006",
+        "https://doi.org/10.3390/land10070757"
+      ]
+    }
+  },
+  {
+    "id": "m5-sambaqui-paranagua",
+    "why": "Map 5000, item 5000bc-68 (a) (owner 24.11, applied 25.11.2026): Paranaguá bay by the fork — Ramal SI-1573 6540 ± 105 (≈ 220 years before) and Porto Maurício SI-509 6030 ± 130 on shell (after, with the reservoir correction) (Parellada 2008, table 1).",
+    "years": [
+      -5000
+    ],
+    "action": "add",
+    "shape": "sambaqui-paranagua",
+    "properties": {
+      "NAME": "Sambaqui shell-mound builders",
+      "AREA": "Paranaguá bay (Ramal, Porto Maurício)",
+      "NOTE": "sambaqui-5000",
+      "SOURCES": [
+        "https://doi.org/10.24885/sab.v36i2.1105",
+        "https://doi.org/10.1590/1981.81222018000300006",
+        "https://doi.org/10.3390/land10070757"
+      ]
+    }
+  },
+  {
+    "id": "m5-sambaqui-santa-marta",
+    "why": "Map 5000, item 5000bc-68 (owner 24.11, follow-up DeBlasis et al. 2021, applied 25.11.2026): Santa Marta lagoon by the fork — Rio Caipora Beta-234199 6590 ± 60 (7400–7325 cal BP) and Beta-270317 6290 ± 70 (6930–6575 cal BP) (DeBlasis et al. 2021, table A1).",
+    "years": [
+      -5000
+    ],
+    "action": "add",
+    "shape": "sambaqui-santa-marta",
+    "properties": {
+      "NAME": "Sambaqui shell-mound builders",
+      "AREA": "Santa Marta lagoon (Rio Caipora)",
+      "NOTE": "sambaqui-5000",
+      "SOURCES": [
+        "https://doi.org/10.24885/sab.v36i2.1105",
+        "https://doi.org/10.1590/1981.81222018000300006",
+        "https://doi.org/10.3390/land10070757"
+      ]
+    }
+  },
+  {
+    "id": "m5-ribeira-sambaqui",
+    "why": "Map 5000, item 5000bc-69 (a) (owner 24.11, applied 25.11.2026): Capelinha I Beta-184619 6090 ± 40 (bone, burial 5) on the date, Moraes KIA-15561 5895 ± 45 after (Figuti et al. 2013, table 1; p3k14c).",
+    "years": [
+      -5000
+    ],
+    "action": "add",
+    "shape": "ribeira-sambaqui",
+    "properties": {
+      "NAME": "Riverine sambaqui builders of the Ribeira valley",
+      "NOTE": "ribeira-sambaqui",
       "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
     }
   },
@@ -10784,6 +10946,20 @@
     }
   },
   {
+    "id": "m5-cuareimense",
+    "why": "Map 5000, item 5000bc-71 (a) (owner 24.11, applied 25.11.2026): carried with the 6000 outline — W-52 6420 ± 375 and 6300 ± 315, D-03 Calpica 6040 ± 65 (disputed) on the date; fork K-86 Mandiyú 6760 ± 100 / Piedra Pelada 5030 ± 110 (Castro 2019).",
+    "years": [
+      -5000
+    ],
+    "action": "add",
+    "shape": "cuareimense",
+    "properties": {
+      "NAME": "Cuareimense foragers of the middle Uruguay River (W-52, Mandiyú)",
+      "NOTE": "cuareimense-5000",
+      "SOURCES": "https://portal.amelica.org/ameli/journal/128/128817013/html/"
+    }
+  },
+  {
     "id": "m6-nuagapua",
     "why": "Map 6000*, South America package, item 6-56 (a) (owner 01–02.11; applied 02.11). Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
     "years": [
@@ -10800,10 +10976,9 @@
   },
   {
     "id": "m6-lower-amazon",
-    "why": "Map 6000*, South America package, item 6-57 (a, b) (owner 01–02.11; applied 02.11). Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
+    "why": "Map 6000*, South America package, item 6-57 (a, b) (owner 01–02.11; applied 02.11). Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry. Map 5000 moved to rule m5-lower-amazon (own card, item 5000bc-59, applied 25.11.2026).",
     "years": [
-      -6000,
-      -5000
+      -6000
     ],
     "action": "add",
     "shape": "lower-amazon-6000",
@@ -10811,6 +10986,34 @@
       "NAME": "Early pottery makers of the lower Amazon (Taperinha, Paituna)",
       "NOTE": "lower-amazon-6000",
       "SOURCES": "https://en.wikipedia.org/wiki/Caverna_da_Pedra_Pintada | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m5-lower-amazon",
+    "why": "Map 5000, item 5000bc-59 (nothing to decide, 24.11; applied 25.11.2026): the edge is kept, outline as on 6000; own card lower-amazon-5000.",
+    "years": [
+      -5000
+    ],
+    "action": "add",
+    "shape": "lower-amazon-6000",
+    "properties": {
+      "NAME": "Early pottery makers of the lower Amazon (Taperinha, Paituna)",
+      "NOTE": "lower-amazon-5000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Caverna_da_Pedra_Pintada | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m5-amapari-preceramic",
+    "why": "Map 5000, item 5000bc-60 (b) (owner 24.11, applied 25.11.2026): preceramic open-air site at the Amapari iron mine, 70 cm deep, quartz tools — Beta-255794 6140 ± 40 on the date (Saldanha, Cabral 2010, p. 105; p3k14c with a wrong point).",
+    "years": [
+      -5000
+    ],
+    "action": "add",
+    "shape": "amapari-preceramic",
+    "properties": {
+      "NAME": "Preceramic site of the Araguari–Amapari interfluve",
+      "NOTE": "amapari-preceramic",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
     }
   },
   {
@@ -10830,16 +11033,29 @@
   },
   {
     "id": "m6-abrigo-do-sol",
-    "why": "Map 6000*, South America package, item 6-57 (Abrigo do Sol) (owner 01–02.11; applied 02.11). Map 5000, item 5000bc-8 (a) (21.11.2026): carried over by the zone registry.",
+    "why": "Map 6000*, South America package, item 6-57 (Abrigo do Sol) (owner 01–02.11; applied 02.11). Map 5000, item 5000bc-8 (a) (21.11.2026): carried over by the zone registry. Map 5000 moved to rule m5-abrigo-do-sol (own card, item 5000bc-59, applied 25.11.2026).",
     "years": [
-      -6000,
-      -5000
+      -6000
     ],
     "action": "add",
     "shape": "abrigo-do-sol",
     "properties": {
       "NAME": "Foragers of Abrigo do Sol (upper Guaporé)",
       "NOTE": "abrigo-do-sol",
+      "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m5-abrigo-do-sol",
+    "why": "Map 5000, item 5000bc-59 (nothing to decide, 24.11; applied 25.11.2026): the edge is kept, outline as on 6000; own card abrigo-do-sol-5000.",
+    "years": [
+      -5000
+    ],
+    "action": "add",
+    "shape": "abrigo-do-sol",
+    "properties": {
+      "NAME": "Foragers of Abrigo do Sol (upper Guaporé)",
+      "NOTE": "abrigo-do-sol-5000",
       "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
     }
   },
@@ -10858,8 +11074,25 @@
     }
   },
   {
+    "id": "m5-serranopolis",
+    "why": "Map 5000, item 5000bc-67 (a) (owner 24.11, applied 25.11.2026): carried with the 6000 outline by the fork — GO-JA-01 SI-3691 6690 ± 90 (≈ 390 years before) and GO-JA-03 SI-3109 5720 ± 50 (≈ 320 after) (Oliveira, Viana 2000, table 2); the gap of Araujo et al. 2005 in the card.",
+    "years": [
+      -5000
+    ],
+    "action": "add",
+    "shape": "serranopolis",
+    "properties": {
+      "NAME": "Serranópolis phase (southwest Goiás)",
+      "NOTE": "serranopolis-5000",
+      "SOURCES": [
+        "https://www.nature.com/articles/s41597-022-01118-7",
+        "https://doi.org/10.1016/j.yqres.2005.08.002"
+      ]
+    }
+  },
+  {
     "id": "m6-central-minas",
-    "why": "Map 6000*, item 6-79 (owner 02.11, applied 04.11): Lagoa Santa karst, Chã do Caboclo and Lapa Pequena (items 6-59 a2, 6-66) as one outline, one name, one card.",
+    "why": "Map 6000*, item 6-79 (owner 02.11, applied 04.11): Lagoa Santa karst, Chã do Caboclo and Lapa Pequena (items 6-59 a2, 6-66) as one outline, one name, one card. Item 6-411 (owner 24.11, applied 25.11.2026): + a 35 km circle at Lapa do Boquete, Peruaçu valley — CDTN-1035 7232 ± 222 and CDTN-1036 7154 ± 150 on the date (Prous, Schlobach 1997).",
     "years": [
       -6000
     ],
@@ -10869,6 +11102,23 @@
       "NAME": "Foragers of central Minas Gerais",
       "NOTE": "central-minas-6000",
       "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m5-central-minas",
+    "why": "Map 5000, item 5000bc-66 (b) (owner 24.11, applied 25.11.2026): Lagoa Santa — Chã do Caboclo (MC-1038 6225 ± 125 … MC-1028 5935 ± 135, unbroken; p3k14c), the north edge by the finds (Chã do Caboclo + 50 km, Lapa Pequena left out), and a circle at Lapa do Boquete, Peruaçu (CDTN-1022 6040 ± 120, Prous, Schlobach 1997); the \"Archaic gap\" dispute in the card.",
+    "years": [
+      -5000
+    ],
+    "action": "add",
+    "shape": "central-minas-5000",
+    "properties": {
+      "NAME": "Foragers of central Minas Gerais",
+      "NOTE": "central-minas-5000",
+      "SOURCES": [
+        "https://www.nature.com/articles/s41597-022-01118-7",
+        "https://doi.org/10.1016/j.yqres.2005.08.002"
+      ]
     }
   },
   {
@@ -10997,6 +11247,23 @@
       "NAME": "Foragers of the Serra dos Carajás caves (Gruta do Gavião, Pequiá)",
       "NOTE": "carajas-6000",
       "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m5-carajas",
+    "why": "Map 5000, item 5000bc-61 (a) (owner 24.11, applied 25.11.2026): carried with the 6000 outline by the fork — N4WS-012 Beta-230212 6520 ± 70 (≈ 310 years before) and S11D-001 Beta-205575 5750 ± 40 (≈ 315 after) (Scientia 2018, tables 1-2; p3k14c); Gruta do Gavião an exception to the \"Archaic gap\" (Araujo et al. 2005).",
+    "years": [
+      -5000
+    ],
+    "action": "add",
+    "shape": "carajas",
+    "properties": {
+      "NAME": "Foragers of the Serra dos Carajás caves (Gruta do Gavião, Pequiá)",
+      "NOTE": "carajas-5000",
+      "SOURCES": [
+        "https://www.nature.com/articles/s41597-022-01118-7",
+        "https://doi.org/10.1016/j.yqres.2005.08.002"
+      ]
     }
   },
   {
@@ -11378,6 +11645,19 @@
       "NAME": "Early foragers of central Bahia (Abrigo do Pilão)",
       "NOTE": "abrigo-do-pilao",
       "SOURCES": "https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m8-pedra-do-alexandre",
+    "why": "Map 8000, item 3-342 (owner 24.11, applied 25.11.2026): Pedra do Alexandre by the fork — Beta 9100 ± 50 (≈ 17 years before the window) and CSIC-965 8280 ± 30 (≈ 550 after) (Mafra 2020, table 2); the same circle as 5000bc-65.",
+    "years": [
+      -8000
+    ],
+    "action": "add",
+    "shape": "pedra-do-alexandre",
+    "properties": {
+      "NAME": "Hunter-gatherers of Seridó (Pedra do Alexandre)",
+      "NOTE": "pedra-do-alexandre-8000"
     }
   },
   {

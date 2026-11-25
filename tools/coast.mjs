@@ -17,12 +17,12 @@
 //
 // Sea levels per year: corrections/sea-levels.json
 // Vanished lakes (e.g. glacial Lake Agassiz on map 8000, Lake Mega-Chad on maps 8000,
-// 6000* and 5000): "lakes" in the same file, outlines in corrections/lakes/ — they are
+// 6000 and 5000): "lakes" in the same file, outlines in corrections/lakes/ — they are
 // cut out of that year's land like the sea. A year with lakes but no sea level of its
 // own keeps today's coastline (lakesOnlyLand below).
 // The same list holds the sea on today's land (sea-*-<year>.geojson): where the sea stood
 // higher than today — the Gulf of Bothnia and Hudson Bay (land uplift after the ice age)
-// on maps 6000* and 5000, the head of the Persian Gulf on map 5000 (items 5000bc-14 …
+// on maps 6000 and 5000, the head of the Persian Gulf on map 5000 (items 5000bc-14 …
 // 5000bc-16). The grid can only lower the sea, so these outlines are made once by
 // tools/sea-inland.py and erased from the land like lakes.
 // Local sea levels ("local" in the same file, items 3-112 and 113 of map 10 000): the
