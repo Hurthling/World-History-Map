@@ -23,6 +23,8 @@
 //   "edge ±250" — the site's first or last date (median) lies within 250 cal
 //                 years of the map date: the owner decides
 // Gaps inside a site's sequence are NOT detected — read the dates.
+// Known errors of the base (c14-data/base-errata.tsv, item С-11) are flagged
+// "⚠ ошибка базы" at the date and counted at the site line.
 // =============================================================================
 
 import { readFileSync } from 'node:fs';
@@ -133,6 +135,10 @@ function calibrate(age, err, curve) {
 
 // ---------- data ----------
 const rows = parseCSV(gunzipSync(readFileSync(join(DIR, 'p3k14c.csv.gz'))).toString('utf8'));
+// Known errors of the base, checked against sources (item С-11): lab number -> note. See c14-data/README.md.
+const normLab = s => String(s).toUpperCase().replace(/[^A-Z0-9]/g, '');
+const ERRATA = new Map(readFileSync(join(DIR, 'base-errata.tsv'), 'utf8').split('\n').slice(1)
+  .map(l => l.replace(/\r$/, '').split('\t')).filter(f => f.length >= 4 && f[0]).map(f => [normLab(f[0]), f[3]]));
 const H = rows.shift(); const col = Object.fromEntries(H.map((h, i) => [h, i]));
 const toRad = d => d * Math.PI / 180;
 function km(lat1, lon1, lat2, lon2) {
@@ -205,12 +211,14 @@ console.log(`Стоянок: ${list.length} (на дату: ${list.filter(s => s
 
 for (const s of list) {
   const edge = s.edges.length ? ` · **окно ±250: ${s.edges.join(', ')}**` : '';
-  console.log(`## ${s.name} (${s.country}) — ${s.lat.toFixed(3)}, ${s.lon.toFixed(3)} — **${s.v}**${edge} · ближайшая до: ${rel(s.before)} л., после: ${rel(s.after)} л.`);
+  const nErr = s.dates.filter(d => ERRATA.has(normLab(d.lab))).length;
+  const errMark = nErr ? ` · ⚠ ошибки базы — дат: ${nErr} (tools/c14-data/base-errata.tsv)` : '';
+  console.log(`## ${s.name} (${s.country}) — ${s.lat.toFixed(3)}, ${s.lon.toFixed(3)} — **${s.v}**${edge} · ближайшая до: ${rel(s.before)} л., после: ${rel(s.after)} л.${errMark}`);
   if (opt.brief) continue;
   const ds = s.dates.filter(d => opt.all || (d.old >= T - WINDOW && d.young <= T + WINDOW)).sort((a, b) => b.median - a.median);
   for (const d of ds) {
     const r = d.ranges.slice().reverse().map(([y, o]) => `${fmt(o)}–${fmt(y)}`).join(', ');
-    console.log(`- ${d.lab}: ${fmt(d.age)} ± ${d.err} ¹⁴C → ${r} кал. л. н. (медиана ${fmt(d.median)})${d.mat ? ' · ' + d.mat : ''}${marine(d.mat) ? ' · ⚠ морской/раковина — резервуарный эффект не учтён' : ''}`);
+    console.log(`- ${d.lab}: ${fmt(d.age)} ± ${d.err} ¹⁴C → ${r} кал. л. н. (медиана ${fmt(d.median)})${d.mat ? ' · ' + d.mat : ''}${marine(d.mat) ? ' · ⚠ морской/раковина — резервуарный эффект не учтён' : ''}${ERRATA.has(normLab(d.lab)) ? ' · ⚠ ошибка базы: ' + ERRATA.get(normLab(d.lab)) : ''}`);
   }
   const hidden = s.dates.length - ds.length;
   if (hidden > 0) console.log(`- (ещё ${hidden} дат вне окна; --all — показать)`);

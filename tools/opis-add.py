@@ -22,6 +22,8 @@
 #     as in the source; the row is listed at the end — put it into the chat
 #     write-up (into the item, if it bears on one);
 #   - the number is not in p3k14c: as before — «В базе» = «нет».
+#   - the number is in tools/c14-data/base-errata.tsv (known base error, item С-11):
+#     «⚠ ошибка базы: …» is added to «В базе» and listed at the end.
 # Rows without a lab number are written as given (Claude checks by hand only
 # the dates that decide an item). Curve: «Кривая» if given (нет = do not
 # calibrate: marine shell etc.), else SHCal20 south of the equator (base
@@ -47,6 +49,12 @@ for r in csv.DictReader(gzip.open(os.path.join(ROOT, 'tools/c14-data/p3k14c.csv.
                                            site=r['SiteName'], ref=r['Reference'], mat=r['Material'], country=r['Country'], prov=r['Province']))
     except ValueError:
         pass
+
+# Known errors of the base (item С-11, tools/c14-data/base-errata.tsv): lab number -> note
+ERRATA = {}
+for l in open(os.path.join(ROOT, 'tools/c14-data/base-errata.tsv'), encoding='utf-8').read().splitlines()[1:]:
+    f = l.split('\t')
+    if len(f) >= 4 and f[0]: ERRATA[norm(f[0])] = f[3]
 
 def age_err(text):
     m = re.search(r'(\d[\d\s  ]*)\s*±\s*(\d+)', text)
@@ -102,6 +110,11 @@ for x in rows_in:
     if ae and curve not in ('НЕТ', 'NO'):
         s = {'S': True, 'N': False}.get(curve, south if south is not None else False)
         row[H['Калиброванная, до н. э.']], row[H['Медиана']], row[H['Окна карт']] = calibrate(*ae, s)
+    if g('Лаб. номер') and norm(g('Лаб. номер')) in ERRATA:
+        note = ERRATA[norm(g('Лаб. номер'))]
+        row[H['В базе']] = (row[H['В базе']] + ' · ' if row[H['В базе']] else '') + '⚠ ошибка базы: ' + note
+        stat['known base error'] += 1
+        diffs.append(f'  {g("Стоянка")} {g("Лаб. номер")}: ⚠ ошибка базы (base-errata.tsv) — {note}')
     out.append(row)
 
 for k, v in sorted(stat.items()): print(f'{k}: {v}')
