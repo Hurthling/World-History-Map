@@ -26,11 +26,14 @@
   --uninhabited: #f4f6f8;     /* land nobody had reached yet */
   --river: #8fb2c2;           /* rivers and lake shores */
 
-  /* Common palette of states and culture zones (18 colours; map 8000, items 3-70 and 3-87).
+  /* Common palette of states and culture zones (24 colours; map 8000, items 3-70 and 3-87; 18 … 23 — C-8).
      Colour index: src/colors.js (hash of the name, or COLOR from corrections/colors.json). */
   --polity-0: #efbcb8;  --polity-1: #c98471;  --polity-2: #e1a07f;  --polity-3: #f4d392;  --polity-4: #a99855;  --polity-5: #cfbe7a;
   --polity-6: #b4e0a6;  --polity-7: #8ec08d;  --polity-8: #6fa87b;  --polity-9: #8debe7;  --polity-10: #6bc9cc;  --polity-11: #49a8b2;
   --polity-12: #8dbbf0;  --polity-13: #b9d3f9;  --polity-14: #8296d0;  --polity-15: #f6c4f9;  --polity-16: #d9a3d3;  --polity-17: #bc83ae;
+  /* 18 … 23 — added 25.11.2026 (C-8): culture zones only, set by hand in corrections/colors.json (states keep the hash over 0 … 17).
+     The palette was full at an OKLab difference of 10, so the new colours are ≈ 7–9 from their nearest old ones. */
+  --polity-18: #c26577;  --polity-19: #9f7f5f;  --polity-20: #daf194;  --polity-21: #638ca6;  --polity-22: #a79ef2;  --polity-23: #9872bf;
 
   /* Map 1: human species (main colour) and cultures (shades 1–4; 0 = no named culture).
      Light theme: shades get darker; dark theme: lighter. Which culture uses which
@@ -63,6 +66,7 @@
     --polity-0: #886461;  --polity-1: #633326;  --polity-2: #794b33;  --polity-3: #8f7747;  --polity-4: #4e420b;  --polity-5: #706330;
     --polity-6: #5f7f55;  --polity-7: #3e623e;  --polity-8: #234d2d;  --polity-9: #408886;  --polity-10: #1e6a6c;  --polity-11: #004c52;
     --polity-12: #3e6085;  --polity-13: #637691;  --polity-14: #334068;  --polity-15: #906c92;  --polity-16: #754f71;  --polity-17: #5a3351;
+    --polity-18: #591828;  --polity-19: #432e17;  --polity-20: #7f8f49;  --polity-21: #183648;  --polity-22: #514884;  --polity-23: #3f2359;
     --sp-sapiens-0: #5b4516;  --sp-sapiens-1: #74562c;  --sp-sapiens-2: #8c6843;  --sp-sapiens-3: #9a8153;  --sp-sapiens-4: #ba8e6d;
     --sp-neanderthal-0: #345235;  --sp-neanderthal-1: #4c6443;  --sp-neanderthal-2: #557b60;  --sp-neanderthal-3: #798c66;  --sp-neanderthal-4: #82a382;
     --sp-denisovan-0: #304c65;  --sp-denisovan-1: #3f6178;  --sp-denisovan-2: #5b7290;  --sp-denisovan-3: #648ba1;  --sp-denisovan-4: #7e9cb9;
@@ -83,6 +87,7 @@
   --polity-0: #886461;  --polity-1: #633326;  --polity-2: #794b33;  --polity-3: #8f7747;  --polity-4: #4e420b;  --polity-5: #706330;
   --polity-6: #5f7f55;  --polity-7: #3e623e;  --polity-8: #234d2d;  --polity-9: #408886;  --polity-10: #1e6a6c;  --polity-11: #004c52;
   --polity-12: #3e6085;  --polity-13: #637691;  --polity-14: #334068;  --polity-15: #906c92;  --polity-16: #754f71;  --polity-17: #5a3351;
+  --polity-18: #591828;  --polity-19: #432e17;  --polity-20: #7f8f49;  --polity-21: #183648;  --polity-22: #514884;  --polity-23: #3f2359;
   --sp-sapiens-0: #5b4516;  --sp-sapiens-1: #74562c;  --sp-sapiens-2: #8c6843;  --sp-sapiens-3: #9a8153;  --sp-sapiens-4: #ba8e6d;
   --sp-neanderthal-0: #345235;  --sp-neanderthal-1: #4c6443;  --sp-neanderthal-2: #557b60;  --sp-neanderthal-3: #798c66;  --sp-neanderthal-4: #82a382;
   --sp-denisovan-0: #304c65;  --sp-denisovan-1: #3f6178;  --sp-denisovan-2: #5b7290;  --sp-denisovan-3: #648ba1;  --sp-denisovan-4: #7e9cb9;

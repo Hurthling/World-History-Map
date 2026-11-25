@@ -12266,7 +12266,7 @@
   },
   {
     "id": "m5-name-cardial",
-    "why": "Map 5000, item 5000bc-12 (a, 21.11.2026): the source outline of the Cardial Ware culture has a blank NAME ('      '); candidate shown until the review of Europe. Colour set by hand (no same colour closer than 2000 km; 5000bc-13).",
+    "why": "Map 5000, item 5000bc-12 (a, 21.11.2026): the source outline of the Cardial Ware culture has a blank NAME ('      '); candidate shown until the review of Europe. Colour set by hand (no same colour closer than 2000 km; 5000bc-13); 8 → 19 with the 24-colour palette (C-8, stage 52, 25.11.2026).",
     "years": [
       -5000
     ],
@@ -12280,7 +12280,7 @@
     },
     "set": {
       "NAME": "Cardial Ware culture",
-      "COLOR": 8
+      "COLOR": 19
     }
   },
   {

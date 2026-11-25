@@ -10,11 +10,13 @@
 // metropole.
 //
 // One palette for states and culture zones (map 8000, items 3-70 and 3-87):
-// styles.css, --polity-0 … --polity-17, separately for light and dark themes.
-// Here we only choose the index.
+// styles.css, --polity-0 … --polity-23, separately for light and dark themes.
+// Here we only choose the index. The name hash uses the first 18 colours (so states keep
+// their colours on every map); 18 … 23 are given only by hand (COLOR, C-8, 25.11.2026).
 // =============================================================================
 
-export const PALETTE_SIZE = 18;
+export const PALETTE_SIZE = 18;        // colours chosen by the name hash
+export const MANUAL_PALETTE_SIZE = 24; // colours available to COLOR (corrections/colors.json)
 
 // Simple, stable string hash (same input -> same number, every time)
 export function hash(str) {
@@ -60,7 +62,7 @@ export function fillFor(props) {
 // Index in the common palette (also used by tools/check-colors.mjs), or null for unnamed land
 export function paletteIndex(props) {
   // COLOR (our zones): set by hand in corrections/colors.json
-  if (props?.COLOR != null) return Number(props.COLOR) % PALETTE_SIZE;
+  if (props?.COLOR != null) return Number(props.COLOR) % MANUAL_PALETTE_SIZE;
   // GROUP (our zones): several zones of one population share a colour
   const key = props?.GROUP || props?.SUBJECTO || props?.NAME;
   if (!key) return null;
