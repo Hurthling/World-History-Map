@@ -57,7 +57,7 @@ from shapely.prepared import prep
 from shapely.validation import make_valid
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-DYKE = sys.argv[1] if len(sys.argv) > 1 else os.path.join(ROOT, 'Источники', '-5к', 'of_1574', 'data', 'shp')
+DYKE = sys.argv[1] if len(sys.argv) > 1 else os.path.join(ROOT, 'Sources', '-5k', 'of_1574', 'data', 'shp')
 LAKES = os.path.join(ROOT, 'corrections', 'lakes')
 SHAPES = os.path.join(ROOT, 'corrections', 'shapes')
 MIN_PIECE = 300e6  # m², smaller pieces are grid / coastline noise

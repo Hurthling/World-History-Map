@@ -16,7 +16,7 @@
   - С компьютера владельца (через оболочку Claude) доступны github.com, api.github.com и npm — шрифты и текст лицензии можно скачать оттуда.
 - **Что выкладываем:** `index.html`, `src/`, `data/`, `translations/`, `corrections/`, `tools/` (без `.cache`), `docs/`, `README.md`, `PROGRESS.md`, `CLAUDE.md`,
   `package.json`, `package-lock.json`, `start-windows.bat`.
-  **Не выкладываем:** `node_modules/`, `tools/.cache/` (там копия historical-basemaps — 155 МБ, пересобирается сама), `Источники/` (чужие статьи
+  **Не выкладываем:** `node_modules/`, `tools/.cache/` (там копия historical-basemaps — 155 МБ, пересобирается сама), `Sources/` (чужие статьи
   и PDF — их нельзя распространять; таблица владельца), `Claude outputs/` (резервные копии), `_to_delete/`, `dist-artifact/`.
 - **Подготовка (Claude, по «применяй»):**
   1. `.gitignore` — дописать `Claude outputs/`, `Источники/`, `_to_delete/`, `~$*`, `*.tgz` (сейчас там `node_modules/`, `tools/.cache/`, `dist-artifact/`).
