@@ -25,6 +25,8 @@
 // Gaps inside a site's sequence are NOT detected — read the dates.
 // Known errors of the base (c14-data/base-errata.tsv, item С-11) are flagged
 // "⚠ ошибка базы" at the date and counted at the site line.
+// Sites with dates imported from CARD (Canada) are flagged "CARD: ..." — their
+// coordinates are regional points without attribution (item С-12).
 // =============================================================================
 
 import { readFileSync } from 'node:fs';
@@ -170,6 +172,7 @@ for (const r of rows) {
   const key = (r[col.SiteName] || '?') + '|' + lat.toFixed(2) + '|' + lon.toFixed(2);
   if (!sites.has(key)) sites.set(key, { name: r[col.SiteName] || '?', lat, lon, country: r[col.Country], dates: [], refs: new Set() });
   const s = sites.get(key);
+  if (r[col.Source] === 'CARD') s.card = true;   // item С-12: CARD points are regional
   s.dates.push({ lab: r[col.LabID], age, err, mat: r[col.Material] || r[col.Taxa] || '', period: r[col.Period], ...c });
   if (r[col.Reference] && r[col.Reference] !== 'NA') s.refs.add(r[col.Reference]);
   else if (r[col.Source]) s.refs.add('[' + r[col.Source] + ']');
@@ -213,7 +216,7 @@ for (const s of list) {
   const edge = s.edges.length ? ` · **окно ±250: ${s.edges.join(', ')}**` : '';
   const nErr = s.dates.filter(d => ERRATA.has(normLab(d.lab))).length;
   const errMark = nErr ? ` · ⚠ ошибки базы — дат: ${nErr} (tools/c14-data/base-errata.tsv)` : '';
-  console.log(`## ${s.name} (${s.country}) — ${s.lat.toFixed(3)}, ${s.lon.toFixed(3)} — **${s.v}**${edge} · ближайшая до: ${rel(s.before)} л., после: ${rel(s.after)} л.${errMark}`);
+  console.log(`## ${s.name} (${s.country}) — ${s.lat.toFixed(3)}, ${s.lon.toFixed(3)} — **${s.v}**${edge} · ближайшая до: ${rel(s.before)} л., после: ${rel(s.after)} л.${errMark}${s.card ? ' · CARD: координаты — общая точка района, атрибуция — сверить по CARD' : ''}`);
   if (opt.brief) continue;
   const ds = s.dates.filter(d => opt.all || (d.old >= T - WINDOW && d.young <= T + WINDOW)).sort((a, b) => b.median - a.median);
   for (const d of ds) {

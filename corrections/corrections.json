@@ -6903,7 +6903,7 @@
   },
   {
     "id": "m5-paleo-arctic",
-    "why": "Map 5000, item 5000bc-7 (21.11.2026): carried over from map 6000* (m6-paleo-arctic) by the zone registry — same outline, name and colour; own card paleo-arctic-5000 (the 6000* card speaks of 6000 BC).",
+    "why": "Map 5000, item 5000bc-7 (21.11.2026): carried over from map 6000* (m6-paleo-arctic) by the zone registry — same outline, name and colour; own card paleo-arctic-5000 (the 6000* card speaks of 6000 BC). Item 5000bc-79 (a) (owner 25-26.11, applied 27.11.2026): outline kept with the Brooks Range, card paleo-arctic-5000 rewritten (Potter 2008; Rasic, Slobodina 2008; Hare 1995).",
     "years": [
       -5000
     ],
@@ -6933,10 +6933,9 @@
   },
   {
     "id": "m6-san-dieguito",
-    "why": "Map 6000*, North America package, item 6-6 (29.10): La Jolla — area of the Millingstone Horizon group. Sources checked for 6000 BC (04.11, owner: \"check and fix Sources\"). Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
+    "why": "Map 6000*, North America package, item 6-6 (29.10): La Jolla — area of the Millingstone Horizon group. Sources checked for 6000 BC (04.11, owner: \"check and fix Sources\"). Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry. Map 5000 moved to rule m5-la-jolla (item 5000bc-91 (a) (owner 25-26.11, applied 27.11.2026), applied 27.11.2026).",
     "years": [
-      -6000,
-      -5000
+      -6000
     ],
     "action": "add",
     "shape": "m8-san-dieguito",
@@ -6946,6 +6945,38 @@
       "SOURCES": "https://sandiegoarchaeology.org/baja-and-california/la-jolla-phases/ | https://en.wikipedia.org/wiki/La_Jolla_Complex | https://www.nature.com/articles/s41597-022-01118-7",
       "GROUP": "Millingstone Horizon",
       "AREA": "San Diego coast and northern Baja California (La Jolla)"
+    }
+  },
+  {
+    "id": "m5-la-jolla",
+    "why": "Map 5000, item 5000bc-91 (a) (owner 25-26.11, applied 27.11.2026): extended south to San Quintin Bay (PASE-13 Beta-87470 6610 +- 80).",
+    "years": [
+      -5000
+    ],
+    "action": "add",
+    "shape": "la-jolla-5000",
+    "properties": {
+      "NAME": "Millingstone Horizon",
+      "NOTE": "la-jolla-5000",
+      "SOURCES": "https://sandiegoarchaeology.org/baja-and-california/la-jolla-phases/ | https://en.wikipedia.org/wiki/La_Jolla_Complex | https://www.nature.com/articles/s41597-022-01118-7 | https://sandiegoarchaeology.org/baja-and-california/archaeological-radiocarbon-dates/",
+      "GROUP": "Millingstone Horizon",
+      "AREA": "San Diego coast and northern Baja California (La Jolla)"
+    }
+  },
+  {
+    "id": "m5-central-baja",
+    "why": "Map 5000, item 5000bc-92 (a) (owner 25-26.11, applied 27.11.2026): central Baja California by the fork (Bahia de los Angeles, Cedros, Sierra de San Francisco).",
+    "years": [
+      -5000
+    ],
+    "action": "add",
+    "shape": "central-baja-5000",
+    "properties": {
+      "NAME": "Foragers of central Baja California (Cedros, Bahía de los Ángeles, Sierra de San Francisco)",
+      "NOTE": "central-baja-5000",
+      "SOURCES": [
+        "https://sandiegoarchaeology.org/baja-and-california/archaeological-radiocarbon-dates/"
+      ]
     }
   },
   {
@@ -10021,10 +10052,9 @@
   },
   {
     "id": "m6-anangula",
-    "why": "Map 6000*, North America package, item 6-3 (29.10). Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
+    "why": "Map 6000*, North America package, item 6-3 (29.10). Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry. Map 5000 moved to rule m5-anangula (item 5000bc-77 (owner 25-26.11, applied 27.11.2026), applied 27.11.2026).",
     "years": [
-      -6000,
-      -5000
+      -6000
     ],
     "action": "add",
     "shape": "m6-anangula",
@@ -10035,11 +10065,24 @@
     }
   },
   {
-    "id": "m6-kodiak",
-    "why": "Map 6000*, North America package, item 6-4 (29.10): Kodiak by the ±250 window, with a note. Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
+    "id": "m5-anangula",
+    "why": "Map 5000, item 5000bc-77 (owner 25-26.11, applied 27.11.2026): late Anangula (Davis, Knecht 2010: 7000-4000 cal BP), same outline, card for 5000.",
     "years": [
-      -6000,
       -5000
+    ],
+    "action": "add",
+    "shape": "m6-anangula",
+    "properties": {
+      "NAME": "Anangula tradition",
+      "NOTE": "anangula-5000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Anangula_Archeological_District | https://www.nature.com/articles/s41597-022-01118-7 | https://www.academia.edu/77083056/Continuity_and_change_in_the_eastern_Aleutian_archaeological_sequence"
+    }
+  },
+  {
+    "id": "m6-kodiak",
+    "why": "Map 6000*, North America package, item 6-4 (29.10): Kodiak by the ±250 window, with a note. Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry. Map 5000 moved to rule m5-kodiak (item 5000bc-78 (a) (owner 25-26.11, applied 27.11.2026), applied 27.11.2026).",
+    "years": [
+      -6000
     ],
     "action": "add",
     "shape": "m6-kodiak",
@@ -10050,11 +10093,24 @@
     }
   },
   {
-    "id": "m6-old-cordilleran",
-    "why": "Map 6000*, North America package, item 6-5 (a), 6-30 (b) (29.10): with the Columbia Plateau and south-west Oregon. Map 5000, item 5000bc-8 (a) (21.11.2026): carried over by the zone registry.",
+    "id": "m5-kodiak",
+    "why": "Map 5000, item 5000bc-78 (a) (owner 25-26.11, applied 27.11.2026): Kodiak + a circle at Amalik Bay; Rice Ridge dates on the map date (Kopperl 2012); card for 5000.",
     "years": [
-      -6000,
       -5000
+    ],
+    "action": "add",
+    "shape": "kodiak-5000",
+    "properties": {
+      "NAME": "Ocean Bay I foragers of Kodiak",
+      "NOTE": "kodiak-5000",
+      "SOURCES": "https://alutiiqmuseum.org/ | https://www.nature.com/articles/s41597-022-01118-7 | https://www.alaskaanthropology.org/wp-content/uploads/2017/08/akanth-articles_379_v10_n12_Kopperl.pdf"
+    }
+  },
+  {
+    "id": "m6-old-cordilleran",
+    "why": "Map 6000*, North America package, item 6-5 (a), 6-30 (b) (29.10): with the Columbia Plateau and south-west Oregon. Map 5000, item 5000bc-8 (a) (21.11.2026): carried over by the zone registry. Map 5000 moved to rule m5-old-cordilleran (item 5000bc-85 (a) (owner 25-26.11, applied 27.11.2026), applied 27.11.2026). Item 6-413 (a) (owner 25-26.11, applied 27.11.2026): + circles at Saltery Bay, Yale, Cascade Pass (Beta-214644 7000 +- 90) and Kelly Forks (Beta-313689 7200 +- 40).",
+    "years": [
+      -6000
     ],
     "action": "add",
     "shape": "m6-old-cordilleran",
@@ -10063,6 +10119,73 @@
       "NOTE": "old-cordilleran-6000",
       "SOURCES": "https://en.wikipedia.org/wiki/Old_Cordilleran_culture | https://core.tdar.org/document/473063/cascadia-cave-the-excavations | https://www.nature.com/articles/s41597-022-01118-7",
       "GROUP": "Old Cordilleran (Cascade)"
+    }
+  },
+  {
+    "id": "m5-old-cordilleran",
+    "why": "Map 5000, item 5000bc-85 (a) (owner 25-26.11, applied 27.11.2026): Cascade phase to 5500 BP (Lucas 1994 in Davis 1995); outline extended (file shared with 6000, item 6-413); card for 5000.",
+    "years": [
+      -5000
+    ],
+    "action": "add",
+    "shape": "m6-old-cordilleran",
+    "properties": {
+      "NAME": "Old Cordilleran tradition (Cascade phase)",
+      "NOTE": "old-cordilleran-5000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Old_Cordilleran_culture | https://core.tdar.org/document/473063/cascadia-cave-the-excavations | https://www.nature.com/articles/s41597-022-01118-7 | https://www.collectionscanada.gc.ca/obj/thesescanada/vol2/OTU/TC-OTU-65642.pdf",
+      "GROUP": "Old Cordilleran (Cascade)"
+    }
+  },
+  {
+    "id": "m5-nesikep",
+    "why": "Map 5000, item 5000bc-86 (a) (owner 25-26.11, applied 27.11.2026): Nesikep tradition 7000-4400 BP (Copp 2006); Monte Creek SFU-38 5920 +- 130.",
+    "years": [
+      -5000
+    ],
+    "action": "add",
+    "shape": "nesikep-5000",
+    "properties": {
+      "NAME": "Nesikep tradition (mid Fraser and Thompson)",
+      "GROUP": "Nesikep tradition",
+      "NOTE": "nesikep-5000",
+      "SOURCES": [
+        "https://princetonbcmuseum.com/wp-content/uploads/2025/01/Similkameen_archaeology_1993_2004.pdf",
+        "https://www.nature.com/articles/s41597-022-01118-7"
+      ]
+    }
+  },
+  {
+    "id": "m5-trans-sierra",
+    "why": "Map 5000, item 5000bc-88 (a) (owner 25-26.11, applied 27.11.2026): Trans-Sierra phase 7000-4000 BC (Hull 2007 after Moratto 1999), mostly typology; Mariposa County OS-92765 6130 +- 30.",
+    "years": [
+      -5000
+    ],
+    "action": "add",
+    "shape": "trans-sierra-5000",
+    "properties": {
+      "NAME": "Early Archaic of the Sierra Nevada (Trans-Sierra phase)",
+      "NOTE": "trans-sierra-5000",
+      "SOURCES": [
+        "https://www.nature.com/articles/s41597-022-01118-7"
+      ]
+    }
+  },
+  {
+    "id": "m6-nesikep",
+    "why": "Map 6000, item 6-414 (a) (owner 25-26.11, applied 27.11.2026): Landels 7700-8400 BP, Stirling Creek Bridge 6900-7400 BP (Copp 2006), Lehman GSC-404 6650 +- 110.",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "nesikep-6000",
+    "properties": {
+      "NAME": "Nesikep tradition (mid Fraser, Thompson and Similkameen)",
+      "GROUP": "Nesikep tradition",
+      "NOTE": "nesikep-6000",
+      "SOURCES": [
+        "https://princetonbcmuseum.com/wp-content/uploads/2025/01/Similkameen_archaeology_1993_2004.pdf",
+        "https://www.nature.com/articles/s41597-022-01118-7"
+      ]
     }
   },
   {
@@ -10077,6 +10200,37 @@
       "NAME": "Early Northwest Coast foragers (Haida Gwaii, Southeast Alaska)",
       "NOTE": "nw-coast-6000",
       "SOURCES": "https://qmackie.com/tag/annotation/ | https://en.wikipedia.org/wiki/Namu,_British_Columbia | https://ojs.library.ubc.ca/index.php/bcstudies/article/view/186158 | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m5-nw-coast",
+    "why": "Map 5000, item 5000bc-84 (a) (owner 25-26.11, applied 27.11.2026): carried with the 6000 outline - Kasta, Cohoe Creek (p3k14c), Namu S-885 6010 +- 80, S-889 5890 +- 90 (Rutherford et al. 1984).",
+    "years": [
+      -5000
+    ],
+    "action": "add",
+    "shape": "m6-nw-coast",
+    "properties": {
+      "NAME": "Early Northwest Coast foragers (Haida Gwaii, Southeast Alaska)",
+      "NOTE": "nw-coast-5000",
+      "SOURCES": "https://qmackie.com/tag/annotation/ | https://en.wikipedia.org/wiki/Namu,_British_Columbia | https://ojs.library.ubc.ca/index.php/bcstudies/article/view/186158 | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m6-acasta-lake",
+    "why": "Map 6000, item 6-412 (a) (owner 25-26.11, applied 27.11.2026): Acasta Lake (LiPk-1), GaK-3277 6850 +- 150 and I-3957 6970 +- 360 from hearths (CARD).",
+    "years": [
+      -6000
+    ],
+    "action": "add",
+    "shape": "acasta-lake",
+    "properties": {
+      "NAME": "Northern Plano (Acasta Lake complex)",
+      "NOTE": "acasta-lake",
+      "SOURCES": [
+        "https://www.canadianarchaeology.ca/",
+        "https://www.nature.com/articles/s41597-022-01118-7"
+      ]
     }
   },
   {
@@ -10162,10 +10316,9 @@
   },
   {
     "id": "m6-cape-region",
-    "why": "Map 6000*, North America package, item 6-7 (29.10): Cape region, area of the Paleocoastal group. Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
+    "why": "Map 6000*, North America package, item 6-7 (29.10): Cape region, area of the Paleocoastal group. Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry. Map 5000 moved to rule m5-cape-region (item 5000bc-93 (owner 25-26.11, applied 27.11.2026), applied 27.11.2026).",
     "years": [
-      -6000,
-      -5000
+      -6000
     ],
     "action": "add",
     "shape": "cape-region",
@@ -10175,6 +10328,22 @@
       "AREA": "Cape region (Covacha Babisuri)",
       "NOTE": "cape-region",
       "SOURCES": "https://www.cambridge.org/core/journals/latin-american-antiquity/article/antiquity-of-pearling-in-the-americas-pearl-modification-beginning-at-least-8500-years-ago-in-baja-california-sur-mexico/46FA49E3D37B40940EF7D790334676B1 | https://en.wikipedia.org/wiki/Harumi_Fujita_(archaeologist)"
+    }
+  },
+  {
+    "id": "m5-cape-region",
+    "why": "Map 5000, item 5000bc-93 (owner 25-26.11, applied 27.11.2026): kept; La Ballena INAH-2291 6610 +- 75; card for 5000.",
+    "years": [
+      -5000
+    ],
+    "action": "add",
+    "shape": "cape-region",
+    "properties": {
+      "NAME": "Paleocoastal people",
+      "GROUP": "Paleocoastal people",
+      "AREA": "Cape region (Covacha Babisuri)",
+      "NOTE": "cape-region-5000",
+      "SOURCES": "https://www.cambridge.org/core/journals/latin-american-antiquity/article/antiquity-of-pearling-in-the-americas-pearl-modification-beginning-at-least-8500-years-ago-in-baja-california-sur-mexico/46FA49E3D37B40940EF7D790334676B1 | https://en.wikipedia.org/wiki/Harumi_Fujita_(archaeologist) | https://sandiegoarchaeology.org/baja-and-california/archaeological-radiocarbon-dates/"
     }
   },
   {
@@ -10333,10 +10502,9 @@
   },
   {
     "id": "m6-el-riego",
-    "why": "Map 6000*, North America package, item 6-17 (29.10): AMS dates of Coxcatlán in the card. Item 6-60 (applied 02.11): area of the group \"Highland Archaic of central and southern Mexico\". Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
+    "why": "Map 6000*, North America package, item 6-17 (29.10): AMS dates of Coxcatlán in the card. Item 6-60 (applied 02.11): area of the group \"Highland Archaic of central and southern Mexico\". Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry. Map 5000 moved to rule m5-el-riego (item 5000bc-76 (owner 25-26.11, applied 27.11.2026), applied 27.11.2026).",
     "years": [
-      -6000,
-      -5000
+      -6000
     ],
     "action": "add",
     "shape": "m8-el-riego",
@@ -10345,6 +10513,21 @@
       "NOTE": "el-riego-6000",
       "SOURCES": "https://en.wikipedia.org/wiki/El_Riego_phase | https://www.cambridge.org/core/product/F4C32FB10E73D660CB7D9B44E2C29A72",
       "AREA": "Tehuacán Valley (El Riego phase)"
+    }
+  },
+  {
+    "id": "m5-el-riego",
+    "why": "Map 5000, item 5000bc-76 (owner 25-26.11, applied 27.11.2026): the map date falls in the Coxcatlan phase (Somerville et al. 2021, AMS dates of Coxcatlan cave: 7838-6375 cal BP); same outline, new area name and card.",
+    "years": [
+      -5000
+    ],
+    "action": "add",
+    "shape": "m8-el-riego",
+    "properties": {
+      "NAME": "Highland Archaic of central and southern Mexico",
+      "NOTE": "el-riego-5000",
+      "SOURCES": "https://en.wikipedia.org/wiki/El_Riego_phase | https://www.cambridge.org/core/product/F4C32FB10E73D660CB7D9B44E2C29A72",
+      "AREA": "Tehuacán Valley (Coxcatlán phase)"
     }
   },
   {
@@ -10394,10 +10577,9 @@
   },
   {
     "id": "m6-santa-marta",
-    "why": "Map 6000*, North America package, item 6-20 (29.10). Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry.",
+    "why": "Map 6000*, North America package, item 6-20 (29.10). Map 5000, item 5000bc-7 (21.11.2026): carried over by the zone registry. Map 5000 moved to rule m5-santa-marta (item 5000bc-76 (owner 25-26.11, applied 27.11.2026), applied 27.11.2026).",
     "years": [
-      -6000,
-      -5000
+      -6000
     ],
     "action": "add",
     "shape": "santa-marta",
@@ -10405,6 +10587,21 @@
       "NAME": "Foragers of the Ocozocoautla caves (Santa Marta)",
       "GROUP": "Foragers of the Ocozocoautla caves",
       "NOTE": "santa-marta-6000",
+      "SOURCES": "https://www.redalyc.org/articulo.oa?id=94362579002"
+    }
+  },
+  {
+    "id": "m5-santa-marta",
+    "why": "Map 5000, item 5000bc-76 (owner 25-26.11, applied 27.11.2026): layers IV (7600 cal BP) and III (6540) fork the map date (Acosta et al.); card for 5000.",
+    "years": [
+      -5000
+    ],
+    "action": "add",
+    "shape": "santa-marta",
+    "properties": {
+      "NAME": "Foragers of the Ocozocoautla caves (Santa Marta)",
+      "GROUP": "Foragers of the Ocozocoautla caves",
+      "NOTE": "santa-marta-5000",
       "SOURCES": "https://www.redalyc.org/articulo.oa?id=94362579002"
     }
   },
@@ -10420,6 +10617,50 @@
       "NAME": "Early Holocene foragers of the Peace River country",
       "NOTE": "peace-river-6000",
       "SOURCES": "https://en.wikipedia.org/wiki/Charlie_Lake_Cave | https://canadianarchaeology.ca/samples/8263 | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m5-peace-river",
+    "why": "Map 5000, item 5000bc-80 (b) (owner 25-26.11, applied 27.11.2026): carried by the fork (Saskatoon Mountain AECV-1222C 6890 and AECV-1532C 5800; Charlie Lake component 5, Driver et al. 1996); outline as on 6000.",
+    "years": [
+      -5000
+    ],
+    "action": "add",
+    "shape": "m6-peace-river",
+    "properties": {
+      "NAME": "Middle Holocene foragers of the Peace River country",
+      "NOTE": "peace-river-5000",
+      "SOURCES": "https://en.wikipedia.org/wiki/Charlie_Lake_Cave | https://canadianarchaeology.ca/samples/8263 | https://www.nature.com/articles/s41597-022-01118-7"
+    }
+  },
+  {
+    "id": "m5-shield-archaic",
+    "why": "Map 5000, item 5000bc-81 (owner 25-26.11, applied 27.11.2026): Duc / Warden's Grove (KjNb-7), S-1258 6120 +- 110 (CARD, after Gordon 1996).",
+    "years": [
+      -5000
+    ],
+    "action": "add",
+    "shape": "shield-archaic-5000",
+    "properties": {
+      "NAME": "Early Shield Archaic (upper Thelon River)",
+      "NOTE": "shield-archaic-5000",
+      "SOURCES": [
+        "https://carleton.ca/rangifercentral/barrenlands-prehistory/ancestral-cultures/shield-archaic/",
+        "https://www.nature.com/articles/s41597-022-01118-7"
+      ]
+    }
+  },
+  {
+    "id": "m5-beaver-river",
+    "why": "Map 5000, item 5000bc-82 (b) (owner 25-26.11, applied 27.11.2026): dated by typology only, said so in the card (Reeves, Blakey, Lobb 2017).",
+    "years": [
+      -5000
+    ],
+    "action": "add",
+    "shape": "beaver-river-5000",
+    "properties": {
+      "NAME": "Beaver River Complex (lower Athabasca)",
+      "NOTE": "beaver-river-5000"
     }
   },
   {
